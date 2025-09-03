@@ -31,8 +31,8 @@ export function Navigation() {
       name: "Development",
       courses: [
         { name: "Python Full-Stack", href: "/courses/python-fullstack" },
-        { name: "Java Full-Stack", href: "/courses/python-fullstack" },
-        { name: "ReactJS", href: "/courses/python-fullstack" },
+        { name: "Java Full-Stack", href: "/courses/java-fullstack" },
+        { name: "ReactJS", href: "/courses/reactCourse" },
       ],
     },
     {
@@ -43,7 +43,7 @@ export function Navigation() {
         { name: "Tableau", href: "/courses/tableau" },
         { name: "Alteryx", href: "/courses/alteryx" },
         { name: "Excel & VBA", href: "/courses/excel-Vba" },
-        { name: "SQL", href: "/courses/Tableau" },
+        { name: "SQL", href: "/courses/sqlCourse" },
         { name: "Python", href: "/courses/python" },
       ],
     },
