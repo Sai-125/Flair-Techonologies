@@ -39,10 +39,10 @@ export function Navigation() {
       name: "Analytics",
       courses: [
         { name: "Data Analytics", href: "/courses/data-analytics" },
+        { name: "Microsoft Excel & VBA", href: "/courses/excel-Vba" },
         { name: "Microsoft Power BI", href: "/courses/power-bi" },
         { name: "Tableau", href: "/courses/tableau" },
         { name: "Alteryx", href: "/courses/alteryx" },
-        { name: "Excel & VBA", href: "/courses/excel-Vba" },
         { name: "SQL", href: "/courses/sqlCourse" },
         { name: "Python", href: "/courses/python" },
       ],
@@ -50,10 +50,10 @@ export function Navigation() {
     {
       name: "Cloud",
       courses: [
-        { name: "DevOps Engineers", href: "/courses/azure-devops" },
-        { name: "Docker and Kubernetes", href: "/courses/azure-devops" },
+        { name: "AWS DevOps", href: "/courses/azure-devops" },
         { name: "Azure DevOps", href: "/courses/azure-devops" },
-        { name: "SRE and DevOps", href: "/courses/azure-devops" },
+        { name: "Azure Admin", href: "/courses/azure-devops" },
+        { name: "Oracle Fusion Cloud SCM", href: "/courses/network-protocol" },
       ],
     },
     {
@@ -63,7 +63,6 @@ export function Navigation() {
           name: "Network Protocol Development",
           href: "/courses/network-protocol",
         },
-        { name: "Network Protocol Testing", href: "/courses/network-protocol" },
         { name: "Cybersecurity", href: "/courses/network-protocol" },
       ],
     },
@@ -74,7 +73,15 @@ export function Navigation() {
           name: "Record to report (R2R)",
           href: "/courses/network-protocol",
         },
-        { name: "Oracle Fusion HCM", href: "/courses/network-protocol" },
+      ],
+    },
+    {
+      name: "AI & ML",
+      courses: [
+        {
+          name: "AI & ML",
+          href: "/courses/network-protocol",
+        },
       ],
     },
   ];
