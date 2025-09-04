@@ -2921,7 +2921,297 @@ const courseData = {
       "Monitoring Dashboard",
     ],
   },
-
+  "aws-devops": {
+    title: "AWS DevOps",
+    description:
+      "Learn to implement DevOps practices using Azure tools and services",
+    duration: "4 months",
+    mode: "Online/Offline",
+    level: "Intermediate to Advanced",
+    price: "₹40,000",
+    originalPrice: "₹50,000",
+    category: "DevOps",
+    students: "400+",
+    rating: 4.9,
+    reviews: 120,
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3Mpx-7k0FvYWzb8n8snbXGKMKM-YWg0Vlsg&s",
+    highlights: [
+      "Master Azure Repos, Pipelines, and Boards",
+      "Continuous Integration/Continuous Deployment (CI/CD)",
+      "Infrastructure as Code (IaC)",
+      "Real-world DevOps projects",
+      "Certification support",
+    ],
+    syllabus: [
+      {
+        module: "AWS with Modern DevOps",
+        duration: "3 weeks",
+        topics: [
+          {
+            name: "Introduction to DevOps & AWS",
+            content: [
+              "Understanding DevOps principles and its importance.",
+              "Overview of AWS services and their role in DevOps.",
+            ],
+          },
+          {
+            name: "Linux Fundamentals & Networking",
+            content: [
+              "Introduction to Linux operating system.",
+              "Basic Linux commands and file system navigation.",
+              "Networking concepts: IP addressing, DNS, DHCP, etc.",
+              "Managing Linux networking configurations.",
+            ],
+          },
+          {
+            name: "Shell Scripting",
+            content: [
+              "Introduction to shell scripting.",
+              "Writing and executing shell scripts.",
+              "Scripting for automation and task scheduling.",
+            ],
+          },
+          {
+            name: "AWS Services Overview",
+            content: [
+              "Amazon EC2: Creating and managing instances.",
+              "Amazon S3: Object storage and bucket management.",
+              "Amazon RDS: Managed relational databases.",
+              "Amazon Route 53: DNS management.",
+              "Amazon AMI and Snapshot: Creating and managing images.",
+              "AWS Identity and Access Management (IAM): Users, groups, policies.",
+              "Amazon SQS and SNS: Messaging and notification services.",
+              "Autoscaling: Scaling instances based on demand.",
+              "AWS Lambda: Serverless compute service.",
+              "Creating and managing AWS Lambda functions.",
+            ],
+          },
+          {
+            name: "AWS CLI and Infrastructure as Code with Terraform",
+            content: [
+              "Using AWS CLI to manage resources.",
+              "Introduction to Infrastructure as Code (IaC).",
+              "Terraform fundamentals and installation.",
+              "Creating and managing AWS resources using Terraform.",
+            ],
+          },
+          {
+            name: "Continuous Integration and Continuous Deployment (CI/CD)",
+            content: [
+              "Introduction to CI/CD principles.",
+              "Version control with Git: Repositories, branches, commits.",
+              "Building projects with Maven.",
+              "Jenkins: Installation, configuration & job setup.",
+              "Building CI/CD pipelines for application deployment.",
+            ],
+          },
+          {
+            name: "Automation with Ansible",
+            content: [
+              "Introduction to Ansible for automation.",
+              "Writing Ansible playbooks: Tasks, modules & variables.",
+              "Managing configurations with Ansible roles.",
+              "Automating infrastructure provisioning and application deployment.",
+            ],
+          },
+          {
+            name: "Containerization with Docker",
+            content: [
+              "Understanding containerization concepts.",
+              "Docker basics: Images, containers, Dockerfile.",
+              "Building and running Docker containers.",
+              "Docker Compose for multi-container applications.",
+            ],
+          },
+          {
+            name: "Monitoring Tools",
+            content: [
+              "Introduction to Monitoring in DevOps",
+              "Popular Monitoring Tools",
+              "Introduction to widely used monitoring tools in the DevOps landscape.",
+              " - Prometheus",
+              " - Grafana",
+              " - Nagios",
+              " - ELK Stack (Elasticsearch, Logstash, Kibana)",
+              " - New Relic",
+              " - Datadog",
+              "Setting Up Prometheus and Grafana",
+              "Nagios Configuration",
+              "ELK Stack for Log Monitoring",
+              "Application Performance Monitoring (APM) with New Relic",
+              "Alerting and Notification Strategies",
+            ],
+          },
+          {
+            name: "Kubernetes and Container Orchestration (Optional)",
+            content: [
+              "Introduction to Kubernetes and container orchestration.",
+              "Kubernetes architecture: Nodes, pods, services, deployments.",
+              "Deploying and managing applications on Kubernetes clusters.",
+            ],
+          },
+          {
+            name: "Course Project and Hands-On Labs",
+            content: [
+              "Putting it all together: Building a DevOps pipeline on AWS.",
+              "Real-world scenarios and hands-on labs for each module.",
+              "Troubleshooting common issues in DevOps practices.",
+            ],
+          },
+          {
+            name: "Best Practices and Advanced Topics",
+            content: [
+              "Security best practices in AWS DevOps.",
+              "Performance optimization strategies.",
+              "Monitoring and logging for AWS applications.",
+              "Advanced AWS services for specialized use cases.",
+            ],
+          },
+          {
+            name: "Final Assessment and Certification",
+            content: [
+              "Course recap and review.",
+              "Final assessment to evaluate knowledge and skills.",
+              "Certification for completing the AWS DevOps course.",
+            ],
+          },
+        ],
+      },
+      {
+        module: "Kubernetes & Container Orchestration",
+        duration: "3 weeks",
+        topics: [
+          {
+            name: "Introduction to Kubernetes and Container Orchestration",
+            content: [
+              "Understanding the need for container orchestration.",
+              "Introduction to Kubernetes: History and purpose.",
+              "Key Kubernetes concepts: Nodes, pods, services, deployments, namespaces, etc.",
+              "Advantages of using Kubernetes for application deployment and management.",
+            ],
+          },
+          {
+            name: "Setting Up Kubernetes Cluster",
+            content: [
+              "Different ways to deploy Kubernetes: Self-hosted, managed services (EKS, GKE, AKS).",
+              "Installing and configuring Kubernetes using kubeadm (on-premises cluster).",
+              "Introduction to managed Kubernetes services: AWS Elastic Kubernetes Service (EKS).",
+              "Creating and managing Kubernetes clusters on AWS EKS.",
+            ],
+          },
+          {
+            name: "Kubernetes Architecture and Components",
+            content: [
+              "Understanding the architecture of a Kubernetes cluster.",
+              "Master node components: API server, controller manager, etcd, scheduler.",
+              "Worker node components: Kubelet, Kube Proxy, container runtime (Docker, containerd).",
+              "Networking in Kubernetes: Pods, services, ingress controllers.",
+            ],
+          },
+          {
+            name: "Deploying Applications on Kubernetes",
+            content: [
+              "Creating and managing pods: Pod specifications, multi-container pods.",
+              "Deployments: Managing replica sets, rolling updates, and rollbacks.",
+              "Services: Exposing applications within the cluster and externally.",
+              "ConfigMaps and Secrets: Managing configuration data and sensitive information.",
+            ],
+          },
+          {
+            name: "Scaling and Load Balancing",
+            content: [
+              "Horizontal Pod Autoscaling (HPA): Automatically adjusting the number of pods.",
+              "Cluster scaling: Adding and removing nodes based on demand.",
+              "Load balancing within the cluster: Service types and load balancer controllers.",
+            ],
+          },
+          {
+            name: "Persistent Storage and Volumes",
+            content: [
+              "Understanding Kubernetes volumes and persistent storage options.",
+              "Configuring Persistent Volume (PV) and Persistent Volume Claim (PVC).",
+              "StatefulSets: Managing stateful applications with ordered scaling and network identity.",
+            ],
+          },
+          {
+            name: "Managing Application Configuration",
+            content: [
+              "Introduction to ConfigMap and Secret resources.",
+              "Managing application configurations using ConfigMaps.",
+              "Storing sensitive information using Kubernetes Secrets.",
+            ],
+          },
+          {
+            name: "Monitoring, Logging, and Troubleshooting",
+            content: [
+              "Monitoring Kubernetes applications using built-in tools and Prometheus.",
+              "Centralized logging with Fluentd and Elasticsearch.",
+              "Troubleshooting common issues: Pod failures, network problems, resource constraints.",
+            ],
+          },
+          {
+            name: "Managing Application Updates and Rollbacks",
+            content: [
+              "Strategies for updating applications: Blue-Green deployments, Canary deployments.",
+              "Performing application updates with zero downtime.",
+              "Rolling back deployments in case of issues.",
+            ],
+          },
+          {
+            name: "Security and RBAC (Role-Based Access Control)",
+            content: [
+              "Introduction to Kubernetes security best practices.",
+              "Implementing RBAC to control access to Kubernetes resources.",
+              "Network policies: Controlling communication between pods and namespaces.",
+            ],
+          },
+          {
+            name: "Advanced Kubernetes Concepts (Optional)",
+            content: [
+              "DaemonSets: Running a single pod on each node.",
+              "CronJobs: Scheduling periodic tasks in Kubernetes.",
+              "Custom Resource Definitions (CRDs): Extending Kubernetes with custom resources.",
+              "Helm: Package manager for Kubernetes applications.",
+            ],
+          },
+          {
+            name: "Multi-Cluster and Hybrid Deployments (Optional)",
+            content: [
+              "Introduction to Multi-Cluster Deployments.",
+              "Overview of Istio Service Mesh.",
+              "Setting Up Multiple Clusters.",
+              "Installing Istio Across Clusters.",
+              "Multi-Cluster Service Discovery and Load Balancing.",
+              "Securing Multi-Cluster Communication.",
+              "Traffic Management Across Clusters.",
+            ],
+          },
+          {
+            name: "Kubernetes Best Practices and Future Trends (Optional)",
+            content: [
+              "Best practices for optimizing Kubernetes resources and performance.",
+              "Kubernetes ecosystem trends and emerging technologies.",
+              "Exploring serverless concepts with Kubernetes (Knative).",
+            ],
+          },
+        ],
+      },
+    ],
+    instructor: {
+      name: "Arjun Patel",
+      title: "DevOps Engineer at TCS",
+      experience: "12+ years",
+      image: "/placeholder.svg?height=100&width=100",
+      bio: "Arjun has extensive experience in Azure DevOps and has led multiple enterprise-level implementations.",
+    },
+    projects: [
+      "CI/CD Pipeline for Web App",
+      "Automated Testing Framework",
+      "Infrastructure Deployment",
+      "Monitoring Dashboard",
+    ],
+  },
   "azure-devops": {
     title: "Azure DevOps",
     description:
@@ -2946,147 +3236,547 @@ const courseData = {
     ],
     syllabus: [
       {
-        module: "Azure DevOps Basics",
+        module: "Azure Admin with Azure DevOps",
         duration: "3 weeks",
         topics: [
           {
-            name: "Azure Boards",
+            name: "Introduction to Microsoft Azure",
             content: [
-              "Manage work items and track project progress.",
-              "Create and customize Kanban boards.",
-              "Track tasks using Agile methodologies.",
+              "What is Cloud computing?",
+              "What are the different Cloud service models?",
+              "What are Cloud deployment models?",
+              "What is Azure PowerShell and CLI?",
+              "What is Azure Resource Manager (ARM)?",
+              "What is the difference between ASM and ARM Deployment model?",
+              "How can I create an Azure free trial subscription?",
             ],
           },
           {
-            name: "Repos",
+            name: "Governance and Compliance",
             content: [
-              "Use Azure Repos for version control.",
-              "Manage Git repositories and branches.",
-              "Implement pull requests and code reviews.",
+              "What is Azure Hierarchy?",
+              "What is Azure RBAC (Role-Based Access Control)?",
+              "How do I manage Users and Groups in Azure?",
+              "What are Azure Policies?",
+              "How can I manage Azure subscription costs?",
+              "What is Azure Defender?",
             ],
           },
           {
-            name: "Pipelines",
+            name: "Azure Virtual Machines and Scale set",
             content: [
-              "Set up build and release pipelines.",
-              "Configure YAML-based pipelines.",
-              "Automate build processes.",
+              "What should I consider when planning Virtual Machines?",
+              "How do I create Windows and Linux Virtual Machines in Azure?",
+              "What are Virtual Machine Availability options?",
+              "How do I use Virtual Machine Extensions?",
+              "What can I do for Virtual Machine troubleshooting?",
+              "How can I add additional Data disks to a Virtual Machine?",
+              "What are Virtual Machine Scale sets?",
             ],
           },
           {
-            name: "Artifacts",
+            name: "Azure Storage",
             content: [
-              "Manage and share packages with Azure Artifacts.",
-              "Publish and consume NuGet packages.",
-              "Integrate artifacts with pipelines.",
-            ],
-          },
-        ],
-      },
-      {
-        module: "CI/CD Implementation",
-        duration: "5 weeks",
-        topics: [
-          {
-            name: "Build Pipelines",
-            content: [
-              "Create and optimize build pipelines for automation.",
-              "Configure triggers for continuous integration.",
-              "Integrate testing in build pipelines.",
-              "Optimize build performance.",
+              "What are Azure Storage Account types?",
+              "What are Azure Storage service types?",
+              "How do I work with Azure Blobs?",
+              "What is Azure Files?",
+              "What are Azure Queues?",
+              "How does Azure Table work?",
+              "How can I ensure Storage Security?",
+              "What is Azure Storage Explorer?",
+              "How do I use AzCopy?",
+              "What is Azure CDN (Content Delivery Network)?",
             ],
           },
           {
-            name: "Release Pipelines",
+            name: "Virtual Networking",
             content: [
-              "Configure release pipelines for deployment.",
-              "Set up multi-stage deployments.",
-              "Implement approval gates.",
-              "Automate release processes.",
+              "What is Basic Networking in Azure?",
+              "What are Azure Virtual Networks (VNet)?",
+              "How do I work with Azure Subnets?",
+              "What are Service Endpoints and Private Endpoints?",
+              "How does IP Addressing and Endpoints work?",
+              "What is Azure DNS?",
+              "How do I use Network Security Groups and NIC?",
+              "How can I calculate CIDR?",
+              "What is Public IP and Private IP in Azure?",
             ],
           },
+
           {
-            name: "Testing",
+            name: "InterSite Connectivity",
             content: [
-              "Integrate automated testing in pipelines.",
-              "Use unit and integration tests.",
-              "Analyze test results and coverage.",
+              "What is VNet Peering?",
+              "How do VNet-to-VNet Connections work?",
+              "What are ExpressRoute Connections?",
+              "How can I set up Site-to-Site connections?",
+              "What is Point-to-Site connection?",
             ],
           },
-          {
-            name: "Deployment Strategies",
-            content: [
-              "Implement blue-green and canary deployments.",
-              "Understand deployment rollback strategies.",
-              "Monitor deployment health.",
-            ],
-          },
-        ],
-      },
-      {
-        module: "Advanced Tools",
-        duration: "3 weeks",
-        topics: [
-          {
-            name: "IaC with Terraform",
-            content: [
-              "Use Terraform for infrastructure as code.",
-              "Write Terraform scripts for Azure resources.",
-              "Manage infrastructure versioning.",
-            ],
-          },
+
           {
             name: "Monitoring",
             content: [
-              "Set up monitoring with Azure Monitor.",
-              "Configure alerts and dashboards.",
-              "Analyze application performance metrics.",
+              "What is Azure Monitor?",
+              "How do Azure Alerts work?",
+              "What is Log Analytics workspace?",
+              "What is Network Watcher?",
+              "How can I use Application Insights?",
+            ],
+          },
+
+          {
+            name: "Data Protection",
+            content: [
+              "What is Data Replication?",
+              "How can I perform File and Folder Backups in Azure?",
+              "How do I back up Virtual Machines in Azure?",
+              "What about SQL DB in Azure VM Backup?",
+              "How can I perform Azure File share Backup?",
+            ],
+          },
+
+          {
+            name: "Network Traffic Management",
+            content: [
+              "How does Network Routing work in Azure?",
+              "What is Azure Load Balancer?",
+              "How do I use Application Gateway in Azure?",
+              "What is Azure Traffic Manager?",
+              "What is Azure Front Door?",
+            ],
+          },
+
+          {
+            name: "Azure Active Directory",
+            content: [
+              "What is Azure Active Directory?",
+              "How do I manage Azure AD users?",
+              "How do I manage Azure AD groups?",
+              "What is Multi-Factor Authentication (MFA)?",
+              "How does Azure AD Identity Protection work?",
+              "What is Self Service Password Reset (SSPR)?",
+              "What are app registrations in Azure?",
+              "How does Single Sign-On (SSO) work in Azure AD?",
+              "How can I use Azure AD Connect to migrate On-prem AD users to Azure AD?",
             ],
           },
           {
-            name: "Security",
+            name: "Azure App Service (Web Apps)",
             content: [
-              "Implement security practices in DevOps.",
-              "Secure pipelines with role-based access.",
-              "Scan code for vulnerabilities.",
+              "What are App Service Environments (ASE)?",
+              "What are App Service Plans?",
+              "How can I integrate Virtual Networks with Azure App Service?",
+              "What are Hybrid connections?",
+              "How do I create an App Service Web App?",
             ],
           },
+
           {
-            name: "Azure Test Plans",
+            name: "Authentication and Data Security",
             content: [
-              "Plan and execute tests with Azure Test Plans.",
-              "Create test cases and suites.",
-              "Track test results and defects.",
+              "Managed Identity (MI)",
+              "System managed identity vs User managed identity",
+              "Key Vault",
+              "Azure Disk Encryption",
+            ],
+          },
+
+          {
+            name: "Azure Automation",
+            content: [
+              "Automation Account",
+              "RunBooks",
+              "Update Management",
+              "Scheduling patching",
+            ],
+          },
+
+          {
+            name: "Azure Site Recovery",
+            content: [
+              "Business Continuity and Disaster Recovery (BCDR)",
+              "Replication of Azure VMs to different Regions",
+              "Failover of Azure VMs",
+              "Disaster Recovery for Apps",
+            ],
+          },
+
+          {
+            name: "Migration (using ASR and Azure migrate)",
+            content: [
+              "Onprem physical VM migration to Azure",
+              "Onprem Hyper-V VM migration to Azure",
+              "AWS to Azure",
             ],
           },
         ],
       },
       {
-        module: "Capstone Project",
+        module: "Azure DevOps Engineer Expert (AZ-400)",
         duration: "3 weeks",
         topics: [
           {
-            name: "End-to-End DevOps Workflow",
+            name: "ARM Template (IaC in Azure)",
             content: [
-              "Build a complete DevOps workflow.",
-              "Integrate all Azure DevOps services.",
-              "Deploy a sample application.",
+              "JSON Basics",
+              "How to write JSON file",
+              "ARMTemplates (Azure Resource Manager), what and why",
+              "What is Infrastructure as Code (IaC) and why it is important for you as infrastructure engineer?",
+              "Some other IaC examples other than arm template.",
+              "When to use arm template and when it is good to rely on other infra as code options.",
+              "Arm template structure and schema",
+              "Arm template structure in detail",
+              "Arm template parameters and variables, when to use what?",
+              "Arm template parameter file.",
+              "How to start writing arm template from scratch",
+              "Debugging and troubleshooting arm template",
+              "What are the tools and tips to get started from beginner to intermediate level arm template editing",
+              "Arm template architectural considerations when designing arm template for complex infrastructure.",
+              "Deployment options for arm template. (PowerShell in detail, other options introduction and basic.)",
+              "How to deploy multiple resources on Azure using ARM Templates",
             ],
           },
           {
-            name: "Optimization",
+            name: "Terraform (IaC Azure)",
             content: [
-              "Optimize pipelines for performance.",
-              "Reduce build and deployment times.",
-              "Implement caching strategies.",
+              "Introduction to Terraform",
+              "Download, Install and Configure Terraform",
+              "Terraform Constructs and Execution",
+              "Terraform commands /workflow",
+              "Terraform file structure",
+              "Terraform providers (Azure, AWS, GCP)",
+              "Authenticating Terraform with Azure",
+              "Deploy an Azure VM with Terraform",
+              "Terraform Backend state",
+              "Terraform data sources",
+              "Terraform variable types",
+              "Terraform multiple resource deployment",
+              "Terraform Modules",
+              "Multiple Azure Services Deployment",
+              "Deploy the terraform files to azure using azure pipelines",
+              "Terraform target",
+              "Terraform Provisions",
             ],
           },
           {
-            name: "Documentation",
+            name: "Azure DevOps Services (VSTS)",
             content: [
-              "Document the DevOps processes and tools.",
-              "Create runbooks for operations.",
-              "Document pipeline configurations.",
+              "Is it a tool for DevOps?",
+              "What is Azure DevOps services?",
+              "Why you should know CI CD as an infrastructure engineer/developer",
+              "Services in Azure DevOps services.",
+              "Azure DevOps organization settings in detail.",
+              "Free MS agents, Private agents, Agent Pools in Azure DevOps.",
+              "Create an agent pool and private agent.",
+              "What should you know before creating a Project",
+              "Create a project in Azure DevOps.",
+              "How to create Azure wiki",
+            ],
+          },
+
+          {
+            name: "Azure Boards",
+            content: [
+              "What is Azure Board?",
+              "Introduction to Agile.",
+              "Following agile in Azure DevOps.",
+              "Quick Start creating Iteration, Sprint, User Stories and Task.",
+              "How Azure board help your agile team.",
+              "Some basic integrations with Azure Board and other Azure DevOps services",
+            ],
+          },
+
+          {
+            name: "Azure Repos",
+            content: [
+              "What is a version control and why use it?",
+              "What type of version control repository supported in Azure Repos?",
+              "Most common is git, some basic things you should know about git.",
+              "Create a git repo in Azure Repos.",
+              "Git basic commands",
+              "Git branching strategy, a practical approach towards Gitflow",
+              "What is pull request",
+              "What are the different merge options",
+              "What is git cherry-pick",
+            ],
+          },
+          {
+            name: "Azure Pipeline",
+            content: [
+              "What is build?",
+              "What is Azure Pipelines",
+              "What is CI(Continuous integration) CD(Continuous deployment)",
+              "What is build and release pipeline and why I should know it as infrastructure engineer",
+              "Creating build definition from Visual editor and YAML. What are task in build definitions",
+              "Build Agent, Variables, Task groups and other settings in Pipeline.",
+              "Release tasks creating a release pipeline, what are stages and how to use it in release pipeline.",
+              "Build and release pipeline variables",
+              "Service endpoints, Azure DevOps extension market place and other integrations.",
+              "Create a basic build and release pipeline with a Infra as code example (ARM templates and terraform)",
+              "Azure Pipeline service connection",
+              "Deploy ARM Templates using classic editor pipeline",
+              "Deploy Terraform templates using classic editor pipeline",
+              "How to setup CI & CD pipeline for JAVA application using Classic editor pipeline",
+              "How to setup CI & CD pipeline for .NET application using Classic editor pipeline",
+              "YAML Basics",
+              "How to convert classic editor pipeline to YAML pipeline",
+              "Azure Pipeline Library",
+              "Azure Pipeline deployment groups",
+            ],
+          },
+
+          {
+            name: "Docker",
+            content: [
+              "Introduction to Containers",
+              "Introduction to Docker",
+              "Downloading and Installing Docker",
+              "Docker Essential Commands",
+              "Docker Engine",
+              "Understanding Docker Images",
+              "Building Docker Images",
+              "Storing and Retrieving Docker Images from Docker Hub",
+              "Private Registry",
+              "Building Containers from Images",
+              "Understand Storage Methods",
+              "How to push the Docker Image to ACR (Azure container registry)",
+              "How to Create the ACI (Azure Container Instance) to run the container application",
+            ],
+          },
+
+          {
+            name: "AKS (Azure Kubernetes Service)",
+            content: [
+              "Overview of Container Orchestration",
+              "Introduction to Kubernetes",
+              "Kubernetes Architecture",
+              "Creating POD’s and managing them",
+              "Managing Networking",
+              "Overview of Deployment",
+              "Managing Resources",
+              "Kubernetes Authentication",
+              "Understand how to Monitor Applications",
+              "Viewing Container logs",
+              "Manage Application Logs",
+              "How to deploy container application to AKS using Azure Pipelines (CI & CD)",
+            ],
+          },
+        ],
+      },
+    ],
+    instructor: {
+      name: "Arjun Patel",
+      title: "DevOps Engineer at TCS",
+      experience: "12+ years",
+      image: "/placeholder.svg?height=100&width=100",
+      bio: "Arjun has extensive experience in Azure DevOps and has led multiple enterprise-level implementations.",
+    },
+    projects: [
+      "CI/CD Pipeline for Web App",
+      "Automated Testing Framework",
+      "Infrastructure Deployment",
+      "Monitoring Dashboard",
+    ],
+  },
+  "azure-admin": {
+    title: "Azure Admin",
+    description:
+      "Learn to implement DevOps practices using Azure tools and services",
+    duration: "4 months",
+    mode: "Online/Offline",
+    level: "Intermediate to Advanced",
+    price: "₹40,000",
+    originalPrice: "₹50,000",
+    category: "DevOps",
+    students: "400+",
+    rating: 4.9,
+    reviews: 120,
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3Mpx-7k0FvYWzb8n8snbXGKMKM-YWg0Vlsg&s",
+    highlights: [
+      "Master Azure Repos, Pipelines, and Boards",
+      "Continuous Integration/Continuous Deployment (CI/CD)",
+      "Infrastructure as Code (IaC)",
+      "Real-world DevOps projects",
+      "Certification support",
+    ],
+    syllabus: [
+      {
+        module: "Azure Admin with Azure DevOps",
+        duration: "3 weeks",
+        topics: [
+          {
+            name: "Introduction to Microsoft Azure",
+            content: [
+              "What is Cloud computing?",
+              "What are the different Cloud service models?",
+              "What are Cloud deployment models?",
+              "What is Azure PowerShell and CLI?",
+              "What is Azure Resource Manager (ARM)?",
+              "What is the difference between ASM and ARM Deployment model?",
+              "How can I create an Azure free trial subscription?",
+            ],
+          },
+          {
+            name: "Governance and Compliance",
+            content: [
+              "What is Azure Hierarchy?",
+              "What is Azure RBAC (Role-Based Access Control)?",
+              "How do I manage Users and Groups in Azure?",
+              "What are Azure Policies?",
+              "How can I manage Azure subscription costs?",
+              "What is Azure Defender?",
+            ],
+          },
+          {
+            name: "Azure Virtual Machines and Scale set",
+            content: [
+              "What should I consider when planning Virtual Machines?",
+              "How do I create Windows and Linux Virtual Machines in Azure?",
+              "What are Virtual Machine Availability options?",
+              "How do I use Virtual Machine Extensions?",
+              "What can I do for Virtual Machine troubleshooting?",
+              "How can I add additional Data disks to a Virtual Machine?",
+              "What are Virtual Machine Scale sets?",
+            ],
+          },
+          {
+            name: "Azure Storage",
+            content: [
+              "What are Azure Storage Account types?",
+              "What are Azure Storage service types?",
+              "How do I work with Azure Blobs?",
+              "What is Azure Files?",
+              "What are Azure Queues?",
+              "How does Azure Table work?",
+              "How can I ensure Storage Security?",
+              "What is Azure Storage Explorer?",
+              "How do I use AzCopy?",
+              "What is Azure CDN (Content Delivery Network)?",
+            ],
+          },
+          {
+            name: "Virtual Networking",
+            content: [
+              "What is Basic Networking in Azure?",
+              "What are Azure Virtual Networks (VNet)?",
+              "How do I work with Azure Subnets?",
+              "What are Service Endpoints and Private Endpoints?",
+              "How does IP Addressing and Endpoints work?",
+              "What is Azure DNS?",
+              "How do I use Network Security Groups and NIC?",
+              "How can I calculate CIDR?",
+              "What is Public IP and Private IP in Azure?",
+            ],
+          },
+
+          {
+            name: "InterSite Connectivity",
+            content: [
+              "What is VNet Peering?",
+              "How do VNet-to-VNet Connections work?",
+              "What are ExpressRoute Connections?",
+              "How can I set up Site-to-Site connections?",
+              "What is Point-to-Site connection?",
+            ],
+          },
+
+          {
+            name: "Monitoring",
+            content: [
+              "What is Azure Monitor?",
+              "How do Azure Alerts work?",
+              "What is Log Analytics workspace?",
+              "What is Network Watcher?",
+              "How can I use Application Insights?",
+            ],
+          },
+
+          {
+            name: "Data Protection",
+            content: [
+              "What is Data Replication?",
+              "How can I perform File and Folder Backups in Azure?",
+              "How do I back up Virtual Machines in Azure?",
+              "What about SQL DB in Azure VM Backup?",
+              "How can I perform Azure File share Backup?",
+            ],
+          },
+
+          {
+            name: "Network Traffic Management",
+            content: [
+              "How does Network Routing work in Azure?",
+              "What is Azure Load Balancer?",
+              "How do I use Application Gateway in Azure?",
+              "What is Azure Traffic Manager?",
+              "What is Azure Front Door?",
+            ],
+          },
+
+          {
+            name: "Azure Active Directory",
+            content: [
+              "What is Azure Active Directory?",
+              "How do I manage Azure AD users?",
+              "How do I manage Azure AD groups?",
+              "What is Multi-Factor Authentication (MFA)?",
+              "How does Azure AD Identity Protection work?",
+              "What is Self Service Password Reset (SSPR)?",
+              "What are app registrations in Azure?",
+              "How does Single Sign-On (SSO) work in Azure AD?",
+              "How can I use Azure AD Connect to migrate On-prem AD users to Azure AD?",
+            ],
+          },
+          {
+            name: "Azure App Service (Web Apps)",
+            content: [
+              "What are App Service Environments (ASE)?",
+              "What are App Service Plans?",
+              "How can I integrate Virtual Networks with Azure App Service?",
+              "What are Hybrid connections?",
+              "How do I create an App Service Web App?",
+            ],
+          },
+
+          {
+            name: "Authentication and Data Security",
+            content: [
+              "Managed Identity (MI)",
+              "System managed identity vs User managed identity",
+              "Key Vault",
+              "Azure Disk Encryption",
+            ],
+          },
+
+          {
+            name: "Azure Automation",
+            content: [
+              "Automation Account",
+              "RunBooks",
+              "Update Management",
+              "Scheduling patching",
+            ],
+          },
+
+          {
+            name: "Azure Site Recovery",
+            content: [
+              "Business Continuity and Disaster Recovery (BCDR)",
+              "Replication of Azure VMs to different Regions",
+              "Failover of Azure VMs",
+              "Disaster Recovery for Apps",
+            ],
+          },
+
+          {
+            name: "Migration (using ASR and Azure migrate)",
+            content: [
+              "Onprem physical VM migration to Azure",
+              "Onprem Hyper-V VM migration to Azure",
+              "AWS to Azure",
             ],
           },
         ],
@@ -4120,195 +4810,618 @@ const courseData = {
       "Financial Summary Dashboard",
     ],
   },
-  "network-protocol": {
-    title: "Network Protocol",
+  // "network-protocol": {
+  //   title: "Network Protocol",
+  //   description:
+  //     "Understand and implement network protocols for robust IT infrastructure",
+  //   duration: "4 months",
+  //   mode: "Online/Offline",
+  //   level: "Intermediate to Advanced",
+  //   price: "₹30,000",
+  //   originalPrice: "₹40,000",
+  //   category: "Networking",
+  //   students: "250+",
+  //   rating: 4.5,
+  //   reviews: 70,
+  //   image:
+  //     "https://cdn-fainj.nitrocdn.com/HMhNvtGdkXCThiYKondeUNdKlFRQtHkp/assets/images/optimized/rev-2573752/www.auvik.com/wp-content/uploads/2024/06/common-network-protocols3.jpg",
+  //   highlights: [
+  //     "Learn TCP/IP, HTTP, FTP, and more",
+  //     "Hands-on network configuration",
+  //     "Security protocols and troubleshooting",
+  //     "Industry-standard certifications",
+  //     "Practical lab sessions",
+  //   ],
+  //   syllabus: [
+  //     {
+  //       module: "Network Fundamentals",
+  //       duration: "3 weeks",
+  //       topics: [
+  //         {
+  //           name: "OSI Model",
+  //           content: [
+  //             "Understand the OSI model and its layers.",
+  //             "Explore each layer's functions and protocols.",
+  //             "Compare OSI with TCP/IP model.",
+  //           ],
+  //         },
+  //         {
+  //           name: "TCP/IP Basics",
+  //           content: [
+  //             "Learn the fundamentals of TCP/IP protocols.",
+  //             "Understand packet structure and headers.",
+  //             "Analyze TCP/IP communication flow.",
+  //           ],
+  //         },
+  //         {
+  //           name: "IP Addressing",
+  //           content: [
+  //             "Configure IP addresses and subnets.",
+  //             "Understand IPv4 and IPv6 addressing.",
+  //             "Implement static and dynamic addressing.",
+  //           ],
+  //         },
+  //         {
+  //           name: "Subnetting",
+  //           content: [
+  //             "Master subnetting for network design.",
+  //             "Calculate subnet masks and ranges.",
+  //             "Design efficient subnet architectures.",
+  //           ],
+  //         },
+  //       ],
+  //     },
+  //     {
+  //       module: "Core Protocols",
+  //       duration: "5 weeks",
+  //       topics: [
+  //         {
+  //           name: "HTTP/HTTPS",
+  //           content: [
+  //             "Explore HTTP and HTTPS for web communication.",
+  //             "Understand request-response cycles.",
+  //             "Implement secure communication with HTTPS.",
+  //             "Analyze HTTP headers and status codes.",
+  //           ],
+  //         },
+  //         {
+  //           name: "FTP",
+  //           content: [
+  //             "Understand File Transfer Protocol operations.",
+  //             "Set up FTP servers and clients.",
+  //             "Secure FTP with SFTP and FTPS.",
+  //           ],
+  //         },
+  //         {
+  //           name: "SMTP",
+  //           content: [
+  //             "Learn email transmission with SMTP.",
+  //             "Configure SMTP servers for email delivery.",
+  //             "Troubleshoot email delivery issues.",
+  //           ],
+  //         },
+  //         {
+  //           name: "DNS",
+  //           content: [
+  //             "Configure and troubleshoot DNS services.",
+  //             "Understand DNS resolution process.",
+  //             "Set up DNS records like A, CNAME, and MX.",
+  //           ],
+  //         },
+  //         {
+  //           name: "DHCP",
+  //           content: [
+  //             "Implement DHCP for automatic IP allocation.",
+  //             "Configure DHCP scopes and options.",
+  //             "Troubleshoot DHCP-related issues.",
+  //           ],
+  //         },
+  //       ],
+  //     },
+  //     {
+  //       module: "Security & Troubleshooting",
+  //       duration: "3 weeks",
+  //       topics: [
+  //         {
+  //           name: "Network Security",
+  //           content: [
+  //             "Implement security measures for networks.",
+  //             "Configure firewalls and intrusion detection.",
+  //             "Understand encryption protocols.",
+  //           ],
+  //         },
+  //         {
+  //           name: "Protocol Analysis",
+  //           content: [
+  //             "Analyze network traffic with tools like Wireshark.",
+  //             "Capture and interpret packets.",
+  //             "Identify network anomalies.",
+  //           ],
+  //         },
+  //         {
+  //           name: "Troubleshooting Tools",
+  //           content: [
+  //             "Use tools for network diagnostics.",
+  //             "Perform ping, traceroute, and netstat analysis.",
+  //             "Diagnose connectivity issues.",
+  //           ],
+  //         },
+  //         {
+  //           name: "VPNs",
+  //           content: [
+  //             "Set up virtual private networks for security.",
+  //             "Configure site-to-site and remote-access VPNs.",
+  //             "Troubleshoot VPN connectivity.",
+  //           ],
+  //         },
+  //       ],
+  //     },
+  //     {
+  //       module: "Advanced Networking",
+  //       duration: "3 weeks",
+  //       topics: [
+  //         {
+  //           name: "VoIP",
+  //           content: [
+  //             "Implement Voice over IP protocols.",
+  //             "Configure VoIP systems like SIP.",
+  //             "Optimize VoIP call quality.",
+  //           ],
+  //         },
+  //         {
+  //           name: "Wireless Protocols",
+  //           content: [
+  //             "Configure wireless network protocols.",
+  //             "Understand Wi-Fi standards like 802.11.",
+  //             "Secure wireless networks.",
+  //           ],
+  //         },
+  //         {
+  //           name: "Network Optimization",
+  //           content: [
+  //             "Optimize network performance and latency.",
+  //             "Implement QoS policies.",
+  //             "Monitor network bandwidth usage.",
+  //           ],
+  //         },
+  //       ],
+  //     },
+  //   ],
+  //   instructor: {
+  //     name: "Anil Mehta",
+  //     title: "Network Engineer at Cisco",
+  //     experience: "13+ years",
+  //     image: "/placeholder.svg?height=100&width=100",
+  //     bio: "Anil has extensive experience in network protocols and has trained numerous IT professionals.",
+  //   },
+  //   projects: [
+  //     "Network Configuration Setup",
+  //     "Protocol Simulation",
+  //     "Security Audit Project",
+  //     "Wireless Network Deployment",
+  //   ],
+  // },
+  "network-protocol-development": {
+    title: "Network Protocol Development",
     description:
-      "Understand and implement network protocols for robust IT infrastructure",
+      "Learn to implement DevOps practices using Azure tools and services",
     duration: "4 months",
     mode: "Online/Offline",
     level: "Intermediate to Advanced",
-    price: "₹30,000",
-    originalPrice: "₹40,000",
+    price: "₹40,000",
+    originalPrice: "₹50,000",
     category: "Networking",
-    students: "250+",
-    rating: 4.5,
-    reviews: 70,
+    students: "400+",
+    rating: 4.9,
+    reviews: 120,
     image:
-      "https://cdn-fainj.nitrocdn.com/HMhNvtGdkXCThiYKondeUNdKlFRQtHkp/assets/images/optimized/rev-2573752/www.auvik.com/wp-content/uploads/2024/06/common-network-protocols3.jpg",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3Mpx-7k0FvYWzb8n8snbXGKMKM-YWg0Vlsg&s",
     highlights: [
-      "Learn TCP/IP, HTTP, FTP, and more",
-      "Hands-on network configuration",
-      "Security protocols and troubleshooting",
-      "Industry-standard certifications",
-      "Practical lab sessions",
+      "Master Azure Repos, Pipelines, and Boards",
+      "Continuous Integration/Continuous Deployment (CI/CD)",
+      "Infrastructure as Code (IaC)",
+      "Real-world DevOps projects",
+      "Certification support",
     ],
     syllabus: [
       {
-        module: "Network Fundamentals",
+        module: "Network Protocol Development",
         duration: "3 weeks",
         topics: [
           {
-            name: "OSI Model",
+            name: "Architecture of Simple Computer",
             content: [
-              "Understand the OSI model and its layers.",
-              "Explore each layer's functions and protocols.",
-              "Compare OSI with TCP/IP model.",
+              "CPU",
+              "Memory",
+              "I/O controllers",
+              "Executable Image contents",
+              "Text/Code",
+              "Data (Initialized and uninitialized)",
+              "Heap",
+              "Stack",
             ],
           },
           {
-            name: "TCP/IP Basics",
+            name: "Development Tools and Environment",
+            content: [],
+          },
+          {
+            name: "Compiler",
+            content: ["Compilation Stages", "Object file format"],
+          },
+          {
+            name: "Linker",
             content: [
-              "Learn the fundamentals of TCP/IP protocols.",
-              "Understand packet structure and headers.",
-              "Analyze TCP/IP communication flow.",
+              "Function of Linker",
+              "Executable file format",
+              "Executable file vs Executable Image in memory",
             ],
           },
           {
-            name: "IP Addressing",
+            name: "Archive or Library Utility",
+            content: [],
+          },
+
+          {
+            name: "Make utility",
+            content: [],
+          },
+
+          {
+            name: "Debugger",
+            content: [],
+          },
+
+          {
+            name: "Source Code Control System (SCCS)",
+            content: [],
+          },
+
+          {
+            name: "Project Environment Development",
             content: [
-              "Configure IP addresses and subnets.",
-              "Understand IPv4 and IPv6 addressing.",
-              "Implement static and dynamic addressing.",
+              "Module concept",
+              "Interface functions",
+              "Unit testing of module",
+              "Test Driver",
+              "Test Stub",
+            ],
+          },
+
+          {
+            name: "Functions",
+            content: [
+              "Definition, Declaration/prototype, Invocation",
+              "Function type and return value",
+              "Output parameters",
+              "Pass by value and pass by reference",
+              "Local variables",
+              "Static variables",
+              "Thread of execution (stack frames)",
+              "Stdio functions",
+              "Passing parameters to a C function from assembly language",
+              "Accessing the parameters from the C function from assembly language",
             ],
           },
           {
-            name: "Subnetting",
+            name: "Pointers",
             content: [
-              "Master subnetting for network design.",
-              "Calculate subnet masks and ranges.",
-              "Design efficient subnet architectures.",
+              "Pointers Vs Integers",
+              "Pointer type",
+              "Pointer de-reference",
+              "Pointers and arrays",
+              "Pointer arithmetic",
+              "Array of pointers",
+              "Pointers and Dynamic memory",
+              "Function pointers",
             ],
+          },
+
+          {
+            name: "Arrays",
+            content: [
+              "Valid Indexes to array",
+              "Addresses of elements of array",
+              "Initialization",
+              "Using pointer as an array",
+              "Strings",
+              "Passing an array to a function",
+              "Two-dimensional array initialization",
+              "Two-dimensional arrays and pointers",
+            ],
+          },
+
+          {
+            name: "User Defined Datatypes",
+            content: ["Structures", "Unions", "Typedef", "Enums"],
+          },
+          {
+            name: "Structures",
+            content: [
+              "Compound type",
+              "Packing of elements within a structure",
+              "Alignment and hole in the structure",
+              "Structure pointers",
+              "Accessing elements of a structure using structure pointers",
+              "Dynamic allocation of memory for structures",
+              "Self-referential structures",
+              "Passing structure parameters to functions",
+              "Returning a structure or struct pointer by a function",
+            ],
+          },
+
+          {
+            name: "Unions",
+            content: [
+              "Differences between union and structure",
+              "Uses of unions",
+            ],
+          },
+
+          {
+            name: "Bit Operations",
+            content: [
+              "Binary, Decimal, and Hex conversions",
+              "Logical versus Bitwise operations",
+              "Masking a bit",
+              "Testing a bit",
+              "Setting a bit",
+              "Testing a set of bits",
+              "Setting a set of bits",
+            ],
+          },
+
+          {
+            name: "Miscellaneous",
+            content: [
+              "Big Endian and Little endian",
+              "ASCII codes and file formats",
+              "Interpreting the contents of a file",
+              "As a text",
+              "As a numbers(int, short, float or combination)",
+              "As a image",
+              "As a sound",
+              "As CPU instructions",
+            ],
+          },
+          {
+            name: "File Operations",
+            content: [
+              "Storing structures in binary format",
+              "Storing structures in ASCII format",
+            ],
+          },
+
+          {
+            name: "Essential Data Structures",
+            content: [],
+          },
+
+          {
+            name: "Arrays",
+            content: ["Operations on arrays", "Strings"],
+          },
+
+          {
+            name: "Linked Lists",
+            content: [
+              "Single linked lists",
+              "Operations on linked lists",
+              "Double linked lists",
+            ],
+          },
+
+          {
+            name: "Stacks",
+            content: [],
+          },
+
+          {
+            name: "Queues",
+            content: ["Linear queues", "Circular queues"],
+          },
+
+          {
+            name: "Search Techniques",
+            content: ["Linear search", "Binary search", "Hash-based search"],
+          },
+
+          {
+            name: "Packets or Messages",
+            content: ["Framing of messages", "Parsing of messages"],
+          },
+
+          {
+            name: "File Formats",
+            content: [],
+          },
+
+          {
+            name: "Mini Project in C",
+            content: [],
           },
         ],
       },
       {
-        module: "Core Protocols",
-        duration: "5 weeks",
-        topics: [
-          {
-            name: "HTTP/HTTPS",
-            content: [
-              "Explore HTTP and HTTPS for web communication.",
-              "Understand request-response cycles.",
-              "Implement secure communication with HTTPS.",
-              "Analyze HTTP headers and status codes.",
-            ],
-          },
-          {
-            name: "FTP",
-            content: [
-              "Understand File Transfer Protocol operations.",
-              "Set up FTP servers and clients.",
-              "Secure FTP with SFTP and FTPS.",
-            ],
-          },
-          {
-            name: "SMTP",
-            content: [
-              "Learn email transmission with SMTP.",
-              "Configure SMTP servers for email delivery.",
-              "Troubleshoot email delivery issues.",
-            ],
-          },
-          {
-            name: "DNS",
-            content: [
-              "Configure and troubleshoot DNS services.",
-              "Understand DNS resolution process.",
-              "Set up DNS records like A, CNAME, and MX.",
-            ],
-          },
-          {
-            name: "DHCP",
-            content: [
-              "Implement DHCP for automatic IP allocation.",
-              "Configure DHCP scopes and options.",
-              "Troubleshoot DHCP-related issues.",
-            ],
-          },
-        ],
-      },
-      {
-        module: "Security & Troubleshooting",
+        module: "Linux System Programming",
         duration: "3 weeks",
         topics: [
           {
-            name: "Network Security",
+            name: "Introduction to Linux",
             content: [
-              "Implement security measures for networks.",
-              "Configure firewalls and intrusion detection.",
-              "Understand encryption protocols.",
+              "Process Management",
+              "File Management",
+              "Memory Management",
+              "I/O management",
             ],
           },
           {
-            name: "Protocol Analysis",
+            name: "Unix File I/O System Calls",
             content: [
-              "Analyze network traffic with tools like Wireshark.",
-              "Capture and interpret packets.",
-              "Identify network anomalies.",
+              "File descriptors",
+              "File types",
+              "Stdin, Stdout and Stderr File descriptors",
+              "Link or Relationship between File Descriptor and File or device",
+              "File descriptors of same file but from multiple processes",
+              "Unix File I/O calls (unbuffered i/o)",
+              "open, create, close, lseek, read, write, dup, dup2",
+              "fcntl, ioctl",
+              "File types, IDs and Access permissions",
             ],
           },
           {
-            name: "Troubleshooting Tools",
+            name: "Standard I/O Library Functions",
             content: [
-              "Use tools for network diagnostics.",
-              "Perform ping, traceroute, and netstat analysis.",
-              "Diagnose connectivity issues.",
+              "fopen, fread, fwrite, fclose & fseek",
+              "Relationship between file descriptor and FILE pointer",
+              "Character at a time I/O",
+              "Line at a time I/O",
+              "Formatted I/O",
             ],
           },
           {
-            name: "VPNs",
+            name: "Reading and Writing Structures to Files",
             content: [
-              "Set up virtual private networks for security.",
-              "Configure site-to-site and remote-access VPNs.",
-              "Troubleshoot VPN connectivity.",
-            ],
-          },
-        ],
-      },
-      {
-        module: "Advanced Networking",
-        duration: "3 weeks",
-        topics: [
-          {
-            name: "VoIP",
-            content: [
-              "Implement Voice over IP protocols.",
-              "Configure VoIP systems like SIP.",
-              "Optimize VoIP call quality.",
+              "In ascii format",
+              "In Binary format",
+              "Modifying a structure in the file",
             ],
           },
           {
-            name: "Wireless Protocols",
+            name: "The Environment of a Unix Process",
             content: [
-              "Configure wireless network protocols.",
-              "Understand Wi-Fi standards like 802.11.",
-              "Secure wireless networks.",
+              "How C program starts and terminates as process",
+              "Memory layout of a C Program",
+              "Main function, Command line arguments, Environment variables",
+              "exit(), _exit() and atexit() functions",
             ],
           },
           {
-            name: "Network Optimization",
+            name: "Process System Calls",
             content: [
-              "Optimize network performance and latency.",
-              "Implement QoS policies.",
-              "Monitor network bandwidth usage.",
+              "Process Identifiers",
+              "fork, vfork, exit, wait, waitpid, execv",
+            ],
+          },
+
+          {
+            name: "Initial Process Relationships",
+            content: ["Terminal Logins"],
+          },
+
+          {
+            name: "Signals",
+            content: [
+              "Signal Concepts",
+              "Signal(), kill(), raise(), alarm() and pause()",
+            ],
+          },
+
+          {
+            name: "Inter Process Communication",
+            content: [
+              "Pipes",
+              "FIFO (Named pipes)",
+              "Message Queues",
+              "Semaphores",
+              "Shared Memory",
+            ],
+          },
+
+          {
+            name: "Threads",
+            content: [
+              "Multi-threaded programming",
+              "Synchronization and Mutual exclusion for threads",
+              "POSIX Semaphores",
+            ],
+          },
+          {
+            name: "UDP/TCP Applications",
+            content: ["TFTP", "SMTP", "HTTP", "Mixed techniques"],
+          },
+
+          {
+            name: "TCP/IP Stack Internals",
+            content: [],
+          },
+
+          {
+            name: "Internet Addresses",
+            content: [
+              "IP Address",
+              "Hardware Addresses",
+              "Unicast, Broadcast, Multicast in IP and HW addresses",
+              "Ethernet Frame format",
+              "ARP",
+            ],
+          },
+
+          {
+            name: "Internet Protocol",
+            content: [
+              "Packet format",
+              "Fragmentation and Re-assembly",
+              "Routing",
+            ],
+          },
+
+          {
+            name: "UDP",
+            content: [],
+          },
+
+          {
+            name: "ICMP",
+            content: [],
+          },
+
+          {
+            name: "TCP",
+            content: [
+              "Timeout and Retransmission",
+              "Flow control",
+              "State machine",
+              "Congestion control",
+              "Silly window syndrome",
+              "Socket API Interface",
+            ],
+          },
+
+          {
+            name: "Software Engineering",
+            content: [
+              "Software Development Life Cycle",
+              "Requirement Specification",
+              "Design (High level and Detailed)",
+              "Coding, Coding standards",
+              "Unit testing, Unit test plan, Test drivers, test stubs",
+              "Integration and System testing and their test plans",
+              "Acceptance test plan",
+            ],
+          },
+
+          {
+            name: "Major Project",
+            content: [
+              "Finally, the student will do a major project on network, wireless, or telecom protocols using VxWorks or VxWorks-like RTOS.",
             ],
           },
         ],
       },
     ],
     instructor: {
-      name: "Anil Mehta",
-      title: "Network Engineer at Cisco",
-      experience: "13+ years",
+      name: "Arjun Patel",
+      title: "DevOps Engineer at TCS",
+      experience: "12+ years",
       image: "/placeholder.svg?height=100&width=100",
-      bio: "Anil has extensive experience in network protocols and has trained numerous IT professionals.",
+      bio: "Arjun has extensive experience in Azure DevOps and has led multiple enterprise-level implementations.",
     },
     projects: [
-      "Network Configuration Setup",
-      "Protocol Simulation",
-      "Security Audit Project",
-      "Wireless Network Deployment",
+      "CI/CD Pipeline for Web App",
+      "Automated Testing Framework",
+      "Infrastructure Deployment",
+      "Monitoring Dashboard",
     ],
   },
 };
