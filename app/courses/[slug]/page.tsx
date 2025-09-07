@@ -3796,6 +3796,630 @@ const courseData = {
       "Monitoring Dashboard",
     ],
   },
+  "oracle-fusion-cloud-scm": {
+    title: "Oracle Fusion Cloud SCM",
+    description:
+      "Learn to implement DevOps practices using Azure tools and services",
+    duration: "4 months",
+    mode: "Online/Offline",
+    level: "Intermediate to Advanced",
+    price: "₹40,000",
+    originalPrice: "₹50,000",
+    category: "Cloud",
+    students: "400+",
+    rating: 4.9,
+    reviews: 120,
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3Mpx-7k0FvYWzb8n8snbXGKMKM-YWg0Vlsg&s",
+    highlights: [
+      "Master Azure Repos, Pipelines, and Boards",
+      "Continuous Integration/Continuous Deployment (CI/CD)",
+      "Infrastructure as Code (IaC)",
+      "Real-world DevOps projects",
+      "Certification support",
+    ],
+    syllabus: [
+      {
+        module: "Oracle Fusion SCM Cloud",
+        duration: "3 weeks",
+        topics: [
+          {
+            name: "Introduction to Oracle Fusion SCM Cloud",
+            content: [
+              "Introduction to Oracle SCM Cloud",
+              "Oracle Cloud Application Product Families",
+              "SaaS, PaaS and IaaS overview",
+              "Oracle SCM Cloud Capabilities: Overview",
+              "Technical Components Overview",
+              "Explain Course Content in Detail",
+            ],
+          },
+          {
+            name: "Navigation in ERP Cloud",
+            content: [
+              "Navigation in Oracle Cloud applications",
+              "News Feed home page layout",
+              "Banner Layout",
+              "How to switch between layouts with sandbox",
+            ],
+          },
+          {
+            name: "Dashboards, Work Areas and Infotiles",
+            content: [
+              "Dashboards in Oracle Cloud applications",
+              "Work Areas and Infotiles",
+              "Tasks Panel – Access tasks, perform searches, run reports",
+              "Infolets – Summary View, facilitates drilldown, Personalize",
+              "Set User Preferences, save custom searches, Configure table columns",
+            ],
+          },
+          {
+            name: "Security in Fusion Cloud Application - RBAC",
+            content: [
+              "Role based access control - RBAC",
+              "Configure security framework using Privileges, Duty roles, Job Roles, Abstract roles",
+              "Assigning job roles to user and see the changes in application UI",
+              "Create a custom role and compare it to standard role",
+              "Explain other options available in IT Security Console",
+              "Grant Data Access to user",
+            ],
+          },
+          {
+            name: "Functional Set Up Manager",
+            content: [
+              "Implementation Project Planning",
+              "Roles and Responsibilities",
+              "Offerings",
+              "Implementation Considerations",
+              "SCM Simplified Setup: Overview",
+              "Automated Setup of SCM Common Components",
+              "Simplified Setup: Time Savings",
+              "Best Practices",
+            ],
+          },
+          {
+            name: "Value Sets, Flexfields & Lookups",
+            content: [
+              "Explain Value Sets, Flexfields and Lookups on a high level",
+              "Create 5 different types of Value Sets and use them in Flexfields configuration",
+              "Configure Descriptive Flexfields (DFF), deploy and test it in application",
+              "Configure Extensible Flexfields (EFF), deploy and test it in application",
+              "Configure Key Flexfields (KFF), deploy and test it in application",
+              "Explain configuration levels of lookups",
+            ],
+          },
+          {
+            name: "Enterprise Structure in Fusion Cloud",
+            content: [
+              "Enterprise Structure Walkthrough",
+              "EBS vs Fusion Cloud Org Structure",
+              "COA Overview",
+              "Ledger Creation",
+              "Legal Entity",
+              "Business Unit Creation",
+              "Inventory Org Creation",
+            ],
+          },
+        ],
+      },
+      {
+        module: "Inventory Management Cloud Implementation",
+        duration: "3 weeks",
+        topics: [
+          {
+            name: "Inventory Overview",
+            content: [
+              "How Inventory Fits into Oracle’s SCM Cloud Offering",
+              "Oracle’s SCM Cloud Progress",
+              "Oracle Inventory Management Cloud Capabilities: Overview",
+            ],
+          },
+          {
+            name: "Inventory Transaction Setup",
+            content: [
+              "Create Item Classifications & setting up security",
+              "Define UOM",
+              "Item Life Cycle Phases",
+              "Item Attribute Groups",
+              "Item Classes",
+              "Item Statuses",
+              "Item Types",
+              "Inventory Transaction Uses",
+              "Inventory Transaction Sources and Types",
+              "System- and User-defined Inventory Transaction Types",
+              "Inventory Transaction Setup Tasks",
+            ],
+          },
+          {
+            name: "Lot and Serial Number Control",
+            content: [
+              "Lot Control: Overview",
+              "Lot Control Organization Parameters",
+              "Lot Control Item Attributes",
+              "Lot Management",
+              "Serial Number Control",
+              "Lot and Serial Number Control Profile Options",
+            ],
+          },
+          {
+            name: "Inventory on Hand and Availability",
+            content: [
+              "On-Hand Quantity and Availability",
+              "Manage Item Quantities Page",
+              "Reservations",
+            ],
+          },
+          {
+            name: "Issue and Transfer Material",
+            content: [
+              "Inventory Transactions: Overview",
+              "Miscellaneous Transactions",
+              "Subinventory Transfers",
+              "Direct and In-Transit Interorganization Transfers",
+              "Transfer Orders",
+            ],
+          },
+          {
+            name: "Warehouse Receiving",
+            content: [
+              "Receiving: Overview",
+              "Receipt Routing",
+              "Receipt Processing Methods",
+              "Expected Receipts",
+              "Receipt Structure",
+              "Returns and Corrections",
+              "Additional Receiving Features",
+              "Receiving Parameters",
+            ],
+          },
+          {
+            name: "Inventory Replenishments",
+            content: [
+              "Explain Min-Max Planning",
+              "Min-Max Planning Report Parameters: Points to Consider",
+              "Min-Max Planning Replenishment Quantities: How They Are Calculated",
+            ],
+          },
+          {
+            name: "Inventory Accuracy",
+            content: [
+              "Cycle Counting: Explained with ABC Analysis",
+              "Create and Manage Cycle Counts",
+              "Generate Count Schedules and Sequences",
+              "Analyze Materials Management and Logistics Performance",
+              "Monitor Warehouse Operations Dashboard",
+            ],
+          },
+        ],
+      },
+      {
+        module: "Procurement Cloud Implementation",
+        duration: "3 weeks",
+        topics: [
+          {
+            name: "Procurement Application Overview",
+            content: [
+              "Explain Procurement architecture and components",
+              "Explain simplified Procure to Pay flow",
+              "Explain Procurement applications integration",
+            ],
+          },
+          {
+            name: "Set Up the Procurement Common Functions",
+            content: [
+              "Identify common procurement tasks",
+              "Configure required common procurement tasks",
+              "Define Common Payables and Procurement Options",
+              "Procurement Document Numbering",
+              "Define Common Purchasing Configuration",
+              "Procurement Agents",
+            ],
+          },
+          {
+            name: "Approvals Management",
+            content: [
+              "Understand the approval management workflow",
+              "Set up approval management",
+              "Understand approval policy configuration",
+              "Describe steps for defining approval groups",
+              "Manage, edit, and deploy approval rules",
+              "Create approval rule conditions",
+            ],
+          },
+          {
+            name: "Transaction Account Builder",
+            content: [
+              "Understand the transaction account builder for Procurement",
+              "Set up Mapping Set",
+              "Set up account rules",
+              "Set up TAD",
+              "Assign the TAD to Procurement",
+            ],
+          },
+          {
+            name: "Define and Manage Suppliers",
+            content: [
+              "Explain purpose and use of Supplier Model within Fusion Procurement",
+              "List the benefits provided to suppliers by Fusion Supplier Portal",
+              "Explain the methods available for registering suppliers",
+              "Identify the job roles available to the supplier self-service administrator to provision",
+              "Implement Supplier Model and Supplier Portal",
+            ],
+          },
+          {
+            name: "Administer Procurement Catalogs",
+            content: [
+              "Identify Self Service Procurement setup tasks and profile options",
+              "Manage value sets and descriptive flexfields for information templates",
+              "Create, manage, and secure catalogs",
+              "Understand Supplier Content Map Sets",
+              "Create local and informational catalogs",
+              "Create and manage public shopping lists",
+              "Create and manage smart forms",
+              "Understand content zones",
+            ],
+          },
+          {
+            name: "Manage Requisitions",
+            content: [
+              "Understand the basics of requisition management",
+              "Manage requisitions",
+              "Create and modify approved orders",
+              "Set up charge, variance and accrual accounts",
+            ],
+          },
+          {
+            name: "Manage Purchase Orders",
+            content: [
+              "Understand the components and use of purchase orders",
+              "Create and Manage purchase orders",
+              "Understand setup options related to purchase orders",
+            ],
+          },
+          {
+            name: "Oracle Fusion Sourcing",
+            content: [
+              "Create Negotiation Styles",
+              "Create Negotiation Templates",
+              "Setup Attribute Lists",
+              "Define Cost Factors",
+              "Create Cost Factor Lists",
+              "Manage Sourcing Value sets",
+              "Create Sourcing Descriptive Flexfields",
+              "RFI Creation",
+              "RFQ Creation",
+              "Award Process",
+              "Sourcing Approvals",
+              "Surrogate Responses",
+              "Online Messages",
+            ],
+          },
+        ],
+      },
+      {
+        module: "Order Management Cloud Implementation",
+        duration: "3 weeks",
+        topics: [
+          {
+            name: "Order Management Overview",
+            content: [
+              "Create and Submit Order",
+              "View Fulfillment Lines and Orchestration Plan",
+              "Order Business Flow",
+              "Order Management Integrations",
+            ],
+          },
+          {
+            name: "Pricing",
+            content: [
+              "Setup Pricing Strategy",
+              "Pricing segment",
+              "Manage Price List",
+              "Manage Discount List",
+              "Manage Simple Discount",
+              "Manage Tier Based Discounts",
+              "Manage Shipping Charges List",
+              "Assignment pricing strategy",
+              "Define Global Price List",
+            ],
+          },
+          {
+            name: "Global Order Promising (GOP)",
+            content: [
+              "Architecture and Components",
+              "Key functionalities of Global Order Promising",
+              "Global Sourcing Rules",
+              "Local Sourcing Rules",
+              "ATP Rules",
+              "Data Collection",
+              "Global Order Promising Engine Restart",
+              "Real-Time Supply Updates",
+            ],
+          },
+          {
+            name: "Shipping Setups",
+            content: [
+              "Manage Shipping Value Sets",
+              "Manage Shipping Lookups",
+              "Manage Release Sequence Rules",
+              "Manage Pick Slip Grouping Rules",
+              "Manage Picking Rules",
+              "Manage Shipping Parameters",
+              "Manage Ship Confirm Rules",
+            ],
+          },
+          {
+            name: "Manage Order Holds, Processing Constraints",
+            content: [
+              "Create Custom Hold Type and Reasons",
+              "Apply and Release Holds",
+              "Verify Hold Details",
+              "Create Record Set",
+              "Create Validation Rule Set",
+              "Create Constraints",
+            ],
+          },
+          {
+            name: "Order Orchestration Definition, Transformation Rules",
+            content: [
+              "Review Order Orchestration",
+              "Create custom orchestration rules",
+              "Assign orchestration rules to sales order",
+              "Custom order transformation rules",
+            ],
+          },
+        ],
+      },
+      {
+        module: "Manufacturing Management Cloud Implementation",
+        duration: "3 weeks",
+        topics: [
+          {
+            name: "Manage Manufacturing Plant",
+            content: [
+              "Work Areas",
+              "Resources",
+              "Work Centers",
+              "Standard Operations",
+            ],
+          },
+          {
+            name: "Production Process Design",
+            content: [
+              "Overview of the Work Definition Work Area",
+              "Work Definition Names",
+              "Overview of Work Definitions",
+              "How You Manage Work Definitions in the User Interface",
+              "How You Create Work Definitions",
+              "Create a Work Definition for Discrete Manufacturing that Includes a Supplier Operation",
+              "How You Edit Work Definitions",
+              "How You Create an Assemble to Order (ATO) Model Work Definition",
+              "How You Create a Configured Item Work Definition",
+              "Work Definitions for Contract Manufacturing",
+              "How You Process Item Structure Changes to Work Definitions",
+              "Synchronize Item Structure Changes to Work Definitions",
+              "How You Manage Work Definition Versions",
+              "Automatic Work Definitions",
+            ],
+          },
+          {
+            name: "Execute Production",
+            content: [
+              "Overview of Production Execution Tasks",
+              "How You Review a Dispatch List",
+              "How You Resequencing Work Order Operations",
+              "Use the Quick Complete Action to Execute a Standard Discrete Manufacturing Work Order",
+              "Exceptions",
+              "Operation Transactions",
+              "Inspections",
+              "Production Transactions",
+              "How You Pick Materials for Work Orders",
+              "Considerations for Picking Materials",
+              "FAQs for Picking Materials",
+              "How You Pick Reserved Assemblies for Rework Work Orders",
+              "Reservation of Materials",
+              "Overview of Reservation of Materials for Work Orders",
+              "How You Reserve Materials for Work Orders in Manufacturing",
+              "How You Manage Reservations for Work Order Materials in Manufacturing",
+              "Transfer Transactions from Production to Costing",
+              "How You Import Production Transactions",
+              "Overview of Data Collections for Supply Chain Planning",
+              "Global Entities",
+              "Data Collection Types for Supply Chain Planning",
+              "Manage Planning Source Systems for Data Collections",
+              "How the Order Orchestration and Order Promising Processes Use the Collected Planning Data",
+              "How You Enable Cross-References of Entities by Data Collections",
+              "How Planning Processes Collect Different Work Definitions and Item Structures",
+              "Enable External Data Collection for the Oracle Fusion Source System",
+              "Collect Planning Data from the Oracle Fusion Source System",
+            ],
+          },
+        ],
+      },
+      {
+        module: "Oracle Cost Management Cloud Implementation",
+        duration: "3 weeks",
+        topics: [
+          {
+            name: "Introduction",
+            content: [
+              "Overview of Cost Management",
+              "Supported Cost Methods",
+              "Time Zones and Dates",
+              "Overview of Importing Cost Data",
+              "Web Services You Can Use to Integrate Cost Management",
+            ],
+          },
+          {
+            name: "Receipt Accounting",
+            content: [
+              "Overview of Receipt Accounting",
+              "Receipt Accounting Infolets",
+              "Considerations for Accrual Settings",
+              "Receipt Accounting Tasks and Accounting Events",
+              "Receipt Accrual, Reconciliation, and Clearing",
+              "Receipt Accrual Clearing Rules",
+              "Receipt Accounting Cutoff Dates",
+              "Overview of Accrual Reversal",
+              "Period End Uninvoiced Receipt Accrual",
+              "How You Close a Receipt Accounting Period",
+              "Cost Management for Internal Material Transfers",
+            ],
+          },
+          {
+            name: "Cost Planning",
+            content: [
+              "Cost Planning Process",
+              "Cost Scenario",
+              "Standard Costs",
+              "Resource Rates",
+              "Overhead Rates",
+              "Roll Up Costs",
+              "Cost Rollup Examples",
+              "Cost Analysis",
+              "Publish Costs",
+            ],
+          },
+          {
+            name: "Cost Accounting",
+            content: [
+              "Overview of Cost Accounting",
+              "Cost Accounting Infolets",
+              "Scheduled Processes for Cost Accounting",
+              "Cost Accounting Process",
+              "Cost Accounting Periods",
+              "Cost Processing",
+              "Internal Material Transfers",
+              "Lot Transactions",
+              "Cost of Goods Sold and Gross Margin",
+              "Global Procurement",
+              "Cost Accounting Examples",
+            ],
+          },
+        ],
+      },
+      {
+        module: "Oracle Maintenance Management Cloud Implementation",
+        duration: "3 weeks",
+        topics: [
+          {
+            name: "Introduction",
+            content: [
+              "Overview of Maintenance Organization",
+              "How You Manage Maintenance Work Areas",
+              "How You Manage Maintenance Resources",
+              "How You Manage Maintenance Resource Instances",
+              "How You Manage Maintenance Work Centers",
+            ],
+          },
+          {
+            name: "Assets",
+            content: [
+              "Overview of Assets",
+              "How You Manage Assets in the User Interface",
+              "How You Create an Asset",
+            ],
+          },
+          {
+            name: "Maintenance Work Definition",
+            content: [
+              "Overview of Maintenance Work Definitions",
+              "Maintenance Work Definition Structure",
+              "How You Model Maintenance Work Definitions",
+              "How You Manage Maintenance Work Definitions in the User Interface",
+              "How You Create a Maintenance Work Definition",
+              "How You Edit a Maintenance Work Definition",
+            ],
+          },
+          {
+            name: "Manage Maintenance Work",
+            content: [
+              "Overview of Maintenance Work Management",
+              "Overview of Maintenance Work Orders",
+              "How You Manage Maintenance Work Orders in the User Interface",
+              "How You Create a Maintenance Work Order",
+              "How Maintenance Work Orders are Scheduled",
+              "Example of Work Order Scheduling",
+              "Edit Maintenance Work Orders",
+            ],
+          },
+          {
+            name: "Execute Maintenance Work",
+            content: [
+              "Overview of Maintenance Work Execution",
+              "How You Track Receiving Details of Procured Items in Maintenance",
+              "How You Review a Maintenance Dispatch List",
+              "How You Restrict Lot Numbers LOV to Issued Lot Numbers on the Maintenance Dispatch List Page",
+              "How You Resequence a Maintenance Work Order Operation",
+              "How You Search for Work Order Operations by Resource Instance and Work Order Description in the Maintenance Dispatch List",
+            ],
+          },
+        ],
+      },
+      {
+        module: "SCM Technical Training",
+        duration: "3 weeks",
+        topics: [
+          {
+            name: "SCM Technical Training Overview",
+            content: [
+              "Build SQL Queries and Creating Data Model",
+              "Design report layout using RTF",
+              "Register and execute BIP report as ESS Job",
+              "Test and explore ESS Job Submission options from scheduled processes",
+            ],
+          },
+          {
+            name: "OTBI Reports & Dashboards",
+            content: [
+              "Build OTBI Detail Report",
+              "Build OTBI Summary Report",
+              "OTBI Dashboards",
+            ],
+          },
+          {
+            name: "File Based Data Import (FBDI)",
+            content: [
+              "FBDI Overview",
+              "Data file preparation in FBDI format",
+              "Execute File Based Data Import (FBDI) process",
+              "Error handling and reconciliation",
+            ],
+          },
+          {
+            name: "Spreadsheet Data Loader (SDL)",
+            content: [
+              "SDL Overview",
+              "Data file preparation in SDL format",
+              "Execute Spreadsheet Data Loader (SDL) process",
+              "Error handling and reconciliation",
+            ],
+          },
+          {
+            name: "Sandbox and UI Customizations",
+            content: [
+              "Introduction to Sandboxes",
+              "Make changes in UI with sandbox – Ex: Make fields required/read only/hidden",
+              "Use expression language to write complex conditional logic",
+            ],
+          },
+        ],
+      },
+    ],
+    instructor: {
+      name: "Arjun Patel",
+      title: "DevOps Engineer at TCS",
+      experience: "12+ years",
+      image: "/placeholder.svg?height=100&width=100",
+      bio: "Arjun has extensive experience in Azure DevOps and has led multiple enterprise-level implementations.",
+    },
+    projects: [
+      "CI/CD Pipeline for Web App",
+      "Automated Testing Framework",
+      "Infrastructure Deployment",
+      "Monitoring Dashboard",
+    ],
+  },
   "data-analytics": {
     title: "Data Analytics",
     description:
@@ -5405,6 +6029,499 @@ const courseData = {
             name: "Major Project",
             content: [
               "Finally, the student will do a major project on network, wireless, or telecom protocols using VxWorks or VxWorks-like RTOS.",
+            ],
+          },
+        ],
+      },
+    ],
+    instructor: {
+      name: "Arjun Patel",
+      title: "DevOps Engineer at TCS",
+      experience: "12+ years",
+      image: "/placeholder.svg?height=100&width=100",
+      bio: "Arjun has extensive experience in Azure DevOps and has led multiple enterprise-level implementations.",
+    },
+    projects: [
+      "CI/CD Pipeline for Web App",
+      "Automated Testing Framework",
+      "Infrastructure Deployment",
+      "Monitoring Dashboard",
+    ],
+  },
+  "record-to-report-r2r": {
+    title: "Record to Report (R2R)",
+    description:
+      "Learn to implement DevOps practices using Azure tools and services",
+    duration: "4 months",
+    mode: "Online/Offline",
+    level: "Intermediate to Advanced",
+    price: "₹40,000",
+    originalPrice: "₹50,000",
+    category: "Networking",
+    students: "400+",
+    rating: 4.9,
+    reviews: 120,
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3Mpx-7k0FvYWzb8n8snbXGKMKM-YWg0Vlsg&s",
+    highlights: [
+      "Master Azure Repos, Pipelines, and Boards",
+      "Continuous Integration/Continuous Deployment (CI/CD)",
+      "Infrastructure as Code (IaC)",
+      "Real-world DevOps projects",
+      "Certification support",
+    ],
+    syllabus: [
+      {
+        module: "R2R Outline",
+        duration: "3 weeks",
+        topics: [
+          {
+            name: "Core Accounting Model",
+            content: [
+              "Accounting Concepts",
+              "Accounting Principles",
+              "Accounting Errors",
+              "Basic Journal Entries",
+              "Real Time Journal Entries, Preparation & Posting",
+              "Accrual",
+              "Prepayments",
+              "Outstanding's",
+              "Depreciation",
+              "Fixed Asset Cycle",
+              "Intercompany Accounting",
+              "FX Revaluation",
+              "Round off Adjustments",
+              "Contingent Liability",
+              "Bad Debts",
+              "Bank Clearings etc.",
+            ],
+          },
+          {
+            name: "R2R (Record to Report)",
+            content: [
+              "P2P Life Cycle",
+              "O2C Life Cycle",
+              "R2R Life Cycle",
+              "Work Day Model",
+              "Bank Reconciliation",
+              "Balance Sheet Reconciliation",
+              "Fixed Assets Recon",
+              "Intercompany Recon",
+              "Payroll Recon",
+              "Balance Sheet Comparative Analysis",
+              "Open Item Clearance",
+              "Month End Checklist",
+              "Tax Provision",
+              "Cash Flow Budgeting & Forecasting",
+              "GL Close & Open",
+              "MS EXCEL - Basic to Advanced Excel",
+            ],
+          },
+          {
+            name: "Real Time Scenarios",
+            content: [
+              "Basic Questions & Answers?",
+              "How to install a ERP Application?",
+              "How to Create a Company?",
+              "How to Create a Ledger Account?",
+              "How to Create a Stock Item?",
+              "How to Create a Unit of Measure?",
+              "How to create a Tax Ledger?",
+              "How to Post Purchases?",
+              "How to Post Sales?",
+              "How to Post Receipts?",
+              "How to Post Payments?",
+              "How to View the Balance Sheet, Profit, Loss & Cash?",
+              "How to Perform Bank & Balance Sheet Recon?",
+            ],
+          },
+          {
+            name: "Naukri",
+            content: [
+              "How to create a resume?",
+              "How to upload in naukri.com?",
+              "How to schedule the calls?",
+              "How to attend the interview",
+            ],
+          },
+        ],
+      },
+    ],
+    instructor: {
+      name: "Arjun Patel",
+      title: "DevOps Engineer at TCS",
+      experience: "12+ years",
+      image: "/placeholder.svg?height=100&width=100",
+      bio: "Arjun has extensive experience in Azure DevOps and has led multiple enterprise-level implementations.",
+    },
+    projects: [
+      "CI/CD Pipeline for Web App",
+      "Automated Testing Framework",
+      "Infrastructure Deployment",
+      "Monitoring Dashboard",
+    ],
+  },
+  "ai-and-ml": {
+    title: "AI & ML",
+    description:
+      "Learn to implement DevOps practices using Azure tools and services",
+    duration: "4 months",
+    mode: "Online/Offline",
+    level: "Intermediate to Advanced",
+    price: "₹40,000",
+    originalPrice: "₹50,000",
+    category: "Networking",
+    students: "400+",
+    rating: 4.9,
+    reviews: 120,
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3Mpx-7k0FvYWzb8n8snbXGKMKM-YWg0Vlsg&s",
+    highlights: [
+      "Master Azure Repos, Pipelines, and Boards",
+      "Continuous Integration/Continuous Deployment (CI/CD)",
+      "Infrastructure as Code (IaC)",
+      "Real-world DevOps projects",
+      "Certification support",
+    ],
+    syllabus: [
+      {
+        module: "Python Basics",
+        duration: "3 weeks",
+        topics: [
+          {
+            name: "Introduction",
+            content: [
+              "What is Python?",
+              "Installing Python",
+              "Python IDEs and Code Editors - PyCharm, VSCode, and Jupyter Notebook, IntelliJ",
+              "Scripting vs. Programming",
+              "Interpreters vs. Compilers",
+            ],
+          },
+          {
+            name: "Data Types",
+            content: ["String", "Integer", "Floating", "Bool"],
+          },
+          {
+            name: "Variables",
+            content: [
+              "Local Variables",
+              "Global Variables",
+              "Input Variables",
+              "Output Variables",
+            ],
+          },
+          {
+            name: "Operators",
+            content: [
+              "Arithmetic operators",
+              "Assignment operators",
+              "Comparison operators",
+              "Logical operators",
+              "Identity operators",
+              "Membership operators",
+              "Bitwise operators",
+            ],
+          },
+        ],
+      },
+      {
+        module: "Python Data Structures",
+        duration: "3 weeks",
+        topics: [
+          {
+            name: "Data Structures",
+            content: ["List", "Tuple", "Dictionary", "Sets"],
+          },
+        ],
+      },
+      {
+        module: "Python Advanced",
+        duration: "3 weeks",
+        topics: [
+          {
+            name: "Objects & Classes",
+            content: [
+              "Learn advanced object-oriented programming concepts - classes, objects, inheritance, polymorphism, encapsulation, and abstraction.",
+            ],
+          },
+          {
+            name: "File & Data Processor",
+            content: [
+              "File Handling - csv, xml, json, xlsx",
+              "Learn how to read/write the files - csv, xml, json, xlsx",
+              "Data transform methods in Data Pipelines",
+            ],
+          },
+          {
+            name: "Control Flow",
+            content: [
+              "If",
+              "If-else",
+              "If-elif-else",
+              "Nested-if",
+              "for",
+              "while",
+              "Nested loops",
+              "Break",
+              "Continue",
+            ],
+          },
+          {
+            name: "Functions",
+            content: [
+              "Built-in Functions",
+              "User Defined Functions",
+              "Function Arguments",
+              "Function Return Values",
+            ],
+          },
+
+          {
+            name: "Exception Handling",
+            content: [
+              "Learn how to handle Python exceptions and raise exceptions.",
+              "Understand Try, except, else, finally, and creating custom exceptions.",
+            ],
+          },
+
+          {
+            name: "Modules & Packages",
+            content: [
+              "Module Introduction",
+              "Package Management",
+              "Create Python Packages",
+              "Understand how you can write modular code building blocks to reuse functional units of code.",
+            ],
+          },
+        ],
+      },
+      {
+        module: "Python Libraries",
+        duration: "3 weeks",
+        topics: [
+          {
+            name: "Pandas",
+            content: [
+              "Learn how to import Pandas library",
+              "Modularize programming to deal with data manipulation and analysis",
+            ],
+          },
+          {
+            name: "Numpy",
+            content: [
+              "Learn multidimensional data arrays",
+              "Import numpy library for numerical computing",
+            ],
+          },
+        ],
+      },
+      {
+        module: "Python Web Framework",
+        duration: "3 weeks",
+        topics: [
+          {
+            name: "FastAPI Framework",
+            content: [
+              "FastAPI fundamentals and asynchronous web applications.",
+            ],
+          },
+          {
+            name: "Flask Framework",
+            content: ["Flask application deployments"],
+          },
+          {
+            name: "RESTful APIs",
+            content: ["Creating and consuming RESTful APIs."],
+          },
+        ],
+      },
+      {
+        module: "Python API Testing & Debugging",
+        duration: "3 weeks",
+        topics: [
+          {
+            name: "Testing & Debugging",
+            content: [
+              "Postman",
+              "Swagger UI",
+              "Common debugging techniques and tools",
+              "Writing and running unit tests with unittest and pytest",
+              "Jupyter Notebook",
+            ],
+          },
+          {
+            name: "Logging",
+            content: [
+              "Enhance Logging in Python Development",
+              "Learn how to program using logging module",
+            ],
+          },
+        ],
+      },
+      {
+        module: "AI & ML Basics",
+        duration: "3 weeks",
+        topics: [
+          {
+            name: "AI & ML Basics",
+            content: [
+              "What is Machine Learning",
+              "Why ML",
+              "ML vs. DL vs. DS vs. DE",
+              "ML Terminologies",
+              "Steps involved in an ML model",
+              "Role of LLM",
+            ],
+          },
+        ],
+      },
+      {
+        module: "Python Libraries & Frameworks",
+        duration: "3 weeks",
+        topics: [
+          {
+            name: "Streamlit",
+            content: [
+              "Create Streamlit App",
+              "Deploy Streamlit App",
+              "Integrate Streamlit App with ML models",
+            ],
+          },
+        ],
+      },
+      {
+        module: "AI/ML Frameworks",
+        duration: "3 weeks",
+        topics: [
+          {
+            name: "Kubeflow",
+            content: ["Kubeflow introduction", "Kubeflow pipelines"],
+          },
+          {
+            name: "MLflow",
+            content: [
+              "MLflow Introduction",
+              "How to Track ML Models life cycle",
+              "Model Packaging and Deployment using MLflow",
+            ],
+          },
+          {
+            name: "Amazon SageMaker",
+            content: [
+              "SageMaker Introduction",
+              "Model Registration",
+              "Experiments in SageMaker",
+            ],
+          },
+          {
+            name: "TensorFlow",
+            content: [
+              "TensorFlow Introduction",
+              "TensorFlow use cases and Model management of Deep learning Models",
+            ],
+          },
+          {
+            name: "Pytorch",
+            content: [
+              "Pytorch Model build and deployments",
+              "Pytorch Use cases",
+            ],
+          },
+          {
+            name: "LLMs",
+            content: ["OpenAI GPT-4", "HuggingFace Transformers"],
+          },
+          {
+            name: "NLP",
+            content: ["LangChain"],
+          },
+        ],
+      },
+      {
+        module: "Model Packaging",
+        duration: "3 weeks",
+        topics: [
+          {
+            name: "scikit-learn",
+            content: [
+              "Scikit-learn ML library",
+              "ML Model Training",
+              "Tracking the Model",
+              "Packing the Model",
+              "Deploy the Model",
+            ],
+          },
+        ],
+      },
+      {
+        module: "Data Versioning",
+        duration: "3 weeks",
+        topics: [
+          {
+            name: "Git and DVC",
+            content: [
+              "Data Version control",
+              "What is the Version Control System?",
+              "What is Git?",
+              "Git Architecture",
+              "Git Installation and Configuration",
+              "DVC Architecture",
+              "DVC repository management",
+              "Git Commands",
+            ],
+          },
+        ],
+      },
+      {
+        module: "ML CI/CD Pipeline",
+        duration: "3 weeks",
+        topics: [
+          {
+            name: "ML CI/CD Pipeline",
+            content: [
+              "AWS Code Commit",
+              "AWS Code Build",
+              "AWS CodePipeline",
+              "Jenkins Pipelines",
+            ],
+          },
+          {
+            name: "ML Life Cycle",
+            content: [
+              "Model Life Cycle",
+              "Model Training",
+              "Model Validation",
+              "Model Testing",
+            ],
+          },
+        ],
+      },
+      {
+        module: "Model Deployment",
+        duration: "3 weeks",
+        topics: [
+          {
+            name: "Model Deployment",
+            content: [
+              "Deploy ML Models",
+              "Model Inference",
+              "Model Serving into Kubernetes Clusters",
+            ],
+          },
+        ],
+      },
+      {
+        module: "Model Monitoring",
+        duration: "3 weeks",
+        topics: [
+          {
+            name: "Grafana Stack",
+            content: [
+              "Design Model Monitoring stack",
+              "Deploy Grafana stack",
+              "Monitor Model Inference",
+              "Prometheus Setup",
             ],
           },
         ],
