@@ -66,7 +66,7 @@ export function Navigation() {
           name: "Network Protocol Development",
           href: "/courses/network-protocol-development",
         },
-        { name: "Cybersecurity", href: "/courses/network-protocol" },
+        { name: "Cybersecurity", href: "/courses/Cybersecurity" },
       ],
     },
     {
