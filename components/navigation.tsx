@@ -53,7 +53,10 @@ export function Navigation() {
         { name: "AWS DevOps", href: "/courses/aws-devops" },
         { name: "Azure DevOps", href: "/courses/azure-devops" },
         { name: "Azure Admin", href: "/courses/azure-admin" },
-        { name: "Oracle Fusion Cloud SCM", href: "/courses/network-protocol" },
+        {
+          name: "Oracle Fusion Cloud SCM",
+          href: "/courses/oracle-fusion-cloud-scm",
+        },
       ],
     },
     {
