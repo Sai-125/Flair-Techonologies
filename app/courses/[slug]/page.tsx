@@ -49,6 +49,7 @@ const courseData = {
     students: "500+",
     rating: 4.8,
     reviews: 156,
+    brochure: "",
     image:
       "https://media.geeksforgeeks.org/wp-content/uploads/20240415204701/How-to-Become-a-Python-Full-Stack-Developer.png",
     highlights: [
@@ -2155,6 +2156,18 @@ const courseData = {
               "Array Formulas",
               "VLOOKUP and COLUMN",
               "VLOOKUP with IF and VLOOKUP with AND Activities based on the above functions",
+            ],
+          },
+          {
+            name: "Power Query",
+            content: [
+              "Creating Front end Tables",
+              "Data Cleansing (Replace, Trim, Clean, Split Columns, Merge Columns)",
+              "Data Transformation (Pivot, Unpivot, Transpose, group by)",
+              "Merge Queries",
+              "Append Queries",
+              "Creating the columns",
+              "Applied Steps maintenance (Advanced Query Editor)",
             ],
           },
           {
@@ -4376,15 +4389,16 @@ const courseData = {
     title: "Data Analytics",
     description:
       "Gain skills in data analysis using Python, R, and advanced analytics tools",
-    duration: "5 months",
+    duration: "4 months",
     mode: "Online/Offline",
     level: "Beginner to Advanced",
     price: "₹35,000",
     originalPrice: "₹45,000",
     category: "Data Analytics",
     students: "450+",
-    rating: 4.6,
+    rating: 4.9,
     reviews: 110,
+    brochure: "Data Analytics - Outline.pdf",
     image:
       "https://www.bismilsoft.com/admin/images/blog/DATA%20ANALYTICS_WEB%20IMAGE-01-01.jpg",
     highlights: [
@@ -4542,8 +4556,8 @@ const courseData = {
         ],
       },
       {
-        module: "Microsoft Power BI Course Outline",
-        duration: "6 weeks",
+        module: "Microsoft Power BI",
+        duration: "3 weeks",
         topics: [
           {
             name: "Configuration and Connections",
@@ -4654,7 +4668,7 @@ const courseData = {
         ],
       },
       {
-        module: "Tableau Course Outline",
+        module: "Tableau",
         duration: "3 weeks",
         topics: [
           {
@@ -4750,7 +4764,7 @@ const courseData = {
         ],
       },
       {
-        module: "Alteryx Designer Course Outline",
+        module: "Alteryx Designer",
         duration: "3 weeks",
         topics: [
           {
@@ -4928,8 +4942,8 @@ const courseData = {
         ],
       },
       {
-        module: "SQL Outline",
-        duration: "3 weeks",
+        module: "SQL",
+        duration: "4 weeks",
         topics: [
           {
             name: "Introduction to SQL",
@@ -5912,6 +5926,55 @@ const courseData = {
               "POSIX Semaphores",
             ],
           },
+        ],
+      },
+      {
+        module: "Network Programming",
+        duration: "3 weeks",
+        topics: [
+          {
+            name: "Introduction to Networking",
+            content: [
+              "Need/Uses of Networking",
+              "Network topologies",
+              "LAN, MAN, WAN",
+              "Typical media used in each",
+              "Typical protocols used in each",
+              "LAN Standards",
+              "Ethernet, Token Ring, Token Bus, FDDI",
+              "Ethernet Media (Thick, Thin, Twisted pair)",
+              "WAN Standards",
+              "Dial-up, Leased Line",
+              "ISDN, DSL",
+              "ATM",
+              "Wireless",
+            ],
+          },
+          {
+            name: "Network Protocol Layers",
+            content: [
+              "Use of Layers",
+              "OSI Protocol layers",
+              "TCP/IP protocol layers",
+            ],
+          },
+          {
+            name: "Socket Programming",
+            content: [
+              "Concept of socket / socket pair",
+              "Concept of Client and Server",
+              "Concept of connectionless and connection-oriented protocols (UDP/TCP)",
+              "Socket calls for UDP server and client",
+              "Socket calls for TCP server and client",
+              "Algorithms and Issues in Client software design",
+              "Algorithms and Issues in Server software design",
+              "Iterative, Connectionless Servers",
+              "Iterative, Connection-Oriented servers",
+              "Concurrent, Connection-Oriented servers",
+              "Serving multiple clients with a single process",
+              "Serving multiple clients with one thread per client",
+            ],
+          },
           {
             name: "UDP/TCP Applications",
             content: ["TFTP", "SMTP", "HTTP", "Mixed techniques"],
@@ -6567,7 +6630,9 @@ export default function CoursePage({ params }: { params: { slug: string } }) {
                   size="lg"
                   variant="outline"
                   className="w-full md:w-auto border-white text-white hover:bg-white hover:text-sky-600 text-lg px-8 bg-transparent"
-                  onClick={() => window.open("/my-course.pdf", "_blank")}
+                  onClick={() =>
+                    window.open(`/${(course as any)?.brochure ?? ""}`, "_blank")
+                  }
                 >
                   View Brochure <Download className="ml-2 h-4 w-4" />
                 </Button>
