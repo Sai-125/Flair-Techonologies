@@ -1863,7 +1863,7 @@ const courseData = {
     ],
     syllabus: [
       {
-        module: "Data Analytics - Alteryx Outline",
+        module: "Alteryx Outline",
         duration: "6 weeks",
         topics: [
           {
