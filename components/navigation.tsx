@@ -61,7 +61,7 @@ export function Navigation() {
       courses: [
         {
           name: "Network Protocol Development",
-          href: "/courses/network-protocol",
+          href: "/courses/network-protocol-development",
         },
         { name: "Cybersecurity", href: "/courses/network-protocol" },
       ],
@@ -70,8 +70,8 @@ export function Navigation() {
       name: "Finance",
       courses: [
         {
-          name: "Record to report (R2R)",
-          href: "/courses/network-protocol",
+          name: "Record to Report (R2R)",
+          href: "/courses/record-to-report-r2r",
         },
       ],
     },
@@ -80,7 +80,7 @@ export function Navigation() {
       courses: [
         {
           name: "AI & ML",
-          href: "/courses/network-protocol",
+          href: "/courses/ai-and-ml",
         },
       ],
     },
