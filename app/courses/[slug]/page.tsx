@@ -37,32 +37,33 @@ import { EnrollDialog } from "@/components/EnrollDialog";
 // This would typically come from a database or API
 const courseData = {
   "python-fullstack": {
-    title: "Python Full-Stack Development",
+    title: "Python Full-Stack <span class='text-yellow-400'>Development</span>",
     description:
-      "Master Django, React, and modern web development with hands-on projects",
-    duration: "6 months",
+      "Master Python, Django and modern web development with hands-on projects",
+    duration: "3 months",
     mode: "Online/Offline",
     level: "Beginner to Advanced",
     price: "₹45,000",
     originalPrice: "₹60,000",
     category: "Development",
     students: "500+",
-    rating: 4.8,
+    rating: 4.7,
     reviews: 156,
     brochure: "",
     image:
       "https://media.geeksforgeeks.org/wp-content/uploads/20240415204701/How-to-Become-a-Python-Full-Stack-Developer.png",
     highlights: [
-      "Learn Python, Django, React, and PostgreSQL",
-      "Build 5+ real-world projects",
-      "Get mentorship from industry experts",
-      "100% placement assistance",
-      "Lifetime access to course materials",
+      "Master Python programming fundamentals and advanced concepts.",
+      "Build dynamic web applications using Django/Flask frameworks.",
+      "Work with databases SQL for backend integration.",
+      "Develop interactive front-end using HTML, CSS, and JavaScript.",
+      "Learn REST APIs, authentication, and deployment practices.",
+      "Gain hands-on project experience for real-world applications.",
     ],
     syllabus: [
       {
         module: "Core Python",
-        duration: "4 weeks",
+        duration: "3 weeks",
         topics: [
           {
             name: "Introduction",
@@ -126,7 +127,7 @@ const courseData = {
       },
       {
         module: "Advance Python",
-        duration: "6 weeks",
+        duration: "3 weeks",
         topics: [
           {
             name: "OOPs Concept",
@@ -196,7 +197,7 @@ const courseData = {
       },
       {
         module: "Django",
-        duration: "6 weeks",
+        duration: "4 weeks",
         topics: [
           {
             name: "Introduction",
@@ -241,7 +242,7 @@ const courseData = {
       },
       {
         module: "Linux",
-        duration: "6 weeks",
+        duration: "1 week",
         topics: [
           {
             name: "Getting Started with Linux",
@@ -327,7 +328,7 @@ const courseData = {
       },
       {
         module: "Selenium",
-        duration: "6 weeks",
+        duration: "3 weeks",
         topics: [
           {
             name: "Introduction",
@@ -403,7 +404,7 @@ const courseData = {
       },
       {
         module: "GIT - Version Control",
-        duration: "6 weeks",
+        duration: "1 week",
         topics: [
           {
             name: "Introduction to Version Control",
@@ -509,7 +510,7 @@ const courseData = {
       },
       {
         module: "Database",
-        duration: "6 weeks",
+        duration: "1 week",
         topics: [
           {
             name: "Introduction to Databases",
@@ -583,7 +584,7 @@ const courseData = {
     ],
   },
   "java-fullstack": {
-    title: "Java Fullstack",
+    title: "Java <span class='text-yellow-400'>Fullstack</span>",
     description:
       "Learn to implement DevOps practices using Azure tools and services",
     duration: "4 months",
@@ -1412,7 +1413,7 @@ const courseData = {
     ],
   },
   reactCourse: {
-    title: "ReactJS",
+    title: "React<span class='text-yellow-400'>JS</span>",
     description:
       "Learn to implement DevOps practices using Azure tools and services",
     duration: "4 months",
@@ -1690,7 +1691,7 @@ const courseData = {
   },
 
   "power-bi": {
-    title: "Microsoft Power BI",
+    title: "Microsoft  <span class='text-yellow-400'>Power BI</span>",
     description:
       "Learn to create interactive data visualizations and business intelligence reports",
     duration: "3 months",
@@ -1841,7 +1842,7 @@ const courseData = {
   },
 
   alteryx: {
-    title: "Alteryx",
+    title: "Alteryx <span class='text-yellow-400'>Designer</span>",
     description:
       "Learn to implement DevOps practices using Azure tools and services",
     duration: "4 months",
@@ -2010,7 +2011,7 @@ const courseData = {
   },
 
   "excel-Vba": {
-    title: "Microsoft Excel & VBA",
+    title: "Microsoft <span class='text-yellow-400'>Excel & VBA</span>",
     description:
       "Learn to implement DevOps practices using Azure tools and services",
     duration: "4 months",
@@ -2384,7 +2385,7 @@ const courseData = {
   },
 
   tableau: {
-    title: "Tableau",
+    title: "Tableau <span class='text-yellow-400'>Developer</span>",
     description:
       "Learn to implement DevOps practices using Azure tools and services",
     duration: "4 months",
@@ -2518,7 +2519,7 @@ const courseData = {
     ],
   },
   sqlCourse: {
-    title: "SQL",
+    title: "SQL <span class='text-yellow-400'>Developer</span>",
     description:
       "Learn to implement DevOps practices using Azure tools and services",
     duration: "4 months",
@@ -2716,7 +2717,7 @@ const courseData = {
   },
 
   python: {
-    title: "Python",
+    title: "Analytics with <span class='text-yellow-400'>Python</span> ",
     description:
       "Learn to implement DevOps practices using Azure tools and services",
     duration: "4 months",
@@ -2887,7 +2888,7 @@ const courseData = {
     ],
   },
   "aws-devops": {
-    title: "AWS DevOps",
+    title: "AWS <span class='text-yellow-400'>DevOps</span>",
     description:
       "Learn to implement DevOps practices using Azure tools and services",
     duration: "4 months",
@@ -3178,7 +3179,7 @@ const courseData = {
     ],
   },
   "azure-devops": {
-    title: "Azure DevOps",
+    title: "Azure <span class='text-yellow-400'>DevOps</span>",
     description:
       "Learn to implement DevOps practices using Azure tools and services",
     duration: "4 months",
@@ -3546,7 +3547,7 @@ const courseData = {
     ],
   },
   "azure-admin": {
-    title: "Azure Admin",
+    title: "Azure <span class='text-yellow-400'>Admin</span>",
     description:
       "Learn to implement DevOps practices using Azure tools and services",
     duration: "4 months",
@@ -3762,7 +3763,7 @@ const courseData = {
     ],
   },
   "oracle-fusion-cloud-scm": {
-    title: "Oracle Fusion Cloud SCM",
+    title: "Oracle Fusion Cloud <span class='text-yellow-400'>SCM</span>",
     description:
       "Learn to implement DevOps practices using Azure tools and services",
     duration: "4 months",
@@ -4386,7 +4387,7 @@ const courseData = {
     ],
   },
   "data-analytics": {
-    title: "Data Analytics",
+    title: "Data <span class='text-yellow-400'>Analytics</span>",
     description:
       "Gain skills in data analysis using Python, R, and advanced analytics tools",
     duration: "4 months",
@@ -5249,7 +5250,7 @@ const courseData = {
     ],
   },
   Tableau: {
-    title: "Tableau",
+    title: "Tableau <span class='text-yellow-400'>Developer</span>",
     description:
       "Master data visualization and business intelligence with Tableau",
     duration: "3 months",
@@ -5400,199 +5401,8 @@ const courseData = {
       "Financial Summary Dashboard",
     ],
   },
-  // "network-protocol": {
-  //   title: "Network Protocol",
-  //   description:
-  //     "Understand and implement network protocols for robust IT infrastructure",
-  //   duration: "4 months",
-  //   mode: "Online/Offline",
-  //   level: "Intermediate to Advanced",
-  //   price: "₹30,000",
-  //   originalPrice: "₹40,000",
-  //   category: "Networking",
-  //   students: "250+",
-  //   rating: 4.5,
-  //   reviews: 70,
-  //   image:
-  //     "https://cdn-fainj.nitrocdn.com/HMhNvtGdkXCThiYKondeUNdKlFRQtHkp/assets/images/optimized/rev-2573752/www.auvik.com/wp-content/uploads/2024/06/common-network-protocols3.jpg",
-  //   highlights: [
-  //     "Learn TCP/IP, HTTP, FTP, and more",
-  //     "Hands-on network configuration",
-  //     "Security protocols and troubleshooting",
-  //     "Industry-standard certifications",
-  //     "Practical lab sessions",
-  //   ],
-  //   syllabus: [
-  //     {
-  //       module: "Network Fundamentals",
-  //       duration: "3 weeks",
-  //       topics: [
-  //         {
-  //           name: "OSI Model",
-  //           content: [
-  //             "Understand the OSI model and its layers.",
-  //             "Explore each layer's functions and protocols.",
-  //             "Compare OSI with TCP/IP model.",
-  //           ],
-  //         },
-  //         {
-  //           name: "TCP/IP Basics",
-  //           content: [
-  //             "Learn the fundamentals of TCP/IP protocols.",
-  //             "Understand packet structure and headers.",
-  //             "Analyze TCP/IP communication flow.",
-  //           ],
-  //         },
-  //         {
-  //           name: "IP Addressing",
-  //           content: [
-  //             "Configure IP addresses and subnets.",
-  //             "Understand IPv4 and IPv6 addressing.",
-  //             "Implement static and dynamic addressing.",
-  //           ],
-  //         },
-  //         {
-  //           name: "Subnetting",
-  //           content: [
-  //             "Master subnetting for network design.",
-  //             "Calculate subnet masks and ranges.",
-  //             "Design efficient subnet architectures.",
-  //           ],
-  //         },
-  //       ],
-  //     },
-  //     {
-  //       module: "Core Protocols",
-  //       duration: "5 weeks",
-  //       topics: [
-  //         {
-  //           name: "HTTP/HTTPS",
-  //           content: [
-  //             "Explore HTTP and HTTPS for web communication.",
-  //             "Understand request-response cycles.",
-  //             "Implement secure communication with HTTPS.",
-  //             "Analyze HTTP headers and status codes.",
-  //           ],
-  //         },
-  //         {
-  //           name: "FTP",
-  //           content: [
-  //             "Understand File Transfer Protocol operations.",
-  //             "Set up FTP servers and clients.",
-  //             "Secure FTP with SFTP and FTPS.",
-  //           ],
-  //         },
-  //         {
-  //           name: "SMTP",
-  //           content: [
-  //             "Learn email transmission with SMTP.",
-  //             "Configure SMTP servers for email delivery.",
-  //             "Troubleshoot email delivery issues.",
-  //           ],
-  //         },
-  //         {
-  //           name: "DNS",
-  //           content: [
-  //             "Configure and troubleshoot DNS services.",
-  //             "Understand DNS resolution process.",
-  //             "Set up DNS records like A, CNAME, and MX.",
-  //           ],
-  //         },
-  //         {
-  //           name: "DHCP",
-  //           content: [
-  //             "Implement DHCP for automatic IP allocation.",
-  //             "Configure DHCP scopes and options.",
-  //             "Troubleshoot DHCP-related issues.",
-  //           ],
-  //         },
-  //       ],
-  //     },
-  //     {
-  //       module: "Security & Troubleshooting",
-  //       duration: "3 weeks",
-  //       topics: [
-  //         {
-  //           name: "Network Security",
-  //           content: [
-  //             "Implement security measures for networks.",
-  //             "Configure firewalls and intrusion detection.",
-  //             "Understand encryption protocols.",
-  //           ],
-  //         },
-  //         {
-  //           name: "Protocol Analysis",
-  //           content: [
-  //             "Analyze network traffic with tools like Wireshark.",
-  //             "Capture and interpret packets.",
-  //             "Identify network anomalies.",
-  //           ],
-  //         },
-  //         {
-  //           name: "Troubleshooting Tools",
-  //           content: [
-  //             "Use tools for network diagnostics.",
-  //             "Perform ping, traceroute, and netstat analysis.",
-  //             "Diagnose connectivity issues.",
-  //           ],
-  //         },
-  //         {
-  //           name: "VPNs",
-  //           content: [
-  //             "Set up virtual private networks for security.",
-  //             "Configure site-to-site and remote-access VPNs.",
-  //             "Troubleshoot VPN connectivity.",
-  //           ],
-  //         },
-  //       ],
-  //     },
-  //     {
-  //       module: "Advanced Networking",
-  //       duration: "3 weeks",
-  //       topics: [
-  //         {
-  //           name: "VoIP",
-  //           content: [
-  //             "Implement Voice over IP protocols.",
-  //             "Configure VoIP systems like SIP.",
-  //             "Optimize VoIP call quality.",
-  //           ],
-  //         },
-  //         {
-  //           name: "Wireless Protocols",
-  //           content: [
-  //             "Configure wireless network protocols.",
-  //             "Understand Wi-Fi standards like 802.11.",
-  //             "Secure wireless networks.",
-  //           ],
-  //         },
-  //         {
-  //           name: "Network Optimization",
-  //           content: [
-  //             "Optimize network performance and latency.",
-  //             "Implement QoS policies.",
-  //             "Monitor network bandwidth usage.",
-  //           ],
-  //         },
-  //       ],
-  //     },
-  //   ],
-  //   instructor: {
-  //     name: "Anil Mehta",
-  //     title: "Network Engineer at Cisco",
-  //     experience: "13+ years",
-  //     image: "/placeholder.svg?height=100&width=100",
-  //     bio: "Anil has extensive experience in network protocols and has trained numerous IT professionals.",
-  //   },
-  //   projects: [
-  //     "Network Configuration Setup",
-  //     "Protocol Simulation",
-  //     "Security Audit Project",
-  //     "Wireless Network Deployment",
-  //   ],
-  // },
   Cybersecurity: {
-    title: "Cybersecurity",
+    title: "Cyber<span class='text-yellow-400'>Security</span>",
     description:
       "Learn to implement DevOps practices using Azure tools and services",
     duration: "4 months",
@@ -5763,7 +5573,7 @@ const courseData = {
     ],
   },
   "network-protocol-development": {
-    title: "Network Protocol Development",
+    title: "Network Protocol <span class='text-yellow-400'>Development</span>",
     description:
       "Learn to implement DevOps practices using Azure tools and services",
     duration: "4 months",
@@ -6235,7 +6045,7 @@ const courseData = {
     ],
   },
   "record-to-report-r2r": {
-    title: "Record to Report (R2R)",
+    title: "Record to Report <span class='text-yellow-400'>(R2R)</span>",
     description:
       "Learn to implement DevOps practices using Azure tools and services",
     duration: "4 months",
@@ -6258,7 +6068,7 @@ const courseData = {
     ],
     syllabus: [
       {
-        module: "R2R Outline",
+        module: "R2R <span class='text-yellow-400'>Outline</span>",
         duration: "3 weeks",
         topics: [
           {
@@ -6334,7 +6144,7 @@ const courseData = {
       },
     ],
     instructor: {
-      name: "Arjun Patel",
+      name: "Arjun <span class='text-yellow-400'>Patel</span>",
       title: "DevOps Engineer at TCS",
       experience: "12+ years",
       image: "/placeholder.svg?height=100&width=100",
@@ -6348,7 +6158,7 @@ const courseData = {
     ],
   },
   "ai-and-ml": {
-    title: "AI & ML",
+    title: "AI & <span class='text-yellow-400'>ML</span>",
     description:
       "Learn to implement DevOps practices using Azure tools and services",
     duration: "4 months",
@@ -6768,7 +6578,10 @@ export default function CoursePage({ params }: { params: { slug: string } }) {
                 <Badge className="bg-white text-sky-600">
                   {course.category} Course
                 </Badge>
-                <h1 className="heading">{course.title}</h1>
+                <h1
+                  className="heading"
+                  dangerouslySetInnerHTML={{ __html: course.title }}
+                />
                 <p className="description">{course.description}</p>
               </div>
 
