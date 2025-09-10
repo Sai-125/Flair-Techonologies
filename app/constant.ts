@@ -803,6 +803,62 @@ export const freshersPage = {
   },
 };
 
+//  Course page application form constants
+export const coursePageApplication = {
+  applicationFormSection: {
+    badge: "🚀 Limited Seats Available",
+    title: "Ready to Start Your Tech Journey?",
+    description:
+      "Apply now for our next batch starting this month. Don't miss this opportunity to transform your career!",
+    features: [
+      "Free career counseling session",
+      "Flexible payment options available",
+      "100% placement assistance guarantee",
+    ],
+    form: {
+      title: "Apply for Freshers Program",
+      description:
+        "Fill out the form below and we'll get back to you within 24 hours",
+      fields: [
+        { type: "text", placeholder: "First Name", grid: "col-span-1" },
+        { type: "text", placeholder: "Last Name", grid: "col-span-1" },
+        { type: "email", placeholder: "Email Address" },
+        { type: "tel", placeholder: "Phone Number" },
+        {
+          type: "select",
+          placeholder: "Select Program",
+          options: [
+            { value: "fullstack", label: "Full-Stack Development Track" },
+            { value: "analytics", label: "Data Analytics Track" },
+            { value: "cloud", label: "Cloud & DevOps Track" },
+          ],
+        },
+        {
+          type: "select",
+          placeholder: "Preferred Location",
+          options: [
+            { value: "bangalore", label: "Bangalore" },
+            { value: "hyderabad", label: "Hyderabad" },
+            { value: "online", label: "Online" },
+          ],
+        },
+        {
+          type: "textarea",
+          placeholder: "Tell us about your background and career goals...",
+        },
+      ],
+      submitButton: {
+        text: "Submit Application",
+        className:
+          "w-full icon-button-color hover:from-sky-600 hover:to-blue-700 text-lg py-6",
+        icon: "ArrowRight",
+      },
+      disclaimer:
+        "By submitting this form, you agree to our Terms of Service and Privacy Policy",
+    },
+  },
+};
+
 // Batches page constants
 export const batchesPage = {
   heroSection: {

@@ -33,6 +33,12 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 import { EnrollDialog } from "@/components/EnrollDialog";
+import Rating from "@/components/ui/Rating";
+import ApplicationForm from "@/components/ui/Application-form";
+import { coursePageApplication } from "@/app/constant";
+
+// Application form content
+const { applicationFormSection } = coursePageApplication;
 
 // This would typically come from a database or API
 const courseData = {
@@ -60,6 +66,42 @@ const courseData = {
       "Learn REST APIs, authentication, and deployment practices.",
       "Gain hands-on project experience for real-world applications.",
     ],
+    testimonialsSection: {
+      badge: "Success Stories",
+      title:
+        'From <span className="text-sky-600">Freshers</span> to Professionals',
+      description:
+        "Hear from our successful graduates who transformed their careers with our programs",
+      testimonials: [
+        {
+          name: "Priya Sharma",
+          role: "Software Developer at TCS",
+          image: "/placeholder.svg?height=80&width=80",
+          content:
+            "Flair Technologies transformed my career! From a fresher with no coding experience to landing a job at TCS in just 6 months. The mentorship and placement support were exceptional.",
+          rating: 5,
+          course: "Python Full-Stack",
+        },
+        {
+          name: "Rahul Patel",
+          role: "Data Analyst at Wipro",
+          image: "/placeholder.svg?height=80&width=80",
+          content:
+            "The Power BI course was exactly what I needed. The instructors were patient, and the real-world projects helped me build confidence. Got placed within 2 weeks of completion!",
+          rating: 5,
+          course: "Power BI & Analytics",
+        },
+        {
+          name: "Sneha Reddy",
+          role: "DevOps Engineer at Infosys",
+          image: "/placeholder.svg?height=80&width=80",
+          content:
+            "As a mechanical engineering graduate, I was worried about switching to IT. But Flair's Azure DevOps program made the transition smooth. Now I'm working at Infosys!",
+          rating: 5,
+          course: "Azure DevOps",
+        },
+      ],
+    },
     syllabus: [
       {
         module: "Core Python",
@@ -581,6 +623,14 @@ const courseData = {
       "Task Management System",
       "Real-time Chat Application",
       "Portfolio Website with CMS",
+    ],
+    projectsDetails: [
+      "project1",
+      "project2",
+      "project3",
+      "project4",
+      "project5",
+      "project6",
     ],
   },
   "java-fullstack": {
@@ -6858,8 +6908,8 @@ export default function CoursePage({ params }: { params: { slug: string } }) {
                                 {project}
                               </h4>
                               <p className="text-sm text-gray-600 mt-1">
-                                A comprehensive project that demonstrates
-                                real-world application of the skills learned
+                                {(course as any)?.projectsDetails?.[index] ??
+                                  ""}
                               </p>
                             </div>
                           </div>
@@ -6919,7 +6969,12 @@ export default function CoursePage({ params }: { params: { slug: string } }) {
                     <Button
                       variant="ghost"
                       className="w-full"
-                      onClick={() => window.open("/my-course.pdf", "_blank")}
+                      onClick={() =>
+                        window.open(
+                          `/${(course as any)?.brochure ?? ""}`,
+                          "_blank"
+                        )
+                      }
                     >
                       <Download className="mr-2 h-4 w-4" />
                       View Brochure
@@ -6961,6 +7016,29 @@ export default function CoursePage({ params }: { params: { slug: string } }) {
           </div>
         </div>
       </section>
+
+      {/* Rating Section */}
+
+      <Rating testimonialsSection={(course as any)?.testimonialsSection} />
+
+      {/* Application form section */}
+
+      <ApplicationForm
+        applicationFormSection={{
+          ...applicationFormSection,
+          form: {
+            ...applicationFormSection.form,
+            submitButton: {
+              ...applicationFormSection.form.submitButton,
+              icon:
+                typeof applicationFormSection.form.submitButton.icon ===
+                "string"
+                  ? undefined
+                  : applicationFormSection.form.submitButton.icon,
+            },
+          },
+        }}
+      />
 
       <Footer />
     </div>
