@@ -51,13 +51,13 @@ const courseData = {
     level: "Beginner to Advanced",
     price: "₹45,000",
     originalPrice: "₹60,000",
-    category: "Development",
+    category: "🧑‍💻 Development",
     students: "500+",
     rating: 4.7,
     reviews: 156,
-    brochure: "",
-    image:
-      "https://media.geeksforgeeks.org/wp-content/uploads/20240415204701/How-to-Become-a-Python-Full-Stack-Developer.png",
+    brochure: "my-course.pdf",
+    outline: "Data Analytics - Outline.pdf",
+    image: "/flair-o-logo.jpeg",
     highlights: [
       "Master Python programming fundamentals and advanced concepts.",
       "Build dynamic web applications using Django/Flask frameworks.",
@@ -65,6 +65,8 @@ const courseData = {
       "Develop interactive front-end using HTML, CSS, and JavaScript.",
       "Learn REST APIs, authentication, and deployment practices.",
       "Gain hands-on project experience for real-world applications.",
+      "Gain hands-on project experience for .",
+      "Gain hands-on project experience for .",
     ],
     testimonialsSection: {
       badge: "Success Stories",
@@ -102,6 +104,9 @@ const courseData = {
         },
       ],
     },
+    nextBatch: [{ starts: "March 15, 2024", mode: "Online" }],
+    qualification: "BTECH/BCOM/BSC/MSC/MCA",
+    eligibleLearners: "Freshers/Any Graduate/Post Graduate",
     syllabus: [
       {
         module: "Core Python",
@@ -655,6 +660,42 @@ const courseData = {
       "Real-world DevOps projects",
       "Certification support",
     ],
+    testimonialsSection: {
+      badge: "Success Stories",
+      title:
+        'From <span className="text-sky-600">Freshers</span> to Professionals',
+      description:
+        "Hear from our successful graduates who transformed their careers with our programs",
+      testimonials: [
+        {
+          name: "Priya Sharma",
+          role: "Software Developer at TCS",
+          image: "/placeholder.svg?height=80&width=80",
+          content:
+            "Flair Technologies transformed my career! From a fresher with no coding experience to landing a job at TCS in just 6 months. The mentorship and placement support were exceptional.",
+          rating: 5,
+          course: "Python Full-Stack",
+        },
+        {
+          name: "Rahul Patel",
+          role: "Data Analyst at Wipro",
+          image: "/placeholder.svg?height=80&width=80",
+          content:
+            "The Power BI course was exactly what I needed. The instructors were patient, and the real-world projects helped me build confidence. Got placed within 2 weeks of completion!",
+          rating: 5,
+          course: "Power BI & Analytics",
+        },
+        {
+          name: "Sneha Reddy",
+          role: "DevOps Engineer at Infosys",
+          image: "/placeholder.svg?height=80&width=80",
+          content:
+            "As a mechanical engineering graduate, I was worried about switching to IT. But Flair's Azure DevOps program made the transition smooth. Now I'm working at Infosys!",
+          rating: 5,
+          course: "Azure DevOps",
+        },
+      ],
+    },
     syllabus: [
       {
         module: "Database",
@@ -6783,6 +6824,28 @@ export default function CoursePage({ params }: { params: { slug: string } }) {
                           </div>
                         </div>
                       </div>
+                      <div className="space-y-4">
+                        <div className="flex items-start gap-3">
+                          <BookOpen className="h-5 w-5 text-sky-600 mt-1" />
+                          <div>
+                            <h4 className="font-semibold">Lifetime Access</h4>
+                            <p className="text-sm text-gray-600">
+                              Access materials anytime
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="space-y-4">
+                        <div className="flex items-start gap-3">
+                          <BookOpen className="h-5 w-5 text-sky-600 mt-1" />
+                          <div>
+                            <h4 className="font-semibold">Lifetime Access</h4>
+                            <p className="text-sm text-gray-600">
+                              Access materials anytime
+                            </p>
+                          </div>
+                        </div>
+                      </div>
                     </CardContent>
                   </Card>
                 </TabsContent>
@@ -6971,13 +7034,13 @@ export default function CoursePage({ params }: { params: { slug: string } }) {
                       className="w-full"
                       onClick={() =>
                         window.open(
-                          `/${(course as any)?.brochure ?? ""}`,
+                          `/${(course as any)?.outline ?? ""}`,
                           "_blank"
                         )
                       }
                     >
                       <Download className="mr-2 h-4 w-4" />
-                      View Brochure
+                      View Outline
                     </Button>
                   </div>
                 </CardContent>
@@ -6995,19 +7058,21 @@ export default function CoursePage({ params }: { params: { slug: string } }) {
                       Next Batch
                     </div>
                     <div className="text-sm text-blue-700">
-                      Starts: March 15, 2024
+                      Frequency: {(course as any)?.nextBatch?.[0]?.starts ?? ""}
                     </div>
-                    <div className="text-sm text-blue-700">Mode: Online</div>
+                    <div className="text-sm text-blue-700">
+                      Mode: {(course as any)?.nextBatch?.[0]?.mode ?? ""}
+                    </div>
                   </div>
                   <div className="p-3 bg-gray-50 rounded-lg">
                     <div className="font-semibold text-gray-900">
-                      Weekend Batch
+                      Eligible Learners
                     </div>
                     <div className="text-sm text-gray-700">
-                      Starts: March 20, 2024
+                      Learners: {(course as any)?.eligibleLearners}
                     </div>
                     <div className="text-sm text-gray-700">
-                      Mode: Offline (Bangalore)
+                      Qualification:{(course as any)?.qualification}
                     </div>
                   </div>
                 </CardContent>
