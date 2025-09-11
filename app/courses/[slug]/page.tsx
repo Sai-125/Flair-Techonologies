@@ -46,7 +46,7 @@ const courseData = {
     title: "Python Full-Stack <span class='text-yellow-400'>Development</span>",
     description:
       "Master Python, Django and modern web development with hands-on projects",
-    duration: "3 months",
+    duration: "2 months",
     mode: "Online/Offline",
     level: "Beginner to Advanced",
     price: "₹45,000",
@@ -55,58 +55,60 @@ const courseData = {
     students: "500+",
     rating: 4.7,
     reviews: 156,
-    brochure: "my-course.pdf",
+    brochure: "PYTHON FULL STACK.pdf",
     outline: "Data Analytics - Outline.pdf",
-    image: "/flair-o-logo.jpeg",
+    image: "/pyhton.png",
     highlights: [
       "Master Python programming fundamentals and advanced concepts.",
       "Build dynamic web applications using Django/Flask frameworks.",
       "Work with databases SQL for backend integration.",
       "Develop interactive front-end using HTML, CSS, and JavaScript.",
       "Learn REST APIs, authentication, and deployment practices.",
-      "Gain hands-on project experience for real-world applications.",
-      "Gain hands-on project experience for .",
-      "Gain hands-on project experience for .",
+      "Learn version control and collaboration with Git & GitHub.",
+      "Deploy apps on cloud and manage hosting.",
+      "Get hands-on project experience.",
     ],
     testimonialsSection: {
       badge: "Success Stories",
       title:
         'From <span className="text-sky-600">Freshers</span> to Professionals',
       description:
-        "Hear from our successful graduates who transformed their careers with our programs",
+        "Hear from our successful graduates who transformed their careers with our Python Full-Stack program",
       testimonials: [
         {
-          name: "Priya Sharma",
-          role: "Software Developer at TCS",
-          image: "/placeholder.svg?height=80&width=80",
+          name: "Ananya",
+          role: "Software Engineer",
+          image: "/ananya.jpeg?height=80&width=80",
           content:
-            "Flair Technologies transformed my career! From a fresher with no coding experience to landing a job at TCS in just 6 months. The mentorship and placement support were exceptional.",
+            "The Python Full-Stack course gave me a clear understanding of both front-end and back-end. The hands-on projects helped me gain confidence to build apps on my own.",
           rating: 5,
-          course: "Python Full-Stack",
+          course: "Software Engineer",
         },
         {
-          name: "Rahul Patel",
+          name: "Rahul Chowdary",
           role: "Data Analyst at Wipro",
-          image: "/placeholder.svg?height=80&width=80",
+          image: "/rahul.jpg?height=80&width=80",
           content:
-            "The Power BI course was exactly what I needed. The instructors were patient, and the real-world projects helped me build confidence. Got placed within 2 weeks of completion!",
+            "The trainers explained concepts in a simple way and guided me through real-time projects. This course boosted my skills and helped me secure my first developer job.",
           rating: 5,
-          course: "Power BI & Analytics",
+          course: "Junior Developer",
         },
         {
           name: "Sneha Reddy",
           role: "DevOps Engineer at Infosys",
-          image: "/placeholder.svg?height=80&width=80",
+          image: "/sneha.png?height=80&width=80",
           content:
-            "As a mechanical engineering graduate, I was worried about switching to IT. But Flair's Azure DevOps program made the transition smooth. Now I'm working at Infosys!",
+            "As a working professional, I needed flexible learning with practical exposure. This program not only fit my schedule but also gave me industry-ready skills in Python full-stack.",
           rating: 5,
-          course: "Azure DevOps",
+          course: "Senior Developer",
         },
       ],
     },
-    nextBatch: [{ starts: "March 15, 2024", mode: "Online" }],
-    qualification: "BTECH/BCOM/BSC/MSC/MCA",
-    eligibleLearners: "Freshers/Any Graduate/Post Graduate",
+    nextBatch: [
+      { starts: "Every Month", mode: "Online / Classroom-Bangalore" },
+    ],
+    qualification: " B.TECH/B.COM/BSC/MSC/MCA",
+    eligibleLearners: "Freshers / IT-Professionals",
     syllabus: [
       {
         module: "Core Python",
@@ -623,42 +625,43 @@ const courseData = {
       bio: "Rajesh is a seasoned full-stack developer with extensive experience in Python and React. He has worked on large-scale applications at Google and mentored 200+ students.",
     },
     projects: [
-      "E-commerce Platform with Payment Integration",
-      "Social Media Dashboard",
-      "Task Management System",
-      "Real-time Chat Application",
-      "Portfolio Website with CMS",
+      "E-Commerce Web Application",
+      "Social Media Platform",
+      "Online Learning Portal",
+      "Blogging & Content Management System (CMS)",
+      "Job Portal Application",
     ],
     projectsDetails: [
-      "project1",
-      "project2",
-      "project3",
-      "project4",
-      "project5",
-      "project6",
+      "Build a complete online store with product listings, cart, checkout, and payment integration.",
+      "Develop a mini social network with user authentication, posts, likes, and comments.",
+      "Create a course management system with video lessons, quizzes, and progress tracking.",
+      "Design a platform for creating, editing, and publishing blogs with admin dashboards.",
+      "Implement a job listing site where employers post jobs and users apply with profiles/resumes.",
     ],
   },
   "java-fullstack": {
     title: "Java <span class='text-yellow-400'>Fullstack</span>",
     description:
-      "Learn to implement DevOps practices using Azure tools and services",
+      "Master Core & Advanced Java for building robust enterprise applications.",
     duration: "4 months",
     mode: "Online/Offline",
-    level: "Intermediate to Advanced",
+    level: "Beginner to Advanced",
     price: "₹40,000",
     originalPrice: "₹50,000",
-    category: "Analytics",
-    students: "400+",
+    category: "🧑‍💻 Development",
+    students: "500+",
     rating: 4.9,
     reviews: 120,
-    image:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3Mpx-7k0FvYWzb8n8snbXGKMKM-YWg0Vlsg&s",
+    image: "/java.jpg",
     highlights: [
-      "Master Azure Repos, Pipelines, and Boards",
-      "Continuous Integration/Continuous Deployment (CI/CD)",
-      "Infrastructure as Code (IaC)",
-      "Real-world DevOps projects",
-      "Certification support",
+      "Master object-oriented programming and advanced Java concepts.",
+      "Build responsive UIs using HTML, CSS, JavaScript, and frameworks.",
+      "Develop scalable applications using Spring Boot & Java EE.",
+      "Work with MySQL, PostgreSQL, and NoSQL databases.",
+      "Build seamless API integrations.",
+      "Learn Git, GitHub, and deployment practices.",
+      "Deploy applications on AWS, Azure, or other cloud platforms.",
+      "Build end-to-end real-world applications to showcase your skills.",
     ],
     testimonialsSection: {
       badge: "Success Stories",
@@ -696,6 +699,11 @@ const courseData = {
         },
       ],
     },
+    nextBatch: [
+      { starts: "Every Month", mode: "Online / Classroom-Bangalore" },
+    ],
+    qualification: " B.TECH/B.COM/BSC/MSC/MCA",
+    eligibleLearners: "Freshers / IT-Professionals",
     syllabus: [
       {
         module: "Database",
@@ -6828,20 +6836,20 @@ export default function CoursePage({ params }: { params: { slug: string } }) {
                         <div className="flex items-start gap-3">
                           <BookOpen className="h-5 w-5 text-sky-600 mt-1" />
                           <div>
-                            <h4 className="font-semibold">Lifetime Access</h4>
+                            <h4 className="font-semibold">Hands-on Projects</h4>
                             <p className="text-sm text-gray-600">
-                              Access materials anytime
+                              Apply concepts with real-world practice
                             </p>
                           </div>
                         </div>
                       </div>
                       <div className="space-y-4">
                         <div className="flex items-start gap-3">
-                          <BookOpen className="h-5 w-5 text-sky-600 mt-1" />
+                          <Users className="h-5 w-5 text-sky-600 mt-1" />
                           <div>
-                            <h4 className="font-semibold">Lifetime Access</h4>
+                            <h4 className="font-semibold">Career Guidance</h4>
                             <p className="text-sm text-gray-600">
-                              Access materials anytime
+                              Get expert support for your career growth
                             </p>
                           </div>
                         </div>
