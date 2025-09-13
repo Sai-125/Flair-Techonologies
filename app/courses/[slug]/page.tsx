@@ -46,7 +46,7 @@ const courseData = {
     title: "Python Full-Stack <span class='text-yellow-400'>Development</span>",
     description:
       "Master Python, Django and modern web development with hands-on projects",
-    duration: "2 months",
+    duration: "3 months",
     mode: "Online/Offline",
     level: "Beginner to Advanced",
     price: "₹45,000",
@@ -652,6 +652,8 @@ const courseData = {
     students: "500+",
     rating: 4.9,
     reviews: 120,
+    brochure: "FRESHERS.pdf",
+    outline: "Data Analytics - Outline.pdf",
     image: "/java.jpg",
     highlights: [
       "Master object-oriented programming and advanced Java concepts.",
@@ -668,46 +670,46 @@ const courseData = {
       title:
         'From <span className="text-sky-600">Freshers</span> to Professionals',
       description:
-        "Hear from our successful graduates who transformed their careers with our programs",
+        "Hear from our successful graduates who transformed their careers with our Java Full-Stack program",
       testimonials: [
         {
-          name: "Priya Sharma",
-          role: "Software Developer at TCS",
-          image: "/placeholder.svg?height=80&width=80",
+          name: "Keerthana",
+          role: "Fresher",
+          image: "/keer.png?height=80&width=80",
           content:
-            "Flair Technologies transformed my career! From a fresher with no coding experience to landing a job at TCS in just 6 months. The mentorship and placement support were exceptional.",
+            "As a recent graduate, I had no prior industry exposure. The Java Full Stack program at Flair Technologies gave me the confidence to build real-world applications. The hands-on projects and mentorship helped me land my first job as a Full Stack Developer.",
           rating: 5,
-          course: "Python Full-Stack",
+          course: "Fresher",
         },
         {
-          name: "Rahul Patel",
+          name: "Srinivas",
           role: "Data Analyst at Wipro",
-          image: "/placeholder.svg?height=80&width=80",
+          image: "/sri.png?height=80&width=80",
           content:
-            "The Power BI course was exactly what I needed. The instructors were patient, and the real-world projects helped me build confidence. Got placed within 2 weeks of completion!",
+            "Coming from an IT background, I wanted to upgrade my skills to Full Stack. The structured curriculum, especially on Spring Boot and REST APIs, enhanced my expertise and helped me move into a higher role within my organization.",
           rating: 5,
-          course: "Power BI & Analytics",
+          course: "IT Professional",
         },
         {
-          name: "Sneha Reddy",
+          name: "Divya",
           role: "DevOps Engineer at Infosys",
-          image: "/placeholder.svg?height=80&width=80",
+          image: "/divya.png?height=80&width=80",
           content:
-            "As a mechanical engineering graduate, I was worried about switching to IT. But Flair's Azure DevOps program made the transition smooth. Now I'm working at Infosys!",
+            "I was from a non-IT background and initially hesitant about coding. Thanks to the trainers and their step by step guidance, I successfully transitioned into software development. Today, I work as a Java Full Stack Developer and feel confident in my career.",
           rating: 5,
-          course: "Azure DevOps",
+          course: "Non-IT Professional",
         },
       ],
     },
     nextBatch: [
-      { starts: "Every Month", mode: "Online / Classroom-Bangalore" },
+      { starts: "Every Two Months", mode: "Online / Classroom-Bangalore" },
     ],
     qualification: " B.TECH/B.COM/BSC/MSC/MCA",
     eligibleLearners: "Freshers / IT-Professionals",
     syllabus: [
       {
         module: "Database",
-        duration: "6 weeks",
+        duration: "2 weeks",
         topics: [
           {
             name: "Introduction",
@@ -842,7 +844,7 @@ const courseData = {
       },
       {
         module: "Core Java",
-        duration: "6 weeks",
+        duration: "3 weeks",
         topics: [
           {
             name: "Introduction to programming",
@@ -902,7 +904,7 @@ const courseData = {
       },
       {
         module: "J2EE",
-        duration: "6 weeks",
+        duration: "2 weeks",
         topics: [
           {
             name: "Introduction to JAVA EE",
@@ -1091,7 +1093,7 @@ const courseData = {
       },
       {
         module: "Frameworks",
-        duration: "6 weeks",
+        duration: "3 weeks",
         topics: [
           {
             name: "Hibernate",
@@ -1166,7 +1168,7 @@ const courseData = {
       },
       {
         module: "Web Services",
-        duration: "6 weeks",
+        duration: "1 week",
         topics: [
           {
             name: "Web Services",
@@ -1194,7 +1196,7 @@ const courseData = {
       },
       {
         module: "Web Technology",
-        duration: "6 weeks",
+        duration: "2 weeks",
         topics: [
           {
             name: "Web Technology",
@@ -1412,7 +1414,7 @@ const courseData = {
       },
       {
         module: "Quantitative Aptitude",
-        duration: "6 weeks",
+        duration: "1 week",
         topics: [
           {
             name: "Numbers",
@@ -1457,7 +1459,7 @@ const courseData = {
       },
       {
         module: "Logical Reasoning",
-        duration: "6 weeks",
+        duration: "1 week",
         topics: [
           {
             name: "Logical Reasoning",
@@ -1475,7 +1477,7 @@ const courseData = {
       },
       {
         module: "Verbal Ability",
-        duration: "6 weeks",
+        duration: "1 week",
         topics: [
           {
             name: "Verbal Ability",
@@ -1505,38 +1507,91 @@ const courseData = {
       bio: "Arjun has extensive experience in Azure DevOps and has led multiple enterprise-level implementations.",
     },
     projects: [
-      "CI/CD Pipeline for Web App",
-      "Automated Testing Framework",
-      "Infrastructure Deployment",
-      "Monitoring Dashboard",
+      "E-Commerce Web Application",
+      "Hospital Management System",
+      "Online Banking System",
+      "Job Portal Application",
+      "Learning Management System (LMS)",
+    ],
+    projectsDetails: [
+      "Build a shopping platform with product catalog, cart, checkout, and payment gateway integration.",
+      "Develop a system to manage patients, doctors, appointments, billing, and medical records.",
+      "Create a secure platform for fund transfers, account management, and transaction history.",
+      "Implement a platform where recruiters post jobs and candidates apply with profiles/resumes and schedule interviews seamlessly online.",
+      "Design a portal with courses, student dashboards, quizzes, and progress tracking and personalized learning paths included.",
     ],
   },
   reactCourse: {
     title: "React<span class='text-yellow-400'>JS</span>",
     description:
-      "Learn to implement DevOps practices using Azure tools and services",
-    duration: "4 months",
+      "Future-proof your career with ReactJS expertise by building production-ready projects and real-time web applications.",
+    duration: "2 months",
     mode: "Online/Offline",
-    level: "Intermediate to Advanced",
+    level: "Beginner to Advanced",
     price: "₹40,000",
     originalPrice: "₹50,000",
-    category: "Analytics",
-    students: "400+",
-    rating: 4.9,
-    reviews: 120,
-    image:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3Mpx-7k0FvYWzb8n8snbXGKMKM-YWg0Vlsg&s",
+    category: "🧑‍💻 Development",
+    students: "700+",
+    rating: 4.8,
+    reviews: 500,
+    brochure: "FRESHERS.pdf",
+    outline: "Data Analytics - Outline.pdf",
+    image: "/react.jpg",
     highlights: [
-      "Master Azure Repos, Pipelines, and Boards",
-      "Continuous Integration/Continuous Deployment (CI/CD)",
-      "Infrastructure as Code (IaC)",
-      "Real-world DevOps projects",
-      "Certification support",
+      "Understand ReactJS fundamentals, components, and JSX syntax.",
+      "Manage state and props for dynamic UI development.",
+      "Work with React Hooks for cleaner, functional code.",
+      "Implement routing and navigation using React Router.",
+      "Connect React apps with APIs for real-time data handling.",
+      "Apply Redux or Context API for state management.",
+      "Build responsive and interactive applications.",
+      "Deploy React apps with best practices.",
     ],
+    testimonialsSection: {
+      badge: "Success Stories",
+      title:
+        'From <span className="text-sky-600">Freshers</span> to Professionals',
+      description:
+        "Hear from our successful graduates who transformed their careers with our ReactJS program",
+      testimonials: [
+        {
+          name: "Priya",
+          role: "Fresher",
+          image: "/priya.png?height=80&width=80",
+          content:
+            "As a fresher, ReactJS training here gave me the confidence and skills to build real-world projects. Thanks to Flair for the guidance, I landed my first job as a React Developer.",
+          rating: 5,
+          course: "Fresher",
+        },
+        {
+          name: "Shahini",
+          role: "Data Analyst at Wipro",
+          image: "/sha.png?height=80&width=80",
+          content:
+            "Coming from a non-IT background, I never imagined coding could be this simple. With step-by-step ReactJS training, I successfully transitioned into a Front-End Developer role.",
+          rating: 5,
+          course: "Non-IT Graduate",
+        },
+        {
+          name: "Arjun",
+          role: "DevOps Engineer at Infosys",
+          image: "/arjun.png?height=80&width=80",
+          content:
+            "Already working in web development, I wanted to specialize in ReactJS. This course sharpened my skills, practical project skills, and helped me move into a higher-paying role.",
+          rating: 5,
+          course: "IT Professional",
+        },
+      ],
+    },
+    nextBatch: [
+      { starts: "Every Month", mode: "Online / Classroom-Bangalore" },
+    ],
+    qualification: " B.TECH/B.COM/BSC/MSC/MCA",
+    eligibleLearners: "Freshers / IT-Professionals",
     syllabus: [
       {
-        module: "Web Development Course Outline",
-        duration: "6 weeks",
+        module: "HTML",
+        duration: "1 week",
         topics: [
           {
             name: "HTML 4 & Older Versions",
@@ -1580,6 +1635,12 @@ const courseData = {
               "Aside & Nav",
             ],
           },
+        ],
+      },
+      {
+        module: " Elements & Attributes ",
+        duration: "1 week",
+        topics: [
           {
             name: "Form Elements & Attributes",
             content: [
@@ -1588,6 +1649,12 @@ const courseData = {
               "New Attributes in Form Elements",
             ],
           },
+        ],
+      },
+      {
+        module: " CSS2 & CSS3",
+        duration: "1 week",
+        topics: [
           {
             name: "CSS2 & CSS3",
             content: [
@@ -1606,6 +1673,12 @@ const courseData = {
               "All Properties",
             ],
           },
+        ],
+      },
+      {
+        module: "JavaScript",
+        duration: "2 weeks",
+        topics: [
           {
             name: "JavaScript",
             content: [
@@ -1623,6 +1696,12 @@ const courseData = {
               "JSON",
             ],
           },
+        ],
+      },
+      {
+        module: " ES6 – ES9",
+        duration: "1 week",
+        topics: [
           {
             name: "ES6 – ES9",
             content: [
@@ -1644,6 +1723,12 @@ const courseData = {
               "Modules",
             ],
           },
+        ],
+      },
+      {
+        module: "ReactJS",
+        duration: "2 weeks",
+        topics: [
           {
             name: "Introduction to React",
             content: [
@@ -1774,6 +1859,7 @@ const courseData = {
         ],
       },
     ],
+
     instructor: {
       name: "Arjun Patel",
       title: "DevOps Engineer at TCS",
@@ -1782,10 +1868,18 @@ const courseData = {
       bio: "Arjun has extensive experience in Azure DevOps and has led multiple enterprise-level implementations.",
     },
     projects: [
-      "CI/CD Pipeline for Web App",
-      "Automated Testing Framework",
-      "Infrastructure Deployment",
-      "Monitoring Dashboard",
+      "Todo List Application",
+      "Weather App",
+      "Student Management System",
+      "Recipe Finder App",
+      "Blog Posting Application",
+    ],
+    projectsDetails: [
+      "Build a simple task manager to add, edit, mark complete, and delete tasks using React state.",
+      "Create a weather forecasting app fetching real-time data from APIs and displaying detailed city weather reports.",
+      "Develop a student records system to add, update, and manage student data with forms, tables, and state.",
+      "Design an app to search and display recipes by ingredients using external APIs with React components.",
+      "Build a blogging platform for creating, editing, deleting posts with React Router, forms, and CRUD operations.",
     ],
   },
 
