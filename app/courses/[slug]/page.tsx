@@ -51,57 +51,64 @@ const courseData = {
     level: "Beginner to Advanced",
     price: "₹45,000",
     originalPrice: "₹60,000",
-    category: "Development",
+    category: "🧑‍💻 Development",
     students: "500+",
     rating: 4.7,
     reviews: 156,
-    brochure: "",
-    image:
-      "https://media.geeksforgeeks.org/wp-content/uploads/20240415204701/How-to-Become-a-Python-Full-Stack-Developer.png",
+    brochure: "PYTHON FULL STACK.pdf",
+    outline: "Data Analytics - Outline.pdf",
+    image: "/pyhton.png",
     highlights: [
       "Master Python programming fundamentals and advanced concepts.",
       "Build dynamic web applications using Django/Flask frameworks.",
       "Work with databases SQL for backend integration.",
       "Develop interactive front-end using HTML, CSS, and JavaScript.",
       "Learn REST APIs, authentication, and deployment practices.",
-      "Gain hands-on project experience for real-world applications.",
+      "Learn version control and collaboration with Git & GitHub.",
+      "Deploy apps on cloud and manage hosting.",
+      "Get hands-on project experience.",
     ],
     testimonialsSection: {
       badge: "Success Stories",
       title:
         'From <span className="text-sky-600">Freshers</span> to Professionals',
       description:
-        "Hear from our successful graduates who transformed their careers with our programs",
+        "Hear from our successful graduates who transformed their careers with our Python Full-Stack program",
       testimonials: [
         {
-          name: "Priya Sharma",
-          role: "Software Developer at TCS",
-          image: "/placeholder.svg?height=80&width=80",
+          name: "Ananya",
+          role: "Software Engineer",
+          image: "/ananya.jpeg?height=80&width=80",
           content:
-            "Flair Technologies transformed my career! From a fresher with no coding experience to landing a job at TCS in just 6 months. The mentorship and placement support were exceptional.",
+            "The Python Full-Stack course gave me a clear understanding of both front-end and back-end. The hands-on projects helped me gain confidence to build apps on my own.",
           rating: 5,
-          course: "Python Full-Stack",
+          course: "Software Engineer",
         },
         {
-          name: "Rahul Patel",
+          name: "Rahul Chowdary",
           role: "Data Analyst at Wipro",
-          image: "/placeholder.svg?height=80&width=80",
+          image: "/rahul.jpg?height=80&width=80",
           content:
-            "The Power BI course was exactly what I needed. The instructors were patient, and the real-world projects helped me build confidence. Got placed within 2 weeks of completion!",
+            "The trainers explained concepts in a simple way and guided me through real-time projects. This course boosted my skills and helped me secure my first developer job.",
           rating: 5,
-          course: "Power BI & Analytics",
+          course: "Junior Developer",
         },
         {
           name: "Sneha Reddy",
           role: "DevOps Engineer at Infosys",
-          image: "/placeholder.svg?height=80&width=80",
+          image: "/sneha.png?height=80&width=80",
           content:
-            "As a mechanical engineering graduate, I was worried about switching to IT. But Flair's Azure DevOps program made the transition smooth. Now I'm working at Infosys!",
+            "As a working professional, I needed flexible learning with practical exposure. This program not only fit my schedule but also gave me industry-ready skills in Python full-stack.",
           rating: 5,
-          course: "Azure DevOps",
+          course: "Senior Developer",
         },
       ],
     },
+    nextBatch: [
+      { starts: "Every Month", mode: "Online / Classroom-Bangalore" },
+    ],
+    qualification: " B.TECH/B.COM/BSC/MSC/MCA",
+    eligibleLearners: "Freshers / IT-Professionals",
     syllabus: [
       {
         module: "Core Python",
@@ -618,47 +625,91 @@ const courseData = {
       bio: "Rajesh is a seasoned full-stack developer with extensive experience in Python and React. He has worked on large-scale applications at Google and mentored 200+ students.",
     },
     projects: [
-      "E-commerce Platform with Payment Integration",
-      "Social Media Dashboard",
-      "Task Management System",
-      "Real-time Chat Application",
-      "Portfolio Website with CMS",
+      "E-Commerce Web Application",
+      "Social Media Platform",
+      "Online Learning Portal",
+      "Blogging & Content Management System (CMS)",
+      "Job Portal Application",
     ],
     projectsDetails: [
-      "project1",
-      "project2",
-      "project3",
-      "project4",
-      "project5",
-      "project6",
+      "Build a complete online store with product listings, cart, checkout, and payment integration.",
+      "Develop a mini social network with user authentication, posts, likes, and comments.",
+      "Create a course management system with video lessons, quizzes, and progress tracking.",
+      "Design a platform for creating, editing, and publishing blogs with admin dashboards.",
+      "Implement a job listing site where employers post jobs and users apply with profiles/resumes.",
     ],
   },
   "java-fullstack": {
     title: "Java <span class='text-yellow-400'>Fullstack</span>",
     description:
-      "Learn to implement DevOps practices using Azure tools and services",
+      "Master Core & Advanced Java for building robust enterprise applications.",
     duration: "4 months",
     mode: "Online/Offline",
-    level: "Intermediate to Advanced",
+    level: "Beginner to Advanced",
     price: "₹40,000",
     originalPrice: "₹50,000",
-    category: "Analytics",
-    students: "400+",
+    category: "🧑‍💻 Development",
+    students: "500+",
     rating: 4.9,
     reviews: 120,
-    image:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3Mpx-7k0FvYWzb8n8snbXGKMKM-YWg0Vlsg&s",
+    brochure: "FRESHERS.pdf",
+    outline: "Data Analytics - Outline.pdf",
+    image: "/java.jpg",
     highlights: [
-      "Master Azure Repos, Pipelines, and Boards",
-      "Continuous Integration/Continuous Deployment (CI/CD)",
-      "Infrastructure as Code (IaC)",
-      "Real-world DevOps projects",
-      "Certification support",
+      "Master object-oriented programming and advanced Java concepts.",
+      "Build responsive UIs using HTML, CSS, JavaScript, and frameworks.",
+      "Develop scalable applications using Spring Boot & Java EE.",
+      "Work with MySQL, PostgreSQL, and NoSQL databases.",
+      "Build seamless API integrations.",
+      "Learn Git, GitHub, and deployment practices.",
+      "Deploy applications on AWS, Azure, or other cloud platforms.",
+      "Build end-to-end real-world applications to showcase your skills.",
     ],
+    testimonialsSection: {
+      badge: "Success Stories",
+      title:
+        'From <span className="text-sky-600">Freshers</span> to Professionals',
+      description:
+        "Hear from our successful graduates who transformed their careers with our Java Full-Stack program",
+      testimonials: [
+        {
+          name: "Keerthana",
+          role: "Fresher",
+          image: "/keer.png?height=80&width=80",
+          content:
+            "As a recent graduate, I had no prior industry exposure. The Java Full Stack program at Flair Technologies gave me the confidence to build real-world applications. The hands-on projects and mentorship helped me land my first job as a Full Stack Developer.",
+          rating: 5,
+          course: "Fresher",
+        },
+        {
+          name: "Srinivas",
+          role: "Data Analyst at Wipro",
+          image: "/sri.png?height=80&width=80",
+          content:
+            "Coming from an IT background, I wanted to upgrade my skills to Full Stack. The structured curriculum, especially on Spring Boot and REST APIs, enhanced my expertise and helped me move into a higher role within my organization.",
+          rating: 5,
+          course: "IT Professional",
+        },
+        {
+          name: "Divya",
+          role: "DevOps Engineer at Infosys",
+          image: "/divya.png?height=80&width=80",
+          content:
+            "I was from a non-IT background and initially hesitant about coding. Thanks to the trainers and their step by step guidance, I successfully transitioned into software development. Today, I work as a Java Full Stack Developer and feel confident in my career.",
+          rating: 5,
+          course: "Non-IT Professional",
+        },
+      ],
+    },
+    nextBatch: [
+      { starts: "Every Two Months", mode: "Online / Classroom-Bangalore" },
+    ],
+    qualification: " B.TECH/B.COM/BSC/MSC/MCA",
+    eligibleLearners: "Freshers / IT-Professionals",
     syllabus: [
       {
         module: "Database",
-        duration: "6 weeks",
+        duration: "2 weeks",
         topics: [
           {
             name: "Introduction",
@@ -793,7 +844,7 @@ const courseData = {
       },
       {
         module: "Core Java",
-        duration: "6 weeks",
+        duration: "3 weeks",
         topics: [
           {
             name: "Introduction to programming",
@@ -853,7 +904,7 @@ const courseData = {
       },
       {
         module: "J2EE",
-        duration: "6 weeks",
+        duration: "2 weeks",
         topics: [
           {
             name: "Introduction to JAVA EE",
@@ -1042,7 +1093,7 @@ const courseData = {
       },
       {
         module: "Frameworks",
-        duration: "6 weeks",
+        duration: "3 weeks",
         topics: [
           {
             name: "Hibernate",
@@ -1117,7 +1168,7 @@ const courseData = {
       },
       {
         module: "Web Services",
-        duration: "6 weeks",
+        duration: "1 week",
         topics: [
           {
             name: "Web Services",
@@ -1145,7 +1196,7 @@ const courseData = {
       },
       {
         module: "Web Technology",
-        duration: "6 weeks",
+        duration: "2 weeks",
         topics: [
           {
             name: "Web Technology",
@@ -1363,7 +1414,7 @@ const courseData = {
       },
       {
         module: "Quantitative Aptitude",
-        duration: "6 weeks",
+        duration: "1 week",
         topics: [
           {
             name: "Numbers",
@@ -1408,7 +1459,7 @@ const courseData = {
       },
       {
         module: "Logical Reasoning",
-        duration: "6 weeks",
+        duration: "1 week",
         topics: [
           {
             name: "Logical Reasoning",
@@ -1426,7 +1477,7 @@ const courseData = {
       },
       {
         module: "Verbal Ability",
-        duration: "6 weeks",
+        duration: "1 week",
         topics: [
           {
             name: "Verbal Ability",
@@ -1456,38 +1507,91 @@ const courseData = {
       bio: "Arjun has extensive experience in Azure DevOps and has led multiple enterprise-level implementations.",
     },
     projects: [
-      "CI/CD Pipeline for Web App",
-      "Automated Testing Framework",
-      "Infrastructure Deployment",
-      "Monitoring Dashboard",
+      "E-Commerce Web Application",
+      "Hospital Management System",
+      "Online Banking System",
+      "Job Portal Application",
+      "Learning Management System (LMS)",
+    ],
+    projectsDetails: [
+      "Build a shopping platform with product catalog, cart, checkout, and payment gateway integration.",
+      "Develop a system to manage patients, doctors, appointments, billing, and medical records.",
+      "Create a secure platform for fund transfers, account management, and transaction history.",
+      "Implement a platform where recruiters post jobs and candidates apply with profiles/resumes and schedule interviews seamlessly online.",
+      "Design a portal with courses, student dashboards, quizzes, and progress tracking and personalized learning paths included.",
     ],
   },
   reactCourse: {
     title: "React<span class='text-yellow-400'>JS</span>",
     description:
-      "Learn to implement DevOps practices using Azure tools and services",
-    duration: "4 months",
+      "Future-proof your career with ReactJS expertise by building production-ready projects and real-time web applications.",
+    duration: "2 months",
     mode: "Online/Offline",
-    level: "Intermediate to Advanced",
+    level: "Beginner to Advanced",
     price: "₹40,000",
     originalPrice: "₹50,000",
-    category: "Analytics",
-    students: "400+",
-    rating: 4.9,
-    reviews: 120,
-    image:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3Mpx-7k0FvYWzb8n8snbXGKMKM-YWg0Vlsg&s",
+    category: "🧑‍💻 Development",
+    students: "700+",
+    rating: 4.8,
+    reviews: 500,
+    brochure: "FRESHERS.pdf",
+    outline: "Data Analytics - Outline.pdf",
+    image: "/react.jpg",
     highlights: [
-      "Master Azure Repos, Pipelines, and Boards",
-      "Continuous Integration/Continuous Deployment (CI/CD)",
-      "Infrastructure as Code (IaC)",
-      "Real-world DevOps projects",
-      "Certification support",
+      "Understand ReactJS fundamentals, components, and JSX syntax.",
+      "Manage state and props for dynamic UI development.",
+      "Work with React Hooks for cleaner, functional code.",
+      "Implement routing and navigation using React Router.",
+      "Connect React apps with APIs for real-time data handling.",
+      "Apply Redux or Context API for state management.",
+      "Build responsive and interactive applications.",
+      "Deploy React apps with best practices.",
     ],
+    testimonialsSection: {
+      badge: "Success Stories",
+      title:
+        'From <span className="text-sky-600">Freshers</span> to Professionals',
+      description:
+        "Hear from our successful graduates who transformed their careers with our ReactJS program",
+      testimonials: [
+        {
+          name: "Priya",
+          role: "Fresher",
+          image: "/priya.png?height=80&width=80",
+          content:
+            "As a fresher, ReactJS training here gave me the confidence and skills to build real-world projects. Thanks to Flair for the guidance, I landed my first job as a React Developer.",
+          rating: 5,
+          course: "Fresher",
+        },
+        {
+          name: "Shahini",
+          role: "Data Analyst at Wipro",
+          image: "/sha.png?height=80&width=80",
+          content:
+            "Coming from a non-IT background, I never imagined coding could be this simple. With step-by-step ReactJS training, I successfully transitioned into a Front-End Developer role.",
+          rating: 5,
+          course: "Non-IT Graduate",
+        },
+        {
+          name: "Arjun",
+          role: "DevOps Engineer at Infosys",
+          image: "/arjun.png?height=80&width=80",
+          content:
+            "Already working in web development, I wanted to specialize in ReactJS. This course sharpened my skills, practical project skills, and helped me move into a higher-paying role.",
+          rating: 5,
+          course: "IT Professional",
+        },
+      ],
+    },
+    nextBatch: [
+      { starts: "Every Month", mode: "Online / Classroom-Bangalore" },
+    ],
+    qualification: " B.TECH/B.COM/BSC/MSC/MCA",
+    eligibleLearners: "Freshers / IT-Professionals",
     syllabus: [
       {
-        module: "Web Development Course Outline",
-        duration: "6 weeks",
+        module: "HTML",
+        duration: "1 week",
         topics: [
           {
             name: "HTML 4 & Older Versions",
@@ -1531,6 +1635,12 @@ const courseData = {
               "Aside & Nav",
             ],
           },
+        ],
+      },
+      {
+        module: " Elements & Attributes ",
+        duration: "1 week",
+        topics: [
           {
             name: "Form Elements & Attributes",
             content: [
@@ -1539,6 +1649,12 @@ const courseData = {
               "New Attributes in Form Elements",
             ],
           },
+        ],
+      },
+      {
+        module: " CSS2 & CSS3",
+        duration: "1 week",
+        topics: [
           {
             name: "CSS2 & CSS3",
             content: [
@@ -1557,6 +1673,12 @@ const courseData = {
               "All Properties",
             ],
           },
+        ],
+      },
+      {
+        module: "JavaScript",
+        duration: "2 weeks",
+        topics: [
           {
             name: "JavaScript",
             content: [
@@ -1574,6 +1696,12 @@ const courseData = {
               "JSON",
             ],
           },
+        ],
+      },
+      {
+        module: " ES6 – ES9",
+        duration: "1 week",
+        topics: [
           {
             name: "ES6 – ES9",
             content: [
@@ -1595,6 +1723,12 @@ const courseData = {
               "Modules",
             ],
           },
+        ],
+      },
+      {
+        module: "ReactJS",
+        duration: "2 weeks",
+        topics: [
           {
             name: "Introduction to React",
             content: [
@@ -1725,6 +1859,7 @@ const courseData = {
         ],
       },
     ],
+
     instructor: {
       name: "Arjun Patel",
       title: "DevOps Engineer at TCS",
@@ -1733,10 +1868,18 @@ const courseData = {
       bio: "Arjun has extensive experience in Azure DevOps and has led multiple enterprise-level implementations.",
     },
     projects: [
-      "CI/CD Pipeline for Web App",
-      "Automated Testing Framework",
-      "Infrastructure Deployment",
-      "Monitoring Dashboard",
+      "Todo List Application",
+      "Weather App",
+      "Student Management System",
+      "Recipe Finder App",
+      "Blog Posting Application",
+    ],
+    projectsDetails: [
+      "Build a simple task manager to add, edit, mark complete, and delete tasks using React state.",
+      "Create a weather forecasting app fetching real-time data from APIs and displaying detailed city weather reports.",
+      "Develop a student records system to add, update, and manage student data with forms, tables, and state.",
+      "Design an app to search and display recipes by ingredients using external APIs with React components.",
+      "Build a blogging platform for creating, editing, deleting posts with React Router, forms, and CRUD operations.",
     ],
   },
 
@@ -6783,6 +6926,28 @@ export default function CoursePage({ params }: { params: { slug: string } }) {
                           </div>
                         </div>
                       </div>
+                      <div className="space-y-4">
+                        <div className="flex items-start gap-3">
+                          <BookOpen className="h-5 w-5 text-sky-600 mt-1" />
+                          <div>
+                            <h4 className="font-semibold">Hands-on Projects</h4>
+                            <p className="text-sm text-gray-600">
+                              Apply concepts with real-world practice
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="space-y-4">
+                        <div className="flex items-start gap-3">
+                          <Users className="h-5 w-5 text-sky-600 mt-1" />
+                          <div>
+                            <h4 className="font-semibold">Career Guidance</h4>
+                            <p className="text-sm text-gray-600">
+                              Get expert support for your career growth
+                            </p>
+                          </div>
+                        </div>
+                      </div>
                     </CardContent>
                   </Card>
                 </TabsContent>
@@ -6971,13 +7136,13 @@ export default function CoursePage({ params }: { params: { slug: string } }) {
                       className="w-full"
                       onClick={() =>
                         window.open(
-                          `/${(course as any)?.brochure ?? ""}`,
+                          `/${(course as any)?.outline ?? ""}`,
                           "_blank"
                         )
                       }
                     >
                       <Download className="mr-2 h-4 w-4" />
-                      View Brochure
+                      View Outline
                     </Button>
                   </div>
                 </CardContent>
@@ -6995,19 +7160,21 @@ export default function CoursePage({ params }: { params: { slug: string } }) {
                       Next Batch
                     </div>
                     <div className="text-sm text-blue-700">
-                      Starts: March 15, 2024
+                      Frequency: {(course as any)?.nextBatch?.[0]?.starts ?? ""}
                     </div>
-                    <div className="text-sm text-blue-700">Mode: Online</div>
+                    <div className="text-sm text-blue-700">
+                      Mode: {(course as any)?.nextBatch?.[0]?.mode ?? ""}
+                    </div>
                   </div>
                   <div className="p-3 bg-gray-50 rounded-lg">
                     <div className="font-semibold text-gray-900">
-                      Weekend Batch
+                      Eligible Learners
                     </div>
                     <div className="text-sm text-gray-700">
-                      Starts: March 20, 2024
+                      Learners: {(course as any)?.eligibleLearners}
                     </div>
                     <div className="text-sm text-gray-700">
-                      Mode: Offline (Bangalore)
+                      Qualification:{(course as any)?.qualification}
                     </div>
                   </div>
                 </CardContent>
