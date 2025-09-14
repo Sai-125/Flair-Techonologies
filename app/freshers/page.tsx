@@ -33,6 +33,8 @@ import {
 } from "lucide-react";
 import { EnrollDialog } from "@/components/EnrollDialog"; // Assuming EnrollDialog is imported
 import Link from "next/link";
+import Rating from "@/components/ui/Rating";
+import ApplicationForm from "@/components/ui/Application-form";
 
 export default function FreshersPage() {
   const {
@@ -261,195 +263,25 @@ export default function FreshersPage() {
       </section>
 
       {/* Testimonials Section */}
-      <section className="py-20 bg-white">
-        <div className="container mx-auto px-4">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6 }}
-            className="text-center mb-16"
-          >
-            <Badge className="mb-4 bg-blue-100 text-blue-700">
-              {testimonialsSection.badge}
-            </Badge>
-            <h2
-              className="text-4xl font-bold text-gray-900 mb-4"
-              dangerouslySetInnerHTML={{ __html: testimonialsSection.title }}
-            />
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              {testimonialsSection.description}
-            </p>
-          </motion.div>
-
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {testimonialsSection.testimonials.map((testimonial, index) => (
-              <motion.div
-                key={testimonial.name}
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.6, delay: index * 0.1 }}
-                className="group"
-              >
-                <Card className="h-full border-0 shadow-lg hover:shadow-xl transition-all duration-300">
-                  <CardContent className="pt-6">
-                    <div className="flex items-center gap-1 mb-4">
-                      {[...Array(testimonial.rating)].map((_, i) => (
-                        <Star
-                          key={i}
-                          className="h-4 w-4 text-yellow-400 fill-current"
-                        />
-                      ))}
-                    </div>
-                    <p className="text-gray-700 mb-6 italic">
-                      "{testimonial.content}"
-                    </p>
-                    <div className="flex items-center gap-4">
-                      <img
-                        src={testimonial.image || "/placeholder.svg"}
-                        alt={testimonial.name}
-                        className="w-12 h-12 rounded-full object-cover"
-                      />
-                      <div>
-                        <div className="font-semibold text-gray-900">
-                          {testimonial.name}
-                        </div>
-                        <div className="text-sm text-sky-600">
-                          {testimonial.role}
-                        </div>
-                        <div className="text-xs text-gray-500">
-                          {testimonial.course}
-                        </div>
-                      </div>
-                    </div>
-                  </CardContent>
-                </Card>
-              </motion.div>
-            ))}
-          </div>
-        </div>
-      </section>
+      <Rating testimonialsSection={testimonialsSection} />
 
       {/* Application Form Section */}
-      <section
-        id="application-form"
-        className="py-20 bg-gradient-to-r from-sky-400 via-blue-500 to-cyan-500 text-white"
-      >
-        <div className="container mx-auto px-4">
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
-            <motion.div
-              initial={{ opacity: 0, x: -50 }}
-              whileInView={{ opacity: 1, x: 0 }}
-              transition={{ duration: 0.8 }}
-              className="space-y-6"
-            >
-              <div className="space-y-4">
-                <Badge className="bg-white text-sky-600">
-                  {applicationFormSection.badge}
-                </Badge>
-                <h2 className="text-4xl font-bold leading-tight">
-                  {applicationFormSection.title}
-                </h2>
-                <p className="description">
-                  {applicationFormSection.form.description}
-                </p>
-              </div>
-
-              <div className="space-y-4">
-                {applicationFormSection.features.map((feature, index) => (
-                  <div key={index} className="flex items-center gap-3">
-                    <CheckCircle className="h-5 w-5 text-green-400" />
-                    <span>{feature}</span>
-                  </div>
-                ))}
-              </div>
-            </motion.div>
-
-            <motion.div
-              initial={{ opacity: 0, x: 50 }}
-              whileInView={{ opacity: 1, x: 0 }}
-              transition={{ duration: 0.8, delay: 0.2 }}
-            >
-              <Card className="bg-white text-gray-900">
-                <CardHeader>
-                  <CardTitle className="text-2xl text-center">
-                    {applicationFormSection.form.title}
-                  </CardTitle>
-                  <CardDescription className="text-center">
-                    {applicationFormSection.form.description}
-                  </CardDescription>
-                </CardHeader>
-                <CardContent className="space-y-4">
-                  <div className="grid grid-cols-2 gap-4">
-                    {applicationFormSection.form.fields.map((field, index) => {
-                      if (field.grid) {
-                        return (
-                          <Input
-                            key={index}
-                            placeholder={field.placeholder}
-                            type={field.type}
-                            className={field.grid}
-                          />
-                        );
-                      }
-                      return null;
-                    })}
-                  </div>
-                  {applicationFormSection.form.fields.map((field, index) => {
-                    if (
-                      !field.grid &&
-                      field.type !== "select" &&
-                      field.type !== "textarea"
-                    ) {
-                      return (
-                        <Input
-                          key={index}
-                          placeholder={field.placeholder}
-                          type={field.type}
-                        />
-                      );
-                    }
-                    if (field.type === "select") {
-                      return (
-                        <Select key={index}>
-                          <SelectTrigger>
-                            <SelectValue placeholder={field.placeholder} />
-                          </SelectTrigger>
-                          <SelectContent>
-                            {field.options?.map((option, optIndex) => (
-                              <SelectItem key={optIndex} value={option.value}>
-                                {option.label}
-                              </SelectItem>
-                            ))}
-                          </SelectContent>
-                        </Select>
-                      );
-                    }
-                    if (field.type === "textarea") {
-                      return (
-                        <Textarea key={index} placeholder={field.placeholder} />
-                      );
-                    }
-                    return null;
-                  })}
-                  <Button
-                    className={
-                      applicationFormSection.form.submitButton.className
-                    }
-                  >
-                    {applicationFormSection.form.submitButton.text}
-                    {applicationFormSection.form.submitButton.icon && (
-                      <applicationFormSection.form.submitButton.icon />
-                    )}
-                  </Button>
-                  <p className="text-xs text-gray-500 text-center">
-                    {applicationFormSection.form.disclaimer}
-                  </p>
-                </CardContent>
-              </Card>
-            </motion.div>
-          </div>
-        </div>
-      </section>
+      <ApplicationForm
+        applicationFormSection={{
+          ...applicationFormSection,
+          form: {
+            ...applicationFormSection.form,
+            submitButton: {
+              ...applicationFormSection.form.submitButton,
+              icon:
+                typeof applicationFormSection.form.submitButton.icon ===
+                "string"
+                  ? undefined
+                  : applicationFormSection.form.submitButton.icon,
+            },
+          },
+        }}
+      />
 
       <Footer />
     </div>

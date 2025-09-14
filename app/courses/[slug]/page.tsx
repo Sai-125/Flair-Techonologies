@@ -33,35 +33,86 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 import { EnrollDialog } from "@/components/EnrollDialog";
+import Rating from "@/components/ui/Rating";
+import ApplicationForm from "@/components/ui/Application-form";
+import { coursePageApplication } from "@/app/constant";
+
+// Application form content
+const { applicationFormSection } = coursePageApplication;
 
 // This would typically come from a database or API
 const courseData = {
   "python-fullstack": {
-    title: "Python Full-Stack Development",
+    title: "Python Full-Stack <span class='text-yellow-400'>Development</span>",
     description:
-      "Master Django, React, and modern web development with hands-on projects",
-    duration: "6 months",
+      "Master Python, Django and modern web development with hands-on projects",
+    duration: "3 months",
     mode: "Online/Offline",
     level: "Beginner to Advanced",
     price: "₹45,000",
     originalPrice: "₹60,000",
-    category: "Development",
+    category: "🧑‍💻 Development",
     students: "500+",
-    rating: 4.8,
+    rating: 4.7,
     reviews: 156,
-    image:
-      "https://media.geeksforgeeks.org/wp-content/uploads/20240415204701/How-to-Become-a-Python-Full-Stack-Developer.png",
+    brochure: "PYTHON FULL STACK.pdf",
+    outline: "Data Analytics - Outline.pdf",
+    image: "/pyhton.png",
     highlights: [
-      "Learn Python, Django, React, and PostgreSQL",
-      "Build 5+ real-world projects",
-      "Get mentorship from industry experts",
-      "100% placement assistance",
-      "Lifetime access to course materials",
+      "Master Python programming fundamentals and advanced concepts.",
+      "Build dynamic web applications using Django/Flask frameworks.",
+      "Work with databases SQL for backend integration.",
+      "Develop interactive front-end using HTML, CSS, and JavaScript.",
+      "Learn REST APIs, authentication, and deployment practices.",
+      "Learn version control and collaboration with Git & GitHub.",
+      "Deploy apps on cloud and manage hosting.",
+      "Get hands-on project experience.",
     ],
+    testimonialsSection: {
+      badge: "Success Stories",
+      title:
+        'From <span className="text-sky-600">Freshers</span> to Professionals',
+      description:
+        "Hear from our successful graduates who transformed their careers with our Python Full-Stack program",
+      testimonials: [
+        {
+          name: "Ananya",
+          role: "Software Engineer",
+          image: "/ananya.jpeg?height=80&width=80",
+          content:
+            "The Python Full-Stack course gave me a clear understanding of both front-end and back-end. The hands-on projects helped me gain confidence to build apps on my own.",
+          rating: 5,
+          course: "Software Engineer",
+        },
+        {
+          name: "Rahul Chowdary",
+          role: "Data Analyst at Wipro",
+          image: "/rahul.jpg?height=80&width=80",
+          content:
+            "The trainers explained concepts in a simple way and guided me through real-time projects. This course boosted my skills and helped me secure my first developer job.",
+          rating: 5,
+          course: "Junior Developer",
+        },
+        {
+          name: "Sneha Reddy",
+          role: "DevOps Engineer at Infosys",
+          image: "/sneha.png?height=80&width=80",
+          content:
+            "As a working professional, I needed flexible learning with practical exposure. This program not only fit my schedule but also gave me industry-ready skills in Python full-stack.",
+          rating: 5,
+          course: "Senior Developer",
+        },
+      ],
+    },
+    nextBatch: [
+      { starts: "Every Month", mode: "Online / Classroom-Bangalore" },
+    ],
+    qualification: " B.TECH/B.COM/BSC/MSC/MCA",
+    eligibleLearners: "Freshers / IT-Professionals",
     syllabus: [
       {
         module: "Core Python",
-        duration: "4 weeks",
+        duration: "3 weeks",
         topics: [
           {
             name: "Introduction",
@@ -125,7 +176,7 @@ const courseData = {
       },
       {
         module: "Advance Python",
-        duration: "6 weeks",
+        duration: "3 weeks",
         topics: [
           {
             name: "OOPs Concept",
@@ -195,7 +246,7 @@ const courseData = {
       },
       {
         module: "Django",
-        duration: "6 weeks",
+        duration: "4 weeks",
         topics: [
           {
             name: "Introduction",
@@ -240,7 +291,7 @@ const courseData = {
       },
       {
         module: "Linux",
-        duration: "6 weeks",
+        duration: "1 week",
         topics: [
           {
             name: "Getting Started with Linux",
@@ -326,7 +377,7 @@ const courseData = {
       },
       {
         module: "Selenium",
-        duration: "6 weeks",
+        duration: "3 weeks",
         topics: [
           {
             name: "Introduction",
@@ -402,7 +453,7 @@ const courseData = {
       },
       {
         module: "GIT - Version Control",
-        duration: "6 weeks",
+        duration: "1 week",
         topics: [
           {
             name: "Introduction to Version Control",
@@ -508,7 +559,7 @@ const courseData = {
       },
       {
         module: "Database",
-        duration: "6 weeks",
+        duration: "1 week",
         topics: [
           {
             name: "Introduction to Databases",
@@ -574,39 +625,91 @@ const courseData = {
       bio: "Rajesh is a seasoned full-stack developer with extensive experience in Python and React. He has worked on large-scale applications at Google and mentored 200+ students.",
     },
     projects: [
-      "E-commerce Platform with Payment Integration",
-      "Social Media Dashboard",
-      "Task Management System",
-      "Real-time Chat Application",
-      "Portfolio Website with CMS",
+      "E-Commerce Web Application",
+      "Social Media Platform",
+      "Online Learning Portal",
+      "Blogging & Content Management System (CMS)",
+      "Job Portal Application",
+    ],
+    projectsDetails: [
+      "Build a complete online store with product listings, cart, checkout, and payment integration.",
+      "Develop a mini social network with user authentication, posts, likes, and comments.",
+      "Create a course management system with video lessons, quizzes, and progress tracking.",
+      "Design a platform for creating, editing, and publishing blogs with admin dashboards.",
+      "Implement a job listing site where employers post jobs and users apply with profiles/resumes.",
     ],
   },
   "java-fullstack": {
-    title: "Java Fullstack",
+    title: "Java <span class='text-yellow-400'>Fullstack</span>",
     description:
-      "Learn to implement DevOps practices using Azure tools and services",
+      "Master Core & Advanced Java for building robust enterprise applications.",
     duration: "4 months",
     mode: "Online/Offline",
-    level: "Intermediate to Advanced",
+    level: "Beginner to Advanced",
     price: "₹40,000",
     originalPrice: "₹50,000",
-    category: "Analytics",
-    students: "400+",
+    category: "🧑‍💻 Development",
+    students: "500+",
     rating: 4.9,
     reviews: 120,
-    image:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3Mpx-7k0FvYWzb8n8snbXGKMKM-YWg0Vlsg&s",
+    brochure: "FRESHERS.pdf",
+    outline: "Data Analytics - Outline.pdf",
+    image: "/java.jpg",
     highlights: [
-      "Master Azure Repos, Pipelines, and Boards",
-      "Continuous Integration/Continuous Deployment (CI/CD)",
-      "Infrastructure as Code (IaC)",
-      "Real-world DevOps projects",
-      "Certification support",
+      "Master object-oriented programming and advanced Java concepts.",
+      "Build responsive UIs using HTML, CSS, JavaScript, and frameworks.",
+      "Develop scalable applications using Spring Boot & Java EE.",
+      "Work with MySQL, PostgreSQL, and NoSQL databases.",
+      "Build seamless API integrations.",
+      "Learn Git, GitHub, and deployment practices.",
+      "Deploy applications on AWS, Azure, or other cloud platforms.",
+      "Build end-to-end real-world applications to showcase your skills.",
     ],
+    testimonialsSection: {
+      badge: "Success Stories",
+      title:
+        'From <span className="text-sky-600">Freshers</span> to Professionals',
+      description:
+        "Hear from our successful graduates who transformed their careers with our Java Full-Stack program",
+      testimonials: [
+        {
+          name: "Keerthana",
+          role: "Fresher",
+          image: "/keer.png?height=80&width=80",
+          content:
+            "As a recent graduate, I had no prior industry exposure. The Java Full Stack program at Flair Technologies gave me the confidence to build real-world applications. The hands-on projects and mentorship helped me land my first job as a Full Stack Developer.",
+          rating: 5,
+          course: "Fresher",
+        },
+        {
+          name: "Srinivas",
+          role: "Data Analyst at Wipro",
+          image: "/sri.png?height=80&width=80",
+          content:
+            "Coming from an IT background, I wanted to upgrade my skills to Full Stack. The structured curriculum, especially on Spring Boot and REST APIs, enhanced my expertise and helped me move into a higher role within my organization.",
+          rating: 5,
+          course: "IT Professional",
+        },
+        {
+          name: "Divya",
+          role: "DevOps Engineer at Infosys",
+          image: "/divya.png?height=80&width=80",
+          content:
+            "I was from a non-IT background and initially hesitant about coding. Thanks to the trainers and their step by step guidance, I successfully transitioned into software development. Today, I work as a Java Full Stack Developer and feel confident in my career.",
+          rating: 5,
+          course: "Non-IT Professional",
+        },
+      ],
+    },
+    nextBatch: [
+      { starts: "Every Two Months", mode: "Online / Classroom-Bangalore" },
+    ],
+    qualification: " B.TECH/B.COM/BSC/MSC/MCA",
+    eligibleLearners: "Freshers / IT-Professionals",
     syllabus: [
       {
         module: "Database",
-        duration: "6 weeks",
+        duration: "2 weeks",
         topics: [
           {
             name: "Introduction",
@@ -741,7 +844,7 @@ const courseData = {
       },
       {
         module: "Core Java",
-        duration: "6 weeks",
+        duration: "3 weeks",
         topics: [
           {
             name: "Introduction to programming",
@@ -801,7 +904,7 @@ const courseData = {
       },
       {
         module: "J2EE",
-        duration: "6 weeks",
+        duration: "2 weeks",
         topics: [
           {
             name: "Introduction to JAVA EE",
@@ -990,7 +1093,7 @@ const courseData = {
       },
       {
         module: "Frameworks",
-        duration: "6 weeks",
+        duration: "3 weeks",
         topics: [
           {
             name: "Hibernate",
@@ -1065,7 +1168,7 @@ const courseData = {
       },
       {
         module: "Web Services",
-        duration: "6 weeks",
+        duration: "1 week",
         topics: [
           {
             name: "Web Services",
@@ -1093,7 +1196,7 @@ const courseData = {
       },
       {
         module: "Web Technology",
-        duration: "6 weeks",
+        duration: "2 weeks",
         topics: [
           {
             name: "Web Technology",
@@ -1311,7 +1414,7 @@ const courseData = {
       },
       {
         module: "Quantitative Aptitude",
-        duration: "6 weeks",
+        duration: "1 week",
         topics: [
           {
             name: "Numbers",
@@ -1356,7 +1459,7 @@ const courseData = {
       },
       {
         module: "Logical Reasoning",
-        duration: "6 weeks",
+        duration: "1 week",
         topics: [
           {
             name: "Logical Reasoning",
@@ -1374,7 +1477,7 @@ const courseData = {
       },
       {
         module: "Verbal Ability",
-        duration: "6 weeks",
+        duration: "1 week",
         topics: [
           {
             name: "Verbal Ability",
@@ -1404,38 +1507,91 @@ const courseData = {
       bio: "Arjun has extensive experience in Azure DevOps and has led multiple enterprise-level implementations.",
     },
     projects: [
-      "CI/CD Pipeline for Web App",
-      "Automated Testing Framework",
-      "Infrastructure Deployment",
-      "Monitoring Dashboard",
+      "E-Commerce Web Application",
+      "Hospital Management System",
+      "Online Banking System",
+      "Job Portal Application",
+      "Learning Management System (LMS)",
+    ],
+    projectsDetails: [
+      "Build a shopping platform with product catalog, cart, checkout, and payment gateway integration.",
+      "Develop a system to manage patients, doctors, appointments, billing, and medical records.",
+      "Create a secure platform for fund transfers, account management, and transaction history.",
+      "Implement a platform where recruiters post jobs and candidates apply with profiles/resumes and schedule interviews seamlessly online.",
+      "Design a portal with courses, student dashboards, quizzes, and progress tracking and personalized learning paths included.",
     ],
   },
   reactCourse: {
-    title: "ReactJS",
+    title: "React<span class='text-yellow-400'>JS</span>",
     description:
-      "Learn to implement DevOps practices using Azure tools and services",
-    duration: "4 months",
+      "Future-proof your career with ReactJS expertise by building production-ready projects and real-time web applications.",
+    duration: "2 months",
     mode: "Online/Offline",
-    level: "Intermediate to Advanced",
+    level: "Beginner to Advanced",
     price: "₹40,000",
     originalPrice: "₹50,000",
-    category: "Analytics",
-    students: "400+",
-    rating: 4.9,
-    reviews: 120,
-    image:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3Mpx-7k0FvYWzb8n8snbXGKMKM-YWg0Vlsg&s",
+    category: "🧑‍💻 Development",
+    students: "700+",
+    rating: 4.8,
+    reviews: 500,
+    brochure: "FRESHERS.pdf",
+    outline: "Data Analytics - Outline.pdf",
+    image: "/react.jpg",
     highlights: [
-      "Master Azure Repos, Pipelines, and Boards",
-      "Continuous Integration/Continuous Deployment (CI/CD)",
-      "Infrastructure as Code (IaC)",
-      "Real-world DevOps projects",
-      "Certification support",
+      "Understand ReactJS fundamentals, components, and JSX syntax.",
+      "Manage state and props for dynamic UI development.",
+      "Work with React Hooks for cleaner, functional code.",
+      "Implement routing and navigation using React Router.",
+      "Connect React apps with APIs for real-time data handling.",
+      "Apply Redux or Context API for state management.",
+      "Build responsive and interactive applications.",
+      "Deploy React apps with best practices.",
     ],
+    testimonialsSection: {
+      badge: "Success Stories",
+      title:
+        'From <span className="text-sky-600">Freshers</span> to Professionals',
+      description:
+        "Hear from our successful graduates who transformed their careers with our ReactJS program",
+      testimonials: [
+        {
+          name: "Priya",
+          role: "Fresher",
+          image: "/priya.png?height=80&width=80",
+          content:
+            "As a fresher, ReactJS training here gave me the confidence and skills to build real-world projects. Thanks to Flair for the guidance, I landed my first job as a React Developer.",
+          rating: 5,
+          course: "Fresher",
+        },
+        {
+          name: "Shahini",
+          role: "Data Analyst at Wipro",
+          image: "/sha.png?height=80&width=80",
+          content:
+            "Coming from a non-IT background, I never imagined coding could be this simple. With step-by-step ReactJS training, I successfully transitioned into a Front-End Developer role.",
+          rating: 5,
+          course: "Non-IT Graduate",
+        },
+        {
+          name: "Arjun",
+          role: "DevOps Engineer at Infosys",
+          image: "/arjun.png?height=80&width=80",
+          content:
+            "Already working in web development, I wanted to specialize in ReactJS. This course sharpened my skills, practical project skills, and helped me move into a higher-paying role.",
+          rating: 5,
+          course: "IT Professional",
+        },
+      ],
+    },
+    nextBatch: [
+      { starts: "Every Month", mode: "Online / Classroom-Bangalore" },
+    ],
+    qualification: " B.TECH/B.COM/BSC/MSC/MCA",
+    eligibleLearners: "Freshers / IT-Professionals",
     syllabus: [
       {
-        module: "Web Development Course Outline",
-        duration: "6 weeks",
+        module: "HTML",
+        duration: "1 week",
         topics: [
           {
             name: "HTML 4 & Older Versions",
@@ -1479,6 +1635,12 @@ const courseData = {
               "Aside & Nav",
             ],
           },
+        ],
+      },
+      {
+        module: " Elements & Attributes ",
+        duration: "1 week",
+        topics: [
           {
             name: "Form Elements & Attributes",
             content: [
@@ -1487,6 +1649,12 @@ const courseData = {
               "New Attributes in Form Elements",
             ],
           },
+        ],
+      },
+      {
+        module: " CSS2 & CSS3",
+        duration: "1 week",
+        topics: [
           {
             name: "CSS2 & CSS3",
             content: [
@@ -1505,6 +1673,12 @@ const courseData = {
               "All Properties",
             ],
           },
+        ],
+      },
+      {
+        module: "JavaScript",
+        duration: "2 weeks",
+        topics: [
           {
             name: "JavaScript",
             content: [
@@ -1522,6 +1696,12 @@ const courseData = {
               "JSON",
             ],
           },
+        ],
+      },
+      {
+        module: " ES6 – ES9",
+        duration: "1 week",
+        topics: [
           {
             name: "ES6 – ES9",
             content: [
@@ -1543,6 +1723,12 @@ const courseData = {
               "Modules",
             ],
           },
+        ],
+      },
+      {
+        module: "ReactJS",
+        duration: "2 weeks",
+        topics: [
           {
             name: "Introduction to React",
             content: [
@@ -1673,6 +1859,7 @@ const courseData = {
         ],
       },
     ],
+
     instructor: {
       name: "Arjun Patel",
       title: "DevOps Engineer at TCS",
@@ -1681,15 +1868,23 @@ const courseData = {
       bio: "Arjun has extensive experience in Azure DevOps and has led multiple enterprise-level implementations.",
     },
     projects: [
-      "CI/CD Pipeline for Web App",
-      "Automated Testing Framework",
-      "Infrastructure Deployment",
-      "Monitoring Dashboard",
+      "Todo List Application",
+      "Weather App",
+      "Student Management System",
+      "Recipe Finder App",
+      "Blog Posting Application",
+    ],
+    projectsDetails: [
+      "Build a simple task manager to add, edit, mark complete, and delete tasks using React state.",
+      "Create a weather forecasting app fetching real-time data from APIs and displaying detailed city weather reports.",
+      "Develop a student records system to add, update, and manage student data with forms, tables, and state.",
+      "Design an app to search and display recipes by ingredients using external APIs with React components.",
+      "Build a blogging platform for creating, editing, deleting posts with React Router, forms, and CRUD operations.",
     ],
   },
 
   "power-bi": {
-    title: "Microsoft Power BI",
+    title: "Microsoft  <span class='text-yellow-400'>Power BI</span>",
     description:
       "Learn to create interactive data visualizations and business intelligence reports",
     duration: "3 months",
@@ -1840,7 +2035,7 @@ const courseData = {
   },
 
   alteryx: {
-    title: "Alteryx",
+    title: "Alteryx <span class='text-yellow-400'>Designer</span>",
     description:
       "Learn to implement DevOps practices using Azure tools and services",
     duration: "4 months",
@@ -2009,7 +2204,7 @@ const courseData = {
   },
 
   "excel-Vba": {
-    title: "Microsoft Excel & VBA",
+    title: "Microsoft <span class='text-yellow-400'>Excel & VBA</span>",
     description:
       "Learn to implement DevOps practices using Azure tools and services",
     duration: "4 months",
@@ -2155,6 +2350,18 @@ const courseData = {
               "Array Formulas",
               "VLOOKUP and COLUMN",
               "VLOOKUP with IF and VLOOKUP with AND Activities based on the above functions",
+            ],
+          },
+          {
+            name: "Power Query",
+            content: [
+              "Creating Front end Tables",
+              "Data Cleansing (Replace, Trim, Clean, Split Columns, Merge Columns)",
+              "Data Transformation (Pivot, Unpivot, Transpose, group by)",
+              "Merge Queries",
+              "Append Queries",
+              "Creating the columns",
+              "Applied Steps maintenance (Advanced Query Editor)",
             ],
           },
           {
@@ -2371,7 +2578,7 @@ const courseData = {
   },
 
   tableau: {
-    title: "Tableau",
+    title: "Tableau <span class='text-yellow-400'>Developer</span>",
     description:
       "Learn to implement DevOps practices using Azure tools and services",
     duration: "4 months",
@@ -2505,7 +2712,7 @@ const courseData = {
     ],
   },
   sqlCourse: {
-    title: "SQL",
+    title: "SQL <span class='text-yellow-400'>Developer</span>",
     description:
       "Learn to implement DevOps practices using Azure tools and services",
     duration: "4 months",
@@ -2703,7 +2910,7 @@ const courseData = {
   },
 
   python: {
-    title: "Python",
+    title: "Analytics with <span class='text-yellow-400'>Python</span> ",
     description:
       "Learn to implement DevOps practices using Azure tools and services",
     duration: "4 months",
@@ -2874,7 +3081,7 @@ const courseData = {
     ],
   },
   "aws-devops": {
-    title: "AWS DevOps",
+    title: "AWS <span class='text-yellow-400'>DevOps</span>",
     description:
       "Learn to implement DevOps practices using Azure tools and services",
     duration: "4 months",
@@ -3165,7 +3372,7 @@ const courseData = {
     ],
   },
   "azure-devops": {
-    title: "Azure DevOps",
+    title: "Azure <span class='text-yellow-400'>DevOps</span>",
     description:
       "Learn to implement DevOps practices using Azure tools and services",
     duration: "4 months",
@@ -3533,7 +3740,7 @@ const courseData = {
     ],
   },
   "azure-admin": {
-    title: "Azure Admin",
+    title: "Azure <span class='text-yellow-400'>Admin</span>",
     description:
       "Learn to implement DevOps practices using Azure tools and services",
     duration: "4 months",
@@ -3749,7 +3956,7 @@ const courseData = {
     ],
   },
   "oracle-fusion-cloud-scm": {
-    title: "Oracle Fusion Cloud SCM",
+    title: "Oracle Fusion Cloud <span class='text-yellow-400'>SCM</span>",
     description:
       "Learn to implement DevOps practices using Azure tools and services",
     duration: "4 months",
@@ -4373,18 +4580,19 @@ const courseData = {
     ],
   },
   "data-analytics": {
-    title: "Data Analytics",
+    title: "Data <span class='text-yellow-400'>Analytics</span>",
     description:
       "Gain skills in data analysis using Python, R, and advanced analytics tools",
-    duration: "5 months",
+    duration: "4 months",
     mode: "Online/Offline",
     level: "Beginner to Advanced",
     price: "₹35,000",
     originalPrice: "₹45,000",
     category: "Data Analytics",
     students: "450+",
-    rating: 4.6,
+    rating: 4.9,
     reviews: 110,
+    brochure: "Data Analytics - Outline.pdf",
     image:
       "https://www.bismilsoft.com/admin/images/blog/DATA%20ANALYTICS_WEB%20IMAGE-01-01.jpg",
     highlights: [
@@ -4542,8 +4750,8 @@ const courseData = {
         ],
       },
       {
-        module: "Microsoft Power BI Course Outline",
-        duration: "6 weeks",
+        module: "Microsoft Power BI",
+        duration: "3 weeks",
         topics: [
           {
             name: "Configuration and Connections",
@@ -4654,7 +4862,7 @@ const courseData = {
         ],
       },
       {
-        module: "Tableau Course Outline",
+        module: "Tableau",
         duration: "3 weeks",
         topics: [
           {
@@ -4750,7 +4958,7 @@ const courseData = {
         ],
       },
       {
-        module: "Alteryx Designer Course Outline",
+        module: "Alteryx Designer",
         duration: "3 weeks",
         topics: [
           {
@@ -4928,8 +5136,8 @@ const courseData = {
         ],
       },
       {
-        module: "SQL Outline",
-        duration: "3 weeks",
+        module: "SQL",
+        duration: "4 weeks",
         topics: [
           {
             name: "Introduction to SQL",
@@ -5235,7 +5443,7 @@ const courseData = {
     ],
   },
   Tableau: {
-    title: "Tableau",
+    title: "Tableau <span class='text-yellow-400'>Developer</span>",
     description:
       "Master data visualization and business intelligence with Tableau",
     duration: "3 months",
@@ -5386,199 +5594,8 @@ const courseData = {
       "Financial Summary Dashboard",
     ],
   },
-  // "network-protocol": {
-  //   title: "Network Protocol",
-  //   description:
-  //     "Understand and implement network protocols for robust IT infrastructure",
-  //   duration: "4 months",
-  //   mode: "Online/Offline",
-  //   level: "Intermediate to Advanced",
-  //   price: "₹30,000",
-  //   originalPrice: "₹40,000",
-  //   category: "Networking",
-  //   students: "250+",
-  //   rating: 4.5,
-  //   reviews: 70,
-  //   image:
-  //     "https://cdn-fainj.nitrocdn.com/HMhNvtGdkXCThiYKondeUNdKlFRQtHkp/assets/images/optimized/rev-2573752/www.auvik.com/wp-content/uploads/2024/06/common-network-protocols3.jpg",
-  //   highlights: [
-  //     "Learn TCP/IP, HTTP, FTP, and more",
-  //     "Hands-on network configuration",
-  //     "Security protocols and troubleshooting",
-  //     "Industry-standard certifications",
-  //     "Practical lab sessions",
-  //   ],
-  //   syllabus: [
-  //     {
-  //       module: "Network Fundamentals",
-  //       duration: "3 weeks",
-  //       topics: [
-  //         {
-  //           name: "OSI Model",
-  //           content: [
-  //             "Understand the OSI model and its layers.",
-  //             "Explore each layer's functions and protocols.",
-  //             "Compare OSI with TCP/IP model.",
-  //           ],
-  //         },
-  //         {
-  //           name: "TCP/IP Basics",
-  //           content: [
-  //             "Learn the fundamentals of TCP/IP protocols.",
-  //             "Understand packet structure and headers.",
-  //             "Analyze TCP/IP communication flow.",
-  //           ],
-  //         },
-  //         {
-  //           name: "IP Addressing",
-  //           content: [
-  //             "Configure IP addresses and subnets.",
-  //             "Understand IPv4 and IPv6 addressing.",
-  //             "Implement static and dynamic addressing.",
-  //           ],
-  //         },
-  //         {
-  //           name: "Subnetting",
-  //           content: [
-  //             "Master subnetting for network design.",
-  //             "Calculate subnet masks and ranges.",
-  //             "Design efficient subnet architectures.",
-  //           ],
-  //         },
-  //       ],
-  //     },
-  //     {
-  //       module: "Core Protocols",
-  //       duration: "5 weeks",
-  //       topics: [
-  //         {
-  //           name: "HTTP/HTTPS",
-  //           content: [
-  //             "Explore HTTP and HTTPS for web communication.",
-  //             "Understand request-response cycles.",
-  //             "Implement secure communication with HTTPS.",
-  //             "Analyze HTTP headers and status codes.",
-  //           ],
-  //         },
-  //         {
-  //           name: "FTP",
-  //           content: [
-  //             "Understand File Transfer Protocol operations.",
-  //             "Set up FTP servers and clients.",
-  //             "Secure FTP with SFTP and FTPS.",
-  //           ],
-  //         },
-  //         {
-  //           name: "SMTP",
-  //           content: [
-  //             "Learn email transmission with SMTP.",
-  //             "Configure SMTP servers for email delivery.",
-  //             "Troubleshoot email delivery issues.",
-  //           ],
-  //         },
-  //         {
-  //           name: "DNS",
-  //           content: [
-  //             "Configure and troubleshoot DNS services.",
-  //             "Understand DNS resolution process.",
-  //             "Set up DNS records like A, CNAME, and MX.",
-  //           ],
-  //         },
-  //         {
-  //           name: "DHCP",
-  //           content: [
-  //             "Implement DHCP for automatic IP allocation.",
-  //             "Configure DHCP scopes and options.",
-  //             "Troubleshoot DHCP-related issues.",
-  //           ],
-  //         },
-  //       ],
-  //     },
-  //     {
-  //       module: "Security & Troubleshooting",
-  //       duration: "3 weeks",
-  //       topics: [
-  //         {
-  //           name: "Network Security",
-  //           content: [
-  //             "Implement security measures for networks.",
-  //             "Configure firewalls and intrusion detection.",
-  //             "Understand encryption protocols.",
-  //           ],
-  //         },
-  //         {
-  //           name: "Protocol Analysis",
-  //           content: [
-  //             "Analyze network traffic with tools like Wireshark.",
-  //             "Capture and interpret packets.",
-  //             "Identify network anomalies.",
-  //           ],
-  //         },
-  //         {
-  //           name: "Troubleshooting Tools",
-  //           content: [
-  //             "Use tools for network diagnostics.",
-  //             "Perform ping, traceroute, and netstat analysis.",
-  //             "Diagnose connectivity issues.",
-  //           ],
-  //         },
-  //         {
-  //           name: "VPNs",
-  //           content: [
-  //             "Set up virtual private networks for security.",
-  //             "Configure site-to-site and remote-access VPNs.",
-  //             "Troubleshoot VPN connectivity.",
-  //           ],
-  //         },
-  //       ],
-  //     },
-  //     {
-  //       module: "Advanced Networking",
-  //       duration: "3 weeks",
-  //       topics: [
-  //         {
-  //           name: "VoIP",
-  //           content: [
-  //             "Implement Voice over IP protocols.",
-  //             "Configure VoIP systems like SIP.",
-  //             "Optimize VoIP call quality.",
-  //           ],
-  //         },
-  //         {
-  //           name: "Wireless Protocols",
-  //           content: [
-  //             "Configure wireless network protocols.",
-  //             "Understand Wi-Fi standards like 802.11.",
-  //             "Secure wireless networks.",
-  //           ],
-  //         },
-  //         {
-  //           name: "Network Optimization",
-  //           content: [
-  //             "Optimize network performance and latency.",
-  //             "Implement QoS policies.",
-  //             "Monitor network bandwidth usage.",
-  //           ],
-  //         },
-  //       ],
-  //     },
-  //   ],
-  //   instructor: {
-  //     name: "Anil Mehta",
-  //     title: "Network Engineer at Cisco",
-  //     experience: "13+ years",
-  //     image: "/placeholder.svg?height=100&width=100",
-  //     bio: "Anil has extensive experience in network protocols and has trained numerous IT professionals.",
-  //   },
-  //   projects: [
-  //     "Network Configuration Setup",
-  //     "Protocol Simulation",
-  //     "Security Audit Project",
-  //     "Wireless Network Deployment",
-  //   ],
-  // },
   Cybersecurity: {
-    title: "Cybersecurity",
+    title: "Cyber<span class='text-yellow-400'>Security</span>",
     description:
       "Learn to implement DevOps practices using Azure tools and services",
     duration: "4 months",
@@ -5749,7 +5766,7 @@ const courseData = {
     ],
   },
   "network-protocol-development": {
-    title: "Network Protocol Development",
+    title: "Network Protocol <span class='text-yellow-400'>Development</span>",
     description:
       "Learn to implement DevOps practices using Azure tools and services",
     duration: "4 months",
@@ -6083,6 +6100,55 @@ const courseData = {
               "POSIX Semaphores",
             ],
           },
+        ],
+      },
+      {
+        module: "Network Programming",
+        duration: "3 weeks",
+        topics: [
+          {
+            name: "Introduction to Networking",
+            content: [
+              "Need/Uses of Networking",
+              "Network topologies",
+              "LAN, MAN, WAN",
+              "Typical media used in each",
+              "Typical protocols used in each",
+              "LAN Standards",
+              "Ethernet, Token Ring, Token Bus, FDDI",
+              "Ethernet Media (Thick, Thin, Twisted pair)",
+              "WAN Standards",
+              "Dial-up, Leased Line",
+              "ISDN, DSL",
+              "ATM",
+              "Wireless",
+            ],
+          },
+          {
+            name: "Network Protocol Layers",
+            content: [
+              "Use of Layers",
+              "OSI Protocol layers",
+              "TCP/IP protocol layers",
+            ],
+          },
+          {
+            name: "Socket Programming",
+            content: [
+              "Concept of socket / socket pair",
+              "Concept of Client and Server",
+              "Concept of connectionless and connection-oriented protocols (UDP/TCP)",
+              "Socket calls for UDP server and client",
+              "Socket calls for TCP server and client",
+              "Algorithms and Issues in Client software design",
+              "Algorithms and Issues in Server software design",
+              "Iterative, Connectionless Servers",
+              "Iterative, Connection-Oriented servers",
+              "Concurrent, Connection-Oriented servers",
+              "Serving multiple clients with a single process",
+              "Serving multiple clients with one thread per client",
+            ],
+          },
           {
             name: "UDP/TCP Applications",
             content: ["TFTP", "SMTP", "HTTP", "Mixed techniques"],
@@ -6172,7 +6238,7 @@ const courseData = {
     ],
   },
   "record-to-report-r2r": {
-    title: "Record to Report (R2R)",
+    title: "Record to Report <span class='text-yellow-400'>(R2R)</span>",
     description:
       "Learn to implement DevOps practices using Azure tools and services",
     duration: "4 months",
@@ -6195,7 +6261,7 @@ const courseData = {
     ],
     syllabus: [
       {
-        module: "R2R Outline",
+        module: "R2R <span class='text-yellow-400'>Outline</span>",
         duration: "3 weeks",
         topics: [
           {
@@ -6271,7 +6337,7 @@ const courseData = {
       },
     ],
     instructor: {
-      name: "Arjun Patel",
+      name: "Arjun <span class='text-yellow-400'>Patel</span>",
       title: "DevOps Engineer at TCS",
       experience: "12+ years",
       image: "/placeholder.svg?height=100&width=100",
@@ -6285,7 +6351,7 @@ const courseData = {
     ],
   },
   "ai-and-ml": {
-    title: "AI & ML",
+    title: "AI & <span class='text-yellow-400'>ML</span>",
     description:
       "Learn to implement DevOps practices using Azure tools and services",
     duration: "4 months",
@@ -6705,7 +6771,10 @@ export default function CoursePage({ params }: { params: { slug: string } }) {
                 <Badge className="bg-white text-sky-600">
                   {course.category} Course
                 </Badge>
-                <h1 className="heading">{course.title}</h1>
+                <h1
+                  className="heading"
+                  dangerouslySetInnerHTML={{ __html: course.title }}
+                />
                 <p className="description">{course.description}</p>
               </div>
 
@@ -6738,7 +6807,9 @@ export default function CoursePage({ params }: { params: { slug: string } }) {
                   size="lg"
                   variant="outline"
                   className="w-full md:w-auto border-white text-white hover:bg-white hover:text-sky-600 text-lg px-8 bg-transparent"
-                  onClick={() => window.open("/my-course.pdf", "_blank")}
+                  onClick={() =>
+                    window.open(`/${(course as any)?.brochure ?? ""}`, "_blank")
+                  }
                 >
                   View Brochure <Download className="ml-2 h-4 w-4" />
                 </Button>
@@ -6851,6 +6922,28 @@ export default function CoursePage({ params }: { params: { slug: string } }) {
                             <h4 className="font-semibold">100% Placement</h4>
                             <p className="text-sm text-gray-600">
                               Guaranteed job assistance
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="space-y-4">
+                        <div className="flex items-start gap-3">
+                          <BookOpen className="h-5 w-5 text-sky-600 mt-1" />
+                          <div>
+                            <h4 className="font-semibold">Hands-on Projects</h4>
+                            <p className="text-sm text-gray-600">
+                              Apply concepts with real-world practice
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="space-y-4">
+                        <div className="flex items-start gap-3">
+                          <Users className="h-5 w-5 text-sky-600 mt-1" />
+                          <div>
+                            <h4 className="font-semibold">Career Guidance</h4>
+                            <p className="text-sm text-gray-600">
+                              Get expert support for your career growth
                             </p>
                           </div>
                         </div>
@@ -6980,8 +7073,8 @@ export default function CoursePage({ params }: { params: { slug: string } }) {
                                 {project}
                               </h4>
                               <p className="text-sm text-gray-600 mt-1">
-                                A comprehensive project that demonstrates
-                                real-world application of the skills learned
+                                {(course as any)?.projectsDetails?.[index] ??
+                                  ""}
                               </p>
                             </div>
                           </div>
@@ -7041,10 +7134,15 @@ export default function CoursePage({ params }: { params: { slug: string } }) {
                     <Button
                       variant="ghost"
                       className="w-full"
-                      onClick={() => window.open("/my-course.pdf", "_blank")}
+                      onClick={() =>
+                        window.open(
+                          `/${(course as any)?.outline ?? ""}`,
+                          "_blank"
+                        )
+                      }
                     >
                       <Download className="mr-2 h-4 w-4" />
-                      View Brochure
+                      View Outline
                     </Button>
                   </div>
                 </CardContent>
@@ -7062,19 +7160,21 @@ export default function CoursePage({ params }: { params: { slug: string } }) {
                       Next Batch
                     </div>
                     <div className="text-sm text-blue-700">
-                      Starts: March 15, 2024
+                      Frequency: {(course as any)?.nextBatch?.[0]?.starts ?? ""}
                     </div>
-                    <div className="text-sm text-blue-700">Mode: Online</div>
+                    <div className="text-sm text-blue-700">
+                      Mode: {(course as any)?.nextBatch?.[0]?.mode ?? ""}
+                    </div>
                   </div>
                   <div className="p-3 bg-gray-50 rounded-lg">
                     <div className="font-semibold text-gray-900">
-                      Weekend Batch
+                      Eligible Learners
                     </div>
                     <div className="text-sm text-gray-700">
-                      Starts: March 20, 2024
+                      Learners: {(course as any)?.eligibleLearners}
                     </div>
                     <div className="text-sm text-gray-700">
-                      Mode: Offline (Bangalore)
+                      Qualification:{(course as any)?.qualification}
                     </div>
                   </div>
                 </CardContent>
@@ -7083,6 +7183,29 @@ export default function CoursePage({ params }: { params: { slug: string } }) {
           </div>
         </div>
       </section>
+
+      {/* Rating Section */}
+
+      <Rating testimonialsSection={(course as any)?.testimonialsSection} />
+
+      {/* Application form section */}
+
+      <ApplicationForm
+        applicationFormSection={{
+          ...applicationFormSection,
+          form: {
+            ...applicationFormSection.form,
+            submitButton: {
+              ...applicationFormSection.form.submitButton,
+              icon:
+                typeof applicationFormSection.form.submitButton.icon ===
+                "string"
+                  ? undefined
+                  : applicationFormSection.form.submitButton.icon,
+            },
+          },
+        }}
+      />
 
       <Footer />
     </div>

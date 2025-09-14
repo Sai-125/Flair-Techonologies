@@ -670,43 +670,43 @@ export const freshersPage = {
       "Specially designed programs for fresh graduates with zero experience. Start from basics and become job-ready in months.",
     programs: [
       {
-        id: "python-fullstack",
-        title: "Python Full-Stack Development",
+        id: "data-analytics",
+        title: "Data Analytics",
         description:
-          "Master Django, React, and modern web development with hands-on projects",
-        duration: "6 months",
+          "Learn data analysis and visualization using Excel, SQL, Python, Tableau, Power BI, and Alteryx.",
+        duration: "4 months",
         mode: "Online/Offline",
         level: "Beginner to Advanced",
         price: "₹45,000",
-        category: "Development",
+        category: "Analytics",
         students: "500+",
-        rating: 4.8,
+        rating: 4.9,
         image: "/placeholder.svg?height=200&width=300",
       },
       {
-        id: "power-bi",
-        title: "Power BI & Data Analytics",
+        id: "python-fullstack",
+        title: "Python Full-Stack",
         description:
-          "Transform data into actionable business insights with Microsoft Power BI",
-        duration: "3 months",
+          "Learn Python Full Stack development with HTML, CSS, JavaScript & Django.",
+        duration: "2 months",
         mode: "Online/Offline",
-        level: "Beginner to Intermediate",
+        level: "Beginner to Advanced",
         price: "₹25,000",
-        category: "Analytics",
+        category: "Development",
         students: "300+",
         rating: 4.7,
         image: "/placeholder.svg?height=200&width=300",
       },
       {
-        id: "azure-devops",
-        title: "Azure DevOps",
+        id: "java-fullstack",
+        title: "Java Full-Stack",
         description:
-          "Master cloud deployment, CI/CD pipelines, and Azure services CI/CD pipelines, and Azure services",
+          "Learn Java Full Stack development with HTML, CSS, JavaScript & Spring Boot.",
         duration: "4 months",
         mode: "Online/Offline",
-        level: "Intermediate to Advanced",
+        level: "Beginner to Advanced",
         price: "₹35,000",
-        category: "Cloud",
+        category: "Development",
         students: "250+",
         rating: 4.9,
         image: "/placeholder.svg?height=200&width=300",
@@ -749,6 +749,62 @@ export const freshersPage = {
       },
     ],
   },
+  applicationFormSection: {
+    badge: "🚀 Limited Seats Available",
+    title: "Ready to Start Your Tech Journey?",
+    description:
+      "Apply now for our next batch starting this month. Don't miss this opportunity to transform your career!",
+    features: [
+      "Free career counseling session",
+      "Flexible payment options available",
+      "100% placement assistance guarantee",
+    ],
+    form: {
+      title: "Apply for Freshers Program",
+      description:
+        "Fill out the form below and we'll get back to you within 24 hours",
+      fields: [
+        { type: "text", placeholder: "First Name", grid: "col-span-1" },
+        { type: "text", placeholder: "Last Name", grid: "col-span-1" },
+        { type: "email", placeholder: "Email Address" },
+        { type: "tel", placeholder: "Phone Number" },
+        {
+          type: "select",
+          placeholder: "Select Program",
+          options: [
+            { value: "fullstack", label: "Full-Stack Development Track" },
+            { value: "analytics", label: "Data Analytics Track" },
+            { value: "cloud", label: "Cloud & DevOps Track" },
+          ],
+        },
+        {
+          type: "select",
+          placeholder: "Preferred Location",
+          options: [
+            { value: "bangalore", label: "Bangalore" },
+            { value: "hyderabad", label: "Hyderabad" },
+            { value: "online", label: "Online" },
+          ],
+        },
+        {
+          type: "textarea",
+          placeholder: "Tell us about your background and career goals...",
+        },
+      ],
+      submitButton: {
+        text: "Submit Application",
+        className:
+          "w-full icon-button-color hover:from-sky-600 hover:to-blue-700 text-lg py-6",
+        icon: "ArrowRight",
+      },
+      disclaimer:
+        "By submitting this form, you agree to our Terms of Service and Privacy Policy",
+    },
+  },
+};
+
+//  Course page application form constants
+export const coursePageApplication = {
   applicationFormSection: {
     badge: "🚀 Limited Seats Available",
     title: "Ready to Start Your Tech Journey?",
