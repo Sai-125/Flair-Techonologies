@@ -1896,15 +1896,60 @@ const courseData = {
     students: "300+",
     rating: 4.7,
     reviews: 89,
-    image:
-      "https://media.geeksforgeeks.org/wp-content/uploads/20240726121444/Data-Analytics-Training-now.webp",
+    brochure: "FRESHERS.pdf",
+    outline: "Data Analytics - Outline.pdf",
+    image: "/react.jpg",
     highlights: [
-      "Master Power BI Desktop and Service",
-      "Create dashboards and reports",
-      "Data modeling and DAX fundamentals",
-      "Real-world case studies",
-      "Certification preparation",
+      "Understand ReactJS fundamentals, components, and JSX syntax.",
+      "Manage state and props for dynamic UI development.",
+      "Work with React Hooks for cleaner, functional code.",
+      "Implement routing and navigation using React Router.",
+      "Connect React apps with APIs for real-time data handling.",
+      "Apply Redux or Context API for state management.",
+      "Build responsive and interactive applications.",
+      "Deploy React apps with best practices.",
     ],
+    testimonialsSection: {
+      badge: "Success Stories",
+      title:
+        'From <span className="text-sky-600">Freshers</span> to Professionals',
+      description:
+        "Hear from our successful graduates who transformed their careers with our ReactJS program",
+      testimonials: [
+        {
+          name: "Priya",
+          role: "Fresher",
+          image: "/priya.png?height=80&width=80",
+          content:
+            "As a fresher, ReactJS training here gave me the confidence and skills to build real-world projects. Thanks to Flair for the guidance, I landed my first job as a React Developer.",
+          rating: 5,
+          course: "Fresher",
+        },
+        {
+          name: "Shahini",
+          role: "Data Analyst at Wipro",
+          image: "/sha.png?height=80&width=80",
+          content:
+            "Coming from a non-IT background, I never imagined coding could be this simple. With step-by-step ReactJS training, I successfully transitioned into a Front-End Developer role.",
+          rating: 5,
+          course: "Non-IT Graduate",
+        },
+        {
+          name: "Arjun",
+          role: "DevOps Engineer at Infosys",
+          image: "/arjun.png?height=80&width=80",
+          content:
+            "Already working in web development, I wanted to specialize in ReactJS. This course sharpened my skills, practical project skills, and helped me move into a higher-paying role.",
+          rating: 5,
+          course: "IT Professional",
+        },
+      ],
+    },
+    nextBatch: [
+      { starts: "Every Month", mode: "Online / Classroom-Bangalore" },
+    ],
+    qualification: " B.TECH/B.COM/BSC/MSC/MCA",
+    eligibleLearners: "Freshers / IT-Professionals",
     syllabus: [
       {
         module: "Microsoft Power BI Course Outline",
@@ -2027,10 +2072,18 @@ const courseData = {
       bio: "Priya specializes in data analytics with extensive experience in Power BI and has trained over 150 professionals.",
     },
     projects: [
-      "Sales Performance Dashboard",
-      "Customer Segmentation Report",
-      "Financial Analysis Dashboard",
-      "Inventory Management Report",
+      "Todo List Application",
+      "Weather App",
+      "Student Management System",
+      "Recipe Finder App",
+      "Blog Posting Application",
+    ],
+    projectsDetails: [
+      "Build a simple task manager to add, edit, mark complete, and delete tasks using React state.",
+      "Create a weather forecasting app fetching real-time data from APIs and displaying detailed city weather reports.",
+      "Develop a student records system to add, update, and manage student data with forms, tables, and state.",
+      "Design an app to search and display recipes by ingredients using external APIs with React components.",
+      "Build a blogging platform for creating, editing, deleting posts with React Router, forms, and CRUD operations.",
     ],
   },
 
@@ -2047,15 +2100,60 @@ const courseData = {
     students: "400+",
     rating: 4.9,
     reviews: 120,
-    image:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3Mpx-7k0FvYWzb8n8snbXGKMKM-YWg0Vlsg&s",
+    brochure: "FRESHERS.pdf",
+    outline: "Data Analytics - Outline.pdf",
+    image: "/react.jpg",
     highlights: [
-      "Master Azure Repos, Pipelines, and Boards",
-      "Continuous Integration/Continuous Deployment (CI/CD)",
-      "Infrastructure as Code (IaC)",
-      "Real-world DevOps projects",
-      "Certification support",
+      "Understand ReactJS fundamentals, components, and JSX syntax.",
+      "Manage state and props for dynamic UI development.",
+      "Work with React Hooks for cleaner, functional code.",
+      "Implement routing and navigation using React Router.",
+      "Connect React apps with APIs for real-time data handling.",
+      "Apply Redux or Context API for state management.",
+      "Build responsive and interactive applications.",
+      "Deploy React apps with best practices.",
     ],
+    testimonialsSection: {
+      badge: "Success Stories",
+      title:
+        'From <span className="text-sky-600">Freshers</span> to Professionals',
+      description:
+        "Hear from our successful graduates who transformed their careers with our ReactJS program",
+      testimonials: [
+        {
+          name: "Priya",
+          role: "Fresher",
+          image: "/priya.png?height=80&width=80",
+          content:
+            "As a fresher, ReactJS training here gave me the confidence and skills to build real-world projects. Thanks to Flair for the guidance, I landed my first job as a React Developer.",
+          rating: 5,
+          course: "Fresher",
+        },
+        {
+          name: "Shahini",
+          role: "Data Analyst at Wipro",
+          image: "/sha.png?height=80&width=80",
+          content:
+            "Coming from a non-IT background, I never imagined coding could be this simple. With step-by-step ReactJS training, I successfully transitioned into a Front-End Developer role.",
+          rating: 5,
+          course: "Non-IT Graduate",
+        },
+        {
+          name: "Arjun",
+          role: "DevOps Engineer at Infosys",
+          image: "/arjun.png?height=80&width=80",
+          content:
+            "Already working in web development, I wanted to specialize in ReactJS. This course sharpened my skills, practical project skills, and helped me move into a higher-paying role.",
+          rating: 5,
+          course: "IT Professional",
+        },
+      ],
+    },
+    nextBatch: [
+      { starts: "Every Month", mode: "Online / Classroom-Bangalore" },
+    ],
+    qualification: " B.TECH/B.COM/BSC/MSC/MCA",
+    eligibleLearners: "Freshers / IT-Professionals",
     syllabus: [
       {
         module: "Alteryx Outline",
@@ -2196,10 +2294,18 @@ const courseData = {
       bio: "Arjun has extensive experience in Azure DevOps and has led multiple enterprise-level implementations.",
     },
     projects: [
-      "CI/CD Pipeline for Web App",
-      "Automated Testing Framework",
-      "Infrastructure Deployment",
-      "Monitoring Dashboard",
+      "Todo List Application",
+      "Weather App",
+      "Student Management System",
+      "Recipe Finder App",
+      "Blog Posting Application",
+    ],
+    projectsDetails: [
+      "Build a simple task manager to add, edit, mark complete, and delete tasks using React state.",
+      "Create a weather forecasting app fetching real-time data from APIs and displaying detailed city weather reports.",
+      "Develop a student records system to add, update, and manage student data with forms, tables, and state.",
+      "Design an app to search and display recipes by ingredients using external APIs with React components.",
+      "Build a blogging platform for creating, editing, deleting posts with React Router, forms, and CRUD operations.",
     ],
   },
 
@@ -2216,15 +2322,60 @@ const courseData = {
     students: "400+",
     rating: 4.9,
     reviews: 120,
-    image:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3Mpx-7k0FvYWzb8n8snbXGKMKM-YWg0Vlsg&s",
+    brochure: "FRESHERS.pdf",
+    outline: "Data Analytics - Outline.pdf",
+    image: "/react.jpg",
     highlights: [
-      "Master Azure Repos, Pipelines, and Boards",
-      "Continuous Integration/Continuous Deployment (CI/CD)",
-      "Infrastructure as Code (IaC)",
-      "Real-world DevOps projects",
-      "Certification support",
+      "Understand ReactJS fundamentals, components, and JSX syntax.",
+      "Manage state and props for dynamic UI development.",
+      "Work with React Hooks for cleaner, functional code.",
+      "Implement routing and navigation using React Router.",
+      "Connect React apps with APIs for real-time data handling.",
+      "Apply Redux or Context API for state management.",
+      "Build responsive and interactive applications.",
+      "Deploy React apps with best practices.",
     ],
+    testimonialsSection: {
+      badge: "Success Stories",
+      title:
+        'From <span className="text-sky-600">Freshers</span> to Professionals',
+      description:
+        "Hear from our successful graduates who transformed their careers with our ReactJS program",
+      testimonials: [
+        {
+          name: "Priya",
+          role: "Fresher",
+          image: "/priya.png?height=80&width=80",
+          content:
+            "As a fresher, ReactJS training here gave me the confidence and skills to build real-world projects. Thanks to Flair for the guidance, I landed my first job as a React Developer.",
+          rating: 5,
+          course: "Fresher",
+        },
+        {
+          name: "Shahini",
+          role: "Data Analyst at Wipro",
+          image: "/sha.png?height=80&width=80",
+          content:
+            "Coming from a non-IT background, I never imagined coding could be this simple. With step-by-step ReactJS training, I successfully transitioned into a Front-End Developer role.",
+          rating: 5,
+          course: "Non-IT Graduate",
+        },
+        {
+          name: "Arjun",
+          role: "DevOps Engineer at Infosys",
+          image: "/arjun.png?height=80&width=80",
+          content:
+            "Already working in web development, I wanted to specialize in ReactJS. This course sharpened my skills, practical project skills, and helped me move into a higher-paying role.",
+          rating: 5,
+          course: "IT Professional",
+        },
+      ],
+    },
+    nextBatch: [
+      { starts: "Every Month", mode: "Online / Classroom-Bangalore" },
+    ],
+    qualification: " B.TECH/B.COM/BSC/MSC/MCA",
+    eligibleLearners: "Freshers / IT-Professionals",
     syllabus: [
       {
         module: "Microsoft Excel",
@@ -2570,10 +2721,18 @@ const courseData = {
       bio: "Arjun has extensive experience in Azure DevOps and has led multiple enterprise-level implementations.",
     },
     projects: [
-      "CI/CD Pipeline for Web App",
-      "Automated Testing Framework",
-      "Infrastructure Deployment",
-      "Monitoring Dashboard",
+      "Todo List Application",
+      "Weather App",
+      "Student Management System",
+      "Recipe Finder App",
+      "Blog Posting Application",
+    ],
+    projectsDetails: [
+      "Build a simple task manager to add, edit, mark complete, and delete tasks using React state.",
+      "Create a weather forecasting app fetching real-time data from APIs and displaying detailed city weather reports.",
+      "Develop a student records system to add, update, and manage student data with forms, tables, and state.",
+      "Design an app to search and display recipes by ingredients using external APIs with React components.",
+      "Build a blogging platform for creating, editing, deleting posts with React Router, forms, and CRUD operations.",
     ],
   },
 
@@ -2590,15 +2749,60 @@ const courseData = {
     students: "400+",
     rating: 4.9,
     reviews: 120,
-    image:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3Mpx-7k0FvYWzb8n8snbXGKMKM-YWg0Vlsg&s",
+    brochure: "FRESHERS.pdf",
+    outline: "Data Analytics - Outline.pdf",
+    image: "/react.jpg",
     highlights: [
-      "Master Azure Repos, Pipelines, and Boards",
-      "Continuous Integration/Continuous Deployment (CI/CD)",
-      "Infrastructure as Code (IaC)",
-      "Real-world DevOps projects",
-      "Certification support",
+      "Understand ReactJS fundamentals, components, and JSX syntax.",
+      "Manage state and props for dynamic UI development.",
+      "Work with React Hooks for cleaner, functional code.",
+      "Implement routing and navigation using React Router.",
+      "Connect React apps with APIs for real-time data handling.",
+      "Apply Redux or Context API for state management.",
+      "Build responsive and interactive applications.",
+      "Deploy React apps with best practices.",
     ],
+    testimonialsSection: {
+      badge: "Success Stories",
+      title:
+        'From <span className="text-sky-600">Freshers</span> to Professionals',
+      description:
+        "Hear from our successful graduates who transformed their careers with our ReactJS program",
+      testimonials: [
+        {
+          name: "Priya",
+          role: "Fresher",
+          image: "/priya.png?height=80&width=80",
+          content:
+            "As a fresher, ReactJS training here gave me the confidence and skills to build real-world projects. Thanks to Flair for the guidance, I landed my first job as a React Developer.",
+          rating: 5,
+          course: "Fresher",
+        },
+        {
+          name: "Shahini",
+          role: "Data Analyst at Wipro",
+          image: "/sha.png?height=80&width=80",
+          content:
+            "Coming from a non-IT background, I never imagined coding could be this simple. With step-by-step ReactJS training, I successfully transitioned into a Front-End Developer role.",
+          rating: 5,
+          course: "Non-IT Graduate",
+        },
+        {
+          name: "Arjun",
+          role: "DevOps Engineer at Infosys",
+          image: "/arjun.png?height=80&width=80",
+          content:
+            "Already working in web development, I wanted to specialize in ReactJS. This course sharpened my skills, practical project skills, and helped me move into a higher-paying role.",
+          rating: 5,
+          course: "IT Professional",
+        },
+      ],
+    },
+    nextBatch: [
+      { starts: "Every Month", mode: "Online / Classroom-Bangalore" },
+    ],
+    qualification: " B.TECH/B.COM/BSC/MSC/MCA",
+    eligibleLearners: "Freshers / IT-Professionals",
     syllabus: [
       {
         module: "Tableau Course Outline",
@@ -2705,10 +2909,18 @@ const courseData = {
       bio: "Arjun has extensive experience in Azure DevOps and has led multiple enterprise-level implementations.",
     },
     projects: [
-      "CI/CD Pipeline for Web App",
-      "Automated Testing Framework",
-      "Infrastructure Deployment",
-      "Monitoring Dashboard",
+      "Todo List Application",
+      "Weather App",
+      "Student Management System",
+      "Recipe Finder App",
+      "Blog Posting Application",
+    ],
+    projectsDetails: [
+      "Build a simple task manager to add, edit, mark complete, and delete tasks using React state.",
+      "Create a weather forecasting app fetching real-time data from APIs and displaying detailed city weather reports.",
+      "Develop a student records system to add, update, and manage student data with forms, tables, and state.",
+      "Design an app to search and display recipes by ingredients using external APIs with React components.",
+      "Build a blogging platform for creating, editing, deleting posts with React Router, forms, and CRUD operations.",
     ],
   },
   sqlCourse: {
@@ -2724,15 +2936,60 @@ const courseData = {
     students: "400+",
     rating: 4.9,
     reviews: 120,
-    image:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3Mpx-7k0FvYWzb8n8snbXGKMKM-YWg0Vlsg&s",
+    brochure: "FRESHERS.pdf",
+    outline: "Data Analytics - Outline.pdf",
+    image: "/react.jpg",
     highlights: [
-      "Master Azure Repos, Pipelines, and Boards",
-      "Continuous Integration/Continuous Deployment (CI/CD)",
-      "Infrastructure as Code (IaC)",
-      "Real-world DevOps projects",
-      "Certification support",
+      "Understand ReactJS fundamentals, components, and JSX syntax.",
+      "Manage state and props for dynamic UI development.",
+      "Work with React Hooks for cleaner, functional code.",
+      "Implement routing and navigation using React Router.",
+      "Connect React apps with APIs for real-time data handling.",
+      "Apply Redux or Context API for state management.",
+      "Build responsive and interactive applications.",
+      "Deploy React apps with best practices.",
     ],
+    testimonialsSection: {
+      badge: "Success Stories",
+      title:
+        'From <span className="text-sky-600">Freshers</span> to Professionals',
+      description:
+        "Hear from our successful graduates who transformed their careers with our ReactJS program",
+      testimonials: [
+        {
+          name: "Priya",
+          role: "Fresher",
+          image: "/priya.png?height=80&width=80",
+          content:
+            "As a fresher, ReactJS training here gave me the confidence and skills to build real-world projects. Thanks to Flair for the guidance, I landed my first job as a React Developer.",
+          rating: 5,
+          course: "Fresher",
+        },
+        {
+          name: "Shahini",
+          role: "Data Analyst at Wipro",
+          image: "/sha.png?height=80&width=80",
+          content:
+            "Coming from a non-IT background, I never imagined coding could be this simple. With step-by-step ReactJS training, I successfully transitioned into a Front-End Developer role.",
+          rating: 5,
+          course: "Non-IT Graduate",
+        },
+        {
+          name: "Arjun",
+          role: "DevOps Engineer at Infosys",
+          image: "/arjun.png?height=80&width=80",
+          content:
+            "Already working in web development, I wanted to specialize in ReactJS. This course sharpened my skills, practical project skills, and helped me move into a higher-paying role.",
+          rating: 5,
+          course: "IT Professional",
+        },
+      ],
+    },
+    nextBatch: [
+      { starts: "Every Month", mode: "Online / Classroom-Bangalore" },
+    ],
+    qualification: " B.TECH/B.COM/BSC/MSC/MCA",
+    eligibleLearners: "Freshers / IT-Professionals",
     syllabus: [
       {
         module: "SQL Outline",
@@ -2902,10 +3159,18 @@ const courseData = {
       bio: "Arjun has extensive experience in Azure DevOps and has led multiple enterprise-level implementations.",
     },
     projects: [
-      "CI/CD Pipeline for Web App",
-      "Automated Testing Framework",
-      "Infrastructure Deployment",
-      "Monitoring Dashboard",
+      "Todo List Application",
+      "Weather App",
+      "Student Management System",
+      "Recipe Finder App",
+      "Blog Posting Application",
+    ],
+    projectsDetails: [
+      "Build a simple task manager to add, edit, mark complete, and delete tasks using React state.",
+      "Create a weather forecasting app fetching real-time data from APIs and displaying detailed city weather reports.",
+      "Develop a student records system to add, update, and manage student data with forms, tables, and state.",
+      "Design an app to search and display recipes by ingredients using external APIs with React components.",
+      "Build a blogging platform for creating, editing, deleting posts with React Router, forms, and CRUD operations.",
     ],
   },
 
@@ -2922,15 +3187,60 @@ const courseData = {
     students: "400+",
     rating: 4.9,
     reviews: 120,
-    image:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3Mpx-7k0FvYWzb8n8snbXGKMKM-YWg0Vlsg&s",
+    brochure: "FRESHERS.pdf",
+    outline: "Data Analytics - Outline.pdf",
+    image: "/react.jpg",
     highlights: [
-      "Master Azure Repos, Pipelines, and Boards",
-      "Continuous Integration/Continuous Deployment (CI/CD)",
-      "Infrastructure as Code (IaC)",
-      "Real-world DevOps projects",
-      "Certification support",
+      "Understand ReactJS fundamentals, components, and JSX syntax.",
+      "Manage state and props for dynamic UI development.",
+      "Work with React Hooks for cleaner, functional code.",
+      "Implement routing and navigation using React Router.",
+      "Connect React apps with APIs for real-time data handling.",
+      "Apply Redux or Context API for state management.",
+      "Build responsive and interactive applications.",
+      "Deploy React apps with best practices.",
     ],
+    testimonialsSection: {
+      badge: "Success Stories",
+      title:
+        'From <span className="text-sky-600">Freshers</span> to Professionals',
+      description:
+        "Hear from our successful graduates who transformed their careers with our ReactJS program",
+      testimonials: [
+        {
+          name: "Priya",
+          role: "Fresher",
+          image: "/priya.png?height=80&width=80",
+          content:
+            "As a fresher, ReactJS training here gave me the confidence and skills to build real-world projects. Thanks to Flair for the guidance, I landed my first job as a React Developer.",
+          rating: 5,
+          course: "Fresher",
+        },
+        {
+          name: "Shahini",
+          role: "Data Analyst at Wipro",
+          image: "/sha.png?height=80&width=80",
+          content:
+            "Coming from a non-IT background, I never imagined coding could be this simple. With step-by-step ReactJS training, I successfully transitioned into a Front-End Developer role.",
+          rating: 5,
+          course: "Non-IT Graduate",
+        },
+        {
+          name: "Arjun",
+          role: "DevOps Engineer at Infosys",
+          image: "/arjun.png?height=80&width=80",
+          content:
+            "Already working in web development, I wanted to specialize in ReactJS. This course sharpened my skills, practical project skills, and helped me move into a higher-paying role.",
+          rating: 5,
+          course: "IT Professional",
+        },
+      ],
+    },
+    nextBatch: [
+      { starts: "Every Month", mode: "Online / Classroom-Bangalore" },
+    ],
+    qualification: " B.TECH/B.COM/BSC/MSC/MCA",
+    eligibleLearners: "Freshers / IT-Professionals",
     syllabus: [
       {
         module: "Python",
@@ -3074,10 +3384,18 @@ const courseData = {
       bio: "Arjun has extensive experience in Azure DevOps and has led multiple enterprise-level implementations.",
     },
     projects: [
-      "CI/CD Pipeline for Web App",
-      "Automated Testing Framework",
-      "Infrastructure Deployment",
-      "Monitoring Dashboard",
+      "Todo List Application",
+      "Weather App",
+      "Student Management System",
+      "Recipe Finder App",
+      "Blog Posting Application",
+    ],
+    projectsDetails: [
+      "Build a simple task manager to add, edit, mark complete, and delete tasks using React state.",
+      "Create a weather forecasting app fetching real-time data from APIs and displaying detailed city weather reports.",
+      "Develop a student records system to add, update, and manage student data with forms, tables, and state.",
+      "Design an app to search and display recipes by ingredients using external APIs with React components.",
+      "Build a blogging platform for creating, editing, deleting posts with React Router, forms, and CRUD operations.",
     ],
   },
   "aws-devops": {
@@ -3093,15 +3411,60 @@ const courseData = {
     students: "400+",
     rating: 4.9,
     reviews: 120,
-    image:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3Mpx-7k0FvYWzb8n8snbXGKMKM-YWg0Vlsg&s",
+    brochure: "FRESHERS.pdf",
+    outline: "Data Analytics - Outline.pdf",
+    image: "/react.jpg",
     highlights: [
-      "Master Azure Repos, Pipelines, and Boards",
-      "Continuous Integration/Continuous Deployment (CI/CD)",
-      "Infrastructure as Code (IaC)",
-      "Real-world DevOps projects",
-      "Certification support",
+      "Understand ReactJS fundamentals, components, and JSX syntax.",
+      "Manage state and props for dynamic UI development.",
+      "Work with React Hooks for cleaner, functional code.",
+      "Implement routing and navigation using React Router.",
+      "Connect React apps with APIs for real-time data handling.",
+      "Apply Redux or Context API for state management.",
+      "Build responsive and interactive applications.",
+      "Deploy React apps with best practices.",
     ],
+    testimonialsSection: {
+      badge: "Success Stories",
+      title:
+        'From <span className="text-sky-600">Freshers</span> to Professionals',
+      description:
+        "Hear from our successful graduates who transformed their careers with our ReactJS program",
+      testimonials: [
+        {
+          name: "Priya",
+          role: "Fresher",
+          image: "/priya.png?height=80&width=80",
+          content:
+            "As a fresher, ReactJS training here gave me the confidence and skills to build real-world projects. Thanks to Flair for the guidance, I landed my first job as a React Developer.",
+          rating: 5,
+          course: "Fresher",
+        },
+        {
+          name: "Shahini",
+          role: "Data Analyst at Wipro",
+          image: "/sha.png?height=80&width=80",
+          content:
+            "Coming from a non-IT background, I never imagined coding could be this simple. With step-by-step ReactJS training, I successfully transitioned into a Front-End Developer role.",
+          rating: 5,
+          course: "Non-IT Graduate",
+        },
+        {
+          name: "Arjun",
+          role: "DevOps Engineer at Infosys",
+          image: "/arjun.png?height=80&width=80",
+          content:
+            "Already working in web development, I wanted to specialize in ReactJS. This course sharpened my skills, practical project skills, and helped me move into a higher-paying role.",
+          rating: 5,
+          course: "IT Professional",
+        },
+      ],
+    },
+    nextBatch: [
+      { starts: "Every Month", mode: "Online / Classroom-Bangalore" },
+    ],
+    qualification: " B.TECH/B.COM/BSC/MSC/MCA",
+    eligibleLearners: "Freshers / IT-Professionals",
     syllabus: [
       {
         module: "AWS with Modern DevOps",
@@ -3365,10 +3728,18 @@ const courseData = {
       bio: "Arjun has extensive experience in Azure DevOps and has led multiple enterprise-level implementations.",
     },
     projects: [
-      "CI/CD Pipeline for Web App",
-      "Automated Testing Framework",
-      "Infrastructure Deployment",
-      "Monitoring Dashboard",
+      "Todo List Application",
+      "Weather App",
+      "Student Management System",
+      "Recipe Finder App",
+      "Blog Posting Application",
+    ],
+    projectsDetails: [
+      "Build a simple task manager to add, edit, mark complete, and delete tasks using React state.",
+      "Create a weather forecasting app fetching real-time data from APIs and displaying detailed city weather reports.",
+      "Develop a student records system to add, update, and manage student data with forms, tables, and state.",
+      "Design an app to search and display recipes by ingredients using external APIs with React components.",
+      "Build a blogging platform for creating, editing, deleting posts with React Router, forms, and CRUD operations.",
     ],
   },
   "azure-devops": {
@@ -3384,15 +3755,60 @@ const courseData = {
     students: "400+",
     rating: 4.9,
     reviews: 120,
-    image:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3Mpx-7k0FvYWzb8n8snbXGKMKM-YWg0Vlsg&s",
+    brochure: "FRESHERS.pdf",
+    outline: "Data Analytics - Outline.pdf",
+    image: "/react.jpg",
     highlights: [
-      "Master Azure Repos, Pipelines, and Boards",
-      "Continuous Integration/Continuous Deployment (CI/CD)",
-      "Infrastructure as Code (IaC)",
-      "Real-world DevOps projects",
-      "Certification support",
+      "Understand ReactJS fundamentals, components, and JSX syntax.",
+      "Manage state and props for dynamic UI development.",
+      "Work with React Hooks for cleaner, functional code.",
+      "Implement routing and navigation using React Router.",
+      "Connect React apps with APIs for real-time data handling.",
+      "Apply Redux or Context API for state management.",
+      "Build responsive and interactive applications.",
+      "Deploy React apps with best practices.",
     ],
+    testimonialsSection: {
+      badge: "Success Stories",
+      title:
+        'From <span className="text-sky-600">Freshers</span> to Professionals',
+      description:
+        "Hear from our successful graduates who transformed their careers with our ReactJS program",
+      testimonials: [
+        {
+          name: "Priya",
+          role: "Fresher",
+          image: "/priya.png?height=80&width=80",
+          content:
+            "As a fresher, ReactJS training here gave me the confidence and skills to build real-world projects. Thanks to Flair for the guidance, I landed my first job as a React Developer.",
+          rating: 5,
+          course: "Fresher",
+        },
+        {
+          name: "Shahini",
+          role: "Data Analyst at Wipro",
+          image: "/sha.png?height=80&width=80",
+          content:
+            "Coming from a non-IT background, I never imagined coding could be this simple. With step-by-step ReactJS training, I successfully transitioned into a Front-End Developer role.",
+          rating: 5,
+          course: "Non-IT Graduate",
+        },
+        {
+          name: "Arjun",
+          role: "DevOps Engineer at Infosys",
+          image: "/arjun.png?height=80&width=80",
+          content:
+            "Already working in web development, I wanted to specialize in ReactJS. This course sharpened my skills, practical project skills, and helped me move into a higher-paying role.",
+          rating: 5,
+          course: "IT Professional",
+        },
+      ],
+    },
+    nextBatch: [
+      { starts: "Every Month", mode: "Online / Classroom-Bangalore" },
+    ],
+    qualification: " B.TECH/B.COM/BSC/MSC/MCA",
+    eligibleLearners: "Freshers / IT-Professionals",
     syllabus: [
       {
         module: "Azure Admin with Azure DevOps",
@@ -3733,10 +4149,18 @@ const courseData = {
       bio: "Arjun has extensive experience in Azure DevOps and has led multiple enterprise-level implementations.",
     },
     projects: [
-      "CI/CD Pipeline for Web App",
-      "Automated Testing Framework",
-      "Infrastructure Deployment",
-      "Monitoring Dashboard",
+      "Todo List Application",
+      "Weather App",
+      "Student Management System",
+      "Recipe Finder App",
+      "Blog Posting Application",
+    ],
+    projectsDetails: [
+      "Build a simple task manager to add, edit, mark complete, and delete tasks using React state.",
+      "Create a weather forecasting app fetching real-time data from APIs and displaying detailed city weather reports.",
+      "Develop a student records system to add, update, and manage student data with forms, tables, and state.",
+      "Design an app to search and display recipes by ingredients using external APIs with React components.",
+      "Build a blogging platform for creating, editing, deleting posts with React Router, forms, and CRUD operations.",
     ],
   },
   "azure-admin": {
@@ -3752,15 +4176,60 @@ const courseData = {
     students: "400+",
     rating: 4.9,
     reviews: 120,
-    image:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3Mpx-7k0FvYWzb8n8snbXGKMKM-YWg0Vlsg&s",
+    brochure: "FRESHERS.pdf",
+    outline: "Data Analytics - Outline.pdf",
+    image: "/react.jpg",
     highlights: [
-      "Master Azure Repos, Pipelines, and Boards",
-      "Continuous Integration/Continuous Deployment (CI/CD)",
-      "Infrastructure as Code (IaC)",
-      "Real-world DevOps projects",
-      "Certification support",
+      "Understand ReactJS fundamentals, components, and JSX syntax.",
+      "Manage state and props for dynamic UI development.",
+      "Work with React Hooks for cleaner, functional code.",
+      "Implement routing and navigation using React Router.",
+      "Connect React apps with APIs for real-time data handling.",
+      "Apply Redux or Context API for state management.",
+      "Build responsive and interactive applications.",
+      "Deploy React apps with best practices.",
     ],
+    testimonialsSection: {
+      badge: "Success Stories",
+      title:
+        'From <span className="text-sky-600">Freshers</span> to Professionals',
+      description:
+        "Hear from our successful graduates who transformed their careers with our ReactJS program",
+      testimonials: [
+        {
+          name: "Priya",
+          role: "Fresher",
+          image: "/priya.png?height=80&width=80",
+          content:
+            "As a fresher, ReactJS training here gave me the confidence and skills to build real-world projects. Thanks to Flair for the guidance, I landed my first job as a React Developer.",
+          rating: 5,
+          course: "Fresher",
+        },
+        {
+          name: "Shahini",
+          role: "Data Analyst at Wipro",
+          image: "/sha.png?height=80&width=80",
+          content:
+            "Coming from a non-IT background, I never imagined coding could be this simple. With step-by-step ReactJS training, I successfully transitioned into a Front-End Developer role.",
+          rating: 5,
+          course: "Non-IT Graduate",
+        },
+        {
+          name: "Arjun",
+          role: "DevOps Engineer at Infosys",
+          image: "/arjun.png?height=80&width=80",
+          content:
+            "Already working in web development, I wanted to specialize in ReactJS. This course sharpened my skills, practical project skills, and helped me move into a higher-paying role.",
+          rating: 5,
+          course: "IT Professional",
+        },
+      ],
+    },
+    nextBatch: [
+      { starts: "Every Month", mode: "Online / Classroom-Bangalore" },
+    ],
+    qualification: " B.TECH/B.COM/BSC/MSC/MCA",
+    eligibleLearners: "Freshers / IT-Professionals",
     syllabus: [
       {
         module: "Azure Admin with Azure DevOps",
@@ -3949,10 +4418,18 @@ const courseData = {
       bio: "Arjun has extensive experience in Azure DevOps and has led multiple enterprise-level implementations.",
     },
     projects: [
-      "CI/CD Pipeline for Web App",
-      "Automated Testing Framework",
-      "Infrastructure Deployment",
-      "Monitoring Dashboard",
+      "Todo List Application",
+      "Weather App",
+      "Student Management System",
+      "Recipe Finder App",
+      "Blog Posting Application",
+    ],
+    projectsDetails: [
+      "Build a simple task manager to add, edit, mark complete, and delete tasks using React state.",
+      "Create a weather forecasting app fetching real-time data from APIs and displaying detailed city weather reports.",
+      "Develop a student records system to add, update, and manage student data with forms, tables, and state.",
+      "Design an app to search and display recipes by ingredients using external APIs with React components.",
+      "Build a blogging platform for creating, editing, deleting posts with React Router, forms, and CRUD operations.",
     ],
   },
   "oracle-fusion-cloud-scm": {
@@ -3968,15 +4445,60 @@ const courseData = {
     students: "400+",
     rating: 4.9,
     reviews: 120,
-    image:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3Mpx-7k0FvYWzb8n8snbXGKMKM-YWg0Vlsg&s",
+    brochure: "FRESHERS.pdf",
+    outline: "Data Analytics - Outline.pdf",
+    image: "/react.jpg",
     highlights: [
-      "Master Azure Repos, Pipelines, and Boards",
-      "Continuous Integration/Continuous Deployment (CI/CD)",
-      "Infrastructure as Code (IaC)",
-      "Real-world DevOps projects",
-      "Certification support",
+      "Understand ReactJS fundamentals, components, and JSX syntax.",
+      "Manage state and props for dynamic UI development.",
+      "Work with React Hooks for cleaner, functional code.",
+      "Implement routing and navigation using React Router.",
+      "Connect React apps with APIs for real-time data handling.",
+      "Apply Redux or Context API for state management.",
+      "Build responsive and interactive applications.",
+      "Deploy React apps with best practices.",
     ],
+    testimonialsSection: {
+      badge: "Success Stories",
+      title:
+        'From <span className="text-sky-600">Freshers</span> to Professionals',
+      description:
+        "Hear from our successful graduates who transformed their careers with our ReactJS program",
+      testimonials: [
+        {
+          name: "Priya",
+          role: "Fresher",
+          image: "/priya.png?height=80&width=80",
+          content:
+            "As a fresher, ReactJS training here gave me the confidence and skills to build real-world projects. Thanks to Flair for the guidance, I landed my first job as a React Developer.",
+          rating: 5,
+          course: "Fresher",
+        },
+        {
+          name: "Shahini",
+          role: "Data Analyst at Wipro",
+          image: "/sha.png?height=80&width=80",
+          content:
+            "Coming from a non-IT background, I never imagined coding could be this simple. With step-by-step ReactJS training, I successfully transitioned into a Front-End Developer role.",
+          rating: 5,
+          course: "Non-IT Graduate",
+        },
+        {
+          name: "Arjun",
+          role: "DevOps Engineer at Infosys",
+          image: "/arjun.png?height=80&width=80",
+          content:
+            "Already working in web development, I wanted to specialize in ReactJS. This course sharpened my skills, practical project skills, and helped me move into a higher-paying role.",
+          rating: 5,
+          course: "IT Professional",
+        },
+      ],
+    },
+    nextBatch: [
+      { starts: "Every Month", mode: "Online / Classroom-Bangalore" },
+    ],
+    qualification: " B.TECH/B.COM/BSC/MSC/MCA",
+    eligibleLearners: "Freshers / IT-Professionals",
     syllabus: [
       {
         module: "Oracle Fusion SCM Cloud",
@@ -4573,10 +5095,18 @@ const courseData = {
       bio: "Arjun has extensive experience in Azure DevOps and has led multiple enterprise-level implementations.",
     },
     projects: [
-      "CI/CD Pipeline for Web App",
-      "Automated Testing Framework",
-      "Infrastructure Deployment",
-      "Monitoring Dashboard",
+      "Todo List Application",
+      "Weather App",
+      "Student Management System",
+      "Recipe Finder App",
+      "Blog Posting Application",
+    ],
+    projectsDetails: [
+      "Build a simple task manager to add, edit, mark complete, and delete tasks using React state.",
+      "Create a weather forecasting app fetching real-time data from APIs and displaying detailed city weather reports.",
+      "Develop a student records system to add, update, and manage student data with forms, tables, and state.",
+      "Design an app to search and display recipes by ingredients using external APIs with React components.",
+      "Build a blogging platform for creating, editing, deleting posts with React Router, forms, and CRUD operations.",
     ],
   },
   "data-analytics": {
@@ -4592,16 +5122,60 @@ const courseData = {
     students: "450+",
     rating: 4.9,
     reviews: 110,
-    brochure: "Data Analytics - Outline.pdf",
-    image:
-      "https://www.bismilsoft.com/admin/images/blog/DATA%20ANALYTICS_WEB%20IMAGE-01-01.jpg",
+    brochure: "FRESHERS.pdf",
+    outline: "Data Analytics - Outline.pdf",
+    image: "/react.jpg",
     highlights: [
-      "Learn Python, R, and SQL for analytics",
-      "Hands-on with real datasets",
-      "Predictive modeling techniques",
-      "Industry-relevant case studies",
-      "Career guidance",
+      "Understand ReactJS fundamentals, components, and JSX syntax.",
+      "Manage state and props for dynamic UI development.",
+      "Work with React Hooks for cleaner, functional code.",
+      "Implement routing and navigation using React Router.",
+      "Connect React apps with APIs for real-time data handling.",
+      "Apply Redux or Context API for state management.",
+      "Build responsive and interactive applications.",
+      "Deploy React apps with best practices.",
     ],
+    testimonialsSection: {
+      badge: "Success Stories",
+      title:
+        'From <span className="text-sky-600">Freshers</span> to Professionals',
+      description:
+        "Hear from our successful graduates who transformed their careers with our ReactJS program",
+      testimonials: [
+        {
+          name: "Priya",
+          role: "Fresher",
+          image: "/priya.png?height=80&width=80",
+          content:
+            "As a fresher, ReactJS training here gave me the confidence and skills to build real-world projects. Thanks to Flair for the guidance, I landed my first job as a React Developer.",
+          rating: 5,
+          course: "Fresher",
+        },
+        {
+          name: "Shahini",
+          role: "Data Analyst at Wipro",
+          image: "/sha.png?height=80&width=80",
+          content:
+            "Coming from a non-IT background, I never imagined coding could be this simple. With step-by-step ReactJS training, I successfully transitioned into a Front-End Developer role.",
+          rating: 5,
+          course: "Non-IT Graduate",
+        },
+        {
+          name: "Arjun",
+          role: "DevOps Engineer at Infosys",
+          image: "/arjun.png?height=80&width=80",
+          content:
+            "Already working in web development, I wanted to specialize in ReactJS. This course sharpened my skills, practical project skills, and helped me move into a higher-paying role.",
+          rating: 5,
+          course: "IT Professional",
+        },
+      ],
+    },
+    nextBatch: [
+      { starts: "Every Month", mode: "Online / Classroom-Bangalore" },
+    ],
+    qualification: " B.TECH/B.COM/BSC/MSC/MCA",
+    eligibleLearners: "Freshers / IT-Professionals",
     syllabus: [
       {
         module: "Microsoft Excel",
@@ -5455,15 +6029,60 @@ const courseData = {
     students: "350+",
     rating: 4.7,
     reviews: 95,
-    image:
-      "https://solutionsreview.com/business-intelligence/files/2021/08/Tableau-Courses-for-Beginners.jpg",
+    brochure: "FRESHERS.pdf",
+    outline: "Data Analytics - Outline.pdf",
+    image: "/react.jpg",
     highlights: [
-      "Create interactive dashboards",
-      "Data blending and preparation",
-      "Advanced visualization techniques",
-      "Tableau Server integration",
-      "Certification preparation",
+      "Understand ReactJS fundamentals, components, and JSX syntax.",
+      "Manage state and props for dynamic UI development.",
+      "Work with React Hooks for cleaner, functional code.",
+      "Implement routing and navigation using React Router.",
+      "Connect React apps with APIs for real-time data handling.",
+      "Apply Redux or Context API for state management.",
+      "Build responsive and interactive applications.",
+      "Deploy React apps with best practices.",
     ],
+    testimonialsSection: {
+      badge: "Success Stories",
+      title:
+        'From <span className="text-sky-600">Freshers</span> to Professionals',
+      description:
+        "Hear from our successful graduates who transformed their careers with our ReactJS program",
+      testimonials: [
+        {
+          name: "Priya",
+          role: "Fresher",
+          image: "/priya.png?height=80&width=80",
+          content:
+            "As a fresher, ReactJS training here gave me the confidence and skills to build real-world projects. Thanks to Flair for the guidance, I landed my first job as a React Developer.",
+          rating: 5,
+          course: "Fresher",
+        },
+        {
+          name: "Shahini",
+          role: "Data Analyst at Wipro",
+          image: "/sha.png?height=80&width=80",
+          content:
+            "Coming from a non-IT background, I never imagined coding could be this simple. With step-by-step ReactJS training, I successfully transitioned into a Front-End Developer role.",
+          rating: 5,
+          course: "Non-IT Graduate",
+        },
+        {
+          name: "Arjun",
+          role: "DevOps Engineer at Infosys",
+          image: "/arjun.png?height=80&width=80",
+          content:
+            "Already working in web development, I wanted to specialize in ReactJS. This course sharpened my skills, practical project skills, and helped me move into a higher-paying role.",
+          rating: 5,
+          course: "IT Professional",
+        },
+      ],
+    },
+    nextBatch: [
+      { starts: "Every Month", mode: "Online / Classroom-Bangalore" },
+    ],
+    qualification: " B.TECH/B.COM/BSC/MSC/MCA",
+    eligibleLearners: "Freshers / IT-Professionals",
     syllabus: [
       {
         module: "Tableau Basics",
@@ -5588,37 +6207,90 @@ const courseData = {
       bio: "Vikram is an expert in Tableau with a strong background in business intelligence.",
     },
     projects: [
-      "Sales Performance Dashboard",
-      "HR Analytics Report",
-      "Marketing Campaign Analysis",
-      "Financial Summary Dashboard",
+      "Todo List Application",
+      "Weather App",
+      "Student Management System",
+      "Recipe Finder App",
+      "Blog Posting Application",
+    ],
+    projectsDetails: [
+      "Build a simple task manager to add, edit, mark complete, and delete tasks using React state.",
+      "Create a weather forecasting app fetching real-time data from APIs and displaying detailed city weather reports.",
+      "Develop a student records system to add, update, and manage student data with forms, tables, and state.",
+      "Design an app to search and display recipes by ingredients using external APIs with React components.",
+      "Build a blogging platform for creating, editing, deleting posts with React Router, forms, and CRUD operations.",
     ],
   },
   Cybersecurity: {
     title: "Cyber<span class='text-yellow-400'>Security</span>",
     description:
-      "Learn to implement DevOps practices using Azure tools and services",
-    duration: "4 months",
-    mode: "Online/Offline",
-    level: "Intermediate to Advanced",
+      "Master web, network, and API security with hands-on tools, vulnerability testing, and real-world defense strategies.",
+    duration: "2 months",
+    mode: "Online",
+    level: "Beginner to Advanced",
     price: "₹40,000",
     originalPrice: "₹50,000",
-    category: "Networking",
-    students: "400+",
+    category: "🛜 Networking",
+    students: "700+",
     rating: 4.9,
-    reviews: 120,
-    image:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3Mpx-7k0FvYWzb8n8snbXGKMKM-YWg0Vlsg&s",
+    reviews: 350,
+    brochure: "cyber.pdf",
+    outline: "cyber.pdf",
+    image: "/cyber.jpg",
     highlights: [
-      "Master Azure Repos, Pipelines, and Boards",
-      "Continuous Integration/Continuous Deployment (CI/CD)",
-      "Infrastructure as Code (IaC)",
-      "Real-world DevOps projects",
-      "Certification support",
+      "Learn core concepts of web application security testing.",
+      "Understand HTTP, SSL/TLS, and cryptography basics.",
+      "Detect and prevent OWASP Top 10 vulnerabilities.",
+      "Test authentication, authorization, and session security.",
+      "CExplore secure coding and configuration practices.",
+      "Use tools like BurpSuite, Acunetix, and Sqlmap.",
+      "Network testing with Nmap & Nessus",
+      "Securing web services & APIs",
     ],
+    testimonialsSection: {
+      badge: "Success Stories",
+      title:
+        'From <span className="text-sky-600">Freshers</span> to Professionals',
+      description:
+        "Hear from our successful graduates who transformed their careers with our CyberSecurity program",
+      testimonials: [
+        {
+          name: "Jahnavi",
+          role: "Fresher",
+          image: "/Jahnavi.png?height=80&width=80",
+          content:
+            "As a fresher, I had no idea about cybersecurity. This course gave me a clear understanding of web vulnerabilities and hands-on practice with BurpSuite and Nmap. It made me confident to apply for security roles.",
+          rating: 5,
+          course: "Fresher",
+        },
+        {
+          name: "Neha Sharma",
+          role: "Data Analyst at Wipro",
+          image: "/neha.jpg?height=80&width=80",
+          content:
+            "Coming from a testing background, I wanted to shift into security. The modules on OWASP Top 10 and authentication testing were very practical. Now I can identify and report security flaws with confidence.",
+          rating: 5,
+          course: "QA Engineer",
+        },
+        {
+          name: "Rakesh Kumar",
+          role: "DevOps Engineer at Infosys",
+          image: "/rakesh.png?height=80&width=80",
+          content:
+            "The network security and API testing sections were the most valuable for me. Learning Nessus and Sqlmap helped me strengthen my skills and secure applications in my current role.",
+          rating: 5,
+          course: "System Administrator",
+        },
+      ],
+    },
+    nextBatch: [
+      { starts: "Every Two Months", mode: "Online " },
+    ],
+    qualification: " B.TECH/BSC/BCA/MSC/MCA",
+    eligibleLearners: "Freshers / IT & Non-IT Professionals",
     syllabus: [
       {
-        module: "Cybersecurity Course Outline",
+        module: "Web Application Security Testing",
         duration: "6 weeks",
         topics: [
           {
@@ -5648,6 +6320,13 @@ const courseData = {
               "OWASP Top 10 Vulnerabilities",
             ],
           },
+           ],
+      },
+      {
+        module: " Web Application Security Risks & Vulnerability Checks",
+        duration: "3 weeks",
+        topics: [         
+
           {
             name: "Web Application Security Risks & Vulnerability Checks",
             content: [
@@ -5670,6 +6349,13 @@ const courseData = {
               "Credentials Transport Over Unencrypted Channels",
             ],
           },
+           ],
+      },
+      {
+        module: " Authentication & Authorization Security Testing ",
+        duration: "3 weeks",
+        topics: [         
+
           {
             name: "Authentication & Authorization Security Testing",
             content: [
@@ -5690,6 +6376,13 @@ const courseData = {
               "Privilege Escalation",
             ],
           },
+           ],
+      },
+      {
+        module: " Web Application Security Testing Modules ",
+        duration: "3 weeks",
+        topics: [         
+
           {
             name: "Web Application Security Testing Modules",
             content: [
@@ -5714,6 +6407,13 @@ const courseData = {
               "Risk Rating and Report Preparation",
             ],
           },
+           ],
+      },
+      {
+        module: " Tools Covered ",
+        duration: "3 weeks",
+        topics: [         
+
           {
             name: "Tools Covered",
             content: [
@@ -5724,6 +6424,13 @@ const courseData = {
               "Kali Linux - Introduction",
             ],
           },
+           ],
+      },
+      {
+        module: " Network Security Testing ",
+        duration: "3 weeks",
+        topics: [         
+
           {
             name: "Network Security Testing",
             content: [
@@ -5744,6 +6451,13 @@ const courseData = {
               "Network Security Testing Tools: Nmap, Nessus, SSLScan/Sslyze",
             ],
           },
+           ],
+      },
+      {
+        module: " Web Services Security Testing ",
+        duration: "3 weeks",
+        topics: [         
+
           {
             name: "Web Services Security Testing",
             content: [],
@@ -5759,34 +6473,87 @@ const courseData = {
       bio: "Arjun has extensive experience in Azure DevOps and has led multiple enterprise-level implementations.",
     },
     projects: [
-      "CI/CD Pipeline for Web App",
-      "Automated Testing Framework",
-      "Infrastructure Deployment",
-      "Monitoring Dashboard",
+      "Web Vulnerability Assessment Lab",
+      "Secure Login System Implementation",
+      "Web Application Firewall Rules",
+      "Secure Code Review",
+      "HTTPS & TLS Configuration",
+    ],
+    projectsDetails: [
+      "Identify and fix common web app vulnerabilities like SQLi, XSS, and CSRF.",
+      "Build and test a secure authentication system with password hashing and session control.",
+      "Configure WAF rules to detect and block web-based attacks.",
+      "Analyze application code to find and fix insecure coding practices.",
+      "Deploy and secure a web app with SSL/TLS for encrypted communication.",
     ],
   },
   "network-protocol-development": {
     title: "Network Protocol <span class='text-yellow-400'>Development</span>",
     description:
-      "Learn to implement DevOps practices using Azure tools and services",
-    duration: "4 months",
-    mode: "Online/Offline",
-    level: "Intermediate to Advanced",
+      "Master C, Linux, and network programming to design, implement, and test protocols with real-time projects.",
+    duration: "2 months",
+    mode: "Offline",
+    level: "Beginner to Advanced",
     price: "₹40,000",
     originalPrice: "₹50,000",
-    category: "Networking",
-    students: "400+",
-    rating: 4.9,
-    reviews: 120,
-    image:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3Mpx-7k0FvYWzb8n8snbXGKMKM-YWg0Vlsg&s",
+    category: "🛜 Networking",
+    students: "1000+",
+    rating: 4.7,
+    reviews: 550,
+    brochure: "Network.pdf",
+    outline: "Network.pdf",
+    image: "/network.jpg",
     highlights: [
-      "Master Azure Repos, Pipelines, and Boards",
-      "Continuous Integration/Continuous Deployment (CI/CD)",
-      "Infrastructure as Code (IaC)",
-      "Real-world DevOps projects",
-      "Certification support",
+      "Advanced C programming essentials and memory management.",
+      "Linux system programming basics with process control.",
+      "File handling in C with practical examples.",
+      "Core data structures: stacks, queues.",
+      "Socket and network programming for client-server communication.",
+      "TCP/IP stack fundamentals and protocol operations.",
+      "Protocol-based applications like HTTP, SMTP, TFTP.",
+      "Real-time major project on networking protocols.",
     ],
+    testimonialsSection: {
+      badge: "Success Stories",
+      title:
+        'From <span className="text-sky-600">Freshers</span> to Professionals',
+      description:
+        "Hear from our successful graduates who transformed their careers with our ReactJS program",
+      testimonials: [
+        {
+          name: "Priya",
+          role: "Fresher",
+          image: "/priya.png?height=80&width=80",
+          content:
+            "Flair Technologies gave me strong hands-on training in C and network programming. The mini-projects and socket programming practice helped me build confidence to work on real-time applications.",
+          rating: 5,
+          course: "Fresher",
+        },
+        {
+          name: "Shahini",
+          role: "Data Analyst at Wipro",
+          image: "/sha.png?height=80&width=80",
+          content:
+            "I joined Flair Technologies to upskill in protocol development. The structured modules on Linux system programming and TCP/IP stack made complex topics easy to learn. This training was a real career boost.",
+          rating: 5,
+          course: "Non-IT Graduate",
+        },
+        {
+          name: "Arjun",
+          role: "DevOps Engineer at Infosys",
+          image: "/arjun.png?height=80&width=80",
+          content:
+            "The Network Protocol Development course at Flair Technologies was highly practical. From IPC to socket programming, every concept was taught with real-world examples. It truly enhanced my technical expertise.",
+          rating: 5,
+          course: "IT Professional",
+        },
+      ],
+    },
+    nextBatch: [
+      { starts: "Every Month", mode: "Classroom-Bangalore" },
+    ],
+    qualification: " B.TECH",
+    eligibleLearners: "Freshers / Network Administrators",
     syllabus: [
       {
         module: "Network Protocol Development",
@@ -6231,38 +6998,89 @@ const courseData = {
       bio: "Arjun has extensive experience in Azure DevOps and has led multiple enterprise-level implementations.",
     },
     projects: [
-      "CI/CD Pipeline for Web App",
-      "Automated Testing Framework",
-      "Infrastructure Deployment",
-      "Monitoring Dashboard",
+      "Chat Application using TCP Sockets",
+      "File Transfer Protocol (Mini-FTP)",
+      "Packet Sniffer Tool",
+      "HTTP Request-Response Simulator",
+      "DNS Lookup Utility",
+    ],
+    projectsDetails: [
+      "Build a simple client-server chat system using TCP socket programming.",
+      "Implement file upload/download between client and server using TCP or UDP.",
+      "Create a basic packet capture tool to analyze incoming/outgoing network traffic.",
+      "Develop a simple web server that handles GET/POST requests and returns responses.",
+      "Design a program to resolve domain names to IP addresses using socket programming.",
     ],
   },
   "record-to-report-r2r": {
     title: "Record to Report <span class='text-yellow-400'>(R2R)</span>",
     description:
-      "Learn to implement DevOps practices using Azure tools and services",
-    duration: "4 months",
-    mode: "Online/Offline",
-    level: "Intermediate to Advanced",
+      "Comprehensive Record to Report training covering accounting, reconciliations, ERP tools, and real-time financial reporting skills.",
+    duration: "1 month",
+    mode: "Online",
+    level: "Beginner to Advanced",
     price: "₹40,000",
     originalPrice: "₹50,000",
-    category: "Networking",
-    students: "400+",
+    category: "🪙 Finance",
+    students: "1000+",
     rating: 4.9,
-    reviews: 120,
-    image:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3Mpx-7k0FvYWzb8n8snbXGKMKM-YWg0Vlsg&s",
+    reviews: 300,
+    brochure: "R2R.pdf",
+    outline: "R2R.pdf",
+    image: "/R2R.jpg",
     highlights: [
-      "Master Azure Repos, Pipelines, and Boards",
-      "Continuous Integration/Continuous Deployment (CI/CD)",
-      "Infrastructure as Code (IaC)",
-      "Real-world DevOps projects",
-      "Certification support",
+      "Core accounting & journals.",
+      "Accruals, depreciation & assets.",
+      "Handle intercompany accounting and FX revaluation.",
+      "Perform bank, balance sheet, and payroll reconciliations.",
+      "Close books with tax provisions and month-end processes.",
+      "Build skills in cash flow, budgeting, and analysis.",
+      "Get hands-on with SAP, Oracle, Tally & Zoho Books.",
+      "Prepare for jobs with interviews and resume guidance.",
     ],
+    testimonialsSection: {
+      badge: "Success Stories",
+      title:
+        'From <span className="text-sky-600">Freshers</span> to Professionals',
+      description:
+        "Hear from our successful graduates who transformed their careers with our Record to Report (R2R) program",
+      testimonials: [
+        {
+          name: "Sai Manoj",
+          role: "Fresher",
+          image: "/monoj.png?height=80&width=80",
+          content:
+            "As a commerce fresher, I was nervous about entering corporate finance. Flair Tech’s R2R training gave me step-by-step knowledge of accounting, reconciliations, and ERP tools. I now feel confident and job-ready.",
+          rating: 5,
+          course: "B.Com Graduate (Fresher)",
+        },
+        {
+          name: "Sneha Reddy",
+          role: "Data Analyst at Wipro",
+          image: "/sneha.jpg?height=80&width=80",
+          content:
+            "Coming from a non-IT background, I thought ERP tools would be difficult. But the trainers explained everything clearly with practical examples. The R2R program made complex topics simple and easy to apply.",
+          rating: 5,
+          course: "MBA Finance (Non-IT Background)",
+        },
+        {
+          name: "Vijtha",
+          role: "DevOps Engineer at Infosys",
+          image: "/viji.png?height=80&width=80",
+          content:
+            "The hands-on projects in bank reconciliation and month-end closing gave me real-world exposure. Flair Tech not only taught me accounting processes but also helped me prepare for interviews and career growth.",
+          rating: 5,
+          course: "Fresher",
+        },
+      ],
+    },
+    nextBatch: [{ starts: "Every Month", mode: "Online" }],
+    qualification: " B. Com / MBA Finance",
+    eligibleLearners: "Freshers / Non IT-Professionals",
     syllabus: [
       {
-        module: "R2R <span class='text-yellow-400'>Outline</span>",
-        duration: "3 weeks",
+        module: "Core Accounting Model",
+        duration: "1.5 weeks",
         topics: [
           {
             name: "Core Accounting Model",
@@ -6285,6 +7103,12 @@ const courseData = {
               "Bank Clearings etc.",
             ],
           },
+        ],
+      },
+      {
+        module: "R2R (Record to Report)",
+        duration: "1.5 weeks",
+        topics: [
           {
             name: "R2R (Record to Report)",
             content: [
@@ -6306,6 +7130,12 @@ const courseData = {
               "MS EXCEL - Basic to Advanced Excel",
             ],
           },
+        ],
+      },
+      {
+        module: "Real Time Scenarios",
+        duration: "0.5 week",
+        topics: [
           {
             name: "Real Time Scenarios",
             content: [
@@ -6324,6 +7154,12 @@ const courseData = {
               "How to Perform Bank & Balance Sheet Recon?",
             ],
           },
+        ],
+      },
+      {
+        module: "Resume Preparation & Interview Guidance",
+        duration: "0.5 week",
+        topics: [
           {
             name: "Naukri",
             content: [
@@ -6344,38 +7180,89 @@ const courseData = {
       bio: "Arjun has extensive experience in Azure DevOps and has led multiple enterprise-level implementations.",
     },
     projects: [
-      "CI/CD Pipeline for Web App",
-      "Automated Testing Framework",
-      "Infrastructure Deployment",
-      "Monitoring Dashboard",
+      "Month-End Closing Process Simulation",
+      "Bank Reconciliation",
+      "Fixed Asset Accounting",
+      "Intercompany Reconciliation",
+      "Trial Balance to Financial Statement",
+    ],
+    projectsDetails: [
+      "Learn how to prepare journals, reconcile accounts, and close books like a pro.",
+      "Hands-on practice in reconciling cash books with bank statements.",
+      "From acquisition to depreciation, manage the complete asset lifecycle.",
+      "Simulate group company transactions and achieve perfect reconciliations.",
+      "Transform trial balances into clear P&L and Balance Sheet outputs.",
     ],
   },
   "ai-and-ml": {
     title: "AI & <span class='text-yellow-400'>ML</span>",
     description:
-      "Learn to implement DevOps practices using Azure tools and services",
-    duration: "4 months",
-    mode: "Online/Offline",
-    level: "Intermediate to Advanced",
+      "AI & ML PRACTITIONER TRAINING - EMPOWERING THE NEXT GENERATION OF AI ENGINEERS",
+    duration: "3 months",
+    mode: "Online",
+    level: "Beginner to Advanced",
     price: "₹40,000",
     originalPrice: "₹50,000",
-    category: "Networking",
-    students: "400+",
+    category: "✈️ AI & ML",
+    students: "150+",
     rating: 4.9,
-    reviews: 120,
-    image:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3Mpx-7k0FvYWzb8n8snbXGKMKM-YWg0Vlsg&s",
+    reviews: 50,
+    brochure: "AI&ML.pdf",
+    outline: "AI&ML.pdf",
+    image: "/aiml.jpg",
     highlights: [
-      "Master Azure Repos, Pipelines, and Boards",
-      "Continuous Integration/Continuous Deployment (CI/CD)",
-      "Infrastructure as Code (IaC)",
-      "Real-world DevOps projects",
-      "Certification support",
+      "Python foundations.",
+      "AI & ML model building and packaging.",
+      "Deployment with Kubeflow, MLflow, SageMaker.",
+      "CI/CD, Git, monitoring with Prometheus + Grafana.",
+      "Kubeflow for pipeline orchestration, scalability, automation, efficiency.",
+      "Real-world ML projects (loan, sales, CI/CD, monitoring, deployment, optimization).",
+      "MLflow for model tracking and lifecycle management.",
+      "Amazon SageMaker for cloud-native model deployment.",
     ],
+    testimonialsSection: {
+      badge: "Success Stories",
+      title:
+        'From <span className="text-sky-600">Professionals</span> to AI Leaders',
+      description:
+        "Hear from our successful graduates who transformed their careers with Flair Tech AI & ML Practitioner Training program",
+      testimonials: [
+        {
+          name: "Sandeep Verma",
+          role: "Fresher",
+          image: "/sandeep.png?height=80&width=80",
+          content:
+            "As a DevOps professional, I wanted to upskill in MLOps. The modules on CI/CD pipelines, SageMaker, and monitoring with Prometheus + Grafana were exactly what I needed. The instructors were very supportive, and the capstone projects gave me real deployment experience. Flair Technologies truly bridges the gap between IT and AI/ML.",
+          rating: 5,
+          course: "DevOps Specialist",
+        },
+        {
+          name: "Ananya Reddy",
+          role: "Data Analyst at Wipro",
+          image: "/ananya.png?height=80&width=80",
+          content:
+            "Before joining Flair Technologies, I worked as a data analyst in IT. I knew Python and Pandas but lacked exposure to full ML model deployment. This training not only strengthened my coding skills but also taught me how to build, package, and monitor models in production. Thanks to this course, I’ve transitioned into an AI Engineer role.",
+          rating: 5,
+          course: "Data Analyst",
+        },
+        {
+          name: "Vikram",
+          role: "DevOps Engineer at Infosys",
+          image: "/vikram.png?height=80&width=80",
+          content:
+            "Coming from a development background, I always struggled to connect coding with real-world AI/ML workflows. Flair Technologies’ AMPT program made it crystal clear. The hands-on projects with FastAPI, MLflow, and Kubernetes gave me the confidence to deploy models at scale. Today, I’m leading ML integration in my automation projects.",
+          rating: 5,
+          course: "Software Engineer",
+        },
+      ],
+    },
+    nextBatch: [{ starts: "Every Two Months", mode: "Online" }],
+    qualification: " IT-Professionals",
+    eligibleLearners: " IT-Professionals",
     syllabus: [
       {
         module: "Python Basics",
-        duration: "3 weeks",
+        duration: "1 week",
         topics: [
           {
             name: "Introduction",
@@ -6416,7 +7303,7 @@ const courseData = {
       },
       {
         module: "Python Data Structures",
-        duration: "3 weeks",
+        duration: "1 week",
         topics: [
           {
             name: "Data Structures",
@@ -6426,7 +7313,7 @@ const courseData = {
       },
       {
         module: "Python Advanced",
-        duration: "3 weeks",
+        duration: "1 week",
         topics: [
           {
             name: "Objects & Classes",
@@ -6487,7 +7374,7 @@ const courseData = {
       },
       {
         module: "Python Libraries",
-        duration: "3 weeks",
+        duration: "1 week",
         topics: [
           {
             name: "Pandas",
@@ -6507,7 +7394,7 @@ const courseData = {
       },
       {
         module: "Python Web Framework",
-        duration: "3 weeks",
+        duration: "1 week",
         topics: [
           {
             name: "FastAPI Framework",
@@ -6527,7 +7414,7 @@ const courseData = {
       },
       {
         module: "Python API Testing & Debugging",
-        duration: "3 weeks",
+        duration: "0.5 week",
         topics: [
           {
             name: "Testing & Debugging",
@@ -6550,7 +7437,7 @@ const courseData = {
       },
       {
         module: "AI & ML Basics",
-        duration: "3 weeks",
+        duration: "0.5 week",
         topics: [
           {
             name: "AI & ML Basics",
@@ -6567,7 +7454,7 @@ const courseData = {
       },
       {
         module: "Python Libraries & Frameworks",
-        duration: "3 weeks",
+        duration: "1 week",
         topics: [
           {
             name: "Streamlit",
@@ -6581,7 +7468,7 @@ const courseData = {
       },
       {
         module: "AI/ML Frameworks",
-        duration: "3 weeks",
+        duration: "1.5 weeks",
         topics: [
           {
             name: "Kubeflow",
@@ -6629,7 +7516,7 @@ const courseData = {
       },
       {
         module: "Model Packaging",
-        duration: "3 weeks",
+        duration: "0.5 week",
         topics: [
           {
             name: "scikit-learn",
@@ -6645,7 +7532,7 @@ const courseData = {
       },
       {
         module: "Data Versioning",
-        duration: "3 weeks",
+        duration: "0.5 week",
         topics: [
           {
             name: "Git and DVC",
@@ -6664,7 +7551,7 @@ const courseData = {
       },
       {
         module: "ML CI/CD Pipeline",
-        duration: "3 weeks",
+        duration: "1 week",
         topics: [
           {
             name: "ML CI/CD Pipeline",
@@ -6688,7 +7575,7 @@ const courseData = {
       },
       {
         module: "Model Deployment",
-        duration: "3 weeks",
+        duration: "1 week",
         topics: [
           {
             name: "Model Deployment",
@@ -6702,7 +7589,7 @@ const courseData = {
       },
       {
         module: "Model Monitoring",
-        duration: "3 weeks",
+        duration: "1 week",
         topics: [
           {
             name: "Grafana Stack",
@@ -6724,10 +7611,18 @@ const courseData = {
       bio: "Arjun has extensive experience in Azure DevOps and has led multiple enterprise-level implementations.",
     },
     projects: [
-      "CI/CD Pipeline for Web App",
-      "Automated Testing Framework",
-      "Infrastructure Deployment",
-      "Monitoring Dashboard",
+      "Loan Application Model Deployment with FastAPI integration",
+      "Sales application with Streamlit integration",
+      "CI/CD for ML Models",
+      "CI/CD for ML Models",
+      "AI ChatBoat using GPT LLMs",
+    ],
+    projectsDetails: [
+      "Learn how to manage the AI/ML Models flow and API integration architecture with scale.",
+      "Learn how to run Streamlit applications and Model integration and Deployments.",
+      "Setup CICD Pipeline for the AI/ML Model predicting the sales inventory.",
+      "Learn how to continuously train the model using the given dataset, package the model and deploy the model.",
+      "Build an AI-powered chatbot using GPT LLMs to interact with users, answer loan-related queries, and provide personalized financial assistance in real time.",
     ],
   },
 };
