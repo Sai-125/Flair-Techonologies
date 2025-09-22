@@ -45,7 +45,7 @@ const courseData = {
   "python-fullstack": {
     title: "Python Full-Stack <span class='text-yellow-400'>Development</span>",
     description:
-      "Master Python, Django and modern web development with hands-on projects",
+      "Master Python, Django and modern web development with hands-on projects.",
     duration: "3 months",
     mode: "Online/Offline",
     level: "Beginner to Advanced",
@@ -56,7 +56,7 @@ const courseData = {
     rating: 4.7,
     reviews: 156,
     brochure: "PYTHON FULL STACK.pdf",
-    outline: "Data Analytics - Outline.pdf",
+    outline: "PYTHON FULL STACK.pdf",
     image: "/pyhton.png",
     highlights: [
       "Master Python programming fundamentals and advanced concepts.",
@@ -614,8 +614,72 @@ const courseData = {
               "Concurrency Control and Isolation Levels",
             ],
           },
-        ],
+         ],
       },
+      {
+        module: " Soft Skills ",
+        duration: "1 week",
+        topics: [         
+
+          {
+            name: "Communication Skills",
+            content: [
+              "Improve verbal, written, and presentation abilities for workplace impact.",
+            
+            
+            ],
+          },
+           {
+            name: "Teamwork & Collaboration",
+            content: [
+              "Work effectively in groups and cross-functional environments.",
+            
+            
+            ],
+          },
+          {
+            name: "Time Management",
+            content: [
+              "Prioritize tasks, set goals, and manage deadlines efficiently.",
+            
+            
+            ],
+          },
+          {
+            name: "Problem-Solving & Critical Thinking",
+            content: [
+              "Approach challenges with logical and innovative solutions.",
+            
+            
+            ],
+          },
+          {
+            name: "Adaptability & Flexibility",
+            content: [
+              "Adjust quickly to changing tasks and environments.",
+            
+            
+            ],
+          },
+          {
+            name: "Professional Etiquette",
+            content: [
+              "Build confidence with workplace behavior, email writing, and meeting etiquette.",
+            
+            
+            ],
+          },
+          {
+            name: "Interview Preparation",
+            content: [
+              "Practice mock interviews, resume building, and self-introduction skills.",
+            
+            
+            ],
+          },
+          ],
+      },
+      
     ],
     instructor: {
       name: "Rajesh Kumar",
@@ -653,7 +717,7 @@ const courseData = {
     rating: 4.9,
     reviews: 120,
     brochure: "FRESHERS.pdf",
-    outline: "Data Analytics - Outline.pdf",
+    outline: "FRESHERS.pdf",
     image: "/java.jpg",
     highlights: [
       "Master object-oriented programming and advanced Java concepts.",
@@ -1521,7 +1585,7 @@ const courseData = {
       "Design a portal with courses, student dashboards, quizzes, and progress tracking and personalized learning paths included.",
     ],
   },
-  reactCourse: {
+  "reactCourse": {
     title: "React<span class='text-yellow-400'>JS</span>",
     description:
       "Future-proof your career with ReactJS expertise by building production-ready projects and real-time web applications.",
@@ -1534,8 +1598,8 @@ const courseData = {
     students: "700+",
     rating: 4.8,
     reviews: 500,
-    brochure: "FRESHERS.pdf",
-    outline: "Data Analytics - Outline.pdf",
+    brochure: "react.pdf",
+    outline: "react.pdf",
     image: "/react.jpg",
     highlights: [
       "Understand ReactJS fundamentals, components, and JSX syntax.",
@@ -1886,168 +1950,200 @@ const courseData = {
   "power-bi": {
     title: "Microsoft  <span class='text-yellow-400'>Power BI</span>",
     description:
-      "Learn to create interactive data visualizations and business intelligence reports",
-    duration: "3 months",
+      "Master Microsoft Power BI to transform raw data into interactive dashboards, insightful reports, and business intelligence.",
+    duration: "1.5 months",
     mode: "Online/Offline",
-    level: "Beginner to Intermediate",
+    level: "Beginner to Advanced",
     price: "₹25,000",
     originalPrice: "₹35,000",
-    category: "Data Analytics",
-    students: "300+",
-    rating: 4.7,
-    reviews: 89,
-    brochure: "FRESHERS.pdf",
-    outline: "Data Analytics - Outline.pdf",
-    image: "/react.jpg",
+    category: "📊 Analytics",
+    students: "1500+",
+    rating: 4.9,
+    reviews: 750,
+    brochure: "PowerBI.pdf",
+    outline: "PowerBI.pdf",
+    image: "/pbi.jpg",
     highlights: [
-      "Understand ReactJS fundamentals, components, and JSX syntax.",
-      "Manage state and props for dynamic UI development.",
-      "Work with React Hooks for cleaner, functional code.",
-      "Implement routing and navigation using React Router.",
-      "Connect React apps with APIs for real-time data handling.",
-      "Apply Redux or Context API for state management.",
-      "Build responsive and interactive applications.",
-      "Deploy React apps with best practices.",
+      "Learn Power BI essentials and environment setup for reporting.",
+      "Import, clean, and transform data using Power Query.",
+      "Build data models and create relationships between datasets.",
+      "Design interactive dashboards and effective visual reports.",
+      "Use DAX expressions for calculations and advanced analytics",
+      "Publish, share, and collaborate on Power BI reports.",
+      "Integrate Power BI with analytics tools.",
+      "Apply SQL for queries and data analysis.",
     ],
     testimonialsSection: {
       badge: "Success Stories",
       title:
         'From <span className="text-sky-600">Freshers</span> to Professionals',
       description:
-        "Hear from our successful graduates who transformed their careers with our ReactJS program",
+        "Hear from our successful graduates who transformed their careers with our Microsoft Power BI program",
       testimonials: [
         {
-          name: "Priya",
+          name: "Anjali Rao",
           role: "Fresher",
-          image: "/priya.png?height=80&width=80",
+          image: "/anjalir.jpg?height=80&width=80",
           content:
-            "As a fresher, ReactJS training here gave me the confidence and skills to build real-world projects. Thanks to Flair for the guidance, I landed my first job as a React Developer.",
+            "Coming from a commerce background, I never imagined working with data tools. Flair Technologies’ Power BI training made it simple to clean, model, and visualize data. Within weeks, I was building dashboards for my team and adding real value to my role.",
           rating: 5,
-          course: "Fresher",
+          course: "Non-IT Professional",
         },
         {
-          name: "Shahini",
+          name: "Suresh Naidu",
           role: "Data Analyst at Wipro",
-          image: "/sha.png?height=80&width=80",
+          image: "/sureshn.jpg?height=80&width=80",
           content:
-            "Coming from a non-IT background, I never imagined coding could be this simple. With step-by-step ReactJS training, I successfully transitioned into a Front-End Developer role.",
+            "As an HR professional, I struggled with Excel reports and manual tracking. Power BI at Flair Technologies gave me confidence to create automated dashboards. Now, I generate insightful reports for employee performance and hiring metrics in just a few clicks.",
           rating: 5,
-          course: "Non-IT Graduate",
+          course: "Non-IT Professional",
         },
         {
-          name: "Arjun",
+          name: "Pratyusha",
           role: "DevOps Engineer at Infosys",
-          image: "/arjun.png?height=80&width=80",
+          image: "/prathusha.jpg?height=80&width=80",
           content:
-            "Already working in web development, I wanted to specialize in ReactJS. This course sharpened my skills, practical project skills, and helped me move into a higher-paying role.",
+            "Already working in analytics, I wanted to upgrade my skills. Flair Technologies’ Power BI course deepened my knowledge of DAX and advanced modeling. I now design interactive dashboards that tell clear business stories and support decision-making in my organization.",
           rating: 5,
-          course: "IT Professional",
+          course: "Data Analyst",
         },
       ],
     },
     nextBatch: [
-      { starts: "Every Month", mode: "Online / Classroom-Bangalore" },
+      { starts: "Every Month", mode: "Online / Classroom-BLR/HYD" },
     ],
     qualification: " B.TECH/B.COM/BSC/MSC/MCA",
-    eligibleLearners: "Freshers / IT-Professionals",
+    eligibleLearners: "Freshers / IT & Non-IT Professionals",
     syllabus: [
       {
-        module: "Microsoft Power BI Course Outline",
-        duration: "6 weeks",
+        module: "Power BI Essentials & Environment Setup",
+        duration: "0.5 week",
         topics: [
           {
-            name: "Configuration and Connections",
+            name: "Power BI Essentials & Environment Setup",
             content: [
-              "Introduction of Power BI",
-              "Installation Steps",
-              "Power BI Working Architecture",
-              "Connecting to Different Databases (SQL Server, Excel, One Drive)",
-              "Comparison with other BI Tools",
-              "Direct Vs Import Connections",
+              "What is Power BI - Overview of Desktop, Service, Mobile",
+              "Installing Power BI Desktop & Initial Setup",
+              "Understanding Power BI Components (Desktop, Service, Gateway)",
+              "Power BI Licensing: Free, Pro, Premium, PPU",
+              
             ],
           },
+          ],
+      },
+      {
+        module: "Data Loading and Transformation (Power Query / M Language)",
+        duration: "1 week",
+        topics: [
+
           {
-            name: "Visualizations",
+            name: "Data Loading and Transformation (Power Query / M Language)",
             content: [
-              "Tiles, Page, Report, Dashboard",
-              "Different types of charts and Usage",
-              "Create visuals",
-              "Format visuals",
-              "Custom Visuals from the Gallery",
-              "Format Page",
+              "Connecting to Data Sources (flat files, RDBMS Databases, Semantic Models)",
+              "Introduction to Power Query Editor",
+              "Data Shaping & Cleaning (Remove, Filter, Replace, Split)",
+              "Merge vs Append Queries",
+              "Data Types and Formatting",
+              "Understanding Query Folding",
+              "Introduction to M Language (Functions & Custom Columns)",
             ],
           },
+          ],
+      },
+      {
+        module: "Data Modelling and Relationships",
+        duration: "0.5 week",
+        topics: [
+
           {
-            name: "Components",
+            name: "Data Modelling and Relationships",
             content: [
-              "Filters",
-              "Interactions",
-              "Groups",
-              "Hierarchy",
-              "Drill up and Drill down",
-              "Drill through",
-              "Parameters",
+              "Star vs Snowflake Schema",
+              "Creating and Managing Relationships",
+              "Fact Tables vs Dimension Tables",
+              "Best Practices for Model Design (Normalization/Denormalization)",
+              "Using Date Tables and Auto Date/Time",
+              
             ],
           },
+          ],
+      },
+      {
+        module: "Visualizations and Report Design",
+        duration: "2 weeks",
+        topics: [
           {
-            name: "Power Query",
+            name: "Visualizations and Report Design",
             content: [
-              "Creating Front end Tables",
-              "Data Cleansing (Replace, Trim, Clean, Split Columns, Merge Columns)",
-              "Data Transformation (Pivot, Unpivot, Transpose, group by)",
-              "Merge Queries",
-              "Append Queries",
-              "Creating the columns",
-              "Applied Steps maintenance (Advanced Query Editor)",
+              "Default & Common Visuals",
+              "Slicers, Filters, Drill-downs, Tooltips",
+              "Conditional Formatting & Interactions",
+              "Bookmarks, Selections & Navigation",
+              "Drillthrough Pages & Tooltip Pages",
+              "Using Custom Visuals from AppSource",
+              "Best Practices for Visual & UX Design",
             ],
           },
+          ],
+      },
+      {
+        module: "DAX (Data Analysis Expressions)",
+        duration: "1.5 weeks",
+        topics: [
           {
-            name: "Power Pivot",
+            name: "DAX (Data Analysis Expressions)",
             content: [
-              "Dimension Tables",
-              "Fact Tables",
-              "Cardinality Relationships",
-              "Star Schema Creation",
-              "Active Relationship & Inactive Relationships",
+              "Calculated Columns vs Measures",
+              "Aggregation & Math Functions ",
+              "Logical Functions",
+              "Date & Time Intelligence Functions",
+              "Text or String Functions",
+               "Filter & Row Context",
+              "Advanced DAX Functions",
+              "DAX Performance Tuning",
+              
             ],
           },
+          ],
+      },
+      {
+        module: "Publishing, Sharing & Collaboration",
+        duration: "1 week",
+        topics: [
           {
-            name: "Navigations",
+            name: "Publishing, Sharing & Collaboration",
             content: [
-              "Page Navigations",
-              "Book Marks",
-              "Sync Slicers",
-              "Custom Tooltips",
-              "Q&A",
+              "Publishing Reports to Power BI Service",
+              "Workspaces, Apps & Access Control",
+              "Scheduled & Incremental Data Refresh",
+              "Row-Level Security (RLS) & Object-Level Security (OLS)",
+              "Report Sharing, Subscriptions, Alerts",
+              "Gateway Installation & Management",
             ],
           },
+          ],
+      },
+      {
+        module: "Advanced Analytics & Integration",
+        duration: "1 week",
+        topics: [
           {
-            name: "DAX",
+            name: "Advanced Analytics & Integration",
             content: [
-              "Create Column",
-              "Create Measure",
-              "Date and time functions",
-              "Filter functions",
-              "Logical functions",
-              "Aggregate functions",
-              "Text functions",
-              "Variable usage in DAX",
-              "Role-based Security",
+              "Dataflows and Reusable ETL in Service",
+              "Deployment Pipelines",
+              "Integration with Azure ML & Cognitive Services",
+              "Power automate flows creation for datasets refresh",
+              "Intake & Survey Power apps Forms creation",
+             
             ],
           },
-          {
-            name: "Power BI Service",
-            content: [
-              "Power BI License Types",
-              "Workspace Creation",
-              "Report Publish",
-              "Gateway Installation & Configuration",
-              "Schedule Refresh",
-              "Sharing Reports & Providing access to Business Users",
-              "Dashboard Creation",
-              "Power BI Apps Creation",
-            ],
-          },
+          ],
+      },
+      {
+        module: "SQL",
+        duration: "1.5 weeks",
+        topics: [
           {
             name: "SQL",
             content: [
@@ -2072,80 +2168,552 @@ const courseData = {
       bio: "Priya specializes in data analytics with extensive experience in Power BI and has trained over 150 professionals.",
     },
     projects: [
-      "Todo List Application",
-      "Weather App",
-      "Student Management System",
-      "Recipe Finder App",
-      "Blog Posting Application",
+      "E-commerce Sales Analysis",
+      "Human Resources Dashboard",
+      "Finance Dashboard",
+      "360° Business Intelligence Dashboard",
+      "Insurance Insights Dashboard",
     ],
     projectsDetails: [
-      "Build a simple task manager to add, edit, mark complete, and delete tasks using React state.",
-      "Create a weather forecasting app fetching real-time data from APIs and displaying detailed city weather reports.",
-      "Develop a student records system to add, update, and manage student data with forms, tables, and state.",
-      "Design an app to search and display recipes by ingredients using external APIs with React components.",
-      "Build a blogging platform for creating, editing, deleting posts with React Router, forms, and CRUD operations.",
+      "Objective: Analyze customer behavior and order trends for an online store.",
+      "Objective: Track employee performance, attrition, and demographics.",
+      "Objective: Create a P&L statement with monthly and yearly comparisons.",
+      "Objective: Build an end-to-end BI solution for a fictional company.",
+      "Objective: Analyze and visualize insurance metrics for data-driven decisions.",
     ],
   },
 
-  alteryx: {
-    title: "Alteryx <span class='text-yellow-400'>Designer</span>",
+    "power-apps": {
+    title: "Microsoft  <span class='text-yellow-400'>Power BI</span>",
     description:
-      "Learn to implement DevOps practices using Azure tools and services",
-    duration: "4 months",
+      "Master Microsoft Power BI to transform raw data into interactive dashboards, insightful reports, and business intelligence.",
+    duration: "1.5 months",
     mode: "Online/Offline",
-    level: "Intermediate to Advanced",
-    price: "₹40,000",
-    originalPrice: "₹50,000",
-    category: "Analytics",
-    students: "400+",
+    level: "Beginner to Advanced",
+    price: "₹25,000",
+    originalPrice: "₹35,000",
+    category: "📊 Analytics",
+    students: "1500+",
     rating: 4.9,
-    reviews: 120,
-    brochure: "FRESHERS.pdf",
-    outline: "Data Analytics - Outline.pdf",
-    image: "/react.jpg",
+    reviews: 750,
+    brochure: "PowerBI.pdf",
+    outline: "PowerBI.pdf",
+    image: "/pbi.jpg",
     highlights: [
-      "Understand ReactJS fundamentals, components, and JSX syntax.",
-      "Manage state and props for dynamic UI development.",
-      "Work with React Hooks for cleaner, functional code.",
-      "Implement routing and navigation using React Router.",
-      "Connect React apps with APIs for real-time data handling.",
-      "Apply Redux or Context API for state management.",
-      "Build responsive and interactive applications.",
-      "Deploy React apps with best practices.",
+      "Learn Power BI essentials and environment setup for reporting.",
+      "Import, clean, and transform data using Power Query.",
+      "Build data models and create relationships between datasets.",
+      "Design interactive dashboards and effective visual reports.",
+      "Use DAX expressions for calculations and advanced analytics",
+      "Publish, share, and collaborate on Power BI reports.",
+      "Integrate Power BI with analytics tools.",
+      "Apply SQL for queries and data analysis.",
     ],
     testimonialsSection: {
       badge: "Success Stories",
       title:
         'From <span className="text-sky-600">Freshers</span> to Professionals',
       description:
-        "Hear from our successful graduates who transformed their careers with our ReactJS program",
+        "Hear from our successful graduates who transformed their careers with our Microsoft Power BI program",
       testimonials: [
         {
-          name: "Priya",
+          name: "Anjali Rao",
           role: "Fresher",
-          image: "/priya.png?height=80&width=80",
+          image: "/anjalir.jpg?height=80&width=80",
           content:
-            "As a fresher, ReactJS training here gave me the confidence and skills to build real-world projects. Thanks to Flair for the guidance, I landed my first job as a React Developer.",
+            "Coming from a commerce background, I never imagined working with data tools. Flair Technologies’ Power BI training made it simple to clean, model, and visualize data. Within weeks, I was building dashboards for my team and adding real value to my role.",
           rating: 5,
-          course: "Fresher",
+          course: "Non-IT Professional",
         },
         {
-          name: "Shahini",
+          name: "Suresh Naidu",
           role: "Data Analyst at Wipro",
-          image: "/sha.png?height=80&width=80",
+          image: "/sureshn.jpg?height=80&width=80",
           content:
-            "Coming from a non-IT background, I never imagined coding could be this simple. With step-by-step ReactJS training, I successfully transitioned into a Front-End Developer role.",
+            "As an HR professional, I struggled with Excel reports and manual tracking. Power BI at Flair Technologies gave me confidence to create automated dashboards. Now, I generate insightful reports for employee performance and hiring metrics in just a few clicks.",
           rating: 5,
-          course: "Non-IT Graduate",
+          course: "Non-IT Professional",
         },
         {
-          name: "Arjun",
+          name: "Pratyusha",
           role: "DevOps Engineer at Infosys",
-          image: "/arjun.png?height=80&width=80",
+          image: "/prathusha.jpg?height=80&width=80",
           content:
-            "Already working in web development, I wanted to specialize in ReactJS. This course sharpened my skills, practical project skills, and helped me move into a higher-paying role.",
+            "Already working in analytics, I wanted to upgrade my skills. Flair Technologies’ Power BI course deepened my knowledge of DAX and advanced modeling. I now design interactive dashboards that tell clear business stories and support decision-making in my organization.",
+          rating: 5,
+          course: "Data Analyst",
+        },
+      ],
+    },
+    nextBatch: [
+      { starts: "Every Month", mode: "Online / Classroom-BLR/HYD" },
+    ],
+    qualification: " B.TECH/B.COM/BSC/MSC/MCA",
+    eligibleLearners: "Freshers / IT & Non-IT Professionals",
+    syllabus: [
+      {
+        module: "Power BI Essentials & Environment Setup",
+        duration: "0.5 week",
+        topics: [
+          {
+            name: "Power BI Essentials & Environment Setup",
+            content: [
+              "What is Power BI - Overview of Desktop, Service, Mobile",
+              "Installing Power BI Desktop & Initial Setup",
+              "Understanding Power BI Components (Desktop, Service, Gateway)",
+              "Power BI Licensing: Free, Pro, Premium, PPU",
+              
+            ],
+          },
+          ],
+      },
+      {
+        module: "Data Loading and Transformation (Power Query / M Language)",
+        duration: "1 week",
+        topics: [
+
+          {
+            name: "Data Loading and Transformation (Power Query / M Language)",
+            content: [
+              "Connecting to Data Sources (flat files, RDBMS Databases, Semantic Models)",
+              "Introduction to Power Query Editor",
+              "Data Shaping & Cleaning (Remove, Filter, Replace, Split)",
+              "Merge vs Append Queries",
+              "Data Types and Formatting",
+              "Understanding Query Folding",
+              "Introduction to M Language (Functions & Custom Columns)",
+            ],
+          },
+          ],
+      },
+      {
+        module: "Data Modelling and Relationships",
+        duration: "0.5 week",
+        topics: [
+
+          {
+            name: "Data Modelling and Relationships",
+            content: [
+              "Star vs Snowflake Schema",
+              "Creating and Managing Relationships",
+              "Fact Tables vs Dimension Tables",
+              "Best Practices for Model Design (Normalization/Denormalization)",
+              "Using Date Tables and Auto Date/Time",
+              
+            ],
+          },
+          ],
+      },
+      {
+        module: "Visualizations and Report Design",
+        duration: "2 weeks",
+        topics: [
+          {
+            name: "Visualizations and Report Design",
+            content: [
+              "Default & Common Visuals",
+              "Slicers, Filters, Drill-downs, Tooltips",
+              "Conditional Formatting & Interactions",
+              "Bookmarks, Selections & Navigation",
+              "Drillthrough Pages & Tooltip Pages",
+              "Using Custom Visuals from AppSource",
+              "Best Practices for Visual & UX Design",
+            ],
+          },
+          ],
+      },
+      {
+        module: "DAX (Data Analysis Expressions)",
+        duration: "1.5 weeks",
+        topics: [
+          {
+            name: "DAX (Data Analysis Expressions)",
+            content: [
+              "Calculated Columns vs Measures",
+              "Aggregation & Math Functions ",
+              "Logical Functions",
+              "Date & Time Intelligence Functions",
+              "Text or String Functions",
+               "Filter & Row Context",
+              "Advanced DAX Functions",
+              "DAX Performance Tuning",
+              
+            ],
+          },
+          ],
+      },
+      {
+        module: "Publishing, Sharing & Collaboration",
+        duration: "1 week",
+        topics: [
+          {
+            name: "Publishing, Sharing & Collaboration",
+            content: [
+              "Publishing Reports to Power BI Service",
+              "Workspaces, Apps & Access Control",
+              "Scheduled & Incremental Data Refresh",
+              "Row-Level Security (RLS) & Object-Level Security (OLS)",
+              "Report Sharing, Subscriptions, Alerts",
+              "Gateway Installation & Management",
+            ],
+          },
+          ],
+      },
+      {
+        module: "Advanced Analytics & Integration",
+        duration: "1 week",
+        topics: [
+          {
+            name: "Advanced Analytics & Integration",
+            content: [
+              "Dataflows and Reusable ETL in Service",
+              "Deployment Pipelines",
+              "Integration with Azure ML & Cognitive Services",
+              "Power automate flows creation for datasets refresh",
+              "Intake & Survey Power apps Forms creation",
+             
+            ],
+          },
+          ],
+      },
+      {
+        module: "SQL",
+        duration: "1.5 weeks",
+        topics: [
+          {
+            name: "SQL",
+            content: [
+              "Table Creation, Insert, Update, Delete data, Select",
+              "Clause Operations (Where, Group by, Having, Order by)",
+              "Operators (IN, LIKE, ISNULL, Union)",
+              "Joins",
+              "Sub Queries (Inner Query & Outer Query)",
+              "Data Modeling using SQL",
+              "Views Creation",
+              "Analytical Functions (Rank, Dense_Rank, Partition by)",
+            ],
+          },
+        ],
+      },
+    ],
+    instructor: {
+      name: "Priya Sharma",
+      title: "Data Analyst at Amazon",
+      experience: "10+ years",
+      image: "/placeholder.svg?height=100&width=100",
+      bio: "Priya specializes in data analytics with extensive experience in Power BI and has trained over 150 professionals.",
+    },
+    projects: [
+      "E-commerce Sales Analysis",
+      "Human Resources Dashboard",
+      "Finance Dashboard",
+      "360° Business Intelligence Dashboard",
+      "Insurance Insights Dashboard",
+    ],
+    projectsDetails: [
+      "Objective: Analyze customer behavior and order trends for an online store.",
+      "Objective: Track employee performance, attrition, and demographics.",
+      "Objective: Create a P&L statement with monthly and yearly comparisons.",
+      "Objective: Build an end-to-end BI solution for a fictional company.",
+      "Objective: Analyze and visualize insurance metrics for data-driven decisions.",
+    ],
+  },
+
+     "Azure-Data": {
+    title: "Microsoft  <span class='text-yellow-400'>Power BI</span>",
+    description:
+      "Master Microsoft Power BI to transform raw data into interactive dashboards, insightful reports, and business intelligence.",
+    duration: "1.5 months",
+    mode: "Online/Offline",
+    level: "Beginner to Advanced",
+    price: "₹25,000",
+    originalPrice: "₹35,000",
+    category: "📊 Analytics",
+    students: "1500+",
+    rating: 4.9,
+    reviews: 750,
+    brochure: "PowerBI.pdf",
+    outline: "PowerBI.pdf",
+    image: "/pbi.jpg",
+    highlights: [
+      "Learn Power BI essentials and environment setup for reporting.",
+      "Import, clean, and transform data using Power Query.",
+      "Build data models and create relationships between datasets.",
+      "Design interactive dashboards and effective visual reports.",
+      "Use DAX expressions for calculations and advanced analytics",
+      "Publish, share, and collaborate on Power BI reports.",
+      "Integrate Power BI with analytics tools.",
+      "Apply SQL for queries and data analysis.",
+    ],
+    testimonialsSection: {
+      badge: "Success Stories",
+      title:
+        'From <span className="text-sky-600">Freshers</span> to Professionals',
+      description:
+        "Hear from our successful graduates who transformed their careers with our Microsoft Power BI program",
+      testimonials: [
+        {
+          name: "Anjali Rao",
+          role: "Fresher",
+          image: "/anjalir.jpg?height=80&width=80",
+          content:
+            "Coming from a commerce background, I never imagined working with data tools. Flair Technologies’ Power BI training made it simple to clean, model, and visualize data. Within weeks, I was building dashboards for my team and adding real value to my role.",
+          rating: 5,
+          course: "Non-IT Professional",
+        },
+        {
+          name: "Suresh Naidu",
+          role: "Data Analyst at Wipro",
+          image: "/sureshn.jpg?height=80&width=80",
+          content:
+            "As an HR professional, I struggled with Excel reports and manual tracking. Power BI at Flair Technologies gave me confidence to create automated dashboards. Now, I generate insightful reports for employee performance and hiring metrics in just a few clicks.",
+          rating: 5,
+          course: "Non-IT Professional",
+        },
+        {
+          name: "Pratyusha",
+          role: "DevOps Engineer at Infosys",
+          image: "/prathusha.jpg?height=80&width=80",
+          content:
+            "Already working in analytics, I wanted to upgrade my skills. Flair Technologies’ Power BI course deepened my knowledge of DAX and advanced modeling. I now design interactive dashboards that tell clear business stories and support decision-making in my organization.",
+          rating: 5,
+          course: "Data Analyst",
+        },
+      ],
+    },
+    nextBatch: [
+      { starts: "Every Month", mode: "Online / Classroom-BLR/HYD" },
+    ],
+    qualification: " B.TECH/B.COM/BSC/MSC/MCA",
+    eligibleLearners: "Freshers / IT & Non-IT Professionals",
+    syllabus: [
+      {
+        module: "Power BI Essentials & Environment Setup",
+        duration: "0.5 week",
+        topics: [
+          {
+            name: "Power BI Essentials & Environment Setup",
+            content: [
+              "What is Power BI - Overview of Desktop, Service, Mobile",
+              "Installing Power BI Desktop & Initial Setup",
+              "Understanding Power BI Components (Desktop, Service, Gateway)",
+              "Power BI Licensing: Free, Pro, Premium, PPU",
+              
+            ],
+          },
+          ],
+      },
+      {
+        module: "Data Loading and Transformation (Power Query / M Language)",
+        duration: "1 week",
+        topics: [
+
+          {
+            name: "Data Loading and Transformation (Power Query / M Language)",
+            content: [
+              "Connecting to Data Sources (flat files, RDBMS Databases, Semantic Models)",
+              "Introduction to Power Query Editor",
+              "Data Shaping & Cleaning (Remove, Filter, Replace, Split)",
+              "Merge vs Append Queries",
+              "Data Types and Formatting",
+              "Understanding Query Folding",
+              "Introduction to M Language (Functions & Custom Columns)",
+            ],
+          },
+          ],
+      },
+      {
+        module: "Data Modelling and Relationships",
+        duration: "0.5 week",
+        topics: [
+
+          {
+            name: "Data Modelling and Relationships",
+            content: [
+              "Star vs Snowflake Schema",
+              "Creating and Managing Relationships",
+              "Fact Tables vs Dimension Tables",
+              "Best Practices for Model Design (Normalization/Denormalization)",
+              "Using Date Tables and Auto Date/Time",
+              
+            ],
+          },
+          ],
+      },
+      {
+        module: "Visualizations and Report Design",
+        duration: "2 weeks",
+        topics: [
+          {
+            name: "Visualizations and Report Design",
+            content: [
+              "Default & Common Visuals",
+              "Slicers, Filters, Drill-downs, Tooltips",
+              "Conditional Formatting & Interactions",
+              "Bookmarks, Selections & Navigation",
+              "Drillthrough Pages & Tooltip Pages",
+              "Using Custom Visuals from AppSource",
+              "Best Practices for Visual & UX Design",
+            ],
+          },
+          ],
+      },
+      {
+        module: "DAX (Data Analysis Expressions)",
+        duration: "1.5 weeks",
+        topics: [
+          {
+            name: "DAX (Data Analysis Expressions)",
+            content: [
+              "Calculated Columns vs Measures",
+              "Aggregation & Math Functions ",
+              "Logical Functions",
+              "Date & Time Intelligence Functions",
+              "Text or String Functions",
+               "Filter & Row Context",
+              "Advanced DAX Functions",
+              "DAX Performance Tuning",
+              
+            ],
+          },
+          ],
+      },
+      {
+        module: "Publishing, Sharing & Collaboration",
+        duration: "1 week",
+        topics: [
+          {
+            name: "Publishing, Sharing & Collaboration",
+            content: [
+              "Publishing Reports to Power BI Service",
+              "Workspaces, Apps & Access Control",
+              "Scheduled & Incremental Data Refresh",
+              "Row-Level Security (RLS) & Object-Level Security (OLS)",
+              "Report Sharing, Subscriptions, Alerts",
+              "Gateway Installation & Management",
+            ],
+          },
+          ],
+      },
+      {
+        module: "Advanced Analytics & Integration",
+        duration: "1 week",
+        topics: [
+          {
+            name: "Advanced Analytics & Integration",
+            content: [
+              "Dataflows and Reusable ETL in Service",
+              "Deployment Pipelines",
+              "Integration with Azure ML & Cognitive Services",
+              "Power automate flows creation for datasets refresh",
+              "Intake & Survey Power apps Forms creation",
+             
+            ],
+          },
+          ],
+      },
+      {
+        module: "SQL",
+        duration: "1.5 weeks",
+        topics: [
+          {
+            name: "SQL",
+            content: [
+              "Table Creation, Insert, Update, Delete data, Select",
+              "Clause Operations (Where, Group by, Having, Order by)",
+              "Operators (IN, LIKE, ISNULL, Union)",
+              "Joins",
+              "Sub Queries (Inner Query & Outer Query)",
+              "Data Modeling using SQL",
+              "Views Creation",
+              "Analytical Functions (Rank, Dense_Rank, Partition by)",
+            ],
+          },
+        ],
+      },
+    ],
+    instructor: {
+      name: "Priya Sharma",
+      title: "Data Analyst at Amazon",
+      experience: "10+ years",
+      image: "/placeholder.svg?height=100&width=100",
+      bio: "Priya specializes in data analytics with extensive experience in Power BI and has trained over 150 professionals.",
+    },
+    projects: [
+      "E-commerce Sales Analysis",
+      "Human Resources Dashboard",
+      "Finance Dashboard",
+      "360° Business Intelligence Dashboard",
+      "Insurance Insights Dashboard",
+    ],
+    projectsDetails: [
+      "Objective: Analyze customer behavior and order trends for an online store.",
+      "Objective: Track employee performance, attrition, and demographics.",
+      "Objective: Create a P&L statement with monthly and yearly comparisons.",
+      "Objective: Build an end-to-end BI solution for a fictional company.",
+      "Objective: Analyze and visualize insurance metrics for data-driven decisions.",
+    ],
+  },
+
+  "alteryx": {
+    title: "Alteryx <span class='text-yellow-400'>Designer</span>",
+    description:
+      "Master Alteryx Designer to automate workflows, blend data, and create powerful analytics solutions with ease.",
+    duration: "1.5 months",
+    mode: "Online/Offline",
+    level: "Beginner to Advanced",
+    price: "₹40,000",
+    originalPrice: "₹50,000",
+    category: "📊 Analytics",
+    students: "300+",
+    rating: 4.9,
+    reviews: 250,
+    brochure: "Alteryx.pdf",
+    outline: "Alteryx.pdf",
+    image: "/alteryx.jpg",
+    highlights: [
+      "Understand Alteryx Designer interface, workflows, and file types.",
+      "Import, clean, and output data from multiple sources.",
+      "Prepare and transform data using formulas and cleansing tools.",
+      "Apply filtering, sampling, and sorting techniques for analysis.",
+      "Blend datasets with joins, unions, and fuzzy matching.",
+      "Summarize, pivot, and restructure data with transformation tools.",
+      "Use in-database tools and connectors.",
+      "Build macros, apps, and reports.",
+    ],
+    testimonialsSection: {
+      badge: "Success Stories",
+      title:
+        'From <span className="text-sky-600">Freshers</span> to Professionals',
+      description:
+        "Hear from our successful graduates who transformed their careers with our Alteryx Designer program",
+      testimonials: [
+        {
+          name: "Priya Reddy",
+          role: "Fresher",
+          image: "/priyari.jpg?height=80&width=80",
+          content:
+            "As a fresher, I was nervous about handling real datasets. Flair Technologies’ Alteryx Designer training helped me quickly grasp data preparation and reporting. The hands-on projects gave me confidence, and within months, I landed my first job.",
+          rating: 5,
+          course: "B.Tech Fresher",
+        },
+        {
+          name: "Vandhana M",
+          role: "Data Analyst at Wipro",
+          image: "/Vandu.jpg?height=80&width=80",
+          content:
+            "Working in IT support, I wanted to move toward data analytics. The Alteryx course at Flair Technologies gave me practical skills in joins, transformations, and macros. I now automate workflows for my team, saving hours of manual effort.",
           rating: 5,
           course: "IT Professional",
+        },
+        {
+          name: "Sneha Pillai",
+          role: "DevOps Engineer at Infosys",
+          image: "/snehap.jpg?height=80&width=80",
+          content:
+            "Coming from a finance role, I had no prior technical experience. Flair Technologies made Alteryx simple to learn. I can now clean and analyze financial data, create dashboards, and present reports effectively-skills that directly improved my job performance.",
+          rating: 5,
+          course: "Non-IT Professional",
         },
       ],
     },
@@ -2153,17 +2721,17 @@ const courseData = {
       { starts: "Every Month", mode: "Online / Classroom-Bangalore" },
     ],
     qualification: " B.TECH/B.COM/BSC/MSC/MCA",
-    eligibleLearners: "Freshers / IT-Professionals",
+    eligibleLearners: "Freshers / IT & Non-IT Professionals",
     syllabus: [
       {
-        module: "Alteryx Outline",
-        duration: "6 weeks",
+        module: "Introduction to Alteryx",
+        duration: "0.5 week",
         topics: [
           {
             name: "Introduction to Alteryx",
             content: [
               "What is ETL & ELT in Modern Data Pipelines",
-              "Why Alteryx – Role in Analytics & Automation",
+              "Why Alteryx - Role in Analytics & Automation",
               "Understanding Alteryx Designer",
               "Designer Interface Tour (Canvas, Configuration Pane, Results)",
               "Workflow & User Settings",
@@ -2171,6 +2739,13 @@ const courseData = {
               "Alteryx File Types: .yxmd, .yxdb, .yxmc, .yxwz",
             ],
           },
+           ],
+      },
+      {
+        module: " Input & Output Tools",
+        duration: "0.5 week",
+        topics: [
+
           {
             name: "Input & Output Tools",
             content: [
@@ -2182,6 +2757,13 @@ const courseData = {
               "Date & Time Formats and Parsing",
             ],
           },
+           ],
+      },
+      {
+        module: " Data Preparation Tools",
+        duration: "1 week",
+        topics: [
+
           {
             name: "Data Preparation Tools",
             content: [
@@ -2196,6 +2778,13 @@ const courseData = {
               "Generate Rows (for looping/date expansion)",
             ],
           },
+           ],
+      },
+      {
+        module: " Filtering, Sorting & Sampling",
+        duration: "0.5 week",
+        topics: [
+
           {
             name: "Filtering, Sorting & Sampling",
             content: [
@@ -2207,6 +2796,13 @@ const courseData = {
               "Conditional Row Filtering (via Formula + Filter)",
             ],
           },
+           ],
+      },
+      {
+        module: " Joins and Data Blending",
+        duration: "1 week",
+        topics: [
+
           {
             name: "Joins and Data Blending",
             content: [
@@ -2219,6 +2815,13 @@ const courseData = {
               "Make Group Tool (used in Fuzzy Matching)",
             ],
           },
+           ],
+      },
+      {
+        module: " Data Transformations",
+        duration: "1 week",
+        topics: [
+
 
           {
             name: "Data Transformations",
@@ -2231,6 +2834,13 @@ const courseData = {
               "Field Info Tool (Metadata Exploration)",
             ],
           },
+           ],
+      },
+      {
+        module: " Data Engineering Tools (Important Additions)",
+        duration: "1 week",
+        topics: [
+
           {
             name: "Data Engineering Tools (Important Additions)",
             content: [
@@ -2244,6 +2854,12 @@ const courseData = {
               "Data Connectors (Azure, AWS, Snowflake, Salesforce, SharePoint)",
             ],
           },
+ ],
+      },
+      {
+        module: " Macros, Analytic Apps & Reporting",
+        duration: "0.5 week",
+        topics: [
 
           {
             name: "Macros (Reusable Logic)",
@@ -2294,80 +2910,80 @@ const courseData = {
       bio: "Arjun has extensive experience in Azure DevOps and has led multiple enterprise-level implementations.",
     },
     projects: [
-      "Todo List Application",
-      "Weather App",
-      "Student Management System",
-      "Recipe Finder App",
-      "Blog Posting Application",
+      "Automated Sales Data Pipeline",
+      "Financial Reconciliation & Reporting Automation",
+      "HR Data Cleansing & Employee Master File",
+      "Customer Order Data Audit & SLA Monitoring",
+      "Marketing Campaign Data Consolidation",
     ],
     projectsDetails: [
-      "Build a simple task manager to add, edit, mark complete, and delete tasks using React state.",
-      "Create a weather forecasting app fetching real-time data from APIs and displaying detailed city weather reports.",
-      "Develop a student records system to add, update, and manage student data with forms, tables, and state.",
-      "Design an app to search and display recipes by ingredients using external APIs with React components.",
-      "Build a blogging platform for creating, editing, deleting posts with React Router, forms, and CRUD operations.",
+      "A fully automated workflow that outputs refreshed sales data in Excel and SQL for business dashboards.",
+      "A workflow that generates exception reports and summary reconciliation results for finance teams.",
+      "A clean, deduplicated employee master dataset ready for use in reporting and dashboards.",
+      "An SLA compliance report highlighting violations and exceptions for operations teams.",
+      "A unified, refreshed campaign dataset for marketing analytics and visualization.",
     ],
   },
 
   "excel-Vba": {
     title: "Microsoft <span class='text-yellow-400'>Excel & VBA</span>",
     description:
-      "Learn to implement DevOps practices using Azure tools and services",
-    duration: "4 months",
+      "Master Microsoft Excel and VBA to automate tasks, analyze data, and build powerful business solutions.",
+    duration: "2 months",
     mode: "Online/Offline",
-    level: "Intermediate to Advanced",
+    level: "Beginner to Advanced",
     price: "₹40,000",
     originalPrice: "₹50,000",
-    category: "Analytics",
-    students: "400+",
+    category: "📊 Analytics",
+    students: "1500+",
     rating: 4.9,
-    reviews: 120,
-    brochure: "FRESHERS.pdf",
-    outline: "Data Analytics - Outline.pdf",
-    image: "/react.jpg",
+    reviews: 900,
+    brochure: "Excel.pdf",
+    outline: "Excel.pdf",
+    image: "/excel.jpg",
     highlights: [
-      "Understand ReactJS fundamentals, components, and JSX syntax.",
-      "Manage state and props for dynamic UI development.",
-      "Work with React Hooks for cleaner, functional code.",
-      "Implement routing and navigation using React Router.",
-      "Connect React apps with APIs for real-time data handling.",
-      "Apply Redux or Context API for state management.",
-      "Build responsive and interactive applications.",
-      "Deploy React apps with best practices.",
+      "Master Excel formatting, shortcuts, and worksheet management.",
+      "Create dynamic tables, charts, and pivot reports.",
+      "Use advanced sorting, filtering, and data validation tools.",
+      "Apply formulas for text, arithmetic, date, and logic functions.",
+      "Perform lookups with VLOOKUP, HLOOKUP, INDEX, and MATCH.",
+      "Automate tasks with VBA macros and programming.",
+      "Create user forms with VBA.",
+      "Automate Outlook, Word, and PowerPoint.",
     ],
     testimonialsSection: {
       badge: "Success Stories",
       title:
         'From <span className="text-sky-600">Freshers</span> to Professionals',
       description:
-        "Hear from our successful graduates who transformed their careers with our ReactJS program",
+        "Hear from our successful graduates who transformed their careers with our Microsoft Excel & VBA program",
       testimonials: [
         {
-          name: "Priya",
+          name: "Sowmya R",
           role: "Fresher",
-          image: "/priya.png?height=80&width=80",
+          image: "/sowmya.jpg?height=80&width=80",
           content:
-            "As a fresher, ReactJS training here gave me the confidence and skills to build real-world projects. Thanks to Flair for the guidance, I landed my first job as a React Developer.",
+            "As a fresh engineering graduate, I lacked practical skills to stand out in interviews. Flair Technologies’ Excel & VBA course gave me the confidence to automate reports, analyze data efficiently, and present insights clearly. Within 3 months of completing the course, I secured a role as a Business Analyst. This training truly bridged the gap between academics and industry.",
           rating: 5,
-          course: "Fresher",
+          course: "B.Tech Fresher",
         },
         {
-          name: "Shahini",
+          name: "Rithu Shahini",
           role: "Data Analyst at Wipro",
-          image: "/sha.png?height=80&width=80",
+          image: "/rithu.jpg?height=80&width=80",
           content:
-            "Coming from a non-IT background, I never imagined coding could be this simple. With step-by-step ReactJS training, I successfully transitioned into a Front-End Developer role.",
+            "Coming from a commerce background, I wanted to enter the corporate world with strong technical skills. The Excel & VBA training at Flair Technologies was practical and project-oriented. I learned advanced formulas, pivot tables, and automation through macros. Just 3 months after finishing, I was placed as a Data Reporting Associate. The course transformed my career prospects.",
           rating: 5,
-          course: "Non-IT Graduate",
+          course: "Degree Graduate",
         },
         {
-          name: "Arjun",
+          name: "Ramanathan Arjun",
           role: "DevOps Engineer at Infosys",
-          image: "/arjun.png?height=80&width=80",
+          image: "/raman.jpg?height=80&width=80",
           content:
-            "Already working in web development, I wanted to specialize in ReactJS. This course sharpened my skills, practical project skills, and helped me move into a higher-paying role.",
+            "I was working in operations with limited exposure to IT tools. Flair Technologies’ Excel & VBA course made it simple for me to understand automation and reporting. The hands-on approach and real-world projects helped me apply concepts directly at work. I transitioned into a Reporting Specialist role in my company. This program is career-changing for non-IT professionals like me.",
           rating: 5,
-          course: "IT Professional",
+          course: "Non-IT Professional",
         },
       ],
     },
@@ -2375,11 +2991,11 @@ const courseData = {
       { starts: "Every Month", mode: "Online / Classroom-Bangalore" },
     ],
     qualification: " B.TECH/B.COM/BSC/MSC/MCA",
-    eligibleLearners: "Freshers / IT-Professionals",
+    eligibleLearners: "Freshers / IT & Non-IT Professionals",
     syllabus: [
       {
-        module: "Microsoft Excel",
-        duration: "3 weeks",
+        module: "Excel Fundamentals & Formatting",
+        duration: "1 week",
         topics: [
           {
             name: "Introduction to Excel",
@@ -2395,6 +3011,13 @@ const courseData = {
               "Conditional Formatting",
             ],
           },
+           ],
+      },
+      {
+        module: " Tables, Charts & Proofing ",
+        duration: "1 week",
+        topics: [         
+
           {
             name: "Tables, Illustrations and Charts",
             content: [
@@ -2424,6 +3047,13 @@ const courseData = {
               "Inserting and Editing Comments",
             ],
           },
+           ],
+      },
+      {
+        module: " Page Setup & Data Tools ",
+        duration: "1 week",
+        topics: [         
+
           {
             name: "Page Setup, Scale to Fit and Arrange",
             content: [
@@ -2452,6 +3082,14 @@ const courseData = {
               "Highlighting the Invalid data",
             ],
           },
+           ],
+      },
+      {
+        module: " Data Analysis, Functions & Power Query",
+        duration: "1 week",
+        topics: [         
+
+          
           {
             name: "Data Tools and Outline",
             content: [
@@ -2536,8 +3174,8 @@ const courseData = {
         ],
       },
       {
-        module: "SQL",
-        duration: "3 weeks",
+        module: "SQL Programming",
+        duration: "1 week",
         topics: [
           {
             name: "SQL",
@@ -2555,8 +3193,8 @@ const courseData = {
         ],
       },
       {
-        module: "VBA Macros",
-        duration: "3 weeks",
+        module: "VBA Basics & Programming",
+        duration: "1 week",
         topics: [
           {
             name: "Introduction to Macros",
@@ -2631,6 +3269,13 @@ const courseData = {
               "Activity on FOR EACH NEXT LOOP",
             ],
           },
+           ],
+      },
+      {
+        module: " VBA Advanced Features ",
+        duration: "1 week",
+        topics: [         
+
           {
             name: "Data Segregation",
             content: [
@@ -2676,6 +3321,12 @@ const courseData = {
               "Working with different sql and access db objects",
             ],
           },
+          ],
+      },
+      {
+        module: " VBA Forms, Error Handling & Automation ",
+        duration: "1 week",
+        topics: [
           {
             name: "User Forms",
             content: [
@@ -2721,80 +3372,80 @@ const courseData = {
       bio: "Arjun has extensive experience in Azure DevOps and has led multiple enterprise-level implementations.",
     },
     projects: [
-      "Todo List Application",
-      "Weather App",
-      "Student Management System",
-      "Recipe Finder App",
-      "Blog Posting Application",
+      "Automated Leave Tracker in Excel",
+      "Sales Dashboard with Pivot Tables",
+      "Expense Management Tool with VBA",
+      "Automated Report Generator",
+      "Outlook Email Automation Project",
     ],
     projectsDetails: [
-      "Build a simple task manager to add, edit, mark complete, and delete tasks using React state.",
-      "Create a weather forecasting app fetching real-time data from APIs and displaying detailed city weather reports.",
-      "Develop a student records system to add, update, and manage student data with forms, tables, and state.",
-      "Design an app to search and display recipes by ingredients using external APIs with React components.",
-      "Build a blogging platform for creating, editing, deleting posts with React Router, forms, and CRUD operations.",
+      "Build a leave tracker using formulas, conditional formatting, and VBA macros to auto-update balances.",
+      "Create an interactive sales performance dashboard using PivotTables, PivotCharts, and slicers for real-time insights.",
+      "Design a personal/company expense tracker that categorizes expenses, generates summaries, and automates reporting.",
+      "Use VBA to automate the generation of weekly/monthly reports, including charts, tables, and formatting.",
+      "Write VBA scripts to send automated emails with attachments, reports, or reminders directly from Excel.",
     ],
   },
 
-  tableau: {
+  "tableau": {
     title: "Tableau <span class='text-yellow-400'>Developer</span>",
     description:
-      "Learn to implement DevOps practices using Azure tools and services",
-    duration: "4 months",
+      "Master Tableau to connect data, build visualizations, design dashboards, and deploy impactful BI solutions.",
+    duration: "1.5 months",
     mode: "Online/Offline",
-    level: "Intermediate to Advanced",
+    level: "Beginner to Advanced",
     price: "₹40,000",
     originalPrice: "₹50,000",
-    category: "Analytics",
-    students: "400+",
+    category: "📊 Analytics",
+    students: "700+",
     rating: 4.9,
-    reviews: 120,
-    brochure: "FRESHERS.pdf",
-    outline: "Data Analytics - Outline.pdf",
-    image: "/react.jpg",
+    reviews: 500,
+    brochure: "Tableau.pdf",
+    outline: "Tableau.pdf",
+    image: "/tableau.jpg",
     highlights: [
-      "Understand ReactJS fundamentals, components, and JSX syntax.",
-      "Manage state and props for dynamic UI development.",
-      "Work with React Hooks for cleaner, functional code.",
-      "Implement routing and navigation using React Router.",
-      "Connect React apps with APIs for real-time data handling.",
-      "Apply Redux or Context API for state management.",
-      "Build responsive and interactive applications.",
-      "Deploy React apps with best practices.",
+      "Understand Tableau basics and business intelligence concepts.",
+      "Connect, transform, and prepare diverse datasets.",
+      "Apply calculations, filters, and parameters effectively.",
+      "Perform advanced calculations for deeper insights.",
+      "Design interactive charts, maps, and visualizations.",
+      "Build dynamic dashboards with user interactivity.",
+      "Format and group data for clarity.",
+      "Deploy and share with Tableau Server.",
     ],
     testimonialsSection: {
       badge: "Success Stories",
       title:
         'From <span className="text-sky-600">Freshers</span> to Professionals',
       description:
-        "Hear from our successful graduates who transformed their careers with our ReactJS program",
+        "Hear from our successful graduates who transformed their careers with our Tableau Developer program",
       testimonials: [
         {
-          name: "Priya",
+          name: "Rohini Sharma",
           role: "Fresher",
-          image: "/priya.png?height=80&width=80",
+          image: "/rohinis.jpg?height=80&width=80",
           content:
-            "As a fresher, ReactJS training here gave me the confidence and skills to build real-world projects. Thanks to Flair for the guidance, I landed my first job as a React Developer.",
+            "As a fresher from a management background, Flair Technologies’ Tableau training gave me highly practical BI skills. I can now create dashboards and visual reports that helped me secure my first role as a Business Analyst in MNC.",
           rating: 5,
-          course: "Fresher",
+          course: "MBA Graduate (Fresher)",
         },
         {
-          name: "Shahini",
+          name: "Vikas Reddy",
           role: "Data Analyst at Wipro",
-          image: "/sha.png?height=80&width=80",
+          image: "/vikasr.jpg?height=80&width=80",
           content:
-            "Coming from a non-IT background, I never imagined coding could be this simple. With step-by-step ReactJS training, I successfully transitioned into a Front-End Developer role.",
-          rating: 5,
-          course: "Non-IT Graduate",
-        },
-        {
-          name: "Arjun",
-          role: "DevOps Engineer at Infosys",
-          image: "/arjun.png?height=80&width=80",
-          content:
-            "Already working in web development, I wanted to specialize in ReactJS. This course sharpened my skills, practical project skills, and helped me move into a higher-paying role.",
+            "I had basic reporting experience but lacked visualization expertise. The Tableau course at Flair Technologies taught me how to design interactive dashboards and use advanced calculations. These skills helped me transition into a Data Visualization Specialist role.",
           rating: 5,
           course: "IT Professional",
+        },
+        {
+          name: "Meena Nair",
+          role: "DevOps Engineer at Infosys",
+          image: "/meenan.jpg?height=80&width=80",
+          content:
+            "Coming from finance, I wanted to upgrade my analytics skills. Tableau training with Flair Technologies was hands-on and simple to follow. Now, I can analyze data faster and present insights through dashboards in my daily work.",
+          rating: 5,
+          course: "Non-IT Professional (Finance Domain)",
         },
       ],
     },
@@ -2802,11 +3453,11 @@ const courseData = {
       { starts: "Every Month", mode: "Online / Classroom-Bangalore" },
     ],
     qualification: " B.TECH/B.COM/BSC/MSC/MCA",
-    eligibleLearners: "Freshers / IT-Professionals",
+    eligibleLearners: "Freshers / IT & Non-IT Professionals",
     syllabus: [
       {
-        module: "Tableau Course Outline",
-        duration: "3 weeks",
+        module: "Introduction & Data Connections",
+        duration: "0.5 week",
         topics: [
           {
             name: "Introduction to Business Intelligence",
@@ -2837,10 +3488,23 @@ const courseData = {
               "Customized Calculations",
             ],
           },
+           ],
+      },
+      {
+        module: " Core Calculations in Tableau",
+        duration: "1 week",
+        topics: [
+
           {
             name: "Advanced Calculations",
             content: ["Strings", "Floor and Ceiling", "Dates"],
           },
+           ],
+      },
+      {
+        module: " Filters & Parameters",
+        duration: "0.5 week",
+        topics: [
           {
             name: "Parameters and Filters",
             content: [
@@ -2857,6 +3521,12 @@ const courseData = {
               "Nested Sorting",
             ],
           },
+           ],
+      },
+      {
+        module: " Grouping & Formatting",
+        duration: "0.5 week",
+        topics: [
           {
             name: "Grouping Techniques",
             content: ["Sets", "Combining Fields"],
@@ -2865,10 +3535,22 @@ const courseData = {
             name: "Formatting",
             content: ["Colours", "Custom Colours", "Highlighters"],
           },
+           ],
+      },
+      {
+        module: " Maps & Geographic Analysis",
+        duration: "0.5 week",
+        topics: [
           {
             name: "Map Basics",
             content: ["Layers", "Editing", "Customizing"],
           },
+          ],
+      },
+      {
+        module: " Visualizations",
+        duration: "1 week",
+        topics: [
           {
             name: "Visualizations",
             content: [
@@ -2879,10 +3561,22 @@ const courseData = {
               "Trend Charts",
             ],
           },
+          ],
+      },
+      {
+        module: " Dashboards",
+        duration: "1 week",
+        topics: [
           {
             name: "Introduction to Dashboards",
             content: ["Designing", "Actions", "Stories"],
           },
+          ],
+      },
+      {
+        module: " Server & Deployment",
+        duration: "1 week",
+        topics: [
           {
             name: "Server Deployment",
             content: [
@@ -2909,91 +3603,91 @@ const courseData = {
       bio: "Arjun has extensive experience in Azure DevOps and has led multiple enterprise-level implementations.",
     },
     projects: [
-      "Todo List Application",
-      "Weather App",
-      "Student Management System",
-      "Recipe Finder App",
-      "Blog Posting Application",
+      "E-commerce Sales Analysis",
+      "Human Resources Dashboard",
+      "Finance Dashboard",
+      "360° Business Intelligence Dashboard",
+      "Insurance Insights Dashboard",
     ],
     projectsDetails: [
-      "Build a simple task manager to add, edit, mark complete, and delete tasks using React state.",
-      "Create a weather forecasting app fetching real-time data from APIs and displaying detailed city weather reports.",
-      "Develop a student records system to add, update, and manage student data with forms, tables, and state.",
-      "Design an app to search and display recipes by ingredients using external APIs with React components.",
-      "Build a blogging platform for creating, editing, deleting posts with React Router, forms, and CRUD operations.",
+      "Objective: Analyze customer behavior and order trends for an online store.",
+      "Objective: Track employee performance, attrition, and demographics.",
+      "Objective: Create a P&L statement with monthly and yearly comparisons.",
+      "Objective: Build an end-to-end BI solution for a fictional company.",
+      "Objective: Analyze and visualize insurance metrics for data-driven decisions.",
     ],
   },
-  sqlCourse: {
+  "sqlCourse": {
     title: "SQL <span class='text-yellow-400'>Developer</span>",
     description:
-      "Learn to implement DevOps practices using Azure tools and services",
-    duration: "4 months",
+      "Master SQL fundamentals to advanced analytics with hands-on projects, building strong skills for data-driven careers.",
+    duration: "1.5 months",
     mode: "Online/Offline",
-    level: "Intermediate to Advanced",
+    level: "Beginner to Advanced",
     price: "₹40,000",
     originalPrice: "₹50,000",
-    category: "Analytics",
-    students: "400+",
-    rating: 4.9,
-    reviews: 120,
-    brochure: "FRESHERS.pdf",
-    outline: "Data Analytics - Outline.pdf",
-    image: "/react.jpg",
+    category: "📊 Analytics",
+    students: "600+",
+    rating: 4.6,
+    reviews: 350,
+    brochure: "SQL.pdf",
+    outline: "SQL.pdf",
+    image: "/sql.jpg",
     highlights: [
-      "Understand ReactJS fundamentals, components, and JSX syntax.",
-      "Manage state and props for dynamic UI development.",
-      "Work with React Hooks for cleaner, functional code.",
-      "Implement routing and navigation using React Router.",
-      "Connect React apps with APIs for real-time data handling.",
-      "Apply Redux or Context API for state management.",
-      "Build responsive and interactive applications.",
-      "Deploy React apps with best practices.",
+      "Learn SQL fundamentals, commands, and query structures.",
+      "Apply clauses, operators, filters, and constraints.",
+      "Use functions, subqueries, and joins effectively.",
+      "Master advanced window and analytical SQL functions.",
+      "Build data models, views, and indexes.",
+      "Work with CTEs and advanced use cases.",
+      "Implement stored procedures and triggers efficiently.",
+      "Perform real-world reporting and analysis tasks.",
     ],
     testimonialsSection: {
       badge: "Success Stories",
       title:
         'From <span className="text-sky-600">Freshers</span> to Professionals',
       description:
-        "Hear from our successful graduates who transformed their careers with our ReactJS program",
+        "Hear from our successful graduates who transformed their careers with our SQL Developer program",
       testimonials: [
         {
-          name: "Priya",
+          name: "Aishwarya Menon",
           role: "Fresher",
-          image: "/priya.png?height=80&width=80",
+          image: "/aish.jpg?height=80&width=80",
           content:
-            "As a fresher, ReactJS training here gave me the confidence and skills to build real-world projects. Thanks to Flair for the guidance, I landed my first job as a React Developer.",
+            "As a fresher from a non-IT background, I was nervous about learning SQL. Flair Technologies made it simple with step-by-step guidance. The practical projects like student performance tracking boosted my confidence, and I landed my first internship as an Analyst.",
           rating: 5,
-          course: "Fresher",
+          course: "B.S.C. Mathematics Graduate",
         },
         {
-          name: "Shahini",
+          name: "Karthik Reddy",
           role: "Data Analyst at Wipro",
-          image: "/sha.png?height=80&width=80",
+          image: "/karthik.jpg?height=80&width=80",
           content:
-            "Coming from a non-IT background, I never imagined coding could be this simple. With step-by-step ReactJS training, I successfully transitioned into a Front-End Developer role.",
+            "Coming from a commerce background, I never thought I could work with databases. The SQL training at Flair Technologies gave me real-world exposure with sales and reporting projects. Within 3 months, I secured a role as a Business Data Associate.",
           rating: 5,
-          course: "Non-IT Graduate",
+          course: "B.Com Graduate",
         },
         {
-          name: "Arjun",
+          name: "Harsha Jain",
           role: "DevOps Engineer at Infosys",
-          image: "/arjun.png?height=80&width=80",
+          image: "/jain.jpg?height=80&width=80",
           content:
-            "Already working in web development, I wanted to specialize in ReactJS. This course sharpened my skills, practical project skills, and helped me move into a higher-paying role.",
+            "As a B.Tech fresher, I needed strong technical skills to stand out. The SQL course at Flair Technologies helped me master joins, queries, and reporting. Thanks to the capstone projects, I cracked interviews and started my career as a Junior SQL Developer.",
           rating: 5,
-          course: "IT Professional",
+          course: "B.Tech Graduate",
         },
       ],
     },
     nextBatch: [
-      { starts: "Every Month", mode: "Online / Classroom-Bangalore" },
+      { starts: "Every Two Months", mode: "Online / Classroom-Bangalore" },
     ],
     qualification: " B.TECH/B.COM/BSC/MSC/MCA",
-    eligibleLearners: "Freshers / IT-Professionals",
+    eligibleLearners: "Freshers / IT & Non-IT Professionals",
     syllabus: [
       {
-        module: "SQL Outline",
-        duration: "3 weeks",
+        module: "SQL Fundamentals",
+        duration: "one week",
         topics: [
           {
             name: "Introduction to SQL",
@@ -3028,6 +3722,13 @@ const courseData = {
               "Set Operators: UNION, UNION ALL, INTERSECT, EXCEPT",
             ],
           },
+           ],
+      },
+      {
+        module: " SQL Constraints & Data Handling ",
+        duration: "one week",
+        topics: [         
+
           {
             name: "SQL Constraints",
             content: [
@@ -3057,6 +3758,13 @@ const courseData = {
               "Scalar Subqueries in SELECT/WHERE",
             ],
           },
+           ],
+      },
+      {
+        module: " Joins & Relationships ",
+        duration: "one week",
+        topics: [         
+
           {
             name: "Joins in SQL",
             content: [
@@ -3083,6 +3791,13 @@ const courseData = {
               "Running Totals, Moving Averages",
             ],
           },
+           ],
+      },
+      {
+        module: " Data Modeling & Best Practices ",
+        duration: "one week",
+        topics: [         
+
           {
             name: "Data Modeling & Best Practices",
             content: [
@@ -3105,6 +3820,12 @@ const courseData = {
               "Index Impact on Performance",
             ],
           },
+          ],
+      },
+      {
+        module: " Procedural SQL ",
+        duration: "0.5 week",
+        topics: [ 
           {
             name: "Stored Procedures and Triggers",
             content: [
@@ -3117,6 +3838,13 @@ const courseData = {
               "Use Cases in Auditing or Data Validations",
             ],
           },
+           ],
+      },
+      {
+        module: " Advanced SQL Concepts ",
+        duration: "0.5 week",
+        topics: [         
+
           {
             name: "Common Table Expressions (CTEs)",
             content: [
@@ -3137,8 +3865,15 @@ const courseData = {
               "Error Handling using TRY...CATCH (SQL Server)",
             ],
           },
+           ],
+      },
+      {
+        module: " Analytical SQL ",
+        duration: "0.5 week",
+        topics: [         
+
           {
-            name: "Real-World Reporting & Analysis Tasks",
+            name: "Analysis Tasks",
             content: [
               "Monthly, Quarterly, Yearly Trends",
               "YoY, MoM Growth Analysis",
@@ -3146,6 +3881,21 @@ const courseData = {
               "Contribution % Analysis (Subtotals)",
               "Data Cleansing with SQL",
               "SQL for Power BI/Tableau Backends",
+            ],
+          },
+           ],
+      },
+      {
+        module: " Real-World Applications ",
+        duration: "0.5 week",
+        topics: [         
+
+          {
+            name: "Real-World Applications",
+            content: [
+              "Real-World Reporting Tasks",
+              "Real-World Analysis Projects",
+            
             ],
           },
         ],
@@ -3159,92 +3909,92 @@ const courseData = {
       bio: "Arjun has extensive experience in Azure DevOps and has led multiple enterprise-level implementations.",
     },
     projects: [
-      "Todo List Application",
-      "Weather App",
-      "Student Management System",
-      "Recipe Finder App",
-      "Blog Posting Application",
+      "Employee Database Management System",
+      "Sales Data Analysis",
+      "Library Management System",
+      "Student Performance Tracker",
+      "E-commerce Order Reporting",
     ],
     projectsDetails: [
-      "Build a simple task manager to add, edit, mark complete, and delete tasks using React state.",
-      "Create a weather forecasting app fetching real-time data from APIs and displaying detailed city weather reports.",
-      "Develop a student records system to add, update, and manage student data with forms, tables, and state.",
-      "Design an app to search and display recipes by ingredients using external APIs with React components.",
-      "Build a blogging platform for creating, editing, deleting posts with React Router, forms, and CRUD operations.",
+      "Design and query a database to manage employee details, departments, and salaries.",
+      "Use SQL to analyze sales transactions, apply filters, joins, and generate monthly revenue reports.",
+      "Create tables for books, members, and loans, then implement queries for borrowing and returns.",
+      "Build a database to track student scores, use functions to calculate averages and rankings.",
+      "Develop queries for customer orders, product details, and shipment tracking with real-time reporting.",
     ],
   },
 
-  python: {
+  "python": {
     title: "Analytics with <span class='text-yellow-400'>Python</span> ",
     description:
-      "Learn to implement DevOps practices using Azure tools and services",
-    duration: "4 months",
+      "Master Python for data analysis, visualization, and real-world reporting with hands-on projects and practical skills.",
+    duration: "1.5 months",
     mode: "Online/Offline",
-    level: "Intermediate to Advanced",
+    level: "Beginner to Advanced",
     price: "₹40,000",
     originalPrice: "₹50,000",
-    category: "Analytics",
-    students: "400+",
-    rating: 4.9,
-    reviews: 120,
-    brochure: "FRESHERS.pdf",
-    outline: "Data Analytics - Outline.pdf",
-    image: "/react.jpg",
+    category: "📊 Analytics",
+    students: "500+",
+    rating: 4.7,
+    reviews: 300,
+    brochure: "Python Analytics.pdf",
+    outline: "Python Analytics.pdf",
+    image: "/pythi.jpg",
     highlights: [
-      "Understand ReactJS fundamentals, components, and JSX syntax.",
-      "Manage state and props for dynamic UI development.",
-      "Work with React Hooks for cleaner, functional code.",
-      "Implement routing and navigation using React Router.",
-      "Connect React apps with APIs for real-time data handling.",
-      "Apply Redux or Context API for state management.",
-      "Build responsive and interactive applications.",
-      "Deploy React apps with best practices.",
+      "Get started with Python setup and essential programming basics.",
+      "Work with data files and manage different data formats.",
+      "Use Pandas for structured data analysis and manipulation.",
+      "Perform data aggregation, grouping, merging, and combining tasks.",
+      "Handle dates, times, and time-series data efficiently.",
+      "Conduct exploratory data analysis (EDA) to uncover insights.",
+      "Visualize data with Matplotlib and Seaborn.",
+      "Apply NumPy for real-world reporting.",
     ],
     testimonialsSection: {
       badge: "Success Stories",
       title:
-        'From <span className="text-sky-600">Freshers</span> to Professionals',
+        'From <span className="text-sky-600">Professionals</span> to Analytics Experts',
       description:
-        "Hear from our successful graduates who transformed their careers with our ReactJS program",
+        "Hear from our successful graduates who transformed their careers with our Python Analytics program",
       testimonials: [
         {
-          name: "Priya",
+          name: "Megha Sharma",
           role: "Fresher",
-          image: "/priya.png?height=80&width=80",
+          image: "/meghas.jpg?height=80&width=80",
           content:
-            "As a fresher, ReactJS training here gave me the confidence and skills to build real-world projects. Thanks to Flair for the guidance, I landed my first job as a React Developer.",
+            "I already worked with Excel and SQL, but Flair Technologies’ Python course gave me the edge I needed. Learning Pandas and visualization with Seaborn helped me automate reports and present data in a much clearer way to stakeholders.",
           rating: 5,
-          course: "Fresher",
+          course: "Data Analyst (IT Services)",
         },
         {
-          name: "Shahini",
+          name: "Anita Krishnan",
           role: "Data Analyst at Wipro",
-          image: "/sha.png?height=80&width=80",
+          image: "/anitak.jpg?height=80&width=80",
           content:
-            "Coming from a non-IT background, I never imagined coding could be this simple. With step-by-step ReactJS training, I successfully transitioned into a Front-End Developer role.",
+            "As a BI professional, I wanted to add Python to my toolkit. Flair Technologies structured the course beautifully with real-world reporting tasks. Now, I use Python daily for advanced analysis and data integration with Microsoft Power BI.",
           rating: 5,
-          course: "Non-IT Graduate",
+          course: "BI Specialist (Retail Sector)",
         },
         {
-          name: "Arjun",
+          name: "Vamshi Krishna",
           role: "DevOps Engineer at Infosys",
-          image: "/arjun.png?height=80&width=80",
+          image: "/vamsik.jpg?height=80&width=80",
           content:
-            "Already working in web development, I wanted to specialize in ReactJS. This course sharpened my skills, practical project skills, and helped me move into a higher-paying role.",
+            "Coming from a systems background, I wanted to transition into data. The Python training at Flair Technologies gave me practical skills in EDA, NumPy, and automation. It has boosted my confidence and opened new project opportunities in my organization.",
           rating: 5,
-          course: "IT Professional",
+          course: "System Engineer (Telecom)",
         },
       ],
     },
     nextBatch: [
-      { starts: "Every Month", mode: "Online / Classroom-Bangalore" },
+      { starts: "Every Two Months", mode: "Online / Classroom-Bangalore" },
     ],
-    qualification: " B.TECH/B.COM/BSC/MSC/MCA",
-    eligibleLearners: "Freshers / IT-Professionals",
+    qualification: " IT Professionals",
+    eligibleLearners: "IT Professionals",
     syllabus: [
       {
-        module: "Python",
-        duration: "3 weeks",
+        module: "Python Foundations",
+        duration: "One week",
         topics: [
           {
             name: "Python Setup & Getting Started",
@@ -3267,6 +4017,13 @@ const courseData = {
               "Basic Exception Handling: try, except, finally",
             ],
           },
+           ],
+      },
+      {
+        module: " Data Handling in Python ",
+        duration: "One week",
+        topics: [         
+
           {
             name: "Working with Data Files",
             content: [
@@ -3277,6 +4034,23 @@ const courseData = {
               "File clean-up automation",
             ],
           },
+          {
+            name: "Date And Time Handling",
+            content: [
+              "Parsing date columns with pd.to_datetime()",
+              "Extracting year, month, day, weekday",
+              "Filtering by date ranges",
+              "Creating date features (e.g., quarter, month name)",
+              "Time-based grouping (monthly, weekly, daily)",
+            ],
+          },
+           ],
+      },
+      {
+        module: " Core Data Analysis with Pandas ",
+        duration: "One week",
+        topics: [         
+
           {
             name: "Core Pandas for Data Analysis",
             content: [
@@ -3296,6 +4070,12 @@ const courseData = {
               "Changing column data types with .astype()",
             ],
           },
+          ],
+      },
+      {
+        module: " Data Aggregation & Transformation ",
+        duration: "One week",
+        topics: [
           {
             name: "Data Aggregation & Grouping",
             content: [
@@ -3318,16 +4098,14 @@ const courseData = {
               "Use case: Merging sales with region/category/master data",
             ],
           },
-          {
-            name: "Date And Time Handling",
-            content: [
-              "Parsing date columns with pd.to_datetime()",
-              "Extracting year, month, day, weekday",
-              "Filtering by date ranges",
-              "Creating date features (e.g., quarter, month name)",
-              "Time-based grouping (monthly, weekly, daily)",
-            ],
-          },
+           ],
+      },
+      {
+        module: " Exploratory Data Analysis (EDA) ",
+        duration: "0.5 week",
+        topics: [         
+
+          
           {
             name: "Exploratory Data Analysis (EDA)",
             content: [
@@ -3338,6 +4116,12 @@ const courseData = {
               "Detecting patterns before visualization",
             ],
           },
+           ],
+      },
+      {
+        module: " Visualization Techniques ",
+        duration: "0.5 week",
+        topics: [ 
           {
             name: "Visualization With Matplotlib & Seaborn",
             content: [
@@ -3352,6 +4136,12 @@ const courseData = {
               "Plot styling with themes and palettes",
             ],
           },
+           ],
+      },
+      {
+        module: " Numerical Computations ",
+        duration: "0.5 week",
+        topics: [ 
           {
             name: "Numpy For Numeric Operations",
             content: [
@@ -3363,6 +4153,12 @@ const courseData = {
               "Use in performance optimization with Pandas",
             ],
           },
+          ],
+      },
+      {
+        module: " Applied Reporting & Projects ",
+        duration: "0.5 week",
+        topics: [ 
           {
             name: "Real-World Reporting Tasks",
             content: [
@@ -3384,91 +4180,91 @@ const courseData = {
       bio: "Arjun has extensive experience in Azure DevOps and has led multiple enterprise-level implementations.",
     },
     projects: [
-      "Todo List Application",
-      "Weather App",
-      "Student Management System",
-      "Recipe Finder App",
-      "Blog Posting Application",
+      "Sales Data Analysis with Pandas",
+      "Student Performance Tracker",
+      "Weather Data Reporting",
+      "E-commerce Customer Insights Dashboard",
+      "Financial Transactions Reporting Tool",
     ],
     projectsDetails: [
-      "Build a simple task manager to add, edit, mark complete, and delete tasks using React state.",
-      "Create a weather forecasting app fetching real-time data from APIs and displaying detailed city weather reports.",
-      "Develop a student records system to add, update, and manage student data with forms, tables, and state.",
-      "Design an app to search and display recipes by ingredients using external APIs with React components.",
-      "Build a blogging platform for creating, editing, deleting posts with React Router, forms, and CRUD operations.",
+      "Use Pandas to clean, group, and analyze a retail sales dataset, generating monthly revenue insights.",
+      "Manage CSV data files of student marks, apply aggregation, and create reports with Excel-like summaries.",
+      "Work with date and time handling to analyze weather datasets, track trends, and create daily reports.",
+      "Perform Exploratory Data Analysis (EDA) on customer data, visualize purchase trends using Matplotlib and Seaborn.",
+      "Use NumPy for calculations and build a reporting script that summarizes expenses, income, and balances.",
     ],
   },
   "aws-devops": {
     title: "AWS <span class='text-yellow-400'>DevOps</span>",
     description:
-      "Learn to implement DevOps practices using Azure tools and services",
-    duration: "4 months",
+      "Master AWS DevOps by learning automation, CI/CD, monitoring, and cloud deployment with real-world projects.",
+    duration: "3 months",
     mode: "Online/Offline",
-    level: "Intermediate to Advanced",
+    level: "Beginner to Advanced",
     price: "₹40,000",
     originalPrice: "₹50,000",
-    category: "DevOps",
-    students: "400+",
+    category: "⛈️ Cloud",
+    students: "1500+",
     rating: 4.9,
-    reviews: 120,
-    brochure: "FRESHERS.pdf",
-    outline: "Data Analytics - Outline.pdf",
-    image: "/react.jpg",
+    reviews: 750,
+    brochure: "aws.pdf",
+    outline: "aws.pdf",
+    image: "/DevOps.png",
     highlights: [
-      "Understand ReactJS fundamentals, components, and JSX syntax.",
-      "Manage state and props for dynamic UI development.",
-      "Work with React Hooks for cleaner, functional code.",
-      "Implement routing and navigation using React Router.",
-      "Connect React apps with APIs for real-time data handling.",
-      "Apply Redux or Context API for state management.",
-      "Build responsive and interactive applications.",
-      "Deploy React apps with best practices.",
+      "Learn to design and deploy AWS infrastructure with Terraform automation.",
+      "Build CI/CD pipelines to automate microservices deployment on Kubernetes.",
+      "Understand microservices architecture with Spring Boot, React, Kafka, and API Gateway.",
+      "Configure centralized logging using Elasticsearch, Kibana, and Fluentd.",
+      "Set up real-time monitoring with Grafana, Prometheus, and Istio.",
+      "Manage source code and artifacts with GitLab, DockerHub, and ECR.",
+      "Automate provisioning with Ansible.",
+      "Explore observability using Istio.",
     ],
     testimonialsSection: {
       badge: "Success Stories",
       title:
         'From <span className="text-sky-600">Freshers</span> to Professionals',
       description:
-        "Hear from our successful graduates who transformed their careers with our ReactJS program",
+        "Hear from our successful graduates who transformed their careers with our SRE with Modern DevOps program",
       testimonials: [
         {
-          name: "Priya",
+          name: "Praveen Reddy",
           role: "Fresher",
-          image: "/priya.png?height=80&width=80",
+          image: "/pravin.png?height=80&width=80",
           content:
-            "As a fresher, ReactJS training here gave me the confidence and skills to build real-world projects. Thanks to Flair for the guidance, I landed my first job as a React Developer.",
+            "Flair Technologies’ SRE with Modern DevOps course helped me master Terraform and AWS automation. The hands-on labs made me confident in building real-world infrastructure",
           rating: 5,
-          course: "Fresher",
+          course: "Cloud Engineer",
         },
         {
-          name: "Shahini",
+          name: "Megha Varsha",
           role: "Data Analyst at Wipro",
-          image: "/sha.png?height=80&width=80",
+          image: "/megha.jpg?height=80&width=80",
           content:
-            "Coming from a non-IT background, I never imagined coding could be this simple. With step-by-step ReactJS training, I successfully transitioned into a Front-End Developer role.",
+            "The course was very practical. I learned Kubernetes, CI/CD, and monitoring with Grafana, which I now use in my projects daily. The instructors were very supportive.",
           rating: 5,
-          course: "Non-IT Graduate",
+          course: "Software Developer",
         },
         {
-          name: "Arjun",
+          name: "Hima Bindu",
           role: "DevOps Engineer at Infosys",
-          image: "/arjun.png?height=80&width=80",
+          image: "/hima.jpg?height=80&width=80",
           content:
-            "Already working in web development, I wanted to specialize in ReactJS. This course sharpened my skills, practical project skills, and helped me move into a higher-paying role.",
+            "Flair Technologies provided excellent training on microservices and Istio. The projects gave me the skills to handle production systems effectively.",
           rating: 5,
-          course: "IT Professional",
+          course: "DevOps Specialist",
         },
       ],
     },
     nextBatch: [
-      { starts: "Every Month", mode: "Online / Classroom-Bangalore" },
+      { starts: "Every Two Months", mode: "Online / Classroom-Bangalore" },
     ],
     qualification: " B.TECH/B.COM/BSC/MSC/MCA",
-    eligibleLearners: "Freshers / IT-Professionals",
+    eligibleLearners: "Freshers / IT & Non-IT Professionals",
     syllabus: [
       {
-        module: "AWS with Modern DevOps",
-        duration: "3 weeks",
+        module: "Introduction, Linux Fundamentals & Networking",
+        duration: "2 weeks",
         topics: [
           {
             name: "Introduction to DevOps & AWS",
@@ -3477,6 +4273,8 @@ const courseData = {
               "Overview of AWS services and their role in DevOps.",
             ],
           },
+          
+
           {
             name: "Linux Fundamentals & Networking",
             content: [
@@ -3486,6 +4284,13 @@ const courseData = {
               "Managing Linux networking configurations.",
             ],
           },
+           ],
+      },
+      {
+        module: " Shell Scripting & AWS Services Overview ",
+        duration: "1.5 weeks",
+        topics: [
+
           {
             name: "Shell Scripting",
             content: [
@@ -3494,6 +4299,7 @@ const courseData = {
               "Scripting for automation and task scheduling.",
             ],
           },
+         
           {
             name: "AWS Services Overview",
             content: [
@@ -3509,6 +4315,13 @@ const courseData = {
               "Creating and managing AWS Lambda functions.",
             ],
           },
+           ],
+      },
+      {
+        module: " Terraform & CI/CD ",
+        duration: "1.5 weeks",
+        topics: [
+
           {
             name: "AWS CLI and Infrastructure as Code with Terraform",
             content: [
@@ -3518,6 +4331,8 @@ const courseData = {
               "Creating and managing AWS resources using Terraform.",
             ],
           },
+           
+
           {
             name: "Continuous Integration and Continuous Deployment (CI/CD)",
             content: [
@@ -3528,6 +4343,13 @@ const courseData = {
               "Building CI/CD pipelines for application deployment.",
             ],
           },
+           ],
+      },
+      {
+        module: " Ansible ",
+        duration: "1.5 weeks",
+        topics: [
+
           {
             name: "Automation with Ansible",
             content: [
@@ -3537,6 +4359,13 @@ const courseData = {
               "Automating infrastructure provisioning and application deployment.",
             ],
           },
+           ],
+      },
+      {
+        module: " Docker ",
+        duration: "1.5 weeks",
+        topics: [
+
           {
             name: "Containerization with Docker",
             content: [
@@ -3546,6 +4375,13 @@ const courseData = {
               "Docker Compose for multi-container applications.",
             ],
           },
+           ],
+      },
+      {
+        module: " Monitoring Tools ",
+        duration: "1 week",
+        topics: [
+
           {
             name: "Monitoring Tools",
             content: [
@@ -3565,6 +4401,13 @@ const courseData = {
               "Alerting and Notification Strategies",
             ],
           },
+           ],
+      },
+      {
+        module: " Kubernetes & Projects ",
+        duration: "1 week",
+        topics: [
+
           {
             name: "Kubernetes and Container Orchestration (Optional)",
             content: [
@@ -3573,6 +4416,8 @@ const courseData = {
               "Deploying and managing applications on Kubernetes clusters.",
             ],
           },
+          
+
           {
             name: "Course Project and Hands-On Labs",
             content: [
@@ -3601,8 +4446,8 @@ const courseData = {
         ],
       },
       {
-        module: "Kubernetes & Container Orchestration",
-        duration: "3 weeks",
+        module: "Kubernetes & Container Orchestration (Optional)",
+        duration: "2 weeks",
         topics: [
           {
             name: "Introduction to Kubernetes and Container Orchestration",
@@ -3728,91 +4573,91 @@ const courseData = {
       bio: "Arjun has extensive experience in Azure DevOps and has led multiple enterprise-level implementations.",
     },
     projects: [
-      "Todo List Application",
-      "Weather App",
-      "Student Management System",
-      "Recipe Finder App",
-      "Blog Posting Application",
+      "AWS Infrastructure & Automation - AWS(EC2, RDS, S3, ELB, ASG etc..), Ansible, Terraform",
+      "CI/CD Pipeline Automation - GitLab, Kubernetes, ArgoCD, AWS ECR",
+      "Microservices Architecture - Kubernetes, Spring boot, ReactJs, API Gateway",
+      "Centralised Application Logging - Elasticsearch, Kibana, Fluentd",
+      "Real-Time Application Monitoring - Grafana, Prometheus, Istio",
     ],
     projectsDetails: [
-      "Build a simple task manager to add, edit, mark complete, and delete tasks using React state.",
-      "Create a weather forecasting app fetching real-time data from APIs and displaying detailed city weather reports.",
-      "Develop a student records system to add, update, and manage student data with forms, tables, and state.",
-      "Design an app to search and display recipes by ingredients using external APIs with React components.",
-      "Build a blogging platform for creating, editing, deleting posts with React Router, forms, and CRUD operations.",
+      "Setup AWS 3-Tier Architecture using Terraform Automation.",
+      "Build and Deploy Microservices into Kubernetes cluster.",
+      "Planning, Design, Deployment of Microservices Architecture. - Eureka Registry, MySQL, Kafka, S3 etc..",
+      "Deploy Centralised Application Logging for Microservices",
+      "Deploy application monitoring and graphing.",
     ],
   },
   "azure-devops": {
     title: "Azure <span class='text-yellow-400'>DevOps</span>",
     description:
-      "Learn to implement DevOps practices using Azure tools and services",
-    duration: "4 months",
+      "Master Azure DevOps by learning CI/CD pipelines, infrastructure automation, monitoring, and collaboration with real projects.",
+    duration: "3 months",
     mode: "Online/Offline",
-    level: "Intermediate to Advanced",
+    level: "Beginner to Advanced",
     price: "₹40,000",
     originalPrice: "₹50,000",
-    category: "DevOps",
-    students: "400+",
-    rating: 4.9,
-    reviews: 120,
-    brochure: "FRESHERS.pdf",
-    outline: "Data Analytics - Outline.pdf",
-    image: "/react.jpg",
+    category: "⛈️ Cloud",
+    students: "700+",
+    rating: 4.7,
+    reviews: 350,
+    brochure: "AZURE.pdf",
+    outline: "AZURE.pdf",
+    image: "/azure.jpg",
     highlights: [
-      "Understand ReactJS fundamentals, components, and JSX syntax.",
-      "Manage state and props for dynamic UI development.",
-      "Work with React Hooks for cleaner, functional code.",
-      "Implement routing and navigation using React Router.",
-      "Connect React apps with APIs for real-time data handling.",
-      "Apply Redux or Context API for state management.",
-      "Build responsive and interactive applications.",
-      "Deploy React apps with best practices.",
+      "Learn core Azure administration including VMs, storage, networking, and security.",
+      "Manage Azure Active Directory, RBAC, MFA, and identity protection.",
+      "Configure governance, compliance, monitoring, and cost management in Azure.",
+      "Implement disaster recovery, backup, and migration solutions.",
+      "Master Infrastructure as Code with ARM templates and Terraform.",
+      "Use Azure DevOps services for boards, repos, pipelines, and CI/CD.",
+      "Build and deploy apps with Docker.",
+      "Manage applications on Azure Kubernetes.",
     ],
     testimonialsSection: {
       badge: "Success Stories",
       title:
         'From <span className="text-sky-600">Freshers</span> to Professionals',
       description:
-        "Hear from our successful graduates who transformed their careers with our ReactJS program",
+        "Hear from our successful graduates who transformed their careers with our Azure DevOps program",
       testimonials: [
         {
-          name: "Priya",
+          name: "Ravi Kumar",
           role: "Fresher",
-          image: "/priya.png?height=80&width=80",
+          image: "/ravi.jpg?height=80&width=80",
           content:
-            "As a fresher, ReactJS training here gave me the confidence and skills to build real-world projects. Thanks to Flair for the guidance, I landed my first job as a React Developer.",
+            "Flair Azure DevOps course helped me strengthen my skills in cloud infrastructure and automation. The projects on Terraform and CI/CD pipelines gave me practical exposure, and I now feel confident managing Azure deployments in real-world scenarios.",
           rating: 5,
-          course: "Fresher",
+          course: "Cloud Engineer",
         },
         {
-          name: "Shahini",
+          name: "Sneha Iyer",
           role: "Data Analyst at Wipro",
-          image: "/sha.png?height=80&width=80",
+          image: "/sneha1.jpg?height=80&width=80",
           content:
-            "Coming from a non-IT background, I never imagined coding could be this simple. With step-by-step ReactJS training, I successfully transitioned into a Front-End Developer role.",
+            "Coming from an IT support background, this course made cloud and DevOps concepts easy to understand. I especially liked the hands-on sessions with Docker and AKS, which gave me the confidence to work on containerized applications.",
           rating: 5,
-          course: "Non-IT Graduate",
+          course: "IT Support Specialist",
         },
         {
-          name: "Arjun",
+          name: "Nandhini Nanchar",
           role: "DevOps Engineer at Infosys",
-          image: "/arjun.png?height=80&width=80",
+          image: "/NANDHINI.png?height=80&width=80",
           content:
-            "Already working in web development, I wanted to specialize in ReactJS. This course sharpened my skills, practical project skills, and helped me move into a higher-paying role.",
+            "The training was very well structured and practical. Learning about monitoring, automation, and disaster recovery in Azure has been very useful in my current role. Flair Technologies made complex topics simple and job-oriented.",
           rating: 5,
-          course: "IT Professional",
+          course: "System Administrator",
         },
       ],
     },
     nextBatch: [
-      { starts: "Every Month", mode: "Online / Classroom-Bangalore" },
+      { starts: "Every Two Months", mode: "Online / Classroom-Hyderabad" },
     ],
     qualification: " B.TECH/B.COM/BSC/MSC/MCA",
-    eligibleLearners: "Freshers / IT-Professionals",
+    eligibleLearners: "Freshers / IT & Non-IT Professionals",
     syllabus: [
       {
-        module: "Azure Admin with Azure DevOps",
-        duration: "3 weeks",
+        module: "Azure Fundamentals & Governance",
+        duration: "1 week",
         topics: [
           {
             name: "Introduction to Microsoft Azure",
@@ -3837,6 +4682,13 @@ const courseData = {
               "What is Azure Defender?",
             ],
           },
+           ],
+      },
+      {
+        module: " Azure Compute & Storage ",
+        duration: "2 weeks",
+        topics: [         
+
           {
             name: "Azure Virtual Machines and Scale set",
             content: [
@@ -3864,6 +4716,13 @@ const courseData = {
               "What is Azure CDN (Content Delivery Network)?",
             ],
           },
+           ],
+      },
+      {
+        module: " Networking & Connectivity ",
+        duration: "1 week",
+        topics: [         
+
           {
             name: "Virtual Networking",
             content: [
@@ -3889,6 +4748,12 @@ const courseData = {
               "What is Point-to-Site connection?",
             ],
           },
+          ],
+      },
+      {
+        module: " Monitoring, Backup & Recovery ",
+        duration: "1 week",
+        topics: [
 
           {
             name: "Monitoring",
@@ -3900,6 +4765,7 @@ const courseData = {
               "How can I use Application Insights?",
             ],
           },
+           
 
           {
             name: "Data Protection",
@@ -3922,6 +4788,12 @@ const courseData = {
               "What is Azure Front Door?",
             ],
           },
+          ],
+      },
+      {
+        module: " Identity & Application Services ",
+        duration: "1 week",
+        topics: [
 
           {
             name: "Azure Active Directory",
@@ -3989,8 +4861,8 @@ const courseData = {
         ],
       },
       {
-        module: "Azure DevOps Engineer Expert (AZ-400)",
-        duration: "3 weeks",
+        module: "Infrastructure as Code (IaC)",
+        duration: "1 week",
         topics: [
           {
             name: "ARM Template (IaC in Azure)",
@@ -4035,6 +4907,13 @@ const courseData = {
               "Terraform Provisions",
             ],
           },
+           ],
+      },
+      {
+        module: " Azure DevOps Services ",
+        duration: "2 weeks",
+        topics: [         
+
           {
             name: "Azure DevOps Services (VSTS)",
             content: [
@@ -4101,6 +4980,12 @@ const courseData = {
               "Azure Pipeline deployment groups",
             ],
           },
+           ],
+      },
+      {
+        module: " Containers & Orchestration ",
+        duration: "1 week",
+        topics: [ 
 
           {
             name: "Docker",
@@ -4149,91 +5034,91 @@ const courseData = {
       bio: "Arjun has extensive experience in Azure DevOps and has led multiple enterprise-level implementations.",
     },
     projects: [
-      "Todo List Application",
-      "Weather App",
-      "Student Management System",
-      "Recipe Finder App",
-      "Blog Posting Application",
+      "Handling Infrastructure Solutions For Azurecloud",
+      "Monitoring Azure Cloud for a BPO",
+      "Containerizing Various Frameworks & Nginx Application Using Docker",
+      "Implementing CI/CD Pipelines with Azure DevOps",
+      
     ],
     projectsDetails: [
-      "Build a simple task manager to add, edit, mark complete, and delete tasks using React state.",
-      "Create a weather forecasting app fetching real-time data from APIs and displaying detailed city weather reports.",
-      "Develop a student records system to add, update, and manage student data with forms, tables, and state.",
-      "Design an app to search and display recipes by ingredients using external APIs with React components.",
-      "Build a blogging platform for creating, editing, deleting posts with React Router, forms, and CRUD operations.",
+      "The project allows learners to handle infrastructure solutions for the organization’s Azure cloud. Learners also get hands-on experience with Azure infrastructure architecture and optimizing Windows Server workloads.",
+      "The learners get real-world insights into monitoring Azure cloud for a BPO. Theymanage Azure infrastructure for an outsourcing company and configure, deployand manage storage solutions and work with Azure Virtual Machines.",
+      "Use Docker to successfully integrate the software projects deployed in diverseenvironments. Get hands-on learning experience in setting up Node.Js on Dockercontainers along with pulling NGINX images from Docker Hub, etc.",
+      "Learners design and automate CI/CD pipelines using Azure DevOps, configuring repos, build pipelines, and deploying applications seamlessly to Azure.",
+     
     ],
   },
   "azure-admin": {
     title: "Azure <span class='text-yellow-400'>Admin</span>",
     description:
-      "Learn to implement DevOps practices using Azure tools and services",
-    duration: "4 months",
+      "Master Azure administration, security, networking, automation, and disaster recovery with real-world cloud projects.",
+    duration: "2 months",
     mode: "Online/Offline",
-    level: "Intermediate to Advanced",
+    level: "Beginner to Advanced",
     price: "₹40,000",
     originalPrice: "₹50,000",
-    category: "DevOps",
-    students: "400+",
-    rating: 4.9,
-    reviews: 120,
-    brochure: "FRESHERS.pdf",
-    outline: "Data Analytics - Outline.pdf",
-    image: "/react.jpg",
+    category: "⛈️ Cloud",
+    students: "300+",
+    rating: 4.7,
+    reviews: 160,
+    brochure: "AZURE.pdf",
+    outline: "AZURE.pdf",
+    image: "/azurec.jpg",
     highlights: [
-      "Understand ReactJS fundamentals, components, and JSX syntax.",
-      "Manage state and props for dynamic UI development.",
-      "Work with React Hooks for cleaner, functional code.",
-      "Implement routing and navigation using React Router.",
-      "Connect React apps with APIs for real-time data handling.",
-      "Apply Redux or Context API for state management.",
-      "Build responsive and interactive applications.",
-      "Deploy React apps with best practices.",
+      "Understand Microsoft Azure fundamentals, governance, and compliance essentials.",
+      "Deploy and manage virtual machines, scale sets, and app services.",
+      "Configure Azure storage solutions with backup and recovery options.",
+      "Design and secure virtual networking with intersite connectivity.",
+      "Implement traffic management and optimize network performance.",
+      "Manage Azure Active Directory, authentication, and data security.",
+      "Monitor resources, automate workflows.",
+      "Handle recovery, migrate with ASR.",
     ],
     testimonialsSection: {
       badge: "Success Stories",
       title:
         'From <span className="text-sky-600">Freshers</span> to Professionals',
       description:
-        "Hear from our successful graduates who transformed their careers with our ReactJS program",
+        "Hear from our successful graduates who transformed their careers with our Azure Administration program",
       testimonials: [
         {
-          name: "Priya",
+          name: "Sneha Menon",
           role: "Fresher",
-          image: "/priya.png?height=80&width=80",
+          image: "/snehame.jpg?height=80&width=80",
           content:
-            "As a fresher, ReactJS training here gave me the confidence and skills to build real-world projects. Thanks to Flair for the guidance, I landed my first job as a React Developer.",
+            "Flair Technologies’ Azure Admin training gave me strong fundamentals in VMs, storage, and networking. The practical, hands-on labs made concepts easy to understand and apply in my daily work.”",
           rating: 5,
-          course: "Fresher",
+          course: "Cloud Administrator",
         },
         {
-          name: "Shahini",
+          name: "Nikitha Chowdary",
           role: "Data Analyst at Wipro",
-          image: "/sha.png?height=80&width=80",
+          image: "/nikitha.jpg?height=80&width=80",
           content:
-            "Coming from a non-IT background, I never imagined coding could be this simple. With step-by-step ReactJS training, I successfully transitioned into a Front-End Developer role.",
+            "I wanted to move into cloud roles. The Azure Admin course at Flair Technologies covered Active Directory, security, and monitoring thoroughly. It helped me land my first cloud job.",
           rating: 5,
-          course: "Non-IT Graduate",
+          course: "IT Support Specialist",
         },
         {
-          name: "Arjun",
+          name: "Kayini Naidu",
           role: "DevOps Engineer at Infosys",
-          image: "/arjun.png?height=80&width=80",
+          image: "/kayini.jpg?height=80&width=80",
           content:
-            "Already working in web development, I wanted to specialize in ReactJS. This course sharpened my skills, practical project skills, and helped me move into a higher-paying role.",
+            "This program by Flair Technologies was practical and well-structured. Learning backup, recovery, and Azure migration boosted my confidence and career growth as an Azure Administrator.",
           rating: 5,
-          course: "IT Professional",
+          course: "System Engineer",
         },
       ],
     },
     nextBatch: [
-      { starts: "Every Month", mode: "Online / Classroom-Bangalore" },
+      { starts: "Every Two Months", mode: "Online / Classroom-Hyderabad" },
     ],
     qualification: " B.TECH/B.COM/BSC/MSC/MCA",
-    eligibleLearners: "Freshers / IT-Professionals",
+    eligibleLearners: "Freshers / IT & Non-IT Professionals",
     syllabus: [
       {
-        module: "Azure Admin with Azure DevOps",
-        duration: "3 weeks",
+        module: "Azure Fundamentals",
+        duration: "One week",
         topics: [
           {
             name: "Introduction to Microsoft Azure",
@@ -4258,6 +5143,13 @@ const courseData = {
               "What is Azure Defender?",
             ],
           },
+           ],
+      },
+      {
+        module: " Compute Services ",
+        duration: "One week",
+        topics: [         
+
           {
             name: "Azure Virtual Machines and Scale set",
             content: [
@@ -4270,6 +5162,23 @@ const courseData = {
               "What are Virtual Machine Scale sets?",
             ],
           },
+           {
+            name: "Azure App Service (Web Apps)",
+            content: [
+              "What are App Service Environments (ASE)?",
+              "What are App Service Plans?",
+              "How can I integrate Virtual Networks with Azure App Service?",
+              "What are Hybrid connections?",
+              "How do I create an App Service Web App?",
+            ],
+          },
+           ],
+      },
+      {
+        module: " Storage & Backup ",
+        duration: "One week",
+        topics: [         
+
           {
             name: "Azure Storage",
             content: [
@@ -4285,6 +5194,31 @@ const courseData = {
               "What is Azure CDN (Content Delivery Network)?",
             ],
           },
+          {
+            name: "Azure Site Recovery",
+            content: [
+              "Business Continuity and Disaster Recovery (BCDR)",
+              "Replication of Azure VMs to different Regions",
+              "Failover of Azure VMs",
+              "Disaster Recovery for Apps",
+            ],
+          },
+
+          {
+            name: "Migration (using ASR and Azure migrate)",
+            content: [
+              "Onprem physical VM migration to Azure",
+              "Onprem Hyper-V VM migration to Azure",
+              "AWS to Azure",
+            ],
+          },
+           ],
+      },
+      {
+        module: " Networking Essentials ",
+        duration: "One week",
+        topics: [         
+
           {
             name: "Virtual Networking",
             content: [
@@ -4310,30 +5244,7 @@ const courseData = {
               "What is Point-to-Site connection?",
             ],
           },
-
-          {
-            name: "Monitoring",
-            content: [
-              "What is Azure Monitor?",
-              "How do Azure Alerts work?",
-              "What is Log Analytics workspace?",
-              "What is Network Watcher?",
-              "How can I use Application Insights?",
-            ],
-          },
-
-          {
-            name: "Data Protection",
-            content: [
-              "What is Data Replication?",
-              "How can I perform File and Folder Backups in Azure?",
-              "How do I back up Virtual Machines in Azure?",
-              "What about SQL DB in Azure VM Backup?",
-              "How can I perform Azure File share Backup?",
-            ],
-          },
-
-          {
+           {
             name: "Network Traffic Management",
             content: [
               "How does Network Routing work in Azure?",
@@ -4343,7 +5254,12 @@ const courseData = {
               "What is Azure Front Door?",
             ],
           },
-
+           ],
+      },
+      {
+        module: " Security & Identity ",
+        duration: "One week",
+        topics: [   
           {
             name: "Azure Active Directory",
             content: [
@@ -4358,16 +5274,7 @@ const courseData = {
               "How can I use Azure AD Connect to migrate On-prem AD users to Azure AD?",
             ],
           },
-          {
-            name: "Azure App Service (Web Apps)",
-            content: [
-              "What are App Service Environments (ASE)?",
-              "What are App Service Plans?",
-              "How can I integrate Virtual Networks with Azure App Service?",
-              "What are Hybrid connections?",
-              "How do I create an App Service Web App?",
-            ],
-          },
+         
 
           {
             name: "Authentication and Data Security",
@@ -4377,9 +5284,26 @@ const courseData = {
               "Key Vault",
               "Azure Disk Encryption",
             ],
-          },
+          },      
+ ],
+      },
+      {
+        module: " Monitoring & Management ",
+        duration: "One week",
+        topics: [         
+
 
           {
+            name: "Monitoring",
+            content: [
+              "What is Azure Monitor?",
+              "How do Azure Alerts work?",
+              "What is Log Analytics workspace?",
+              "What is Network Watcher?",
+              "How can I use Application Insights?",
+            ],
+          },
+           {
             name: "Azure Automation",
             content: [
               "Automation Account",
@@ -4388,25 +5312,45 @@ const courseData = {
               "Scheduling patching",
             ],
           },
+ ],
+      },
+      {
+        module: " Data Protection ",
+        duration: "One week",
+        topics: [         
 
           {
-            name: "Azure Site Recovery",
+            name: "Data Protection",
             content: [
-              "Business Continuity and Disaster Recovery (BCDR)",
-              "Replication of Azure VMs to different Regions",
-              "Failover of Azure VMs",
-              "Disaster Recovery for Apps",
+              "What is Data Replication?",
+              "How can I perform File and Folder Backups in Azure?",
+              "How do I back up Virtual Machines in Azure?",
+              "What about SQL DB in Azure VM Backup?",
+              "How can I perform Azure File share Backup?",
             ],
           },
+ ],
+      },
+      {
+        module: " Real-World Implementation & Hands-On ",
+        duration: "One week",
+        topics: [         
 
           {
-            name: "Migration (using ASR and Azure migrate)",
+            name: "Real-World Implementation & Hands-On",
             content: [
-              "Onprem physical VM migration to Azure",
-              "Onprem Hyper-V VM migration to Azure",
-              "AWS to Azure",
+              "Integrating services across modules",
+              "End-to-end project on Azure setup",
+             
             ],
           },
+         
+
+          
+
+         
+
+          
         ],
       },
     ],
@@ -4418,91 +5362,91 @@ const courseData = {
       bio: "Arjun has extensive experience in Azure DevOps and has led multiple enterprise-level implementations.",
     },
     projects: [
-      "Todo List Application",
-      "Weather App",
-      "Student Management System",
-      "Recipe Finder App",
-      "Blog Posting Application",
+      "Deploy Virtual Machines & Scale Sets",
+      "Secure Azure Storage Solutions",
+      "Active Directory & Authentication",
+      "Automated Monitoring Dashboard",
+      "Disaster Recovery & Migration",
     ],
     projectsDetails: [
-      "Build a simple task manager to add, edit, mark complete, and delete tasks using React state.",
-      "Create a weather forecasting app fetching real-time data from APIs and displaying detailed city weather reports.",
-      "Develop a student records system to add, update, and manage student data with forms, tables, and state.",
-      "Design an app to search and display recipes by ingredients using external APIs with React components.",
-      "Build a blogging platform for creating, editing, deleting posts with React Router, forms, and CRUD operations.",
+      "Create, configure, and manage VMs with scaling in Azure.",
+      "Implement blob, file, and table storage with access policies and encryption.",
+      "Set up Azure AD with users, groups, MFA, and role-based access control.",
+      "Use Azure Monitor and Automation to track performance and send alerts.",
+      "Configure Azure Site Recovery and migrate workloads using Azure Migrate.",
     ],
   },
   "oracle-fusion-cloud-scm": {
     title: "Oracle Fusion Cloud <span class='text-yellow-400'>SCM</span>",
     description:
-      "Learn to implement DevOps practices using Azure tools and services",
-    duration: "4 months",
+      "Master procurement, inventory, and order management with Oracle Fusion Cloud SCM training.",
+    duration: "3 months",
     mode: "Online/Offline",
-    level: "Intermediate to Advanced",
+    level: "Beginner to Advanced",
     price: "₹40,000",
     originalPrice: "₹50,000",
-    category: "Cloud",
+    category: "⛈️ Cloud",
     students: "400+",
-    rating: 4.9,
-    reviews: 120,
-    brochure: "FRESHERS.pdf",
-    outline: "Data Analytics - Outline.pdf",
-    image: "/react.jpg",
+    rating: 4.6,
+    reviews: 150,
+    brochure: "scm.pdf",
+    outline: "scm.pdf",
+    image: "/scm.jpg",
     highlights: [
-      "Understand ReactJS fundamentals, components, and JSX syntax.",
-      "Manage state and props for dynamic UI development.",
-      "Work with React Hooks for cleaner, functional code.",
-      "Implement routing and navigation using React Router.",
-      "Connect React apps with APIs for real-time data handling.",
-      "Apply Redux or Context API for state management.",
-      "Build responsive and interactive applications.",
-      "Deploy React apps with best practices.",
+      "Gain a solid foundation in Oracle Fusion SCM Cloud concepts and navigation.",
+      "Learn to configure and manage inventory, warehouses, and stock movement.",
+      "Implement procurement processes from requisitions to supplier management.",
+      "Execute order management workflows including sales orders and fulfillment.",
+      "Understand manufacturing operations with work orders and production tracking.",
+      "Manage costing processes for accurate financial and supply chain reporting.",
+      "Streamline asset and equipment maintenance.",
+      "Hands-on SCM technical training.",
     ],
     testimonialsSection: {
       badge: "Success Stories",
       title:
         'From <span className="text-sky-600">Freshers</span> to Professionals',
       description:
-        "Hear from our successful graduates who transformed their careers with our ReactJS program",
+        "Hear from our successful graduates who transformed their careers with our Oracle Fusion Cloud SCM program",
       testimonials: [
         {
-          name: "Priya",
+          name: "Kanishka",
           role: "Fresher",
-          image: "/priya.png?height=80&width=80",
+          image: "/kanishka.jpg?height=80&width=80",
           content:
-            "As a fresher, ReactJS training here gave me the confidence and skills to build real-world projects. Thanks to Flair for the guidance, I landed my first job as a React Developer.",
+            "Flair Technologies’ SCM training gave me practical knowledge of procurement and inventory management. The real-time exercises helped me apply concepts directly to my work.",
           rating: 5,
-          course: "Fresher",
+          course: "B.Tech Fresher",
         },
         {
-          name: "Shahini",
+          name: "Usha Kumari",
           role: "Data Analyst at Wipro",
-          image: "/sha.png?height=80&width=80",
+          image: "/usha.jpg?height=80&width=80",
           content:
-            "Coming from a non-IT background, I never imagined coding could be this simple. With step-by-step ReactJS training, I successfully transitioned into a Front-End Developer role.",
+            "The Oracle Fusion SCM course at Flair Technologies simplified complex modules like order management and cost control. The hands-on sessions made learning easy and effective.",
           rating: 5,
-          course: "Non-IT Graduate",
+          course: "MBA Supply Chain",
         },
         {
-          name: "Arjun",
+          name: "Praneeth",
           role: "DevOps Engineer at Infosys",
-          image: "/arjun.png?height=80&width=80",
+          image: "/praneeth.jpg?height=80&width=80",
           content:
-            "Already working in web development, I wanted to specialize in ReactJS. This course sharpened my skills, practical project skills, and helped me move into a higher-paying role.",
+            "I benefited greatly from the manufacturing and maintenance modules. Flair Technologies provided the right mix of theory and practice, making me confident in using Fusion SCM at work.",
           rating: 5,
-          course: "IT Professional",
+          course: "Manufacturing Executive",
         },
       ],
     },
     nextBatch: [
-      { starts: "Every Month", mode: "Online / Classroom-Bangalore" },
+      { starts: "Every Two Months", mode: "Online / Classroom-Hyderabad" },
     ],
     qualification: " B.TECH/B.COM/BSC/MSC/MCA",
     eligibleLearners: "Freshers / IT-Professionals",
     syllabus: [
       {
         module: "Oracle Fusion SCM Cloud",
-        duration: "3 weeks",
+        duration: "1.5 weeks",
         topics: [
           {
             name: "Introduction to Oracle Fusion SCM Cloud",
@@ -4585,7 +5529,7 @@ const courseData = {
       },
       {
         module: "Inventory Management Cloud Implementation",
-        duration: "3 weeks",
+        duration: "1.5 weeks",
         topics: [
           {
             name: "Inventory Overview",
@@ -4675,7 +5619,7 @@ const courseData = {
       },
       {
         module: "Procurement Cloud Implementation",
-        duration: "3 weeks",
+        duration: "1.5 weeks",
         topics: [
           {
             name: "Procurement Application Overview",
@@ -4779,7 +5723,7 @@ const courseData = {
       },
       {
         module: "Order Management Cloud Implementation",
-        duration: "3 weeks",
+        duration: "1.5 weeks",
         topics: [
           {
             name: "Order Management Overview",
@@ -4853,7 +5797,7 @@ const courseData = {
       },
       {
         module: "Manufacturing Management Cloud Implementation",
-        duration: "3 weeks",
+        duration: "1.5 weeks",
         topics: [
           {
             name: "Manage Manufacturing Plant",
@@ -4919,7 +5863,7 @@ const courseData = {
       },
       {
         module: "Oracle Cost Management Cloud Implementation",
-        duration: "3 weeks",
+        duration: "1.5 weeks",
         topics: [
           {
             name: "Introduction",
@@ -4981,7 +5925,7 @@ const courseData = {
       },
       {
         module: "Oracle Maintenance Management Cloud Implementation",
-        duration: "3 weeks",
+        duration: "1.5 weeks",
         topics: [
           {
             name: "Introduction",
@@ -5039,7 +5983,7 @@ const courseData = {
       },
       {
         module: "SCM Technical Training",
-        duration: "3 weeks",
+        duration: "1.5 weeks",
         topics: [
           {
             name: "SCM Technical Training Overview",
@@ -5095,91 +6039,91 @@ const courseData = {
       bio: "Arjun has extensive experience in Azure DevOps and has led multiple enterprise-level implementations.",
     },
     projects: [
-      "Todo List Application",
-      "Weather App",
-      "Student Management System",
-      "Recipe Finder App",
-      "Blog Posting Application",
+      "Procurement Lifecycle Simulation",
+      "Inventory Management",
+      "Order-to-Cash (O2C) Flow",
+      "Supply Chain Planning Basics",
+      "Procurement & Inventory Integration",
     ],
     projectsDetails: [
-      "Build a simple task manager to add, edit, mark complete, and delete tasks using React state.",
-      "Create a weather forecasting app fetching real-time data from APIs and displaying detailed city weather reports.",
-      "Develop a student records system to add, update, and manage student data with forms, tables, and state.",
-      "Design an app to search and display recipes by ingredients using external APIs with React components.",
-      "Build a blogging platform for creating, editing, deleting posts with React Router, forms, and CRUD operations.",
+      "Practice the complete cycle from purchase requisition to supplier performance reporting.",
+      "Manage stock, transfers, and cycle counting with real-time inventory tracking.",
+      "Execute sales orders through shipments and invoicing for customer fulfillment.",
+      "Create forecasts and run supply planning to balance demand with supply.",
+      "Integrate purchasing with inventory to streamline replenishment and stock updates.",
     ],
   },
   "data-analytics": {
     title: "Data <span class='text-yellow-400'>Analytics</span>",
     description:
-      "Gain skills in data analysis using Python, R, and advanced analytics tools",
+      "Master Excel, Power BI, Tableau, Alteryx, SQL, Python, and Soft Skills with real-world projects.",
     duration: "4 months",
-    mode: "Online/Offline",
+    mode: "Offline",
     level: "Beginner to Advanced",
     price: "₹35,000",
     originalPrice: "₹45,000",
-    category: "Data Analytics",
-    students: "450+",
+    category: "📊 Analytics",
+    students: "500+",
     rating: 4.9,
-    reviews: 110,
-    brochure: "FRESHERS.pdf",
+    reviews: 450,
+    brochure: "Data Analytics - Outline.pdf",
     outline: "Data Analytics - Outline.pdf",
-    image: "/react.jpg",
+    image: "/DAA.jpg",
     highlights: [
-      "Understand ReactJS fundamentals, components, and JSX syntax.",
-      "Manage state and props for dynamic UI development.",
-      "Work with React Hooks for cleaner, functional code.",
-      "Implement routing and navigation using React Router.",
-      "Connect React apps with APIs for real-time data handling.",
-      "Apply Redux or Context API for state management.",
-      "Build responsive and interactive applications.",
-      "Deploy React apps with best practices.",
+      "Master Excel essentials, formulas, charts, and data analysis tools.",
+      "Build interactive dashboards and reports with Microsoft Power BI.",
+      "Learn Tableau visualizations and advanced dashboard design.",
+      "Automate workflows and perform data blending using Alteryx Designer.",
+      "Write and optimize SQL queries for databases and reporting.",
+      "Use Python for analytics in data processing and visualization.",
+      "Improve communication and teamwork.",
+      "Apply skills in real projects.",
     ],
     testimonialsSection: {
       badge: "Success Stories",
       title:
         'From <span className="text-sky-600">Freshers</span> to Professionals',
       description:
-        "Hear from our successful graduates who transformed their careers with our ReactJS program",
+        "Hear from our successful graduates who transformed their careers with our Data Analytics program",
       testimonials: [
         {
-          name: "Priya",
+          name: "Sravya Reddy",
           role: "Fresher",
-          image: "/priya.png?height=80&width=80",
+          image: "/Sravyare.jpg?height=80&width=80",
           content:
-            "As a fresher, ReactJS training here gave me the confidence and skills to build real-world projects. Thanks to Flair for the guidance, I landed my first job as a React Developer.",
+            "As a B.Tech fresher, I was struggling to break into the analytics field without real-world tools on my resume. This course changed everything! I learned Excel, Power BI, SQL, and even Python with real applications. The hands-on projects made my portfolio stand out. I recently landed an entry-level Data Analyst role and was even complimented on my Tableau dashboard in the interview! What really helped me was the logical flow-from basic Excel to Python-which built my confidence week by week. Highly recommended for any fresher!",
           rating: 5,
-          course: "Fresher",
+          course: "B.Tech Fresher",
         },
         {
-          name: "Shahini",
+          name: "Harini Ch",
           role: "Data Analyst at Wipro",
-          image: "/sha.png?height=80&width=80",
+          image: "/Harinic.jpg?height=80&width=80",
           content:
-            "Coming from a non-IT background, I never imagined coding could be this simple. With step-by-step ReactJS training, I successfully transitioned into a Front-End Developer role.",
+            "Coming from an MIS Executive background, I wanted to move beyond Excel reports and level up my skills. This course was a game-changer! I mastered Power BI, Alteryx, and SQL-tools that are now core to my daily work. I particularly appreciated how each module built on the previous one. Python seemed intimidating at first, but the structured training made it manageable. I’m now leading automation initiatives at work, and my insights are making a real business impact. This course empowered me to grow into a Business Analyst role.",
           rating: 5,
-          course: "Non-IT Graduate",
+          course: "MIS Executive",
         },
         {
-          name: "Arjun",
+          name: "Vamsi Krishna",
           role: "DevOps Engineer at Infosys",
-          image: "/arjun.png?height=80&width=80",
+          image: "/Vansik.jpg?height=80&width=80",
           content:
-            "Already working in web development, I wanted to specialize in ReactJS. This course sharpened my skills, practical project skills, and helped me move into a higher-paying role.",
+            "With a BPO background and no tech experience, I never imagined I could transition into analytics. But this course made it possible. It started with Excel, which I was already familiar with, and gradually introduced me to Power BI, SQL, and even Python. I loved the real-world projects-they gave me something solid to show recruiters. Within 3 months of completing the course, I got hired as a Junior Data Analyst. The instructors made complex tools like Tableau and Alteryx easy to grasp. If you're from a non-IT field and want to switch careers, this course is the perfect launchpad.",
           rating: 5,
-          course: "IT Professional",
+          course: "BPO (Non-IT) Background",
         },
       ],
     },
     nextBatch: [
-      { starts: "Every Month", mode: "Online / Classroom-Bangalore" },
+      { starts: "Every Two Months", mode: "Classroom-Bangalore" },
     ],
     qualification: " B.TECH/B.COM/BSC/MSC/MCA",
-    eligibleLearners: "Freshers / IT-Professionals",
+    eligibleLearners: "Freshers / IT & Non-IT Professionals",
     syllabus: [
       {
         module: "Microsoft Excel",
-        duration: "3 weeks",
+        duration: "2 weeks",
         topics: [
           {
             name: "Introduction to Excel",
@@ -5325,114 +6269,76 @@ const courseData = {
       },
       {
         module: "Microsoft Power BI",
-        duration: "3 weeks",
+        duration: "4 weeks",
         topics: [
           {
-            name: "Configuration and Connections",
+            name: "Power BI Essentials & Environment Setup",
             content: [
-              "Introduction of Power BI",
-              "Installation Steps",
-              "Power BI Working Architecture",
-              "Connecting to Different Databases (SQL Server, Excel, One Drive)",
-              "Comparison with other BI Tools",
-              "Direct Vs Import Connections",
+              "What is Power BI - Overview of Desktop, Service, Mobile",
+              "Installing Power BI Desktop & Initial Setup",
+              "Understanding Power BI Components (Desktop, Service, Gateway)",
+              "Power BI Licensing: Free, Pro, Premium, PPU",
             ],
           },
           {
-            name: "Visualizations",
+            name: "Data Loading and Transformation (Power Query / M Language)",
             content: [
-              "Tiles, Page, Report, Dashboard",
-              "Different types of charts and Usage",
-              "Create visuals",
-              "Format visuals",
-              "Custom Visuals from the Gallery",
-              "Format Page",
+              "Connecting to Data Sources (flat files, RDBMS Databases, Semantic Models)",
+              "Introduction to Power Query Editor",
+              "Data Shaping & Cleaning (Remove, Filter, Replace, Split)",
+              "Merge vs Append Queries",
+              "Data Types and Formatting",
+              "Understanding Query Folding",
+              "Introduction to M Language (Functions & Custom Columns)",
             ],
           },
           {
-            name: "Components",
+            name: "Data Modelling and Relationships",
             content: [
-              "Filters",
-              "Interactions",
-              "Groups",
-              "Hierarchy",
-              "Drill up and Drill down",
-              "Drill through",
-              "Parameters",
+              "Star vs Snowflake Schema",
+              "Creating and Managing Relationships",
+              "Fact Tables vs Dimension Tables",
+              "Best Practices for Model Design (Normalization/Denormalization)",
+              "Using Date Tables and Auto Date/Time",
             ],
           },
           {
-            name: "Power Query",
+            name: "Visualizations and Report Design",
             content: [
-              "Creating Front end Tables",
-              "Data Cleansing (Replace, Trim, Clean, Split Columns, Merge Columns)",
-              "Data Transformation (Pivot, Unpivot, Transpose, group by)",
-              "Merge Queries",
-              "Append Queries",
-              "Creating the columns",
-              "Applied Steps maintenance (Advanced Query Editor)",
+              "Default & Common Visuals",
+              "Slicers, Filters, Drill-downs, Tooltips",
+              "Conditional Formatting & Interactions",
+              "Bookmarks, Selections & Navigation",
+              "Drillthrough Pages & Tooltip Pages",
+              "Using Custom Visuals from AppSource",
+              "Best Practices for Visual & UX Design",
             ],
           },
           {
-            name: "Power Pivot",
+            name: "DAX (Data Analysis Expressions)",
             content: [
-              "Dimension Tables",
-              "Fact Tables",
-              "Cardinality Relationships",
-              "Star Schema Creation",
-              "Active Relationship & Inactive Relationships",
+              "Calculated Columns vs Measures",
+              "Aggregation & Math Functions ",
+              "Logical Functions",
+              "Date & Time Intelligence Functions",
+              "Text or String Functions",
+               "Filter & Row Context",
+              "Advanced DAX Functions",
+              "DAX Performance Tuning",
             ],
           },
           {
-            name: "Navigations",
+            name: "Publishing, Sharing & Collaboration",
             content: [
-              "Page Navigations",
-              "Book Marks",
-              "Sync Slicers",
-              "Custom Tooltips",
-              "Q&A",
+              "Publishing Reports to Power BI Service",
+              "Workspaces, Apps & Access Control",
+              "Scheduled & Incremental Data Refresh",
+              "Row-Level Security (RLS) & Object-Level Security (OLS)",
+              "Report Sharing, Subscriptions, Alerts",
+              "Gateway Installation & Management",
             ],
           },
-          {
-            name: "DAX",
-            content: [
-              "Create Column",
-              "Create Measure",
-              "Date and time functions",
-              "Filter functions",
-              "Logical functions",
-              "Aggregate functions",
-              "Text functions",
-              "Variable usage in DAX",
-              "Role-based Security",
-            ],
-          },
-          {
-            name: "Power BI Service",
-            content: [
-              "Power BI License Types",
-              "Workspace Creation",
-              "Report Publish",
-              "Gateway Installation & Configuration",
-              "Schedule Refresh",
-              "Sharing Reports & Providing access to Business Users",
-              "Dashboard Creation",
-              "Power BI Apps Creation",
-            ],
-          },
-          {
-            name: "SQL",
-            content: [
-              "Table Creation, Insert, Update, Delete data, Select",
-              "Clause Operations (Where, Group by, Having, Order by)",
-              "Operators (IN, LIKE, ISNULL, Union)",
-              "Joins",
-              "Sub Queries (Inner Query & Outer Query)",
-              "Data Modeling using SQL",
-              "Views Creation",
-              "Analytical Functions (Rank, Dense_Rank, Partition by)",
-            ],
-          },
+          
         ],
       },
       {
@@ -5533,185 +6439,137 @@ const courseData = {
       },
       {
         module: "Alteryx Designer",
-        duration: "3 weeks",
+        duration: "2 weeks",
         topics: [
           {
-            name: "Alteryx Designer - Introduction",
+            name: "Introduction to Alteryx",
             content: [
+              "What is ETL & ELT in Modern Data Pipelines",
+              "Why Alteryx - Role in Analytics & Automation",
               "Understanding Alteryx Designer",
-              "Alteryx Designer Interface",
-              "User and Workflow Settings",
+              "Designer Interface Tour (Canvas, Configuration Pane, Results)",
+              "Workflow & User Settings",
+              "Installation & License Configuration",
+              "Alteryx File Types: .yxmd, .yxdb, .yxmc, .yxwz",
             ],
           },
           {
-            name: "Alteryx Designer",
+            name: "Input & Output Tools",
             content: [
-              "Tool Palettes",
-              "Configuration",
-              "Favorite Palettes",
-              "Workflow Canvas",
+              "Input Data (Local, Database, Cloud, APIs)",
+              "Output Data (File formats, append/overwrite, Excel tab naming)",
+              "Browse Tool (Inspection & Debugging)",
+              "Manual Input",
+              "Directory, Dynamic Input, Dynamic Rename",
+              "Date & Time Formats and Parsing",
             ],
           },
           {
-            name: "Restructuring the Data / Data Processing",
+            name: "Data Preparation Tools",
             content: [
-              "Split data",
-              "Skip records",
-              "Use a record as field headings",
-              "Input and output data",
-              "Split fields",
-              "Input Data",
-              "Dynamic Rename",
-              "Text to Columns",
-              "Transpose",
-            ],
-          },
-          {
-            name: "Join Data from Different Sources",
-            content: [
-              "Filter",
-              "Summarize",
-              "Browse",
-              "Union",
-              "Join Multiple",
-              "Input Data",
-              "Formula",
-              "Join",
-              "Output Data",
-              "Generate Row",
-            ],
-          },
-          {
-            name: "Join and Data Blend",
-            content: [
-              "Input Data",
-              "Unique",
-              "Union",
-              "Browse",
-              "Fuzzy Match",
-              "Filter",
-              "Auto Field",
-            ],
-          },
-          {
-            name: "Handling Data",
-            content: [
-              "Impute Values",
               "Data Cleansing",
-              "Formula",
-              "Append Field",
-              "Random Sample",
-              "Unique",
-              "Running tool",
+              "Auto Field",
+              "Select (Field renaming, type conversion, metadata)",
+              "Convert Date",
+              "Record ID",
+              "Formula (Basic to Nested Logic)",
+              "Multi-Field Formula",
+              "Multi-Row Formula (Lag/Lead calculations like SQL)",
+              "Generate Rows (for looping/date expansion)",
             ],
           },
           {
-            name: "Parse Data with Regex",
-            content: ["Regex tool"],
-          },
-          {
-            name: "Database Connections",
+            name: "Filtering, Sorting & Sampling",
             content: [
-              "Join In-DB",
-              "Data Stream In",
-              "Data Stream Out",
-              "Select In-DB",
-              "Connect In-DB",
-              "Filter In-DB",
-              "Formula In-DB",
-              "Summarize In-DB",
-            ],
-          },
-          {
-            name: "Analytical App",
-            content: [
-              "List Box",
-              "Numeric Up/Down",
-              "Check Box",
-              "Control Parameter",
-              "Action",
-              "Image",
-              "File Browse",
-              "Radio Button",
-            ],
-          },
-          {
-            name: "Macros",
-            content: [
-              "Create standard macro",
-              "Batch macro",
-              "Macro Input",
-              "Macro Output",
-              "Dynamic Rename",
-              "Dynamic Input",
-              "Control Parameter",
-              "Action",
-            ],
-          },
-          {
-            name: "Create Static Reporting",
-            content: [
-              "Table",
-              "Charts",
-              "Layout",
-              "Datetime Now",
               "Sort",
-              "Render",
-              "Report map",
-              "Report Text",
-              "Image",
+              "Filter (Basic and Custom logic)",
+              "Sample (First N, Every Nth, Random %)",
+              "Unique",
+              "Tile Tool (for binning/segmentation)",
+              "Conditional Row Filtering (via Formula + Filter)",
             ],
           },
           {
-            name: "Spatial Analysis",
+            name: "Joins and Data Blending",
             content: [
-              "Create Points",
-              "Spatial Match",
-              "Find Nearest",
-              "Trade Area",
-              "Distance",
-              "Special info",
+              "Join Tool (Inner/Left/Right Joins)",
+              "Union Tool (Auto Config by Name/Position)",
+              "Append Fields",
+              "Find and Replace",
+              "Fuzzy Match (Name/Address matching)",
+              "Join Multiple Tool",
+              "Make Group Tool (used in Fuzzy Matching)",
             ],
           },
+
           {
-            name: "Alteryx Gallery",
+            name: "Data Transformations",
             content: [
-              "Publish workflows to Alteryx Gallery from Designer",
-              "Make workflows public",
-              "Update or replace the workflows",
-              "Create collections",
-              "Share workflows and collections",
-              "Run workflows / apps from the gallery",
+              "Summarize Tool (Group By, Sum, Min/Max, Concatenate, Count)",
+              "Cross Tab (Pivoting)",
+              "Transpose (Unpivoting)",
+              "Text to Columns",
+              "RegEx Tool (Extract, Replace, Match)",
+              "Field Info Tool (Metadata Exploration)",
             ],
           },
           {
-            name: "Schedule Workflows on Gallery",
+            name: "Data Engineering Tools (Important Additions)",
             content: [
-              "Understanding the scheduler on gallery",
-              "Configure the workflows schedules and maintain the workflows",
-              "Change the frequency of workflow schedules",
+              "In-Database Tools (Connect In-DB, Data Stream In/Out, In-DB Filter, Join, Select)",
+              "SQL Scripting Tool (for push-down optimization)",
+              "Cache Dataset (for performance tuning)",
+              "Block Until Done (for sequential logic)",
+              "Run Command Tool (trigger external scripts or shell commands)",
+              "Download Tool (API/REST integration)",
+              "Publish to Database (Bulk Load)",
+              "Data Connectors (Azure, AWS, Snowflake, Salesforce, SharePoint)",
             ],
           },
+
           {
-            name: "Error Handling and Optimization",
+            name: "Macros (Reusable Logic)",
             content: [
-              "Understanding the runtime Logs",
-              "Understanding the Performance profiling",
+              "What is a Macro in Alteryx",
+              "Standard Macro – Reusable logic",
+              "Batch Macro – Runs once per control group",
+              "Iterative Macro – Loops until condition is met",
+              "Interface Tools: Macro Input/Output, Drop Down, Check Box, Control Parameter",
+              "Macro Output Testing and Debugging",
+              "Storing Macros in Gallery or Shared Repos",
             ],
           },
+
           {
-            name: "Case Study and Challenges",
-            content: [],
+            name: "Analytic Apps",
+            content: [
+              "What is an Analytic App",
+              "Use Cases (Parameter-driven Reports, User-defined Filters)",
+              "Interface Tools (Text Box, Radio Button, List Box, File Browse)",
+              "Creating, Saving, and Running Apps (.yxwz)",
+              "App chaining and validation",
+              "Publishing to Alteryx Server/Gallery",
+            ],
           },
+
           {
-            name: "Alteryx Designer Core Certification",
-            content: [],
+            name: "Reporting Tools (Alteryx Designer Reports)",
+            content: [
+              "Layout Tool",
+              "Table Tool (Tabular formatting)",
+              "Report Text Tool",
+              "Charting Tool (Basic bar, pie, line charts)",
+              "Image Tool",
+              "Render Tool (to PDF, Excel, HTML)",
+              "Email Tool (attach and send reports via SMTP)",
+              "Report Footer/Header",
+              ],
           },
         ],
       },
       {
-        module: "SQL",
-        duration: "4 weeks",
+        module: "SQL (Structured Query Language)",
+        duration: "2 weeks",
         topics: [
           {
             name: "Introduction to SQL",
@@ -5869,7 +6727,7 @@ const courseData = {
         ],
       },
       {
-        module: "Python",
+        module: "Python (Analytics with Python)",
         duration: "3 weeks",
         topics: [
           {
@@ -5999,6 +6857,84 @@ const courseData = {
               "Automating a simple monthly reporting task",
             ],
           },
+          ],
+      },
+      {
+        module: " Soft Skills ",
+        duration: "1 week",
+        topics: [         
+
+          {
+            name: "Communication Skills",
+            content: [
+              "Improve verbal, written, and presentation abilities for workplace impact.",
+            
+            
+            ],
+          },
+           {
+            name: "Teamwork & Collaboration",
+            content: [
+              "Work effectively in groups and cross-functional environments.",
+            
+            
+            ],
+          },
+          {
+            name: "Time Management",
+            content: [
+              "Prioritize tasks, set goals, and manage deadlines efficiently.",
+            
+            
+            ],
+          },
+          {
+            name: "Problem-Solving & Critical Thinking",
+            content: [
+              "Approach challenges with logical and innovative solutions.",
+            
+            
+            ],
+          },
+          {
+            name: "Adaptability & Flexibility",
+            content: [
+              "Adjust quickly to changing tasks and environments.",
+            
+            
+            ],
+          },
+          {
+            name: "Professional Etiquette",
+            content: [
+              "Build confidence with workplace behavior, email writing, and meeting etiquette.",
+            
+            
+            ],
+          },
+          {
+            name: "Interview Preparation",
+            content: [
+              "Practice mock interviews, resume building, and self-introduction skills.",
+            
+            
+            ],
+          },
+          ],
+      },
+      {
+        module: " Real-World Projects ",
+        duration: "1 week",
+        topics: [         
+
+          {
+            name: "Real-World Applications",
+            content: [
+              "Real-World Reporting Tasks",
+              "Real-World Analysis Projects",
+            
+            ],
+          },
         ],
       },
     ],
@@ -6010,13 +6946,21 @@ const courseData = {
       bio: "Sneha has expertise in data analytics and has contributed to numerous data-driven projects at IBM.",
     },
     projects: [
-      "Customer Behavior Analysis",
-      "Sales Forecasting Model",
-      "Market Trend Analysis",
-      "Data Visualization Dashboard",
+      "Financial Analytics - Budget vs Actuals",
+      "Human Resources Dashboard",
+      "E-commerce Sales Analysis",
+      "Automated Sales Data Pipeline",
+      "Retail Sales Analysis",
+    ],
+    projectsDetails: [
+      "Dashboard showing revenue, expenses, and variance analysis.",
+      "Track employee performance, attrition, and demographics.",
+      "Analyze customer behavior and order trends for an online store.",
+      "A fully automated workflow that outputs refreshed sales data in Excel and SQL for business dashboards.",
+      "Clean dataset, summary statistics, and visualizations of sales by product, category, and month.",
     ],
   },
-  Tableau: {
+  "Tableau": {
     title: "Tableau <span class='text-yellow-400'>Developer</span>",
     description:
       "Master data visualization and business intelligence with Tableau",
@@ -6221,7 +7165,7 @@ const courseData = {
       "Build a blogging platform for creating, editing, deleting posts with React Router, forms, and CRUD operations.",
     ],
   },
-  Cybersecurity: {
+  "Cybersecurity": {
     title: "Cyber<span class='text-yellow-400'>Security</span>",
     description:
       "Master web, network, and API security with hands-on tools, vulnerability testing, and real-world defense strategies.",
@@ -6291,7 +7235,7 @@ const courseData = {
     syllabus: [
       {
         module: "Web Application Security Testing",
-        duration: "6 weeks",
+        duration: "2 weeks",
         topics: [
           {
             name: "Web Application Security Testing",
@@ -6324,7 +7268,7 @@ const courseData = {
       },
       {
         module: " Web Application Security Risks & Vulnerability Checks",
-        duration: "3 weeks",
+        duration: "1 week",
         topics: [         
 
           {
@@ -6353,7 +7297,7 @@ const courseData = {
       },
       {
         module: " Authentication & Authorization Security Testing ",
-        duration: "3 weeks",
+        duration: "1 week",
         topics: [         
 
           {
@@ -6380,7 +7324,7 @@ const courseData = {
       },
       {
         module: " Web Application Security Testing Modules ",
-        duration: "3 weeks",
+        duration: "1 week",
         topics: [         
 
           {
@@ -6411,7 +7355,7 @@ const courseData = {
       },
       {
         module: " Tools Covered ",
-        duration: "3 weeks",
+        duration: "1 week",
         topics: [         
 
           {
@@ -6428,7 +7372,7 @@ const courseData = {
       },
       {
         module: " Network Security Testing ",
-        duration: "3 weeks",
+        duration: "1 week",
         topics: [         
 
           {
@@ -6455,7 +7399,7 @@ const courseData = {
       },
       {
         module: " Web Services Security Testing ",
-        duration: "3 weeks",
+        duration: "1 week",
         topics: [         
 
           {
@@ -6500,8 +7444,8 @@ const courseData = {
     students: "1000+",
     rating: 4.7,
     reviews: 550,
-    brochure: "Network.pdf",
-    outline: "Network.pdf",
+    brochure: "network.pdf",
+    outline: "network.pdf",
     image: "/network.jpg",
     highlights: [
       "Advanced C programming essentials and memory management.",
@@ -6518,34 +7462,34 @@ const courseData = {
       title:
         'From <span className="text-sky-600">Freshers</span> to Professionals',
       description:
-        "Hear from our successful graduates who transformed their careers with our ReactJS program",
+        "Hear from our successful graduates who transformed their careers with our Network Protocol Development program",
       testimonials: [
         {
-          name: "Priya",
+          name: "Srinivas Rao",
           role: "Fresher",
-          image: "/priya.png?height=80&width=80",
+          image: "/srinivas.jpg?height=80&width=80",
           content:
             "Flair Technologies gave me strong hands-on training in C and network programming. The mini-projects and socket programming practice helped me build confidence to work on real-time applications.",
           rating: 5,
           course: "Fresher",
         },
         {
-          name: "Shahini",
+          name: "Anjali",
           role: "Data Analyst at Wipro",
-          image: "/sha.png?height=80&width=80",
+          image: "/Anjali.jpg?height=80&width=80",
           content:
             "I joined Flair Technologies to upskill in protocol development. The structured modules on Linux system programming and TCP/IP stack made complex topics easy to learn. This training was a real career boost.",
           rating: 5,
-          course: "Non-IT Graduate",
+          course: "B.Tech Graduate",
         },
         {
-          name: "Arjun",
+          name: "Harshitha",
           role: "DevOps Engineer at Infosys",
-          image: "/arjun.png?height=80&width=80",
+          image: "/harshi.jpg?height=80&width=80",
           content:
             "The Network Protocol Development course at Flair Technologies was highly practical. From IPC to socket programming, every concept was taught with real-world examples. It truly enhanced my technical expertise.",
           rating: 5,
-          course: "IT Professional",
+          course: "Network Engineer",
         },
       ],
     },
@@ -6556,8 +7500,8 @@ const courseData = {
     eligibleLearners: "Freshers / Network Administrators",
     syllabus: [
       {
-        module: "Network Protocol Development",
-        duration: "3 weeks",
+        module: "Advanced C Programming",
+        duration: "1 week",
         topics: [
           {
             name: "Architecture of Simple Computer",
@@ -6647,6 +7591,13 @@ const courseData = {
               "Function pointers",
             ],
           },
+           ],
+      },
+      {
+        module: " Data Structures & Algorithms ",
+        duration: "1 week",
+        topics: [         
+
 
           {
             name: "Arrays",
@@ -6766,16 +7717,12 @@ const courseData = {
             name: "File Formats",
             content: [],
           },
-
-          {
-            name: "Mini Project in C",
-            content: [],
-          },
-        ],
+           ],
       },
+      
       {
         module: "Linux System Programming",
-        duration: "3 weeks",
+        duration: "1 week",
         topics: [
           {
             name: "Introduction to Linux",
@@ -6818,6 +7765,12 @@ const courseData = {
               "Modifying a structure in the file",
             ],
           },
+          ],
+      },
+      {
+        module: "Processes, Signals & IPC",
+        duration: "1 week",
+        topics: [
           {
             name: "The Environment of a Unix Process",
             content: [
@@ -6870,8 +7823,8 @@ const courseData = {
         ],
       },
       {
-        module: "Network Programming",
-        duration: "3 weeks",
+        module: "Networking Fundamentals",
+        duration: "1 week",
         topics: [
           {
             name: "Introduction to Networking",
@@ -6899,6 +7852,12 @@ const courseData = {
               "TCP/IP protocol layers",
             ],
           },
+           ],
+      },
+      {
+        module: "Socket Programming",
+        duration: "1.5 weeks",
+        topics: [
           {
             name: "Socket Programming",
             content: [
@@ -6916,6 +7875,12 @@ const courseData = {
               "Serving multiple clients with one thread per client",
             ],
           },
+          ],
+      },
+      {
+        module: "TCP/IP Protocol Internals",
+        duration: "2 weeks",
+        topics: [
           {
             name: "UDP/TCP Applications",
             content: ["TFTP", "SMTP", "HTTP", "Mixed techniques"],
@@ -6980,6 +7945,12 @@ const courseData = {
               "Acceptance test plan",
             ],
           },
+ ],
+      },
+      {
+        module: " Major Project ",
+        duration: "0.5 week",
+        topics: [         
 
           {
             name: "Major Project",
@@ -7024,7 +7995,7 @@ const courseData = {
     category: "🪙 Finance",
     students: "1000+",
     rating: 4.9,
-    reviews: 300,
+    reviews: 700,
     brochure: "R2R.pdf",
     outline: "R2R.pdf",
     image: "/R2R.jpg",
@@ -7197,7 +8168,7 @@ const courseData = {
   "ai-and-ml": {
     title: "AI & <span class='text-yellow-400'>ML</span>",
     description:
-      "AI & ML PRACTITIONER TRAINING - EMPOWERING THE NEXT GENERATION OF AI ENGINEERS",
+      "AI & ML Practitioner Training - Empowering the Next Generation of AI Engineers.",
     duration: "3 months",
     mode: "Online",
     level: "Beginner to Advanced",

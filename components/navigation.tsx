@@ -41,6 +41,8 @@ export function Navigation() {
         { name: "Data Analytics", href: "/courses/data-analytics" },
         { name: "Microsoft Excel & VBA", href: "/courses/excel-Vba" },
         { name: "Microsoft Power BI", href: "/courses/power-bi" },
+        { name: "Power Apps & Automate", href: "/courses/power-apps" },
+        { name: "Azure Data Engineer", href: "/courses/Azure-Data" },
         { name: "Tableau", href: "/courses/tableau" },
         { name: "Alteryx", href: "/courses/alteryx" },
         { name: "SQL", href: "/courses/sqlCourse" },
