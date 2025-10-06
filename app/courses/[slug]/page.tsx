@@ -54,9 +54,9 @@ const courseData = {
     category: "🧑‍💻 Development",
     students: "500+",
     rating: 4.7,
-    reviews: 156,
+    reviews: 300,
     brochure: "PYTHON FULL STACK.pdf",
-    outline: "PYTHON FULL STACK.pdf",
+    outline: "Python Full-Stack.pdf",
     image: "/pyhton.png",
     highlights: [
       "Master Python programming fundamentals and advanced concepts.",
@@ -614,72 +614,54 @@ const courseData = {
               "Concurrency Control and Isolation Levels",
             ],
           },
-         ],
+        ],
       },
       {
         module: " Soft Skills ",
         duration: "1 week",
-        topics: [         
-
+        topics: [
           {
             name: "Communication Skills",
             content: [
               "Improve verbal, written, and presentation abilities for workplace impact.",
-            
-            
             ],
           },
-           {
+          {
             name: "Teamwork & Collaboration",
             content: [
               "Work effectively in groups and cross-functional environments.",
-            
-            
             ],
           },
           {
             name: "Time Management",
             content: [
               "Prioritize tasks, set goals, and manage deadlines efficiently.",
-            
-            
             ],
           },
           {
             name: "Problem-Solving & Critical Thinking",
             content: [
               "Approach challenges with logical and innovative solutions.",
-            
-            
             ],
           },
           {
             name: "Adaptability & Flexibility",
-            content: [
-              "Adjust quickly to changing tasks and environments.",
-            
-            
-            ],
+            content: ["Adjust quickly to changing tasks and environments."],
           },
           {
             name: "Professional Etiquette",
             content: [
               "Build confidence with workplace behavior, email writing, and meeting etiquette.",
-            
-            
             ],
           },
           {
             name: "Interview Preparation",
             content: [
               "Practice mock interviews, resume building, and self-introduction skills.",
-            
-            
             ],
           },
-          ],
+        ],
       },
-      
     ],
     instructor: {
       name: "Rajesh Kumar",
@@ -713,11 +695,11 @@ const courseData = {
     price: "₹40,000",
     originalPrice: "₹50,000",
     category: "🧑‍💻 Development",
-    students: "500+",
+    students: "400+",
     rating: 4.9,
-    reviews: 120,
+    reviews: 250,
     brochure: "FRESHERS.pdf",
-    outline: "FRESHERS.pdf",
+    outline: "Java Full Stack.pdf",
     image: "/java.jpg",
     highlights: [
       "Master object-oriented programming and advanced Java concepts.",
@@ -1585,7 +1567,7 @@ const courseData = {
       "Design a portal with courses, student dashboards, quizzes, and progress tracking and personalized learning paths included.",
     ],
   },
-  "reactCourse": {
+  reactCourse: {
     title: "React<span class='text-yellow-400'>JS</span>",
     description:
       "Future-proof your career with ReactJS expertise by building production-ready projects and real-time web applications.",
@@ -1598,8 +1580,8 @@ const courseData = {
     students: "700+",
     rating: 4.8,
     reviews: 500,
-    brochure: "react.pdf",
-    outline: "react.pdf",
+    brochure: "ReactJS.pdf",
+    outline: "ReactJS.pdf",
     image: "/react.jpg",
     highlights: [
       "Understand ReactJS fundamentals, components, and JSX syntax.",
@@ -1960,8 +1942,8 @@ const courseData = {
     students: "1500+",
     rating: 4.9,
     reviews: 750,
-    brochure: "PowerBI.pdf",
-    outline: "PowerBI.pdf",
+    brochure: "Power BI.pdf",
+    outline: "Power BI.pdf",
     image: "/pbi.jpg",
     highlights: [
       "Learn Power BI essentials and environment setup for reporting.",
@@ -2009,9 +1991,7 @@ const courseData = {
         },
       ],
     },
-    nextBatch: [
-      { starts: "Every Month", mode: "Online / Classroom-BLR/HYD" },
-    ],
+    nextBatch: [{ starts: "Every Month", mode: "Online / Classroom-BLR/HYD" }],
     qualification: " B.TECH/B.COM/BSC/MSC/MCA",
     eligibleLearners: "Freshers / IT & Non-IT Professionals",
     syllabus: [
@@ -2026,16 +2006,14 @@ const courseData = {
               "Installing Power BI Desktop & Initial Setup",
               "Understanding Power BI Components (Desktop, Service, Gateway)",
               "Power BI Licensing: Free, Pro, Premium, PPU",
-              
             ],
           },
-          ],
+        ],
       },
       {
         module: "Data Loading and Transformation (Power Query / M Language)",
         duration: "1 week",
         topics: [
-
           {
             name: "Data Loading and Transformation (Power Query / M Language)",
             content: [
@@ -2048,13 +2026,12 @@ const courseData = {
               "Introduction to M Language (Functions & Custom Columns)",
             ],
           },
-          ],
+        ],
       },
       {
         module: "Data Modelling and Relationships",
         duration: "0.5 week",
         topics: [
-
           {
             name: "Data Modelling and Relationships",
             content: [
@@ -2063,10 +2040,9 @@ const courseData = {
               "Fact Tables vs Dimension Tables",
               "Best Practices for Model Design (Normalization/Denormalization)",
               "Using Date Tables and Auto Date/Time",
-              
             ],
           },
-          ],
+        ],
       },
       {
         module: "Visualizations and Report Design",
@@ -2076,7 +2052,7 @@ const courseData = {
             name: "Visualizations and Report Design",
             content: [
               "Default & Common Visuals",
-              "Slicers, Filters, Drill-downs, Tooltips",
+              "Slicers, Filters, Drill-downs",
               "Conditional Formatting & Interactions",
               "Bookmarks, Selections & Navigation",
               "Drillthrough Pages & Tooltip Pages",
@@ -2084,7 +2060,7 @@ const courseData = {
               "Best Practices for Visual & UX Design",
             ],
           },
-          ],
+        ],
       },
       {
         module: "DAX (Data Analysis Expressions)",
@@ -2098,13 +2074,12 @@ const courseData = {
               "Logical Functions",
               "Date & Time Intelligence Functions",
               "Text or String Functions",
-               "Filter & Row Context",
+              "Filter & Row Context",
               "Advanced DAX Functions",
               "DAX Performance Tuning",
-              
             ],
           },
-          ],
+        ],
       },
       {
         module: "Publishing, Sharing & Collaboration",
@@ -2121,7 +2096,7 @@ const courseData = {
               "Gateway Installation & Management",
             ],
           },
-          ],
+        ],
       },
       {
         module: "Advanced Analytics & Integration",
@@ -2132,13 +2107,12 @@ const courseData = {
             content: [
               "Dataflows and Reusable ETL in Service",
               "Deployment Pipelines",
-              "Integration with Azure ML & Cognitive Services",
-              "Power automate flows creation for datasets refresh",
-              "Intake & Survey Power apps Forms creation",
-             
+              "Self - Service BI Implementation",
+              "Power Automate flows creation for datasets refresh",
+              "Intake & Survey Power Apps Forms creation",
             ],
           },
-          ],
+        ],
       },
       {
         module: "SQL",
@@ -2151,7 +2125,7 @@ const courseData = {
               "Clause Operations (Where, Group by, Having, Order by)",
               "Operators (IN, LIKE, ISNULL, Union)",
               "Joins",
-              "Sub Queries (Inner Query & Outer Query)",
+              "Sub Queries (Inner Query & Outer Query), CTE",
               "Data Modeling using SQL",
               "Views Creation",
               "Analytical Functions (Rank, Dense_Rank, Partition by)",
@@ -2183,205 +2157,209 @@ const courseData = {
     ],
   },
 
-    "power-apps": {
-    title: "Microsoft  <span class='text-yellow-400'>Power BI</span>",
+  "power-apps": {
+    title:
+      "Microsoft Power Apps & <span class='text-yellow-400'>Automate</span>",
     description:
-      "Master Microsoft Power BI to transform raw data into interactive dashboards, insightful reports, and business intelligence.",
-    duration: "1.5 months",
+      "Master Power Apps, Automate Workflows, and SQL Integration with Complete Practical Training Program.",
+    duration: "2 months",
     mode: "Online/Offline",
     level: "Beginner to Advanced",
     price: "₹25,000",
     originalPrice: "₹35,000",
     category: "📊 Analytics",
-    students: "1500+",
-    rating: 4.9,
-    reviews: 750,
-    brochure: "PowerBI.pdf",
-    outline: "PowerBI.pdf",
-    image: "/pbi.jpg",
+    students: "250+",
+    rating: 4.6,
+    reviews: 150,
+    brochure: "PowerApps.pdf",
+    outline: "PowerApps.pdf",
+    image: "/PowerApps.jpg",
     highlights: [
-      "Learn Power BI essentials and environment setup for reporting.",
-      "Import, clean, and transform data using Power Query.",
-      "Build data models and create relationships between datasets.",
-      "Design interactive dashboards and effective visual reports.",
-      "Use DAX expressions for calculations and advanced analytics",
-      "Publish, share, and collaborate on Power BI reports.",
-      "Integrate Power BI with analytics tools.",
-      "Apply SQL for queries and data analysis.",
+      "Understand Power Apps and the Microsoft Power Platform ecosystem.",
+      "Build and customize apps using Canvas and Model-Driven approaches.",
+      "Work with PowerApps Studio, templates, environments, and security settings.",
+      "Automate workflows with Power Automate using triggers, actions, and approvals.",
+      "Create and manage Cloud Flows, Desktop Flows, and Business Process Flows.",
+      "Integrate apps and flows with Microsoft Dataverse, SharePoint, Teams, and gateways.",
+      "Customizations, insights & AI.",
+      "SQL, modeling & analytics.",
     ],
     testimonialsSection: {
       badge: "Success Stories",
       title:
         'From <span className="text-sky-600">Freshers</span> to Professionals',
       description:
-        "Hear from our successful graduates who transformed their careers with our Microsoft Power BI program",
+        "Hear from our successful graduates who transformed their careers with our Microsoft Power Apps & Automate program",
       testimonials: [
         {
-          name: "Anjali Rao",
+          name: "Neha Varma",
           role: "Fresher",
-          image: "/anjalir.jpg?height=80&width=80",
+          image: "/nehav.jpg?height=80&width=80",
           content:
-            "Coming from a commerce background, I never imagined working with data tools. Flair Technologies’ Power BI training made it simple to clean, model, and visualize data. Within weeks, I was building dashboards for my team and adding real value to my role.",
+            "This course gave me the confidence to build business apps and automate workflows at my workplace. The SQL module helped me handle backend tasks more effectively.",
           rating: 5,
-          course: "Non-IT Professional",
+          course: "Software Engineer",
         },
         {
-          name: "Suresh Naidu",
+          name: "Kavya Reddy",
           role: "Data Analyst at Wipro",
-          image: "/sureshn.jpg?height=80&width=80",
+          image: "/kavyare.jpg?height=80&width=80",
           content:
-            "As an HR professional, I struggled with Excel reports and manual tracking. Power BI at Flair Technologies gave me confidence to create automated dashboards. Now, I generate insightful reports for employee performance and hiring metrics in just a few clicks.",
+            "Learning Power Apps and Automate streamlined my daily reporting tasks. I can now design solutions independently without depending fully on IT teams.",
           rating: 5,
-          course: "Non-IT Professional",
+          course: "Business Analyst",
         },
         {
-          name: "Pratyusha",
+          name: "Rohit Kumar",
           role: "DevOps Engineer at Infosys",
-          image: "/prathusha.jpg?height=80&width=80",
+          image: "/rohitre.jpg?height=80&width=80",
           content:
-            "Already working in analytics, I wanted to upgrade my skills. Flair Technologies’ Power BI course deepened my knowledge of DAX and advanced modeling. I now design interactive dashboards that tell clear business stories and support decision-making in my organization.",
+            "The hands-on training helped me understand how to connect apps, workflows, and data. I now lead automation projects that save time for my entire team.",
           rating: 5,
-          course: "Data Analyst",
+          course: "Project Manager",
         },
       ],
     },
     nextBatch: [
-      { starts: "Every Month", mode: "Online / Classroom-BLR/HYD" },
+      { starts: "Every Two Months", mode: "Online / Classroom-Bangalore" },
     ],
-    qualification: " B.TECH/B.COM/BSC/MSC/MCA",
-    eligibleLearners: "Freshers / IT & Non-IT Professionals",
+    qualification: " IT Professionals",
+    eligibleLearners: "IT Professionals",
     syllabus: [
       {
-        module: "Power BI Essentials & Environment Setup",
+        module: "Introduction to Power Apps & Power Platform",
         duration: "0.5 week",
         topics: [
           {
-            name: "Power BI Essentials & Environment Setup",
+            name: "Introduction to Power Apps & Power Platform",
             content: [
-              "What is Power BI - Overview of Desktop, Service, Mobile",
-              "Installing Power BI Desktop & Initial Setup",
-              "Understanding Power BI Components (Desktop, Service, Gateway)",
-              "Power BI Licensing: Free, Pro, Premium, PPU",
-              
+              "Introduction to Power Apps",
+              "What is Power Apps?",
+              "Find and Run Apps (Browser, SharePoint Online, Microsoft Teams, AppSource)",
+              "Use Model-Driven Apps",
+              "Introduction to the O365 Power Platform",
+              "The O365 Platform, Power Platform overview",
+              "Purpose of PowerApps, Flow, and Power BI",
             ],
           },
-          ],
+        ],
       },
       {
-        module: "Data Loading and Transformation (Power Query / M Language)",
-        duration: "1 week",
-        topics: [
-
-          {
-            name: "Data Loading and Transformation (Power Query / M Language)",
-            content: [
-              "Connecting to Data Sources (flat files, RDBMS Databases, Semantic Models)",
-              "Introduction to Power Query Editor",
-              "Data Shaping & Cleaning (Remove, Filter, Replace, Split)",
-              "Merge vs Append Queries",
-              "Data Types and Formatting",
-              "Understanding Query Folding",
-              "Introduction to M Language (Functions & Custom Columns)",
-            ],
-          },
-          ],
-      },
-      {
-        module: "Data Modelling and Relationships",
+        module: "Getting Started with Power Apps",
         duration: "0.5 week",
         topics: [
-
           {
-            name: "Data Modelling and Relationships",
+            name: "Getting Started with Power Apps",
             content: [
-              "Star vs Snowflake Schema",
-              "Creating and Managing Relationships",
-              "Fact Tables vs Dimension Tables",
-              "Best Practices for Model Design (Normalization/Denormalization)",
-              "Using Date Tables and Auto Date/Time",
-              
+              "Sign in to Power Apps",
+              "Find with Unified Search",
+              "PowerApps Studio Overview",
+              "Understand app types, environments, and security",
+              "Create app templates",
+              "Create apps from scratch",
             ],
           },
-          ],
+        ],
       },
       {
-        module: "Visualizations and Report Design",
-        duration: "2 weeks",
-        topics: [
-          {
-            name: "Visualizations and Report Design",
-            content: [
-              "Default & Common Visuals",
-              "Slicers, Filters, Drill-downs, Tooltips",
-              "Conditional Formatting & Interactions",
-              "Bookmarks, Selections & Navigation",
-              "Drillthrough Pages & Tooltip Pages",
-              "Using Custom Visuals from AppSource",
-              "Best Practices for Visual & UX Design",
-            ],
-          },
-          ],
-      },
-      {
-        module: "DAX (Data Analysis Expressions)",
+        module: "Canvas Apps",
         duration: "1.5 weeks",
         topics: [
           {
-            name: "DAX (Data Analysis Expressions)",
+            name: "Canvas Apps",
             content: [
-              "Calculated Columns vs Measures",
-              "Aggregation & Math Functions ",
-              "Logical Functions",
-              "Date & Time Intelligence Functions",
-              "Text or String Functions",
-               "Filter & Row Context",
-              "Advanced DAX Functions",
-              "DAX Performance Tuning",
-              
+              "What are Canvas Apps?",
+              "System Requirements, Limits, and Configuration",
+              "Keyboard Shortcuts",
+              "Use data services and connections",
+              "Galleries, formulas, and variables",
             ],
           },
-          ],
+        ],
       },
       {
-        module: "Publishing, Sharing & Collaboration",
+        module: "Model-Driven Apps",
         duration: "1 week",
         topics: [
           {
-            name: "Publishing, Sharing & Collaboration",
+            name: "Model-Driven Apps",
             content: [
-              "Publishing Reports to Power BI Service",
-              "Workspaces, Apps & Access Control",
-              "Scheduled & Incremental Data Refresh",
-              "Row-Level Security (RLS) & Object-Level Security (OLS)",
-              "Report Sharing, Subscriptions, Alerts",
-              "Gateway Installation & Management",
+              "Design and Build an App",
+              "Share and Manage an App",
+              "Advanced App Making and Customisation",
+              "Use Performance Insights",
+              "Embed Power Apps and Power Automate in SharePoint and Teams",
             ],
           },
-          ],
+        ],
       },
       {
-        module: "Advanced Analytics & Integration",
+        module: "Power Automate Basics",
         duration: "1 week",
         topics: [
           {
-            name: "Advanced Analytics & Integration",
+            name: "Power Automate Basics",
             content: [
-              "Dataflows and Reusable ETL in Service",
-              "Deployment Pipelines",
-              "Integration with Azure ML & Cognitive Services",
-              "Power automate flows creation for datasets refresh",
-              "Intake & Survey Power apps Forms creation",
-             
+              "Who is Power Automate for?",
+              "Types of Flow",
+              "Flow Studio Overview",
+              "Understand triggers, actions, and conditions",
+              "Pull dynamic content from other flow actions",
+              "Save, Check Flow, Test, and Run History",
+              "Approval features in flows",
             ],
           },
-          ],
+        ],
       },
       {
-        module: "SQL",
+        module: "Cloud & Desktop Flows",
         duration: "1.5 weeks",
         topics: [
           {
-            name: "SQL",
+            name: "Cloud Flows",
+            content: [
+              "Popular Cloud Flow Scenarios",
+              "Use Flows with Microsoft Dataverse",
+              "Solutions and AI Builder",
+              "Troubleshooting flows",
+            ],
+          },
+          {
+            name: "Desktop Flows",
+            content: [
+              "Setup Power Automate for Desktop",
+              "Architecture and Dataverse Database",
+              "Create Desktop Flows",
+              "Trigger a Desktop Flow from Another Flow",
+            ],
+          },
+        ],
+      },
+      {
+        module: "Business Process Flows & Data Connections",
+        duration: "1 week",
+        topics: [
+          {
+            name: "Business Process Flows & Data Connections",
+            content: [
+              "Create a Business Process Flow",
+              "Instant Flows in Business Process Flows",
+              "Enhance Business Process Flows with Branching",
+              "Add Custom Controls to Business Process Flows",
+              "Connect to Data",
+              "Available Connections",
+              "Manage Connections",
+              "Manage and Understand Gateways",
+            ],
+          },
+        ],
+      },
+      {
+        module: "SQL for Power Platform",
+        duration: "1 week",
+        topics: [
+          {
+            name: "SQL for Power Platform",
             content: [
               "Table Creation, Insert, Update, Delete data, Select",
               "Clause Operations (Where, Group by, Having, Order by)",
@@ -2404,229 +2382,438 @@ const courseData = {
       bio: "Priya specializes in data analytics with extensive experience in Power BI and has trained over 150 professionals.",
     },
     projects: [
-      "E-commerce Sales Analysis",
-      "Human Resources Dashboard",
-      "Finance Dashboard",
-      "360° Business Intelligence Dashboard",
-      "Insurance Insights Dashboard",
+      "Employee Leave Management System",
+      "Expense Tracking Application",
+      "Student Course Enrollment Portal",
+      "Helpdesk Ticketing System",
+      "Inventory Management Dashboard",
     ],
     projectsDetails: [
-      "Objective: Analyze customer behavior and order trends for an online store.",
-      "Objective: Track employee performance, attrition, and demographics.",
-      "Objective: Create a P&L statement with monthly and yearly comparisons.",
-      "Objective: Build an end-to-end BI solution for a fictional company.",
-      "Objective: Analyze and visualize insurance metrics for data-driven decisions.",
+      "Manage leave requests with automated approvals and SQL-based record keeping.",
+      "Track expenses with categorized entries and automated email summaries.",
+      "Register students and automate enrollment confirmations with a SQL database backend.",
+      "Raise, assign, and track IT support tickets with automated workflows.",
+      "Monitor stock levels and trigger low-inventory alerts using Power Automate.",
     ],
   },
 
-     "Azure-Data": {
-    title: "Microsoft  <span class='text-yellow-400'>Power BI</span>",
+  "Azure-Data": {
+    title: "Azure Data <span class='text-yellow-400'>Engineer</span>",
     description:
-      "Master Microsoft Power BI to transform raw data into interactive dashboards, insightful reports, and business intelligence.",
-    duration: "1.5 months",
+      "Master Advanced Azure Data Engineering with ADF, Databricks, Synapse, Security, Real-Time Processing, and Automation.",
+    duration: "2 months",
     mode: "Online/Offline",
     level: "Beginner to Advanced",
     price: "₹25,000",
     originalPrice: "₹35,000",
     category: "📊 Analytics",
-    students: "1500+",
+    students: "300+",
     rating: 4.9,
-    reviews: 750,
-    brochure: "PowerBI.pdf",
-    outline: "PowerBI.pdf",
-    image: "/pbi.jpg",
+    reviews: 250,
+    brochure: "ADE.pdf",
+    outline: "ADE.pdf",
+    image: "/ade.jpg",
     highlights: [
-      "Learn Power BI essentials and environment setup for reporting.",
-      "Import, clean, and transform data using Power Query.",
-      "Build data models and create relationships between datasets.",
-      "Design interactive dashboards and effective visual reports.",
-      "Use DAX expressions for calculations and advanced analytics",
-      "Publish, share, and collaborate on Power BI reports.",
-      "Integrate Power BI with analytics tools.",
-      "Apply SQL for queries and data analysis.",
+      "Design advanced Azure architectures with Data Lake and Lakehouse.",
+      "Build and orchestrate complex pipelines in Azure Data Factory.",
+      "Implement real-time ingestion using Event Hubs and Stream Analytics.",
+      "Work with Databricks for Delta Lake and Spark optimization.",
+      "Master Synapse for advanced modeling, queries, and analytics.",
+      "Apply security and governance with Purview, Key Vault, RBAC.",
+      "Optimize and automate pipelines.",
+      "Capstone: enterprise Azure solution.",
     ],
     testimonialsSection: {
       badge: "Success Stories",
       title:
         'From <span className="text-sky-600">Freshers</span> to Professionals',
       description:
-        "Hear from our successful graduates who transformed their careers with our Microsoft Power BI program",
+        "Hear from our successful graduates who transformed their careers with our Azure Data Engineer program",
       testimonials: [
         {
-          name: "Anjali Rao",
+          name: "Isha Sharma",
           role: "Fresher",
-          image: "/anjalir.jpg?height=80&width=80",
+          image: "/ishas.jpg?height=80&width=80",
           content:
-            "Coming from a commerce background, I never imagined working with data tools. Flair Technologies’ Power BI training made it simple to clean, model, and visualize data. Within weeks, I was building dashboards for my team and adding real value to my role.",
+            "The Advanced Azure Data Engineer course helped me master Databricks, ADF, and Synapse in real-world scenarios. The practical approach and project-based learning made a huge difference. I now confidently design and optimize enterprise data pipelines, implement governance, and deliver insights faster, which has positively impacted my role at work.",
           rating: 5,
-          course: "Non-IT Professional",
+          course: "Data Engineer",
         },
         {
-          name: "Suresh Naidu",
+          name: "Arjun Khanna",
           role: "Data Analyst at Wipro",
-          image: "/sureshn.jpg?height=80&width=80",
+          image: "/arjunkk.jpg?height=80&width=80",
           content:
-            "As an HR professional, I struggled with Excel reports and manual tracking. Power BI at Flair Technologies gave me confidence to create automated dashboards. Now, I generate insightful reports for employee performance and hiring metrics in just a few clicks.",
+            "I enrolled to upskill beyond Power BI and this course exceeded expectations. The advanced modules on ADF orchestration, Purview, and Synapse modeling were excellent. I applied these skills directly to automate data flows and ensure compliance in my projects. It has improved my efficiency and expanded my professional capabilities.",
           rating: 5,
-          course: "Non-IT Professional",
+          course: "Senior BI Developer",
         },
         {
-          name: "Pratyusha",
+          name: "Ritika Gupta",
           role: "DevOps Engineer at Infosys",
-          image: "/prathusha.jpg?height=80&width=80",
+          image: "/ritikag.jpg?height=80&width=80",
           content:
-            "Already working in analytics, I wanted to upgrade my skills. Flair Technologies’ Power BI course deepened my knowledge of DAX and advanced modeling. I now design interactive dashboards that tell clear business stories and support decision-making in my organization.",
+            "As a student preparing for placements, I found this training extremely valuable. The hands-on capstone project helped me build my first end-to-end data solution using Azure services like Databricks, Synapse, and Event Hubs. It bridged the gap between classroom theory and industry practice, boosting my confidence for interviews and jobs.",
           rating: 5,
-          course: "Data Analyst",
+          course: "Graduate Student",
         },
       ],
     },
-    nextBatch: [
-      { starts: "Every Month", mode: "Online / Classroom-BLR/HYD" },
-    ],
+    nextBatch: [{ starts: "Every Two Months", mode: "Online / Classroom-BLR/HYD" }],
     qualification: " B.TECH/B.COM/BSC/MSC/MCA",
     eligibleLearners: "Freshers / IT & Non-IT Professionals",
     syllabus: [
       {
-        module: "Power BI Essentials & Environment Setup",
-        duration: "0.5 week",
-        topics: [
-          {
-            name: "Power BI Essentials & Environment Setup",
-            content: [
-              "What is Power BI - Overview of Desktop, Service, Mobile",
-              "Installing Power BI Desktop & Initial Setup",
-              "Understanding Power BI Components (Desktop, Service, Gateway)",
-              "Power BI Licensing: Free, Pro, Premium, PPU",
-              
-            ],
-          },
-          ],
-      },
-      {
-        module: "Data Loading and Transformation (Power Query / M Language)",
-        duration: "1 week",
-        topics: [
-
-          {
-            name: "Data Loading and Transformation (Power Query / M Language)",
-            content: [
-              "Connecting to Data Sources (flat files, RDBMS Databases, Semantic Models)",
-              "Introduction to Power Query Editor",
-              "Data Shaping & Cleaning (Remove, Filter, Replace, Split)",
-              "Merge vs Append Queries",
-              "Data Types and Formatting",
-              "Understanding Query Folding",
-              "Introduction to M Language (Functions & Custom Columns)",
-            ],
-          },
-          ],
-      },
-      {
-        module: "Data Modelling and Relationships",
-        duration: "0.5 week",
-        topics: [
-
-          {
-            name: "Data Modelling and Relationships",
-            content: [
-              "Star vs Snowflake Schema",
-              "Creating and Managing Relationships",
-              "Fact Tables vs Dimension Tables",
-              "Best Practices for Model Design (Normalization/Denormalization)",
-              "Using Date Tables and Auto Date/Time",
-              
-            ],
-          },
-          ],
-      },
-      {
-        module: "Visualizations and Report Design",
-        duration: "2 weeks",
-        topics: [
-          {
-            name: "Visualizations and Report Design",
-            content: [
-              "Default & Common Visuals",
-              "Slicers, Filters, Drill-downs, Tooltips",
-              "Conditional Formatting & Interactions",
-              "Bookmarks, Selections & Navigation",
-              "Drillthrough Pages & Tooltip Pages",
-              "Using Custom Visuals from AppSource",
-              "Best Practices for Visual & UX Design",
-            ],
-          },
-          ],
-      },
-      {
-        module: "DAX (Data Analysis Expressions)",
-        duration: "1.5 weeks",
-        topics: [
-          {
-            name: "DAX (Data Analysis Expressions)",
-            content: [
-              "Calculated Columns vs Measures",
-              "Aggregation & Math Functions ",
-              "Logical Functions",
-              "Date & Time Intelligence Functions",
-              "Text or String Functions",
-               "Filter & Row Context",
-              "Advanced DAX Functions",
-              "DAX Performance Tuning",
-              
-            ],
-          },
-          ],
-      },
-      {
-        module: "Publishing, Sharing & Collaboration",
+        module: "Advanced Data Architecture & Storage in Azure",
         duration: "1 week",
         topics: [
           {
-            name: "Publishing, Sharing & Collaboration",
+            name: "Modern Data Architectures",
             content: [
-              "Publishing Reports to Power BI Service",
-              "Workspaces, Apps & Access Control",
-              "Scheduled & Incremental Data Refresh",
-              "Row-Level Security (RLS) & Object-Level Security (OLS)",
-              "Report Sharing, Subscriptions, Alerts",
-              "Gateway Installation & Management",
+              "Data Warehouse vs Data Lake vs Lakehouse",
+              "When to use each in real-world scenarios",
+              "Hybrid architectures & industry case studies",
             ],
           },
-          ],
+          {
+            name: "Azure Data Lake Gen2 Advanced Features",
+            content: [
+              "Hierarchical Namespace for folder-based storage",
+              "Lifecycle management policies",
+              "Zone design (Raw, Curated, Trusted layers)",
+            ],
+          },
+          {
+            name: "Partitioning, Indexing & File Optimization",
+            content: [
+              "Partition strategy for large datasets",
+              "Small file problem & compaction strategies",
+              "Indexing data in Azure Synapse & Data Lake",
+            ],
+          },
+          {
+            name: "Access Control Lists & Security",
+            content: [
+              "Setting ACLs on ADLS Gen2 folders/files",
+              "RBAC roles & granular security",
+              "Managed identities for secure connections",
+            ],
+          },
+          {
+            name: "Data Security & Encryption",
+            content: [
+              "Encryption at rest with SSE & CMK",
+              "Encryption in transit with TLS",
+              "Key rotation policies",
+            ],
+          },
+        ],
       },
       {
-        module: "Advanced Analytics & Integration",
+        module: "Azure Data Factory (ADF) - Advanced Orchestration",
         duration: "1 week",
         topics: [
           {
-            name: "Advanced Analytics & Integration",
+            name: "Designing Complex ETL/ELT Pipelines",
             content: [
-              "Dataflows and Reusable ETL in Service",
-              "Deployment Pipelines",
-              "Integration with Azure ML & Cognitive Services",
-              "Power automate flows creation for datasets refresh",
-              "Intake & Survey Power apps Forms creation",
-             
+              "Advanced pipeline orchestration patterns",
+              "Reusable activities & templates",
             ],
           },
-          ],
+          {
+            name: "Parameterization & Dynamic Content",
+            content: [
+              "Expressions & functions in pipelines",
+              "Metadata-driven parameterization",
+            ],
+          },
+          {
+            name: "Metadata-Driven Pipelines",
+            content: [
+              "Config-driven ETL approach",
+              "Dynamic source-to-target mapping",
+            ],
+          },
+          {
+            name: "Error Handling & Logging",
+            content: [
+              "Try-Catch implementation in ADF",
+              "Custom logging using Azure Monitor",
+            ],
+          },
+          {
+            name: "Monitoring & Alerts",
+            content: [
+              "Built-in monitoring features",
+              "Alerts with Azure Monitor & Log Analytics",
+            ],
+          },
+          {
+            name: "CI/CD with ADF",
+            content: [
+              "Git integration with ADF",
+              "Dev, Test, Prod deployment strategy",
+              "Automated release pipelines",
+            ],
+          },
+        ],
       },
       {
-        module: "SQL",
-        duration: "1.5 weeks",
+        module: "Real-Time Data Processing with Event Hubs & Stream Analytics",
+        duration: "1 week",
         topics: [
           {
-            name: "SQL",
+            name: "Event Hubs & IoT Hub Advanced Ingestion",
+            content: ["Partitioning in Event Hubs", "IoT telemetry streaming"],
+          },
+          {
+            name: "Stream Analytics SQL - Aggregations & Joins",
             content: [
-              "Table Creation, Insert, Update, Delete data, Select",
-              "Clause Operations (Where, Group by, Having, Order by)",
-              "Operators (IN, LIKE, ISNULL, Union)",
-              "Joins",
-              "Sub Queries (Inner Query & Outer Query)",
-              "Data Modeling using SQL",
-              "Views Creation",
-              "Analytical Functions (Rank, Dense_Rank, Partition by)",
+              "Joining streams & reference data",
+              "Advanced aggregations",
+            ],
+          },
+          {
+            name: "Windows in Stream Processing",
+            content: [
+              "Tumbling, Sliding, Hopping windows",
+              "Use cases like fraud detection & IoT monitoring",
+            ],
+          },
+          {
+            name: "Real-Time Dashboards",
+            content: [
+              "Stream output to Power BI",
+              "Stream to Cosmos DB for real-time queries",
+            ],
+          },
+          {
+            name: "Performance Optimization",
+            content: [
+              "Scaling Stream Analytics jobs",
+              "Query performance best practices",
+            ],
+          },
+        ],
+      },
+      {
+        module: "Azure Databricks for Data Engineering",
+        duration: "1 week",
+        topics: [
+          {
+            name: "Advanced Spark Optimization",
+            content: [
+              "Shuffle partitions & skew handling",
+              "Caching strategies",
+              "Adaptive query execution",
+            ],
+          },
+          {
+            name: "Delta Lake Advanced Features",
+            content: [
+              "ACID transactions",
+              "Data versioning & rollback",
+              "Schema enforcement & evolution",
+            ],
+          },
+          {
+            name: "Medallion Architecture",
+            content: [
+              "Bronze, Silver, Gold layers",
+              "Best practices for data pipeline layering",
+              "Incremental data loads",
+            ],
+          },
+          {
+            name: "Cluster Optimization",
+            content: [
+              "Autoscaling & job clusters",
+              "Optimized runtime versions",
+            ],
+          },
+          {
+            name: "MLflow for Model Management",
+            content: [
+              "Tracking experiments",
+              "Registering & deploying ML models",
+            ],
+          },
+          {
+            name: "Integration with ADF & Event Hubs",
+            content: [
+              "Orchestrating Databricks notebooks from ADF",
+              "Streaming data ingestion from Event Hubs",
+            ],
+          },
+        ],
+      },
+      {
+        module: "Synapse Analytics - Advanced Data Modelling & Queries",
+        duration: "1 week",
+        topics: [
+          {
+            name: "Dedicated vs Serverless SQL Pools",
+            content: ["When to use each", "Cost & performance comparison"],
+          },
+          {
+            name: "Materialized Views & Caching",
+            content: [
+              "Performance boost with materialized views",
+              "Managing cache refresh policies",
+            ],
+          },
+          {
+            name: "Workload Management",
+            content: [
+              "Resource classes & workload groups",
+              "Isolating workloads for performance",
+            ],
+          },
+          {
+            name: "Query Optimization",
+            content: [
+              "Statistics & distribution strategies",
+              "Best practices for large-scale queries",
+            ],
+          },
+          {
+            name: "PolyBase & External Tables",
+            content: [
+              "Loading external big data",
+              "Querying from external sources",
+            ],
+          },
+          {
+            name: "Real-Time Analytics",
+            content: [
+              "Synapse + Power BI integration",
+              "Near real-time pipelines with Synapse",
+            ],
+          },
+        ],
+      },
+      {
+        module: "Security, Governance & Compliance in Azure Data Solutions",
+        duration: "1 week",
+        topics: [
+          {
+            name: "Encryption & Key Management",
+            content: [
+              "Transparent Data Encryption",
+              "Azure Key Vault integration",
+            ],
+          },
+          {
+            name: "Advanced Access Controls",
+            content: ["RBAC vs ABAC", "Hierarchical security models"],
+          },
+          {
+            name: "Data Masking & Row-Level Security",
+            content: [
+              "Dynamic data masking",
+              "Row-level & column-level security",
+            ],
+          },
+          {
+            name: "Data Cataloging with Azure Purview",
+            content: ["Data lineage", "Glossary & metadata management"],
+          },
+          {
+            name: "Compliance Frameworks",
+            content: [
+              "GDPR, HIPAA, SOC 2 in Azure",
+              "Implementing compliance controls",
+            ],
+          },
+        ],
+      },
+      {
+        module: "Monitoring, Optimization & Automation",
+        duration: "1 week",
+        topics: [
+          {
+            name: "Monitoring Data Workloads",
+            content: ["Azure Monitor dashboards", "Log Analytics queries"],
+          },
+          {
+            name: "Query Performance Tuning",
+            content: [
+              "Synapse queries optimization",
+              "Spark jobs performance tuning",
+            ],
+          },
+          {
+            name: "Cost Optimization",
+            content: [
+              "Reserved instances vs pay-as-you-go",
+              "Storage lifecycle management",
+            ],
+          },
+          {
+            name: "Infrastructure as Code",
+            content: ["ARM templates", "Bicep deployment scripts"],
+          },
+          {
+            name: "CI/CD for Data Pipelines",
+            content: [
+              "Azure DevOps pipelines",
+              "Automated testing for data flows",
+            ],
+          },
+          {
+            name: "Automation of Deployments",
+            content: [
+              "Scheduling deployments",
+              "Blue-green deployment strategies",
+            ],
+          },
+        ],
+      },
+      {
+        module: "Capstone Project - Enterprise Data Engineering Solution",
+        duration: "1 week",
+        topics: [
+          {
+            name: "Requirement Gathering & Design",
+            content: [
+              "Understand business use case",
+              "Choose right architecture",
+            ],
+          },
+          {
+            name: "Data Ingestion (Batch + Real-Time)",
+            content: [
+              "Batch ingestion from SQL & APIs",
+              "Real-time ingestion from IoT/Event Hubs",
+            ],
+          },
+          {
+            name: "Lakehouse Implementation",
+            content: [
+              "Using Databricks Delta Lake",
+              "Building medallion layers",
+            ],
+          },
+          {
+            name: "Orchestrating with ADF",
+            content: [
+              "Pipeline for batch + real-time flows",
+              "Monitoring & logging",
+            ],
+          },
+          {
+            name: "Security & Governance",
+            content: ["Apply security policies", "Purview for data lineage"],
+          },
+          {
+            name: "Real-Time Analytics",
+            content: ["Synapse + Power BI dashboards", "Low latency reporting"],
+          },
+          {
+            name: "CI/CD & Documentation",
+            content: [
+              "Automating deployments",
+              "Creating architecture documentation",
             ],
           },
         ],
@@ -2640,22 +2827,22 @@ const courseData = {
       bio: "Priya specializes in data analytics with extensive experience in Power BI and has trained over 150 professionals.",
     },
     projects: [
-      "E-commerce Sales Analysis",
-      "Human Resources Dashboard",
-      "Finance Dashboard",
-      "360° Business Intelligence Dashboard",
-      "Insurance Insights Dashboard",
+      "Real-Time IoT Data Pipeline",
+      "Enterprise Data Lakehouse Implementation",
+      "Customer 360 Analytics Platform",
+      "Financial Fraud Detection System",
+      "Retail Demand Forecasting Solution",
     ],
     projectsDetails: [
-      "Objective: Analyze customer behavior and order trends for an online store.",
-      "Objective: Track employee performance, attrition, and demographics.",
-      "Objective: Create a P&L statement with monthly and yearly comparisons.",
-      "Objective: Build an end-to-end BI solution for a fictional company.",
-      "Objective: Analyze and visualize insurance metrics for data-driven decisions.",
+      "Build a streaming data pipeline using Event Hubs, Databricks, and Power BI dashboards.",
+      "Design and implement a Lakehouse with ADLS Gen2, Delta Lake, and Databricks pipelines.",
+      "Create a unified view of customer data across CRM, ERP, and web sources with Synapse.",
+      "Stream and analyze transactions in real time to identify anomalies and trigger alerts.",
+      "Process sales data, apply forecasting models with MLflow, and publish insights to Power BI.",
     ],
   },
 
-  "alteryx": {
+  alteryx: {
     title: "Alteryx <span class='text-yellow-400'>Designer</span>",
     description:
       "Master Alteryx Designer to automate workflows, blend data, and create powerful analytics solutions with ease.",
@@ -2739,13 +2926,12 @@ const courseData = {
               "Alteryx File Types: .yxmd, .yxdb, .yxmc, .yxwz",
             ],
           },
-           ],
+        ],
       },
       {
         module: " Input & Output Tools",
         duration: "0.5 week",
         topics: [
-
           {
             name: "Input & Output Tools",
             content: [
@@ -2757,13 +2943,12 @@ const courseData = {
               "Date & Time Formats and Parsing",
             ],
           },
-           ],
+        ],
       },
       {
         module: " Data Preparation Tools",
         duration: "1 week",
         topics: [
-
           {
             name: "Data Preparation Tools",
             content: [
@@ -2778,13 +2963,12 @@ const courseData = {
               "Generate Rows (for looping/date expansion)",
             ],
           },
-           ],
+        ],
       },
       {
         module: " Filtering, Sorting & Sampling",
         duration: "0.5 week",
         topics: [
-
           {
             name: "Filtering, Sorting & Sampling",
             content: [
@@ -2796,13 +2980,12 @@ const courseData = {
               "Conditional Row Filtering (via Formula + Filter)",
             ],
           },
-           ],
+        ],
       },
       {
         module: " Joins and Data Blending",
         duration: "1 week",
         topics: [
-
           {
             name: "Joins and Data Blending",
             content: [
@@ -2815,14 +2998,12 @@ const courseData = {
               "Make Group Tool (used in Fuzzy Matching)",
             ],
           },
-           ],
+        ],
       },
       {
         module: " Data Transformations",
         duration: "1 week",
         topics: [
-
-
           {
             name: "Data Transformations",
             content: [
@@ -2834,13 +3015,12 @@ const courseData = {
               "Field Info Tool (Metadata Exploration)",
             ],
           },
-           ],
+        ],
       },
       {
         module: " Data Engineering Tools (Important Additions)",
         duration: "1 week",
         topics: [
-
           {
             name: "Data Engineering Tools (Important Additions)",
             content: [
@@ -2854,13 +3034,12 @@ const courseData = {
               "Data Connectors (Azure, AWS, Snowflake, Salesforce, SharePoint)",
             ],
           },
- ],
+        ],
       },
       {
         module: " Macros, Analytic Apps & Reporting",
         duration: "0.5 week",
         topics: [
-
           {
             name: "Macros (Reusable Logic)",
             content: [
@@ -2938,8 +3117,8 @@ const courseData = {
     students: "1500+",
     rating: 4.9,
     reviews: 900,
-    brochure: "Excel.pdf",
-    outline: "Excel.pdf",
+    brochure: "Microsoft Excel.pdf",
+    outline: "Microsoft Excel.pdf",
     image: "/excel.jpg",
     highlights: [
       "Master Excel formatting, shortcuts, and worksheet management.",
@@ -3011,13 +3190,12 @@ const courseData = {
               "Conditional Formatting",
             ],
           },
-           ],
+        ],
       },
       {
         module: " Tables, Charts & Proofing ",
         duration: "1 week",
-        topics: [         
-
+        topics: [
           {
             name: "Tables, Illustrations and Charts",
             content: [
@@ -3047,13 +3225,12 @@ const courseData = {
               "Inserting and Editing Comments",
             ],
           },
-           ],
+        ],
       },
       {
         module: " Page Setup & Data Tools ",
         duration: "1 week",
-        topics: [         
-
+        topics: [
           {
             name: "Page Setup, Scale to Fit and Arrange",
             content: [
@@ -3082,14 +3259,12 @@ const courseData = {
               "Highlighting the Invalid data",
             ],
           },
-           ],
+        ],
       },
       {
         module: " Data Analysis, Functions & Power Query",
         duration: "1 week",
-        topics: [         
-
-          
+        topics: [
           {
             name: "Data Tools and Outline",
             content: [
@@ -3269,13 +3444,12 @@ const courseData = {
               "Activity on FOR EACH NEXT LOOP",
             ],
           },
-           ],
+        ],
       },
       {
         module: " VBA Advanced Features ",
         duration: "1 week",
-        topics: [         
-
+        topics: [
           {
             name: "Data Segregation",
             content: [
@@ -3321,7 +3495,7 @@ const courseData = {
               "Working with different sql and access db objects",
             ],
           },
-          ],
+        ],
       },
       {
         module: " VBA Forms, Error Handling & Automation ",
@@ -3387,7 +3561,7 @@ const courseData = {
     ],
   },
 
-  "tableau": {
+  tableau: {
     title: "Tableau <span class='text-yellow-400'>Developer</span>",
     description:
       "Master Tableau to connect data, build visualizations, design dashboards, and deploy impactful BI solutions.",
@@ -3488,18 +3662,17 @@ const courseData = {
               "Customized Calculations",
             ],
           },
-           ],
+        ],
       },
       {
         module: " Core Calculations in Tableau",
         duration: "1 week",
         topics: [
-
           {
             name: "Advanced Calculations",
             content: ["Strings", "Floor and Ceiling", "Dates"],
           },
-           ],
+        ],
       },
       {
         module: " Filters & Parameters",
@@ -3521,7 +3694,7 @@ const courseData = {
               "Nested Sorting",
             ],
           },
-           ],
+        ],
       },
       {
         module: " Grouping & Formatting",
@@ -3535,7 +3708,7 @@ const courseData = {
             name: "Formatting",
             content: ["Colours", "Custom Colours", "Highlighters"],
           },
-           ],
+        ],
       },
       {
         module: " Maps & Geographic Analysis",
@@ -3545,7 +3718,7 @@ const courseData = {
             name: "Map Basics",
             content: ["Layers", "Editing", "Customizing"],
           },
-          ],
+        ],
       },
       {
         module: " Visualizations",
@@ -3561,7 +3734,7 @@ const courseData = {
               "Trend Charts",
             ],
           },
-          ],
+        ],
       },
       {
         module: " Dashboards",
@@ -3571,7 +3744,7 @@ const courseData = {
             name: "Introduction to Dashboards",
             content: ["Designing", "Actions", "Stories"],
           },
-          ],
+        ],
       },
       {
         module: " Server & Deployment",
@@ -3617,7 +3790,7 @@ const courseData = {
       "Objective: Analyze and visualize insurance metrics for data-driven decisions.",
     ],
   },
-  "sqlCourse": {
+  sqlCourse: {
     title: "SQL <span class='text-yellow-400'>Developer</span>",
     description:
       "Master SQL fundamentals to advanced analytics with hands-on projects, building strong skills for data-driven careers.",
@@ -3722,13 +3895,12 @@ const courseData = {
               "Set Operators: UNION, UNION ALL, INTERSECT, EXCEPT",
             ],
           },
-           ],
+        ],
       },
       {
         module: " SQL Constraints & Data Handling ",
         duration: "one week",
-        topics: [         
-
+        topics: [
           {
             name: "SQL Constraints",
             content: [
@@ -3758,13 +3930,12 @@ const courseData = {
               "Scalar Subqueries in SELECT/WHERE",
             ],
           },
-           ],
+        ],
       },
       {
         module: " Joins & Relationships ",
         duration: "one week",
-        topics: [         
-
+        topics: [
           {
             name: "Joins in SQL",
             content: [
@@ -3791,13 +3962,12 @@ const courseData = {
               "Running Totals, Moving Averages",
             ],
           },
-           ],
+        ],
       },
       {
         module: " Data Modeling & Best Practices ",
         duration: "one week",
-        topics: [         
-
+        topics: [
           {
             name: "Data Modeling & Best Practices",
             content: [
@@ -3820,12 +3990,12 @@ const courseData = {
               "Index Impact on Performance",
             ],
           },
-          ],
+        ],
       },
       {
         module: " Procedural SQL ",
         duration: "0.5 week",
-        topics: [ 
+        topics: [
           {
             name: "Stored Procedures and Triggers",
             content: [
@@ -3838,13 +4008,12 @@ const courseData = {
               "Use Cases in Auditing or Data Validations",
             ],
           },
-           ],
+        ],
       },
       {
         module: " Advanced SQL Concepts ",
         duration: "0.5 week",
-        topics: [         
-
+        topics: [
           {
             name: "Common Table Expressions (CTEs)",
             content: [
@@ -3865,13 +4034,12 @@ const courseData = {
               "Error Handling using TRY...CATCH (SQL Server)",
             ],
           },
-           ],
+        ],
       },
       {
         module: " Analytical SQL ",
         duration: "0.5 week",
-        topics: [         
-
+        topics: [
           {
             name: "Analysis Tasks",
             content: [
@@ -3883,19 +4051,17 @@ const courseData = {
               "SQL for Power BI/Tableau Backends",
             ],
           },
-           ],
+        ],
       },
       {
         module: " Real-World Applications ",
         duration: "0.5 week",
-        topics: [         
-
+        topics: [
           {
             name: "Real-World Applications",
             content: [
               "Real-World Reporting Tasks",
               "Real-World Analysis Projects",
-            
             ],
           },
         ],
@@ -3924,7 +4090,7 @@ const courseData = {
     ],
   },
 
-  "python": {
+  python: {
     title: "Analytics with <span class='text-yellow-400'>Python</span> ",
     description:
       "Master Python for data analysis, visualization, and real-world reporting with hands-on projects and practical skills.",
@@ -4017,13 +4183,12 @@ const courseData = {
               "Basic Exception Handling: try, except, finally",
             ],
           },
-           ],
+        ],
       },
       {
         module: " Data Handling in Python ",
         duration: "One week",
-        topics: [         
-
+        topics: [
           {
             name: "Working with Data Files",
             content: [
@@ -4044,13 +4209,12 @@ const courseData = {
               "Time-based grouping (monthly, weekly, daily)",
             ],
           },
-           ],
+        ],
       },
       {
         module: " Core Data Analysis with Pandas ",
         duration: "One week",
-        topics: [         
-
+        topics: [
           {
             name: "Core Pandas for Data Analysis",
             content: [
@@ -4070,7 +4234,7 @@ const courseData = {
               "Changing column data types with .astype()",
             ],
           },
-          ],
+        ],
       },
       {
         module: " Data Aggregation & Transformation ",
@@ -4098,14 +4262,12 @@ const courseData = {
               "Use case: Merging sales with region/category/master data",
             ],
           },
-           ],
+        ],
       },
       {
         module: " Exploratory Data Analysis (EDA) ",
         duration: "0.5 week",
-        topics: [         
-
-          
+        topics: [
           {
             name: "Exploratory Data Analysis (EDA)",
             content: [
@@ -4116,12 +4278,12 @@ const courseData = {
               "Detecting patterns before visualization",
             ],
           },
-           ],
+        ],
       },
       {
         module: " Visualization Techniques ",
         duration: "0.5 week",
-        topics: [ 
+        topics: [
           {
             name: "Visualization With Matplotlib & Seaborn",
             content: [
@@ -4136,12 +4298,12 @@ const courseData = {
               "Plot styling with themes and palettes",
             ],
           },
-           ],
+        ],
       },
       {
         module: " Numerical Computations ",
         duration: "0.5 week",
-        topics: [ 
+        topics: [
           {
             name: "Numpy For Numeric Operations",
             content: [
@@ -4153,12 +4315,12 @@ const courseData = {
               "Use in performance optimization with Pandas",
             ],
           },
-          ],
+        ],
       },
       {
         module: " Applied Reporting & Projects ",
         duration: "0.5 week",
-        topics: [ 
+        topics: [
           {
             name: "Real-World Reporting Tasks",
             content: [
@@ -4207,8 +4369,8 @@ const courseData = {
     students: "1500+",
     rating: 4.9,
     reviews: 750,
-    brochure: "aws.pdf",
-    outline: "aws.pdf",
+    brochure: "AWS.pdf",
+    outline: "AWS.pdf",
     image: "/DevOps.png",
     highlights: [
       "Learn to design and deploy AWS infrastructure with Terraform automation.",
@@ -4273,7 +4435,6 @@ const courseData = {
               "Overview of AWS services and their role in DevOps.",
             ],
           },
-          
 
           {
             name: "Linux Fundamentals & Networking",
@@ -4284,13 +4445,12 @@ const courseData = {
               "Managing Linux networking configurations.",
             ],
           },
-           ],
+        ],
       },
       {
         module: " Shell Scripting & AWS Services Overview ",
         duration: "1.5 weeks",
         topics: [
-
           {
             name: "Shell Scripting",
             content: [
@@ -4299,7 +4459,7 @@ const courseData = {
               "Scripting for automation and task scheduling.",
             ],
           },
-         
+
           {
             name: "AWS Services Overview",
             content: [
@@ -4315,13 +4475,12 @@ const courseData = {
               "Creating and managing AWS Lambda functions.",
             ],
           },
-           ],
+        ],
       },
       {
         module: " Terraform & CI/CD ",
         duration: "1.5 weeks",
         topics: [
-
           {
             name: "AWS CLI and Infrastructure as Code with Terraform",
             content: [
@@ -4331,7 +4490,6 @@ const courseData = {
               "Creating and managing AWS resources using Terraform.",
             ],
           },
-           
 
           {
             name: "Continuous Integration and Continuous Deployment (CI/CD)",
@@ -4343,13 +4501,12 @@ const courseData = {
               "Building CI/CD pipelines for application deployment.",
             ],
           },
-           ],
+        ],
       },
       {
         module: " Ansible ",
         duration: "1.5 weeks",
         topics: [
-
           {
             name: "Automation with Ansible",
             content: [
@@ -4359,13 +4516,12 @@ const courseData = {
               "Automating infrastructure provisioning and application deployment.",
             ],
           },
-           ],
+        ],
       },
       {
         module: " Docker ",
         duration: "1.5 weeks",
         topics: [
-
           {
             name: "Containerization with Docker",
             content: [
@@ -4375,13 +4531,12 @@ const courseData = {
               "Docker Compose for multi-container applications.",
             ],
           },
-           ],
+        ],
       },
       {
         module: " Monitoring Tools ",
         duration: "1 week",
         topics: [
-
           {
             name: "Monitoring Tools",
             content: [
@@ -4401,13 +4556,12 @@ const courseData = {
               "Alerting and Notification Strategies",
             ],
           },
-           ],
+        ],
       },
       {
         module: " Kubernetes & Projects ",
         duration: "1 week",
         topics: [
-
           {
             name: "Kubernetes and Container Orchestration (Optional)",
             content: [
@@ -4416,7 +4570,6 @@ const courseData = {
               "Deploying and managing applications on Kubernetes clusters.",
             ],
           },
-          
 
           {
             name: "Course Project and Hands-On Labs",
@@ -4682,13 +4835,12 @@ const courseData = {
               "What is Azure Defender?",
             ],
           },
-           ],
+        ],
       },
       {
         module: " Azure Compute & Storage ",
         duration: "2 weeks",
-        topics: [         
-
+        topics: [
           {
             name: "Azure Virtual Machines and Scale set",
             content: [
@@ -4716,13 +4868,12 @@ const courseData = {
               "What is Azure CDN (Content Delivery Network)?",
             ],
           },
-           ],
+        ],
       },
       {
         module: " Networking & Connectivity ",
         duration: "1 week",
-        topics: [         
-
+        topics: [
           {
             name: "Virtual Networking",
             content: [
@@ -4748,13 +4899,12 @@ const courseData = {
               "What is Point-to-Site connection?",
             ],
           },
-          ],
+        ],
       },
       {
         module: " Monitoring, Backup & Recovery ",
         duration: "1 week",
         topics: [
-
           {
             name: "Monitoring",
             content: [
@@ -4765,7 +4915,6 @@ const courseData = {
               "How can I use Application Insights?",
             ],
           },
-           
 
           {
             name: "Data Protection",
@@ -4788,13 +4937,12 @@ const courseData = {
               "What is Azure Front Door?",
             ],
           },
-          ],
+        ],
       },
       {
         module: " Identity & Application Services ",
         duration: "1 week",
         topics: [
-
           {
             name: "Azure Active Directory",
             content: [
@@ -4907,13 +5055,12 @@ const courseData = {
               "Terraform Provisions",
             ],
           },
-           ],
+        ],
       },
       {
         module: " Azure DevOps Services ",
         duration: "2 weeks",
-        topics: [         
-
+        topics: [
           {
             name: "Azure DevOps Services (VSTS)",
             content: [
@@ -4980,13 +5127,12 @@ const courseData = {
               "Azure Pipeline deployment groups",
             ],
           },
-           ],
+        ],
       },
       {
         module: " Containers & Orchestration ",
         duration: "1 week",
-        topics: [ 
-
+        topics: [
           {
             name: "Docker",
             content: [
@@ -5038,14 +5184,12 @@ const courseData = {
       "Monitoring Azure Cloud for a BPO",
       "Containerizing Various Frameworks & Nginx Application Using Docker",
       "Implementing CI/CD Pipelines with Azure DevOps",
-      
     ],
     projectsDetails: [
       "The project allows learners to handle infrastructure solutions for the organization’s Azure cloud. Learners also get hands-on experience with Azure infrastructure architecture and optimizing Windows Server workloads.",
       "The learners get real-world insights into monitoring Azure cloud for a BPO. Theymanage Azure infrastructure for an outsourcing company and configure, deployand manage storage solutions and work with Azure Virtual Machines.",
       "Use Docker to successfully integrate the software projects deployed in diverseenvironments. Get hands-on learning experience in setting up Node.Js on Dockercontainers along with pulling NGINX images from Docker Hub, etc.",
       "Learners design and automate CI/CD pipelines using Azure DevOps, configuring repos, build pipelines, and deploying applications seamlessly to Azure.",
-     
     ],
   },
   "azure-admin": {
@@ -5062,7 +5206,7 @@ const courseData = {
     rating: 4.7,
     reviews: 160,
     brochure: "AZURE.pdf",
-    outline: "AZURE.pdf",
+    outline: "Azure Admin.pdf",
     image: "/azurec.jpg",
     highlights: [
       "Understand Microsoft Azure fundamentals, governance, and compliance essentials.",
@@ -5143,13 +5287,12 @@ const courseData = {
               "What is Azure Defender?",
             ],
           },
-           ],
+        ],
       },
       {
         module: " Compute Services ",
         duration: "One week",
-        topics: [         
-
+        topics: [
           {
             name: "Azure Virtual Machines and Scale set",
             content: [
@@ -5162,7 +5305,7 @@ const courseData = {
               "What are Virtual Machine Scale sets?",
             ],
           },
-           {
+          {
             name: "Azure App Service (Web Apps)",
             content: [
               "What are App Service Environments (ASE)?",
@@ -5172,13 +5315,12 @@ const courseData = {
               "How do I create an App Service Web App?",
             ],
           },
-           ],
+        ],
       },
       {
         module: " Storage & Backup ",
         duration: "One week",
-        topics: [         
-
+        topics: [
           {
             name: "Azure Storage",
             content: [
@@ -5212,13 +5354,12 @@ const courseData = {
               "AWS to Azure",
             ],
           },
-           ],
+        ],
       },
       {
         module: " Networking Essentials ",
         duration: "One week",
-        topics: [         
-
+        topics: [
           {
             name: "Virtual Networking",
             content: [
@@ -5244,7 +5385,7 @@ const courseData = {
               "What is Point-to-Site connection?",
             ],
           },
-           {
+          {
             name: "Network Traffic Management",
             content: [
               "How does Network Routing work in Azure?",
@@ -5254,12 +5395,12 @@ const courseData = {
               "What is Azure Front Door?",
             ],
           },
-           ],
+        ],
       },
       {
         module: " Security & Identity ",
         duration: "One week",
-        topics: [   
+        topics: [
           {
             name: "Azure Active Directory",
             content: [
@@ -5274,7 +5415,6 @@ const courseData = {
               "How can I use Azure AD Connect to migrate On-prem AD users to Azure AD?",
             ],
           },
-         
 
           {
             name: "Authentication and Data Security",
@@ -5284,15 +5424,13 @@ const courseData = {
               "Key Vault",
               "Azure Disk Encryption",
             ],
-          },      
- ],
+          },
+        ],
       },
       {
         module: " Monitoring & Management ",
         duration: "One week",
-        topics: [         
-
-
+        topics: [
           {
             name: "Monitoring",
             content: [
@@ -5303,7 +5441,7 @@ const courseData = {
               "How can I use Application Insights?",
             ],
           },
-           {
+          {
             name: "Azure Automation",
             content: [
               "Automation Account",
@@ -5312,13 +5450,12 @@ const courseData = {
               "Scheduling patching",
             ],
           },
- ],
+        ],
       },
       {
         module: " Data Protection ",
         duration: "One week",
-        topics: [         
-
+        topics: [
           {
             name: "Data Protection",
             content: [
@@ -5329,28 +5466,19 @@ const courseData = {
               "How can I perform Azure File share Backup?",
             ],
           },
- ],
+        ],
       },
       {
         module: " Real-World Implementation & Hands-On ",
         duration: "One week",
-        topics: [         
-
+        topics: [
           {
             name: "Real-World Implementation & Hands-On",
             content: [
               "Integrating services across modules",
               "End-to-end project on Azure setup",
-             
             ],
           },
-         
-
-          
-
-         
-
-          
         ],
       },
     ],
@@ -5389,8 +5517,8 @@ const courseData = {
     students: "400+",
     rating: 4.6,
     reviews: 150,
-    brochure: "scm.pdf",
-    outline: "scm.pdf",
+    brochure: "Oracle SCM.pdf",
+    outline: "Oracle SCM.pdf",
     image: "/scm.jpg",
     highlights: [
       "Gain a solid foundation in Oracle Fusion SCM Cloud concepts and navigation.",
@@ -6063,11 +6191,11 @@ const courseData = {
     price: "₹35,000",
     originalPrice: "₹45,000",
     category: "📊 Analytics",
-    students: "500+",
+    students: "700+",
     rating: 4.9,
-    reviews: 450,
-    brochure: "Data Analytics - Outline.pdf",
-    outline: "Data Analytics - Outline.pdf",
+    reviews: 500,
+    brochure: "Data Analytics.pdf",
+    outline: "Data Analytics.pdf",
     image: "/DAA.jpg",
     highlights: [
       "Master Excel essentials, formulas, charts, and data analysis tools.",
@@ -6115,9 +6243,7 @@ const courseData = {
         },
       ],
     },
-    nextBatch: [
-      { starts: "Every Two Months", mode: "Classroom-Bangalore" },
-    ],
+    nextBatch: [{ starts: "Every Two Months", mode: "Classroom-Bangalore" }],
     qualification: " B.TECH/B.COM/BSC/MSC/MCA",
     eligibleLearners: "Freshers / IT & Non-IT Professionals",
     syllabus: [
@@ -6322,7 +6448,7 @@ const courseData = {
               "Logical Functions",
               "Date & Time Intelligence Functions",
               "Text or String Functions",
-               "Filter & Row Context",
+              "Filter & Row Context",
               "Advanced DAX Functions",
               "DAX Performance Tuning",
             ],
@@ -6338,7 +6464,6 @@ const courseData = {
               "Gateway Installation & Management",
             ],
           },
-          
         ],
       },
       {
@@ -6563,7 +6688,7 @@ const courseData = {
               "Render Tool (to PDF, Excel, HTML)",
               "Email Tool (attach and send reports via SMTP)",
               "Report Footer/Header",
-              ],
+            ],
           },
         ],
       },
@@ -6857,82 +6982,63 @@ const courseData = {
               "Automating a simple monthly reporting task",
             ],
           },
-          ],
+        ],
       },
       {
         module: " Soft Skills ",
         duration: "1 week",
-        topics: [         
-
+        topics: [
           {
             name: "Communication Skills",
             content: [
               "Improve verbal, written, and presentation abilities for workplace impact.",
-            
-            
             ],
           },
-           {
+          {
             name: "Teamwork & Collaboration",
             content: [
               "Work effectively in groups and cross-functional environments.",
-            
-            
             ],
           },
           {
             name: "Time Management",
             content: [
               "Prioritize tasks, set goals, and manage deadlines efficiently.",
-            
-            
             ],
           },
           {
             name: "Problem-Solving & Critical Thinking",
             content: [
               "Approach challenges with logical and innovative solutions.",
-            
-            
             ],
           },
           {
             name: "Adaptability & Flexibility",
-            content: [
-              "Adjust quickly to changing tasks and environments.",
-            
-            
-            ],
+            content: ["Adjust quickly to changing tasks and environments."],
           },
           {
             name: "Professional Etiquette",
             content: [
               "Build confidence with workplace behavior, email writing, and meeting etiquette.",
-            
-            
             ],
           },
           {
             name: "Interview Preparation",
             content: [
               "Practice mock interviews, resume building, and self-introduction skills.",
-            
-            
             ],
           },
-          ],
+        ],
       },
       {
         module: " Real-World Projects ",
         duration: "1 week",
-        topics: [         
-
+        topics: [
           {
             name: "Real-World Applications",
             content: [
               "Real-World Reporting Tasks",
               "Real-World Analysis Projects",
-            
             ],
           },
         ],
@@ -6960,7 +7066,7 @@ const courseData = {
       "Clean dataset, summary statistics, and visualizations of sales by product, category, and month.",
     ],
   },
-  "Tableau": {
+  Tableau: {
     title: "Tableau <span class='text-yellow-400'>Developer</span>",
     description:
       "Master data visualization and business intelligence with Tableau",
@@ -7165,7 +7271,7 @@ const courseData = {
       "Build a blogging platform for creating, editing, deleting posts with React Router, forms, and CRUD operations.",
     ],
   },
-  "Cybersecurity": {
+  Cybersecurity: {
     title: "Cyber<span class='text-yellow-400'>Security</span>",
     description:
       "Master web, network, and API security with hands-on tools, vulnerability testing, and real-world defense strategies.",
@@ -7178,8 +7284,8 @@ const courseData = {
     students: "700+",
     rating: 4.9,
     reviews: 350,
-    brochure: "cyber.pdf",
-    outline: "cyber.pdf",
+    brochure: "CyberSecurity.pdf",
+    outline: "CyberSecurity.pdf",
     image: "/cyber.jpg",
     highlights: [
       "Learn core concepts of web application security testing.",
@@ -7227,9 +7333,7 @@ const courseData = {
         },
       ],
     },
-    nextBatch: [
-      { starts: "Every Two Months", mode: "Online " },
-    ],
+    nextBatch: [{ starts: "Every Two Months", mode: "Online " }],
     qualification: " B.TECH/BSC/BCA/MSC/MCA",
     eligibleLearners: "Freshers / IT & Non-IT Professionals",
     syllabus: [
@@ -7264,13 +7368,12 @@ const courseData = {
               "OWASP Top 10 Vulnerabilities",
             ],
           },
-           ],
+        ],
       },
       {
         module: " Web Application Security Risks & Vulnerability Checks",
         duration: "1 week",
-        topics: [         
-
+        topics: [
           {
             name: "Web Application Security Risks & Vulnerability Checks",
             content: [
@@ -7293,13 +7396,12 @@ const courseData = {
               "Credentials Transport Over Unencrypted Channels",
             ],
           },
-           ],
+        ],
       },
       {
         module: " Authentication & Authorization Security Testing ",
         duration: "1 week",
-        topics: [         
-
+        topics: [
           {
             name: "Authentication & Authorization Security Testing",
             content: [
@@ -7320,13 +7422,12 @@ const courseData = {
               "Privilege Escalation",
             ],
           },
-           ],
+        ],
       },
       {
         module: " Web Application Security Testing Modules ",
         duration: "1 week",
-        topics: [         
-
+        topics: [
           {
             name: "Web Application Security Testing Modules",
             content: [
@@ -7351,13 +7452,12 @@ const courseData = {
               "Risk Rating and Report Preparation",
             ],
           },
-           ],
+        ],
       },
       {
         module: " Tools Covered ",
         duration: "1 week",
-        topics: [         
-
+        topics: [
           {
             name: "Tools Covered",
             content: [
@@ -7368,13 +7468,12 @@ const courseData = {
               "Kali Linux - Introduction",
             ],
           },
-           ],
+        ],
       },
       {
         module: " Network Security Testing ",
         duration: "1 week",
-        topics: [         
-
+        topics: [
           {
             name: "Network Security Testing",
             content: [
@@ -7395,13 +7494,12 @@ const courseData = {
               "Network Security Testing Tools: Nmap, Nessus, SSLScan/Sslyze",
             ],
           },
-           ],
+        ],
       },
       {
         module: " Web Services Security Testing ",
         duration: "1 week",
-        topics: [         
-
+        topics: [
           {
             name: "Web Services Security Testing",
             content: [],
@@ -7444,8 +7542,8 @@ const courseData = {
     students: "1000+",
     rating: 4.7,
     reviews: 550,
-    brochure: "network.pdf",
-    outline: "network.pdf",
+    brochure: "Network Protocol.pdf",
+    outline: "Network Protocol.pdf",
     image: "/network.jpg",
     highlights: [
       "Advanced C programming essentials and memory management.",
@@ -7493,9 +7591,7 @@ const courseData = {
         },
       ],
     },
-    nextBatch: [
-      { starts: "Every Month", mode: "Classroom-Bangalore" },
-    ],
+    nextBatch: [{ starts: "Every Month", mode: "Classroom-Bangalore" }],
     qualification: " B.TECH",
     eligibleLearners: "Freshers / Network Administrators",
     syllabus: [
@@ -7591,14 +7687,12 @@ const courseData = {
               "Function pointers",
             ],
           },
-           ],
+        ],
       },
       {
         module: " Data Structures & Algorithms ",
         duration: "1 week",
-        topics: [         
-
-
+        topics: [
           {
             name: "Arrays",
             content: [
@@ -7717,9 +7811,9 @@ const courseData = {
             name: "File Formats",
             content: [],
           },
-           ],
+        ],
       },
-      
+
       {
         module: "Linux System Programming",
         duration: "1 week",
@@ -7765,7 +7859,7 @@ const courseData = {
               "Modifying a structure in the file",
             ],
           },
-          ],
+        ],
       },
       {
         module: "Processes, Signals & IPC",
@@ -7852,7 +7946,7 @@ const courseData = {
               "TCP/IP protocol layers",
             ],
           },
-           ],
+        ],
       },
       {
         module: "Socket Programming",
@@ -7875,7 +7969,7 @@ const courseData = {
               "Serving multiple clients with one thread per client",
             ],
           },
-          ],
+        ],
       },
       {
         module: "TCP/IP Protocol Internals",
@@ -7945,13 +8039,12 @@ const courseData = {
               "Acceptance test plan",
             ],
           },
- ],
+        ],
       },
       {
         module: " Major Project ",
         duration: "0.5 week",
-        topics: [         
-
+        topics: [
           {
             name: "Major Project",
             content: [
@@ -8594,6 +8687,317 @@ const courseData = {
       "Setup CICD Pipeline for the AI/ML Model predicting the sales inventory.",
       "Learn how to continuously train the model using the given dataset, package the model and deploy the model.",
       "Build an AI-powered chatbot using GPT LLMs to interact with users, answer loan-related queries, and provide personalized financial assistance in real time.",
+    ],
+  },
+  "Automotive-Testing": {
+    title: "Automotive  <span class='text-yellow-400'>Testing</span>",
+    description:
+      "Hands-on Automotive ECU Testing Projects: Master CAN, LIN, UDS, CAPL, and JIRA for Industry Readiness.",
+    duration: "1.5 months",
+    mode: "Online/Offline",
+    level: "Beginner to Advanced",
+    price: "₹25,000",
+    originalPrice: "₹35,000",
+    category: "👩‍💻 Testing",
+    students: "500+",
+    rating: 4.5,
+    reviews: 300,
+    brochure: "Automotive Testing.pdf",
+    outline: "Automotive Testing.pdf",
+    image: "/automotive.jpg",
+    highlights: [
+      "Learn the complete SDLC and V-Model process followed in automotive projects.",
+      "Master CAN and LIN communication protocols used for ECU-to-ECU data exchange.",
+      "Gain practical knowledge in real-time test bench setup and ECU validation techniques.",
+      "Explore Infotainment and ADAS testing with real-world automotive requirements.",
+      "Write and execute effective test cases using industry-accepted methods.",
+      "Work with Vector tools like CANoe and CANalyzer for simulation and debugging.",
+      "Master defect tracking with JIRA.",
+      "Learn CAPL scripting and automation.",
+    ],
+    testimonialsSection: {
+      badge: "Success Stories",
+      title:
+        'From <span className="text-sky-600">Freshers</span> to Professionals',
+      description:
+        "Hear from our successful graduates who transformed their careers with our Automotive Testing program",
+      testimonials: [
+        {
+          name: "Riya Mehta",
+          role: "Fresher",
+          image: "/RiyaMehta.jpg?height=80&width=80",
+          content:
+            "Before joining the course with Flair, I struggled with real-time ECU testing. This course gave me clarity on CAN, LIN, and UDS protocols. After completing the capstone project, I secured a role at a leading automotive company where I now handle infotainment ECU validation with confidence.",
+          rating: 5,
+          course: "Embedded Test Engineer",
+        },
+        {
+          name: "Aditya Sharma",
+          role: "Data Analyst at Wipro",
+          image: "/AdityaSharma.jpg?height=80&width=80",
+          content:
+            "I had basic testing experience but lacked industry-specific tools knowledge. The hands-on training with CANoe, CANalyzer, and CAPL scripting helped me automate testing processes. Within three months, I was promoted to lead testing in my team, improving project delivery and quality.",
+          rating: 5,
+          course: "Senior QA Specialist",
+        },
+        {
+          name: "Neha Gupta",
+          role: "DevOps Engineer at Infosys",
+          image: "/NehaGupta.jpg?height=80&width=80",
+          content:
+            "As a fresher, I wanted to enter the automotive domain but had limited exposure. This course bridged the gap with practical sessions on diagnostics and defect lifecycle management. I cracked my first interview at a Tier-1 automotive supplier and started my career successfully.",
+          rating: 5,
+          course: "Graduate Trainee (Fresher)",
+        },
+      ],
+    },
+    nextBatch: [{ starts: "Every Month", mode: "Online / Classroom-BLR" }],
+    qualification: " B.TECH",
+    eligibleLearners: "Freshers / IT & Non-IT Professionals",
+    syllabus: [
+     {
+  module: "Software Development Life Cycle & V-Model",
+  duration: "1 week",
+  topics: [
+    {
+      name: "Introduction to SDLC",
+      content: [
+        "Importance of structured development in automotive industry.",
+        "Stages in SDLC and their deliverables.",
+      ],
+    },
+    {
+      name: "Understanding the V-Model",
+      content: [
+        "Definition and overview of V-Model.",
+        "Why V-Model is widely used in automotive projects.",
+      ],
+    },
+    {
+      name: "Mapping Development & Testing",
+      content: [
+        "Requirement gathering vs Requirement validation.",
+        "Coding vs Unit Testing.",
+        "Integration vs System Testing.",
+      ],
+    },
+    {
+      name: "Case Study",
+      content: [
+        "V-Model implementation in real-time automotive projects.",
+      ],
+    },
+  ],
+},
+
+{
+  module: "Automotive Communication Protocols",
+  duration: "1 week",
+  topics: [
+    {
+      name: "Overview of Automotive Protocols",
+      content: [
+        "Introduction to in-vehicle communication.",
+        "Importance of communication protocols.",
+      ],
+    },
+    {
+      name: "CAN Protocol",
+      content: [
+        "CAN Architecture and Frame Structure.",
+        "Applications of CAN in real-time.",
+      ],
+    },
+    {
+      name: "LIN Protocol",
+      content: [
+        "LIN communication basics.",
+        "Use cases in body electronics.",
+      ],
+    },
+    {
+      name: "Practical Use Cases",
+      content: [
+        "Real-time implementation of CAN and LIN.",
+        "Hands-on with communication signals.",
+      ],
+    },
+  ],
+},
+
+{
+  module: "Test Bench & Real-Time Testing",
+  duration: "1 week",
+  topics: [
+    {
+      name: "Test Bench Setup",
+      content: [
+        "Overview of Hardware-in-Loop (HIL).",
+        "Setting up test bench components.",
+      ],
+    },
+    {
+      name: "Real-Time Testing",
+      content: [
+        "Simulating real-time ECU requirements.",
+        "Hands-on testing Infotainment and ADAS ECU.",
+      ],
+    },
+    {
+      name: "Communication Establishment",
+      content: [
+        "Internal communication between ECUs.",
+        "Signal monitoring & validation.",
+      ],
+    },
+  ],
+},
+
+{
+  module: "Diagnostics & UDS Protocol",
+  duration: "1 week",
+  topics: [
+    {
+      name: "Introduction to Diagnostics",
+      content: [
+        "Need of diagnostics in automotive systems.",
+        "Overview of fault detection and handling.",
+      ],
+    },
+    {
+      name: "UDS Protocol",
+      content: [
+        "Introduction to Unified Diagnostic Services (UDS).",
+        "Service identifiers and functions.",
+      ],
+    },
+    {
+      name: "Practical Usage",
+      content: [
+        "Working with diagnostics tools.",
+        "Real-time implementation of UDS protocol.",
+      ],
+    },
+  ],
+},
+
+{
+  module: "Test Case Design & Execution",
+  duration: "1 week",
+  topics: [
+    {
+      name: "Test Case Writing",
+      content: [
+        "Understanding requirements for test design.",
+        "Step-by-step writing practice.",
+      ],
+    },
+    {
+      name: "Testing Methods",
+      content: [
+        "Black box vs White box testing.",
+        "Functional and Regression testing.",
+      ],
+    },
+    {
+      name: "Hands-on Practice",
+      content: [
+        "Real-time practice on tools like CANoe & CANalyzer.",
+      ],
+    },
+  ],
+},
+
+{
+  module: "Requirement & Defect Management",
+  duration: "1 week",
+  topics: [
+    {
+      name: "Requirement Management",
+      content: [
+        "Introduction to requirement management tools.",
+        "Tracking requirements in projects.",
+      ],
+    },
+    {
+      name: "Defect Life Cycle",
+      content: [
+        "Phases of defect life cycle.",
+        "Bug reporting process using JIRA.",
+      ],
+    },
+    {
+      name: "Practical Workshop",
+      content: [
+        "Raising, tracking and resolving bugs in JIRA.",
+      ],
+    },
+  ],
+},
+
+{
+  module: "Project Handling & Mock Sessions",
+  duration: "0.5 week",
+  topics: [
+    {
+      name: "Real-Time Project Handling",
+      content: [
+        "How to approach industry-level projects.",
+        "Best practices in project execution.",
+      ],
+    },
+    {
+      name: "Mock Sessions",
+      content: [
+        "Demo project walkthroughs.",
+        "Mock interviews and Q&A sessions.",
+      ],
+    },
+  ],
+},
+
+{
+  module: "CAPL Scripting Basics",
+  duration: "0.5 week",
+  topics: [
+    {
+      name: "Introduction to CAPL",
+      content: [
+        "Basics of CAPL scripting.",
+        "Importance in automotive testing.",
+      ],
+    },
+    {
+      name: "Practical Usage",
+      content: [
+        "Writing simple CAPL scripts.",
+        "Debugging and executing CAPL programs.",
+      ],
+    },
+  ],
+},
+
+    ],
+    instructor: {
+      name: "Priya Sharma",
+      title: "Data Analyst at Amazon",
+      experience: "10+ years",
+      image: "/placeholder.svg?height=100&width=100",
+      bio: "Priya specializes in data analytics with extensive experience in Power BI and has trained over 150 professionals.",
+    },
+    projects: [
+      "CAN Bus Based Infotainment Testing",
+      "LIN Protocol - Body Electronics Testing",
+      "UDS Diagnostics & Fault Simulation",
+      "Defect Lifecycle Management Using JIRA",
+      "End-to-End ECU Testing Automation with CAPL",
+    ],
+    projectsDetails: [
+      "Validate CAN communication between infotainment ECU and instrument cluster.",
+      "Test LIN communication in body control modules (e.g., power windows, mirrors).",
+      "Perform diagnostics testing on ECU using UDS services.",
+      "Manage complete defect lifecycle during ECU testing.",
+      "Automate real-time ECU validation using CAPL scripting in Canoe.",
     ],
   },
 };

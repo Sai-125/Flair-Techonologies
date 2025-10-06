@@ -89,10 +89,19 @@ export function Navigation() {
         },
       ],
     },
+    {
+      name: "Testing",
+      courses: [
+        {
+          name: "Automotive Testing",
+          href: "/courses/Automotive-Testing",
+        },
+      ],
+    },
   ];
 
   const services = [
-    { name: "About", href: "/about" },
+    { name: "About Flair", href: "/about" },
     { name: "IT Training", href: "/services/it-training" },
     { name: "IT Consulting", href: "/services/it-consulting" },
     { name: "IT Outsourcing", href: "/services/it-outsourcing" },
