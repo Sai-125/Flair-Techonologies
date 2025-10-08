@@ -18,9 +18,10 @@ import { CheckCircle, Upload } from "lucide-react";
 export default function MentorPage() {
   const mentorPage = {
     heroSection: {
-      badge: "Join Our Team",
+      badge: " 🤝 Join Our Team",
       title: "Become a <span class='text-yellow-400'>Mentor</span>",
-      description: "Share your expertise and shape the future of aspiring professionals. Join our mentorship program and make a lasting impact.",
+      description:
+        "Share your expertise and shape the future of aspiring professionals. Join our mentorship program and make a lasting impact.",
       image: "/mentor-hero.jpg",
       imageAlt: "Mentor guiding students",
       buttons: [
@@ -36,13 +37,14 @@ export default function MentorPage() {
       ],
     },
     benefitsSection: {
-      badge: "Why Mentor?",
+      badge: "Why Mentor ?",
       title: "Benefits of Becoming a <span class='text-sky-600'>Mentor</span>",
-      description: "Mentoring with us offers unique opportunities to grow professionally while making a difference.",
+      description:
+        "Mentoring with us offers unique opportunities to grow professionally while making a difference.",
       benefits: [
         {
           icon: CheckCircle,
-          label: "Inspire the Next Generation",
+          label: "Inspire Future Leaders",
           value: "Guide and motivate aspiring professionals",
         },
         {
@@ -63,9 +65,10 @@ export default function MentorPage() {
       ],
     },
     applicationFormSection: {
-      badge: "Apply Today",
+      badge: "🚀 Apply Today",
       title: "Join Our Mentorship Program",
-      description: "Fill out the form below to start your journey as a mentor. We’re excited to have you on board!",
+      description:
+        "Fill out the form below to start your journey as a mentor. We’re excited to have you on board !",
       features: [
         "Flexible mentoring schedules",
         "Access to exclusive mentor resources",
@@ -83,7 +86,8 @@ export default function MentorPage() {
         ],
         submitButton: {
           text: "Submit Application",
-          className: "w-full bg-gradient-to-r from-sky-600 to-blue-700 hover:from-sky-700 hover:to-blue-800 text-white",
+          className:
+            "w-full bg-gradient-to-r from-sky-600 to-blue-700 hover:from-sky-700 hover:to-blue-800 text-white",
           icon: Upload,
         },
         disclaimer: "By submitting, you agree to our terms and conditions.",
@@ -91,11 +95,7 @@ export default function MentorPage() {
     },
   };
 
-  const {
-    heroSection,
-    benefitsSection,
-    applicationFormSection,
-  } = mentorPage;
+  const { heroSection, benefitsSection, applicationFormSection } = mentorPage;
 
   const handleApplyNowClick = () => {
     const applicationSection = document.querySelector("#application-form");
@@ -272,7 +272,11 @@ export default function MentorPage() {
                             placeholder={field.placeholder}
                             type={field.type}
                             className={field.grid}
-                            accept={field.type === "file" ? ".pdf,.doc,.docx" : undefined}
+                            accept={
+                              field.type === "file"
+                                ? ".pdf,.doc,.docx"
+                                : undefined
+                            }
                           />
                         );
                       }
@@ -280,7 +284,9 @@ export default function MentorPage() {
                     })}
                   </div>
                   <Button
-                    className={applicationFormSection.form.submitButton.className}
+                    className={
+                      applicationFormSection.form.submitButton.className
+                    }
                   >
                     {applicationFormSection.form.submitButton.text}
                     {applicationFormSection.form.submitButton.icon && (

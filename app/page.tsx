@@ -133,7 +133,7 @@ export default function HomePage() {
 
       {/* About Flair Technologies Section */}
       <section className="py-20 bg-gradient-to-br from-gray-50 to-sky-100">
-        <div className="container mx-auto px-4 grid lg:grid-cols-2 gap-12 items-center">
+        <div className="container mx-auto px-6 grid lg:grid-cols-2 gap-12 items-center">
           <motion.div
             initial={{ opacity: 0, x: -50 }}
             whileInView={{ opacity: 1, x: 0 }}
