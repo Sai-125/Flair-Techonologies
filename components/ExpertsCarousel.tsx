@@ -8,9 +8,7 @@ import "swiper/css/pagination";
 
 const experts = [
   {
-    name: "Veera",
-    skill: "Tableau",
-    experience: "10 Years Experience",
+    
     image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIu7sb1F3f7aCt0WfRMyjmPEplhMm2aTdKag&s", // Place these images in public/experts/
   },
   {

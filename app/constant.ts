@@ -187,7 +187,7 @@ export const homePage = {
     stats: [
       { value: "13500+", label: "Students Placed" },
       { value: "100%", label: "Placement Rate" },
-      { value: "2", label: "Cities" },
+      { value: "3", label: "Cities" },
     ],
   },
   statsSection: [
@@ -200,23 +200,26 @@ export const homePage = {
     title: "About Flair Technologies",
     badge: "Know Who We Are",
     description:
-      "Since 2018, Flair Technologies has grown to become the largest independent IT training institute in Bangalore. We offer cutting-edge technology training, certified instructors, real-world implementation, and consultancy. Whether you’re a multinational or a small business, we bring the right skills, research, and execution strategies. From simple static sites to complex enterprise systems, we help you deliver your message effectively.",
+      "Since 2014, Flair Technologies has established itself as one of the leading IT Training Institute. We provide advanced, industry-relevant technologies and training programs, delivered by certified experts. Our offerings cater to both businesses and individuals, combining technical training, project implementation, and consultancy with research-driven methodologies. At every level, we are committed to delivering excellence, ensuring our learners and partners gain the skills and confidence to succeed in a competitive digital world.",
     image:
-      "https://media.istockphoto.com/id/2042526830/photo/successful-businesswoman-using-laptop-working-in-office-business-technology-corporate-concept.jpg?s=612x612&w=0&k=20&c=-NJyxcMesUAKzzPwoHXC10ZuBHPGa1dRp1gFl2T37o8=",
+      "aboutus.jpg",
     imageAlt: "Students learning in class",
   },
   learningExperienceSection: {
+    image:
+      "https://www.deazy.com/hubfs/remote%20team%20meeting.png",
+    imageAlt: "Virtual learning session",
     title: "The Best Learning Experience",
     features: [
       "Learn from the World’s Best Faculty & Industry Experts.",
       "Instructor-led training with practical lab sessions.",
       "Customized learning scaled to your corporate needs.",
       "Real-time projects and certification guidance.",
+      "Access to the latest tools, technologies, and industry practices.",
+"Flexible learning modes: online and offline batches available.",
       "Personalized guidance with 24×7 support.",
     ],
-    image:
-      "https://flairtechnologies.in/wp-content/uploads/2023/08/about-us.jpg",
-    imageAlt: "Virtual learning session",
+    
   },
   whyFlairSection: {
     title: "Why Flair Technologies",
@@ -266,6 +269,8 @@ export const homePage = {
       "Doubt Clearance Sessions",
       "Designed by Industry experts",
       "Recognized certification",
+      "Resume & interview prep",
+      "Lifetime course access",
     ],
   },
   upcomingBatchesSection: {
@@ -389,34 +394,33 @@ export const homePage = {
       "Choose from our industry-aligned courses designed by experts and delivered by professionals from top MNCs",
     featuredCourses: [
       {
-        id: "python-fullstack",
-        title: "Python Full-Stack Development",
-        description: "Master Django, React, and modern web development",
-        duration: "6 months",
+        id: "data-analytics",
+        title: "Data Analytics",
+        description: "Master Excel, Power BI, Tableau, Alteryx, SQL, Python, and Soft Skills with real-world projects.",
+        duration: "4 months",
         mode: "Online/Offline",
         price: "₹45,000",
         image:
-          "https://media.geeksforgeeks.org/wp-content/uploads/20240415204701/How-to-Become-a-Python-Full-Stack-Developer.png",
+          "/dataaaan.png?height=200&width=300",
       },
       {
-        id: "power-bi",
-        title: "Power BI & Data Analytics",
-        description: "Transform data into actionable business insights",
-        duration: "3 months",
+        id: "excel-Vba",
+        title: "Microsoft Excel & VBA",
+        description: "Master Microsoft Excel and VBA to automate tasks, analyze data, and build powerful business solutions.",
+        duration: "2 months",
         mode: "Online/Offline",
         price: "₹25,000",
-        image:
-          "https://media.geeksforgeeks.org/wp-content/uploads/20240726121444/Data-Analytics-Training-now.webp",
+        image: "/microsoft-excel-microsoft-excel.jpg?height=200&width=300",
       },
       {
-        id: "azure-devops",
-        title: "Azure DevOps",
-        description: "Master cloud deployment and CI/CD pipelines",
-        duration: "4 months",
-        mode: "Online/Offline",
+        id: "record-to-report-r2r",
+        title: "Record to Report (R2R)",
+        description: "Comprehensive Record to Report training in ERP, accounting, reconciliations & real-time reporting.",
+        duration: "1 month",
+        mode: "Online",
         price: "₹35,000",
         image:
-          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3Mpx-7k0FvYWzb8n8snbXGKMKM-YWg0Vlsg&s",
+          "/R@RRR.png?height=200&width=300",
       },
     ],
   },
@@ -424,15 +428,17 @@ export const homePage = {
 
 // About page constants
 export const aboutPage = {
+  
   heroSection: {
     badge: "🏢 About Flair Technologies",
     title:
-      'Empowering <span className="text-cyan-200">Careers</span> Through Innovation',
+      "Building <span class='text-yellow-400'>Careers</span> with Innovation",
     description:
-      "Since 2018, we've been transforming lives by bridging the gap between academic learning and industry requirements. Our mission is to create skilled professionals ready for the digital future.",
+      "Since 2014, we’ve been bridging the gap between academics and industry, creating skilled professionals ready for the digital future.",
     stats: [
       { value: "15000+", label: "Students Trained" },
-      { value: "6", label: "Years of Excellence" },
+      
+      { value: "10+", label: "Years of Excellence" },
     ],
     image: "https://www.deazy.com/hubfs/remote%20team%20meeting.png",
     imageAlt: "Flair Technologies",
@@ -442,13 +448,13 @@ export const aboutPage = {
       title: "Our Mission",
       icon: Target,
       description:
-        "To empower individuals with cutting-edge technical skills and industry knowledge, enabling them to build successful careers in the rapidly evolving technology landscape. We are committed to providing world-class training, mentorship, and placement support to bridge the gap between academic learning and industry requirements.",
+        "Our mission is to empower individuals with advanced technical skills and industry expertise, preparing them for successful careers in today’s rapidly evolving technology landscape. We deliver world-class training, mentorship, and placement support to seamlessly bridge the gap between academia and industry.",
     },
     vision: {
       title: "Our Vision",
       icon: BookOpen,
       description:
-        "To become India's leading IT training institute, recognized for excellence in education, innovation in teaching methodologies, and outstanding placement records. We envision a future where every student who walks through our doors emerges as a confident, skilled professional ready to make a meaningful impact in the tech industry.",
+        "Our vision is to be India’s leading IT training institute, renowned for excellence in education, innovative teaching methodologies, and exceptional placement outcomes. We aspire to ensure every student graduates as a confident, skilled professional ready to make a meaningful impact in the technology industry.",
     },
   },
   uniqueFeaturesSection: {
@@ -461,7 +467,7 @@ export const aboutPage = {
         icon: Lightbulb,
         title: "INVENTIVE AND LEADERSHIP",
         description:
-          "Flair Technologies is a leading training organization that caters to the latest technology and innovation. We are also pioneers in providing training in diverse Software fields like Python, Azure Admin, Azure DevOps, DevOps & AWS, Microsoft Power BI, Azure Data Factory, Alteryx, Microsoft Excel (VBA), Power Apps & Automate, Tableau, Testing Tools, C & Network Protocol, Web Development etc… We believe, in offering the finest standards of quality and processes that are constantly updated and adapted to the changing global scenario.",
+          "At Flair Technologies, innovation drives learning and leadership shapes careers. We embrace inventive teaching methodologies, hands-on projects, and real-world case studies to equip students with cutting-edge technical skills. Guided by expert mentors and industry leaders, we prepare individuals not just to succeed in today’s competitive market, but to lead tomorrow’s technological transformation.",
         highlight:
           "We are dedicated to guiding industry professionals and students to competently compete and confirm international standards of quality employee efficiency and productivity.",
       },
@@ -469,7 +475,7 @@ export const aboutPage = {
         icon: GraduationCap,
         title: "TRAINING METHODOLOGY",
         description:
-          "Flair Technologies' unique training methodology is designed to provide the complete spectrum skills in a very interactive and easy to learn manner. Training is delivered by highly core and certified professionals. Our faculty is always with their high spirit to deliver their best. Our training methodology seeks to deal with the whole gamut of new skills and techniques the IT industry requires.",
+          "Flair Technologies’ training methodology is uniquely designed to deliver a comprehensive spectrum of skills in an interactive and easy-to-learn format. Our programs are led by highly qualified and certified professionals committed to delivering excellence. With a focus on the latest tools, techniques, and industry practices, we ensure our learners gain the expertise and confidence required to excel in today’s competitive IT landscape.",
         highlight:
           "Our training methodology is unique and diverse and focuses on every area towards overall development of an individual.",
       },
@@ -477,7 +483,7 @@ export const aboutPage = {
         icon: Heart,
         title: "SMOOTH APPROACH TOWARDS CUSTOMER",
         description:
-          "Most people find themselves at crossroads in their careers. They are having self-seeking goals, values, hard work, and waiting and yet they feel that the matter of career is confusing. Job hopping is another demerit or comes up from intense insecurity. With fluctuating job market, the skills present in an individual need to be further enhanced.",
+          "Many professionals often find themselves at a crossroads in their careers. Despite having clear goals, values, and a strong work ethic, career decisions can feel confusing. Frequent job changes, driven by market fluctuations and insecurities, further add to the challenge. In today’s dynamic job market, it is essential to continuously enhance and upgrade skills to stay competitive and achieve long-term career success.",
         highlight:
           "We understand the environment fluctuating the job market. Our counselor evaluates the current positive finding in an individual and suggests areas of improvement. Our counselor gives the best remedy to an individual.",
       },
@@ -485,7 +491,7 @@ export const aboutPage = {
         icon: Star,
         title: "OUR UNIQUENESS",
         description:
-          "Our uniqueness replicates in many tangible and nontangible facets, just like our eminent workplace, staff & training methodology. We at Flair Technologies believe in meticulous practices & integrated solution based approach. Altogether this gives our clients a supreme advantage. We have honed our processes through experience and the incorporation of best practices in the training fraternity.",
+          "Our uniqueness is reflected across both tangible and intangible dimensions-through our workplace culture, expert faculty, and innovative training methodology. At Flair Technologies, we follow meticulous practices and an integrated, solution-driven approach, providing clients and learners with a distinct competitive advantage. Over time, we have refined our processes by combining experience with industry best practices, ensuring excellence in every aspect of our training delivery.",
         highlight:
           "Flair Technologies is an incredibly well-equipped training and development organization. We are dedicated to pursuing solutions to problems. Our distinctiveness lies in unmatched courseware, training techniques, and International affiliation with global giants.",
       },
@@ -528,14 +534,14 @@ export const aboutPage = {
     badge: "Our Journey",
     milestones: [
       {
-        year: "2018",
+        year: "2014",
         event: "Founded Flair Technologies",
         description:
           "Started with a vision to bridge the skill gap in IT industry",
       },
       {
         year: "2019",
-        event: "First 100 Students Placed",
+        event: "First 1000 Students Placed",
         description: "Achieved 100% placement rate in our first year",
       },
       {
@@ -550,18 +556,18 @@ export const aboutPage = {
       },
       {
         year: "2022",
-        event: "2000+ Students Trained",
+        event: "7000+ Students Trained",
         description: "Crossed the milestone of training 2000+ professionals",
       },
       {
         year: "2023",
         event: "Industry Partnerships",
-        description: "Partnered with 50+ companies for direct placements",
+        description: "Partnered with 100+ companies for direct placements",
       },
       {
         year: "2024",
-        event: "5000+ Success Stories",
-        description: "Celebrating 5000+ successful career transformations",
+        event: "10000+ Success Stories",
+        description: "Celebrating 10000+ successful career transformations",
       },
     ],
   },
@@ -597,13 +603,13 @@ export const aboutPage = {
   flairTechnologiesSection: {
     title: "We're The Best",
     description:
-      "Since 2018, Flair Technologies has become the largest independent IT training institute in Bangalore. Flair Technologies offer most advanced technologies than any other training company. Businesses and individuals can choose from the course offerings, delivered by certified experts. We believe that Flair Technologies offers excellence at every level, in terms of technical training, project implementation, consultancy, or applying our experience working and research into successful techniques.",
+      "Since 2014, Flair Technologies has established itself as one of the leading independent IT training institutes. We provide advanced, industry-relevant technologies and training programs, delivered by certified experts. Our offerings cater to both businesses and individuals, combining technical training, project implementation, and consultancy with research-driven methodologies. At every level, we are committed to delivering excellence, ensuring our learners and partners gain the skills and confidence to succeed in a competitive digital world.",
     image:
       "https://img.freepik.com/premium-photo/happy-young-african-woman-casually-dressed-standing-isolated-taking-notes-notepad_171337-70180.jpg",
     imageAlt: "Flair Technologies",
     button: {
       text: "View Service",
-      href: "/services",
+      href: "/services/it-training",
     },
   },
   ctaSection: {
@@ -633,7 +639,7 @@ export const freshersPage = {
   heroSection: {
     badge: "🎓 Freshers Special Program",
     title:
-      'Launch Your <span className="text-cyan-200">Tech Career</span> Today',
+      "Launch Your <span class='text-yellow-400'>Tech Career</span> Today",
     description:
       "From college graduate to industry professional in just 4-6 months. Join 2000+ freshers who transformed their careers with us.",
     stats: [
@@ -641,7 +647,7 @@ export const freshersPage = {
       { value: "96%", label: "Placement Rate" },
     ],
     image:
-      "https://pkrinstitute.in/lp/wp-content/uploads/2024/02/Untitled-design-1.jpg",
+      "freshn.jpg",
     imageAlt: "Freshers Success",
     buttons: [
       {
@@ -658,13 +664,13 @@ export const freshersPage = {
     ],
   },
   statsSection: [
-    { icon: Users, label: "Freshers Placed", value: "2000+" },
+    { icon: Users, label: "Freshers Placed", value: "1800+" },
     { icon: Award, label: "Average Package", value: "₹4.5 LPA" },
-    { icon: TrendingUp, label: "Salary Hike", value: "300%" },
+    { icon: TrendingUp, label: "Corporate Tie-ups", value: "120+" },
     { icon: GraduationCap, label: "Success Rate", value: "96%" },
   ],
   programsSection: {
-    badge: "Freshers Programs",
+    badge: "🎓 Freshers Programs",
     title: 'Choose Your <span className="text-sky-600">Career Path</span>',
     description:
       "Specially designed programs for fresh graduates with zero experience. Start from basics and become job-ready in months.",
@@ -673,43 +679,43 @@ export const freshersPage = {
         id: "data-analytics",
         title: "Data Analytics",
         description:
-          "Learn data analysis and visualization using Excel, SQL, Python, Tableau, Power BI, and Alteryx.",
+          "Master Excel, Power BI, Tableau, Alteryx, SQL, Python, and Soft Skills with real-world projects.",
         duration: "4 months",
-        mode: "Online/Offline",
+        mode: "Offline",
         level: "Beginner to Advanced",
         price: "₹45,000",
-        category: "Analytics",
-        students: "500+",
+        category: "📊 Analytics",
+        students: "700+",
         rating: 4.9,
-        image: "/placeholder.svg?height=200&width=300",
+        image: "/dataaaa.png?height=200&width=300",
       },
       {
         id: "python-fullstack",
         title: "Python Full-Stack",
         description:
-          "Learn Python Full Stack development with HTML, CSS, JavaScript & Django.",
-        duration: "2 months",
+          "Master Python, Django and modern web development with hands-on projects.",
+        duration: "3 months",
         mode: "Online/Offline",
         level: "Beginner to Advanced",
         price: "₹25,000",
-        category: "Development",
-        students: "300+",
+        category: "🧑‍💻 Development",
+        students: "500+",
         rating: 4.7,
-        image: "/placeholder.svg?height=200&width=300",
+        image: "/pythonw.webp?height=200&width=300",
       },
       {
         id: "java-fullstack",
         title: "Java Full-Stack",
         description:
-          "Learn Java Full Stack development with HTML, CSS, JavaScript & Spring Boot.",
+          "Master Core & Advanced Java for building robust enterprise applications.",
         duration: "4 months",
         mode: "Online/Offline",
         level: "Beginner to Advanced",
         price: "₹35,000",
-        category: "Development",
-        students: "250+",
+        category: "🧑‍💻 Development",
+        students: "400+",
         rating: 4.9,
-        image: "/placeholder.svg?height=200&width=300",
+        image: "/fullStackJava.png?height=200&width=300",
       },
     ],
   },
@@ -721,31 +727,31 @@ export const freshersPage = {
       "Hear from our successful graduates who transformed their careers with our programs",
     testimonials: [
       {
-        name: "Priya Sharma",
+        name: "Sravya Reddy",
         role: "Software Developer at TCS",
-        image: "/placeholder.svg?height=80&width=80",
+        image: "/Sravyare.jpg?height=80&width=80",
         content:
-          "Flair Technologies transformed my career! From a fresher with no coding experience to landing a job at TCS in just 6 months. The mentorship and placement support were exceptional.",
+          "As a B.Tech fresher, I struggled to break into analytics without real-world tools. This course changed everything! I learned Excel, Power BI, SQL, and Python with practical applications. The hands-on projects strengthened my portfolio, and I recently secured a Data Analyst role. The step-by-step flow from Excel to Python built my confidence week by week. Highly recommended for freshers!",
         rating: 5,
-        course: "Python Full-Stack",
+        course: "B.Tech Fresher",
       },
       {
-        name: "Rahul Patel",
+        name: "Sneha",
         role: "Data Analyst at Wipro",
-        image: "/placeholder.svg?height=80&width=80",
+        image: "/sneha.png?height=80&width=80",
         content:
-          "The Power BI course was exactly what I needed. The instructors were patient, and the real-world projects helped me build confidence. Got placed within 2 weeks of completion!",
+          "After completing my degree, I struggled to land an IT role without practical exposure. This course changed everything! I learned Python, Django, React, and SQL through real projects. The hands-on training built my portfolio, and I recently secured a Full Stack Developer role in an MNC. The structured flow from basics to advanced boosted my confidence week by week. Highly recommended!",
         rating: 5,
-        course: "Power BI & Analytics",
+        course: "Degree Graduate",
       },
       {
-        name: "Sneha Reddy",
+        name: "Keerthana",
         role: "DevOps Engineer at Infosys",
-        image: "/placeholder.svg?height=80&width=80",
+        image: "/keer.png?height=80&width=80",
         content:
-          "As a mechanical engineering graduate, I was worried about switching to IT. But Flair's Azure DevOps program made the transition smooth. Now I'm working at Infosys!",
+          "As an MCA graduate, I lacked industry exposure. The Java Full Stack program at Flair Technologies changed everything! I gained confidence by building real-world applications. Hands-on projects and mentorship helped me secure my first role as a Full Stack Developer in an MNC. The structured flow from basics to advanced topics steadily built my confidence. Highly recommended for fresh graduates!",
         rating: 5,
-        course: "Azure DevOps",
+        course: "MCA Graduate",
       },
     ],
   },
@@ -756,6 +762,10 @@ export const freshersPage = {
       "Apply now for our next batch starting this month. Don't miss this opportunity to transform your career!",
     features: [
       "Free career counseling session",
+      "Hands-on real-world projects",
+      "Lifetime access to resources",
+      "Expert trainers with industry experience",
+      "Globally recognized certification",
       "Flexible payment options available",
       "100% placement assistance guarantee",
     ],
@@ -772,9 +782,9 @@ export const freshersPage = {
           type: "select",
           placeholder: "Select Program",
           options: [
-            { value: "fullstack", label: "Full-Stack Development Track" },
-            { value: "analytics", label: "Data Analytics Track" },
-            { value: "cloud", label: "Cloud & DevOps Track" },
+            { value: "analytics", label: "Data Analytics" },
+            { value: "fullstack", label: "Python Full-Stack" },
+            { value: "fullstack", label: "Java Full-Stack" },
           ],
         },
         {
@@ -812,6 +822,10 @@ export const coursePageApplication = {
       "Apply now for our next batch starting this month. Don't miss this opportunity to transform your career!",
     features: [
       "Free career counseling session",
+      "Hands-on real-world projects",
+      "Lifetime access to resources",
+      "Expert trainers with industry experience",
+      "Globally recognized certification",
       "Flexible payment options available",
       "100% placement assistance guarantee",
     ],
@@ -828,9 +842,9 @@ export const coursePageApplication = {
           type: "select",
           placeholder: "Select Program",
           options: [
-            { value: "fullstack", label: "Full-Stack Development Track" },
-            { value: "analytics", label: "Data Analytics Track" },
-            { value: "cloud", label: "Cloud & DevOps Track" },
+            { value: "analytics", label: "Data Analytics" },
+            { value: "fullstack", label: "Python Full-Stack" },
+            { value: "fullstack", label: "Java Full-Stack" },
           ],
         },
         {
@@ -1050,9 +1064,21 @@ export const contactPage = {
         icon: MapPin,
         title: "Bangalore Center",
         details: [
-          "#05, Vivekananda Layout, Marathahalli,",
-          "Bangalore, Karnataka – 560037, India.",
-          "Landmark: Opp: Innovative Multiplex, Behind Biryani Zone",
+          "#05, Vivekananda Layout, Marathahalli, Bangalore,",
+          "Karnataka - 560037, India.",
+          "Landmark: Opp: Innovative Multiplex",
+        ],
+        phone: "+91 974 974 9596",
+        email: "info@flairtechnologies.in",
+        web: "www.flairtechnologies.in",
+      },
+      {
+        icon: MapPin,
+        title: "Bangalore Center",
+        details: [
+          "2nd Floor, 90/3, Outer Ring Road, Marathahalli,",
+          " Bengaluru, Karnataka - 560037, India.",
+          "Landmark: Opp: Innovative Multiplex",
         ],
         phone: "+91 974 974 9596",
         email: "info@flairtechnologies.in",
@@ -1062,42 +1088,43 @@ export const contactPage = {
         icon: MapPin,
         title: "Hyderabad Center",
         details: [
-          "501, Sumedh Pride, Vijay Nagar Colony,",
-          "Kukatpally, Hyderabad – 500072.",
+          "501, Sumedh Pride, Vijay Nagar Colony, Kukatpally,",
+          "Hyderabad, Telangana - 500072, India.",
           "Landmark: Opp: Srikari Natyakala Peetam",
         ],
-        phone: "+91 93477 91837",
+        phone: "+91 94416 27375",
         email: "info@flairtechnologies.in",
         web: "www.flairtechnologies.in",
       },
       {
         icon: Globe,
         title: "London Center",
-        subtitle: "FLAIR TECHNOLOGIES – DATA ARTISANS",
+        subtitle: "DATA ARTISANS",
         details: [
-          "297, Suite 2, High Street",
-          "North, London, E12 6SL.",
+          "297, Suite 2, High Street North,",
+          "London - E12 6SL, United Kingdom.",
           "Landmark: Opp: Star Lettings",
         ],
-        phone: "+44 20 7946 0958",
-        email: "info@flairtechnologies.in",
-        web: "www.flairtechnologies.in",
+        phone: "+44 77 0777 6666",
+        email: "info@dataartisans.net",
+        web: "www.dataartisans.net",
       },
     ],
   },
   officeHoursSection: {
     title: "Office Hours",
     officeHours: [
-      { day: "Monday - Friday", hours: "9:00 AM - 8:00 PM" },
-      { day: "Saturday", hours: "9:00 AM - 6:00 PM" },
-      { day: "Sunday", hours: "10:00 AM - 4:00 PM" },
+      { day: "Monday - Friday", hours: "9:00 AM - 7:00 PM IST" },
+      { day: "Saturday", hours: "9:00 AM - 6:00 PM IST" },
+      { day: "Sunday", hours: "9:00 AM - 1:00 PM IST" },
     ],
   },
   quickActionsSection: {
     title: "Get in Touch",
     description:
-      "We're here to help you take the next step in your career. Reach out to us through any of our global locations.",
-    buttons: [
+      "We're here to help you take the next step in your career. Reach out to us through any of our global locations. ",
+   
+      buttons: [
       {
         text: "Book Free Demo Session",
         className:
@@ -1110,6 +1137,7 @@ export const contactPage = {
           "border border-gray-500 w-full bg-gradient-to-r hover:from-sky-600 hover:to-blue-700 text-lg py-6 hover:text-white",
         variant: "outline",
       },
+      
     ],
   },
   contactFormSection: {
@@ -1126,12 +1154,13 @@ export const contactPage = {
           type: "select",
           placeholder: "I'm interested in...",
           options: [
-            { value: "python", label: "Python Full-Stack Development" },
-            { value: "powerbi", label: "Power BI & Data Analytics" },
-            { value: "azure", label: "Azure DevOps" },
-            { value: "analytics", label: "Data Analytics" },
-            { value: "tableau", label: "Tableau" },
-            { value: "network", label: "Network Protocol" },
+            { value: "Development", label: "Development Courses" },
+            { value: "Analytics", label: "Analytics Courses" },
+            { value: "Cloud", label: "Cloud Courses" },
+            { value: "Networking", label: "Networking Courses" },
+            { value: "Finance", label: "Finance Course" },
+            { value: "AI & ML", label: "AI & ML Course" },
+            { value: "Testing", label: "Testing Course" },
             { value: "freshers", label: "Freshers Program" },
             { value: "other", label: "Other" },
           ],
@@ -1176,22 +1205,28 @@ export const contactPage = {
     maps: [
       {
         title: "Bangalore Center",
-        address: "#05, Vivekananda Layout, Marathahalli, Bangalore - 560037",
+        address: "#05, Vivekananda Layout, Marathahalli, Bangalore, Karnataka - 560037, India.",
         iframeSrc:
-          "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.8267!2d77.6272!3d12.9352!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1670c9b44e6d%3A0x14f808b7e45b616!2sMarathahalli%2C%20Bengaluru%2C%20Karnataka!5e0!3m2!1sen!2sin!4v1234567890",
+          "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.303009543059!2d77.69832007493059!3d12.952452387361152!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1234dff56e3d%3A0x39b6f970c00e8208!2sFlair%20Technologies!5e0!3m2!1sen!2sin!4v1759587502687!5m2!1sen!2sin",
+      },
+      {
+        title: "Bangalore Center",
+        address: "2nd Floor, 90/3, Outer Ring Road, Marathahalli, Bengaluru, Karnataka - 560037, India.",
+        iframeSrc:
+          "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.3306577160524!2d77.69730737493057!3d12.950680887362772!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae13004201b7bb%3A0xc7b9891b67b58465!2sFlair%20Technologies%20-%20Center%20II!5e0!3m2!1sen!2sin!4v1759587772358!5m2!1sen!2sin",
       },
       {
         title: "Hyderabad Center",
         address:
-          "501, Sumedh Pride, Vijay Nagar Colony, Kukatpally, Hyderabad - 500072",
+          "501, Sumedh Pride, Vijay Nagar Colony, Kukatpally, Hyderabad, Telangana - 500072, India.",
         iframeSrc:
-          "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.6!2d78.3872!3d17.4435!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb99daeaebd2c7%3A0x1c2b6e4df94db6!2sKukatpally%2C%20Hyderabad%2C%20Telangana!5e0!3m2!1sen!2sin!4v1234567890",
+          "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3805.1722477560684!2d78.40939774821084!3d17.49928912692571!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb91005d2598e3%3A0xf6372791cebc07ff!2sSUMEDH%20PRIDE!5e0!3m2!1sen!2sin!4v1759588083163!5m2!1sen!2sin",
       },
       {
         title: "London Center",
-        address: "297, Suite 2, High Street North, London, E12 6SL",
+        address: "297, Suite 2, High Street North, London - E12 6SL, United Kingdom.",
         iframeSrc:
-          "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2469.123!2d0.0346!3d51.5458!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8a00baf21de75%3A0x52963a5addd52a99!2sHigh%20St%20N%2C%20London%20E12%206SL%2C%20UK!5e0!3m2!1sen!2sin!4v1234567890",
+          "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2481.3968605012637!2d0.04735237652930554!3d51.54262147182134!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8a64cf556024d%3A0xb5166f312fa4276f!2sData%20Artisans%20Limited!5e0!3m2!1sen!2sin!4v1759587917215!5m2!1sen!2sin",
       },
     ],
   },
@@ -1207,7 +1242,7 @@ export const contactPage = {
       {
         question: "Do you provide placement assistance?",
         answer:
-          "Yes! We offer 100% placement assistance with our network of 50+ hiring partners. Our placement team works closely with students throughout their journey.",
+          "Yes! We offer 100% placement assistance with our network of 100+ hiring partners. Our placement team works closely with students throughout their journey.",
       },
       {
         question: "Are there flexible payment options?",
@@ -1414,9 +1449,9 @@ export const footer = {
     { name: "Contact", href: "/contact" },
   ],
   courses: [
-    "Python FullStack",
-    "Power BI",
-    "Azure DevOps",
+    "Data Analytics",
+    "Microsoft Excel & VBA",
+    "Microsoft Power BI",
     "Data Analytics",
     "Tableau",
     "Network Protocol",
@@ -1449,19 +1484,25 @@ export const footer = {
     {
       icon: MapPin,
       title: "Bangalore",
-      address: `FLAIR TECHNOLOGIES #05, Vivekananda Layout, Marathahalli, Bangalore, Karnataka – 560037, India. Landmark: Opp: Innovative Multiplex, Behind Biryani Zone.`,
+      address: `#05, Vivekananda Layout, Marathahalli, Bangalore, Karnataka - 560037, India.`,
+      iconClass: "h-5 w-5 text-sky-400 mt-0.5",
+    },
+    {
+      icon: MapPin,
+      title: "Bangalore",
+      address: `2nd Floor, 90/3, Outer Ring Road, Marathahalli, Bangalore, Karnataka - 560037, India.`,
       iconClass: "h-5 w-5 text-sky-400 mt-0.5",
     },
     {
       icon: MapPin,
       title: "Hyderabad",
-      address: `FLAIR TECHNOLOGIES 501, Sumedh Pride, Vijay Nagar Colony, Kukatpally, Hyderabad – 500072. Landmark: Opp: Srikari Natyakala Peetam.`,
+      address: `501, Sumedh Pride, Vijay Nagar Colony, Kukatpally, Hyderabad, Telangana - 500072, India.`,
       iconClass: "h-5 w-5 text-sky-400 mt-0.5",
     },
     {
       icon: MapPin,
       title: "London",
-      address: `FLAIR TECHNOLOGIES – DATA ARTISANS 297, Suite 2, High Street North, London, E12 6SL. Landmark: Opp: Star Lettings.`,
+      address: `297, Suite 2, High Street North, London - E12 6SL, United Kingdom.`,
       iconClass: "h-5 w-5 text-sky-400 mt-0.5",
     },
   ],
