@@ -83,9 +83,10 @@ export const servicesData: Record<string, ServiceData> = {
       "Live sessions by industry experts",
       "Access to recorded content",
       "Certifications included",
+      "Career growth support",
     ],
     image:
-      "https://www.extnoc.com/blog/wp-content/uploads/2023/01/The-Importance-of-Ongoing-Training-for-IT-Support-Professionals-2.jpg",
+      "/trainings.png",
     additionalInfo: {
       intro:
         "Flair Technologies has over 10 years of experience in the Training and Development industry. Flair Technologies built and re-built training, and developed innovative technology-based learning solutions across all departments within small, medium, and large corporate structures.",
@@ -121,6 +122,7 @@ export const servicesData: Record<string, ServiceData> = {
       "Tailored IT strategies",
       "On-demand expert advice",
       "Technology transformation support",
+      "Innovative digital solutions",
     ],
     image:
       "https://www.enterpriseitworld.com/wp-content/uploads/2023/08/IT-Consulting-Company.jpg",
@@ -150,9 +152,9 @@ export const servicesData: Record<string, ServiceData> = {
     title: "IT Outsourcing",
     description:
       "Reduce costs and focus on core business while we manage your IT services.",
-    highlights: ["End-to-end support", "24/7 monitoring", "Scalable resources"],
+    highlights: ["End-to-end support", "24/7 monitoring", "Scalable resources", "Cost-effective service delivery"],
     image:
-      "https://www.feedough.com/wp-content/uploads/2020/12/outsourcing.webp",
+      "/outsourcing.webp",
     additionalInfo: {
       intro:
         "Flair Technologies offers the best offshore software Training and development services that deliver robust, scalable, and cost-effective software solutions. Our clients realize an increase in productivity for offshore software development projects while improving their business performance through the changing demands of their marketplace.",
@@ -161,6 +163,7 @@ export const servicesData: Record<string, ServiceData> = {
         "Offshore Application Maintenance",
         "Offshore Engagement Model",
         "Offshore Delivery Model",
+      
       ],
       differentiators: {
         totalOutsourcing:
@@ -175,6 +178,80 @@ export const servicesData: Record<string, ServiceData> = {
       recruitingSupport:
         "Driven by the need to assemble that channel of qualified candidates numerous spotters invest the greater part of their energy sourcing applicant, and little time truly selecting. Flair Technologies can free up your spotters to do what they excel at select. Our group can deal with the whole enrolling/enlisting methodology from employment profiling through the on-boarding of the new draw in, including staff, innovation, and strategy and announcing. Our customers have experienced decrease so as to contract, enhanced nature of the applicant pool, undeniable competitors measurements, diminished cost and enhanced consistence.",
     },
+  },
+    missionVisionSection: {
+    mission: {
+      title: "Our Mission",
+      icon: Target,
+      description:
+        "Our mission is to empower individuals with advanced technical skills and industry expertise, preparing them for successful careers in today’s rapidly evolving technology landscape. We deliver world-class training, mentorship, and placement support to seamlessly bridge the gap between academia and industry.",
+    },
+    vision: {
+      title: "Our Vision",
+      icon: BookOpen,
+      description:
+        "Our vision is to be India’s leading IT training institute, renowned for excellence in education, innovative teaching methodologies, and exceptional placement outcomes. We aspire to ensure every student graduates as a confident, skilled professional ready to make a meaningful impact in the technology industry.",
+    },
+  },
+  uniqueFeaturesSection: {
+    title: 'Our <span className="text-cyan-600">Distinctive</span> Approach',
+    badge: "What Makes Us Unique",
+    description:
+      "Discover the key pillars that set Flair Technologies apart in the competitive training landscape",
+    features: [
+      {
+        icon: Lightbulb,
+        title: "INVENTIVE AND LEADERSHIP",
+        description:
+          "At Flair Technologies, innovation drives learning and leadership shapes careers. We embrace inventive teaching methodologies, hands-on projects, and real-world case studies to equip students with cutting-edge technical skills. Guided by expert mentors and industry leaders, we prepare individuals not just to succeed in today’s competitive market, but to lead tomorrow’s technological transformation.",
+        highlight:
+          "We are dedicated to guiding industry professionals and students to competently compete and confirm international standards of quality employee efficiency and productivity.",
+      },
+      {
+        icon: GraduationCap,
+        title: "TRAINING METHODOLOGY",
+        description:
+          "Flair Technologies’ training methodology is uniquely designed to deliver a comprehensive spectrum of skills in an interactive and easy-to-learn format. Our programs are led by highly qualified and certified professionals committed to delivering excellence. With a focus on the latest tools, techniques, and industry practices, we ensure our learners gain the expertise and confidence required to excel in today’s competitive IT landscape.",
+        highlight:
+          "Our training methodology is unique and diverse and focuses on every area towards overall development of an individual.",
+      },
+      {
+        icon: Heart,
+        title: "SMOOTH APPROACH TOWARDS CUSTOMER",
+        description:
+          "Many professionals often find themselves at a crossroads in their careers. Despite having clear goals, values, and a strong work ethic, career decisions can feel confusing. Frequent job changes, driven by market fluctuations and insecurities, further add to the challenge. In today’s dynamic job market, it is essential to continuously enhance and upgrade skills to stay competitive and achieve long-term career success.",
+        highlight:
+          "We understand the environment fluctuating the job market. Our counselor evaluates the current positive finding in an individual and suggests areas of improvement. Our counselor gives the best remedy to an individual.",
+      },
+      {
+        icon: Star,
+        title: "OUR UNIQUENESS",
+        description:
+          "Our uniqueness is reflected across both tangible and intangible dimensions-through our workplace culture, expert faculty, and innovative training methodology. At Flair Technologies, we follow meticulous practices and an integrated, solution-driven approach, providing clients and learners with a distinct competitive advantage. Over time, we have refined our processes by combining experience with industry best practices, ensuring excellence in every aspect of our training delivery.",
+        highlight:
+          "Flair Technologies is an incredibly well-equipped training and development organization. We are dedicated to pursuing solutions to problems. Our distinctiveness lies in unmatched courseware, training techniques, and International affiliation with global giants.",
+      },
+    ],
+  },
+   ctaSection: {
+    title: "Ready to Join Our Success Story?",
+    description:
+      "Become part of the Flair Technologies family and transform your career with industry-leading training and guaranteed placement support.",
+    buttons: [
+      {
+        text: "Explore Courses",
+        href: "/courses",
+        className: "bg-white text-sky-600 hover:bg-gray-100 text-lg px-8",
+        icon: ArrowRight,
+      },
+      {
+        text: "Contact Us",
+        href: "/contact",
+        className:
+          "border-white text-white hover:bg-white hover:text-sky-600 text-lg px-8 bg-transparent",
+        variant: "outline",
+      },
+    ],
   },
 };
 
@@ -196,28 +273,28 @@ export const homePage = {
     { icon: BookOpen, label: "Expert Trainers", value: "30+" },
     { icon: MapPin, label: "Hiring partners", value: "100+" },
   ],
-  aboutSection: {
-    title: "About Flair Technologies",
-    badge: "Know Who We Are",
-    description:
-      "Since 2014, Flair Technologies has established itself as one of the leading IT Training Institute. We provide advanced, industry-relevant technologies and training programs, delivered by certified experts. Our offerings cater to both businesses and individuals, combining technical training, project implementation, and consultancy with research-driven methodologies. At every level, we are committed to delivering excellence, ensuring our learners and partners gain the skills and confidence to succeed in a competitive digital world.",
-    image:
-      "aboutus.jpg",
-    imageAlt: "Students learning in class",
-  },
+  // aboutSection: {
+  //   title: "About Flair Technologies",
+  //   badge: "Know Who We Are",
+  //   description:
+  //     "Since 2014, Flair Technologies has established itself as one of the leading IT Training Institute. We provide advanced, industry-relevant technologies and training programs, delivered by certified experts. Our offerings cater to both businesses and individuals, combining technical training, project implementation, and consultancy with research-driven methodologies. At every level, we are committed to delivering excellence, ensuring our learners and partners gain the skills and confidence to succeed in a competitive digital world.",
+  //   image:
+  //     "aboutus.jpg",
+  //   imageAlt: "Students learning in class",
+  // },
   learningExperienceSection: {
     image:
       "https://www.deazy.com/hubfs/remote%20team%20meeting.png",
     imageAlt: "Virtual learning session",
     title: "The Best Learning Experience",
     features: [
-      "Learn from the World’s Best Faculty & Industry Experts.",
-      "Instructor-led training with practical lab sessions.",
-      "Customized learning scaled to your corporate needs.",
-      "Real-time projects and certification guidance.",
-      "Access to the latest tools, technologies, and industry practices.",
-"Flexible learning modes: online and offline batches available.",
-      "Personalized guidance with 24×7 support.",
+      "Learn from world-class faculty and top industry experts.",
+      "Instructor-led sessions with hands-on lab experience.",
+      "Customized learning aligned to corporate requirements.",
+      "Real-time projects with certification exam guidance.",
+      "Get access to latest tools and industry technologies.",
+"Flexible modes: online, offline, and weekend batches.",
+      "24×7 personalized support and expert mentorship.",
     ],
     
   },
@@ -572,31 +649,31 @@ export const aboutPage = {
     ],
   },
   leadershipSection: {
-    title: 'Meet Our <span className="text-cyan-600">Leaders</span>',
-    badge: "Leadership Team",
+    title: 'Our Commitment to Your <span className="text-cyan-600">Success </span>',
+    badge: "Success Pathway",
     description:
-      "Experienced professionals leading the way in technology education and career development",
+      "At Flair, we bridge the gap between education and employment with top-tier software training and dedicated placement support. Here's how we guide you:",
     team: [
       {
-        name: "Rajesh Kumar",
-        role: "Founder & CEO",
-        experience: "15+ years",
-        image: "/placeholder.svg?height=200&width=200",
-        bio: "Former Tech Lead at Microsoft with a passion for education and skill development",
+        name: "Expert-Led ",
+        role: "Training",
+        experience: "100+ Expert Trainers",
+        image: "/coaching-coach.jpg?height=200&width=200",
+        bio: "Learn from industry experts with real-world experience, gaining the skills employers value most.",
       },
       {
-        name: "Priya Sharma",
-        role: "Head of Training",
-        experience: "12+ years",
-        image: "/placeholder.svg?height=200&width=200",
-        bio: "Ex-Amazon engineer specializing in full-stack development and data analytics",
+        name: "Hands-On Learning",
+        role: "Real Projects",
+        experience: "10+ years of Excellence",
+        image: "/course-39.webp?height=200&width=200",
+        bio: "Build expertise through live projects and hands-on training aligned with industry standards.",
       },
       {
-        name: "Arjun Patel",
-        role: "Placement Director",
-        experience: "10+ years",
-        image: "/placeholder.svg?height=200&width=200",
-        bio: "Former HR Director at TCS with extensive industry connections and placement expertise",
+        name: "Placement Assistance",
+        role: "Career Support",
+        experience: "100% Placement Rate",
+        image: "/placementassi.webp?height=200&width=200",
+        bio: "Gain expertise through live projects and practical training that meets industry standards.",
       },
     ],
   },
@@ -1162,7 +1239,7 @@ export const contactPage = {
             { value: "AI & ML", label: "AI & ML Course" },
             { value: "Testing", label: "Testing Course" },
             { value: "freshers", label: "Freshers Program" },
-            { value: "other", label: "Other" },
+            { value: "Others", label: "Others" },
           ],
         },
         {
@@ -1171,7 +1248,6 @@ export const contactPage = {
           options: [
             { value: "bangalore", label: "Bangalore" },
             { value: "hyderabad", label: "Hyderabad" },
-            { value: "london", label: "London" },
             { value: "online", label: "Online" },
           ],
         },

@@ -132,55 +132,57 @@ export default function HomePage() {
       <UpcomingBatchesSection />
 
       {/* About Flair Technologies Section */}
-      <section className="py-20 bg-gradient-to-br from-gray-50 to-sky-100">
-        <div className="container mx-auto px-6 grid lg:grid-cols-2 gap-12 items-center">
-          <motion.div
-            initial={{ opacity: 0, x: -50 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.6 }}
-            className="space-y-6"
-          >
-            <Badge className="bg-sky-100 text-sky-700">
-              {homePage.aboutSection.badge}
-            </Badge>
-            <h2 className="text-4xl font-bold text-gray-900">
-              {homePage.aboutSection.title}
-            </h2>
-            <p className="text-gray-700 text-lg leading-relaxed">
-              {homePage.aboutSection.description}
-            </p>
-            <Link href="/about">
-              <Button className="icon-button-color mt-3 hover:bg-sky-700 text-white px-6 py-3 text-lg">
-                Know More
-              </Button>
-            </Link>
-          </motion.div>
+      {!homePage && (
+        <section className="py-20 bg-gradient-to-br from-gray-50 to-sky-100">
+          <div className="container mx-auto px-6 grid lg:grid-cols-2 gap-12 items-center">
+            <motion.div
+              initial={{ opacity: 0, x: -50 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              transition={{ duration: 0.6 }}
+              className="space-y-6"
+            >
+              <Badge className="bg-sky-100 text-sky-700">
+                {homePage?.aboutSection?.badge}
+              </Badge>
+              <h2 className="text-4xl font-bold text-gray-900">
+                {homePage?.aboutSection?.title}
+              </h2>
+              <p className="text-gray-700 text-lg leading-relaxed">
+                {homePage?.aboutSection?.description}
+              </p>
+              <Link href="/about">
+                <Button className="icon-button-color mt-3 hover:bg-sky-700 text-white px-6 py-3 text-lg">
+                  Know More
+                </Button>
+              </Link>
+            </motion.div>
 
-          <motion.div
-            initial={{ opacity: 0, x: 50 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.6, delay: 0.2 }}
-            className="relative"
-          >
-            <img
-              src={homePage.aboutSection.image}
-              alt={homePage.aboutSection.imageAlt}
-              className="rounded-xl shadow-xl w-full"
-            />
-            <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
-              <div className="w-16 h-16 bg-sky-500 rounded-full flex items-center justify-center shadow-lg animate-pulse">
-                <svg
-                  className="w-6 h-6 text-white"
-                  fill="currentColor"
-                  viewBox="0 0 20 20"
-                >
-                  <path d="M6 4l10 6-10 6V4z" />
-                </svg>
+            <motion.div
+              initial={{ opacity: 0, x: 50 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              transition={{ duration: 0.6, delay: 0.2 }}
+              className="relative"
+            >
+              <img
+                src={homePage?.aboutSection?.image}
+                alt={homePage?.aboutSection?.imageAlt}
+                className="rounded-xl shadow-xl w-full"
+              />
+              <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+                <div className="w-16 h-16 bg-sky-500 rounded-full flex items-center justify-center shadow-lg animate-pulse">
+                  <svg
+                    className="w-6 h-6 text-white"
+                    fill="currentColor"
+                    viewBox="0 0 20 20"
+                  >
+                    <path d="M6 4l10 6-10 6V4z" />
+                  </svg>
+                </div>
               </div>
-            </div>
-          </motion.div>
-        </div>
-      </section>
+            </motion.div>
+          </div>
+        </section>
+      )}
 
       {/* The Best Learning Experience Section */}
       <section className="py-20 bg-white">

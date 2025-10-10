@@ -8,51 +8,245 @@ import "swiper/css/pagination";
 
 const experts = [
   {
+    image:
+      "/hcl.png", // Place these images in public/experts/
+  },
+  {
     
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIu7sb1F3f7aCt0WfRMyjmPEplhMm2aTdKag&s", // Place these images in public/experts/
+    image:
+      "/capgemini.png",
   },
   {
-    name: "Surya",
-    skill: "Microsoft Excel",
-    experience: "10 Years Experience",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHPwC6_cAN8adMl-TjZ4En60aYFqJ0OidcHQ&s",
+   
+    image:
+      "/virtusa.jpg",
   },
   {
-    name: "Viswanath",
-    skill: "DevOps & AWS",
-    experience: "12 Years Experience",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdaaETycFsm6LYCQDkIO1uvO1DpgMxKDGjRg&s",
+   
+    image:
+      "/wipro.png",
   },
   {
-    name: "Veera",
-    skill: "Microsoft Power BI",
-    experience: "10 Years Experience",
-    image: "https://res.cloudinary.com/hevo/images/c_scale,w_448,h_252,dpr_2.625/f_webp,q_auto:best/v1685882496/hevo-learn-1/microsoft-power-bi-logo_151265f430f/microsoft-power-bi-logo_151265f430f.png?_i=AA",
-  },
-    {
-    name: "Veera",
-    skill: "Tableau",
-    experience: "10 Years Experience",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIu7sb1F3f7aCt0WfRMyjmPEplhMm2aTdKag&s", // Place these images in public/experts/
+    
+    image:
+      "/tcs.png", // Place these images in public/experts/
   },
   {
-    name: "Surya",
-    skill: "Microsoft Excel",
-    experience: "10 Years Experience",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHPwC6_cAN8adMl-TjZ4En60aYFqJ0OidcHQ&s",
+    
+    image:
+      "/HSBC-logo.jpg",
   },
   {
-    name: "Viswanath",
-    skill: "DevOps & AWS",
-    experience: "12 Years Experience",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdaaETycFsm6LYCQDkIO1uvO1DpgMxKDGjRg&s",
+    
+    image:
+      "/acce.png",
   },
   {
-    name: "Veera",
-    skill: "Microsoft Power BI",
-    experience: "10 Years Experience",
-    image: "https://res.cloudinary.com/hevo/images/c_scale,w_448,h_252,dpr_2.625/f_webp,q_auto:best/v1685882496/hevo-learn-1/microsoft-power-bi-logo_151265f430f/microsoft-power-bi-logo_151265f430f.png?_i=AA",
+   
+    image:
+      "/cts.png",
   },
+  {
+   
+    image:
+      "/oracle.png",
+  },
+  {
+   
+    image:
+      "/sap.png",
+  },
+  {
+   
+    image:
+      "/Microsoft.jpg",
+  },
+  {
+    
+    image:
+      "/infosys.png",
+  },
+  {
+   
+    image:
+      "/Deloitte.jpg",
+  },
+  {
+   
+    image:
+      "/LTIMindtree.jpg",
+  },
+  {
+   
+    image:
+      "/google.png",
+  },
+  {
+   
+    image:
+      "/TCM.png",
+  },
+  {
+   
+    image:
+      "/yahoo.jpg",
+  },
+  {
+    
+    image:
+      "/Cisco.png",
+  },
+  {
+   
+    image:
+      "/CGI.jpeg",
+  },
+  {
+   
+    image:
+      "/Juniper.jpg",
+  },
+  {
+   
+    image:
+      "/netapp.png",
+  },
+  {
+   
+    image:
+      "/Dell.png",
+  },
+  {
+    
+    image:
+      "/KPMG.png",
+  },
+  {
+   
+    image:
+      "/EY.png",
+  },
+  {
+   
+    image:
+      "/HP.png",
+  },
+  {
+   
+    image:
+      "/S3X-logo.png",
+  },
+  {
+   
+    image:
+      "/syn.png",
+  },
+{
+    
+    image:
+      "/Mphasis.jpg",
+  },
+  {
+   
+    image:
+      "/ibm.png",
+  },
+  {
+   
+    image:
+      "/eclerx.png",
+  },
+  {
+   
+    image:
+      "/adp.png",
+  },
+  {
+   
+    image:
+      "/ITC_Infotech.jpg",
+  },
+
+  {
+    
+    image:
+      "/3i.png",
+  },
+  {
+   
+    image:
+      "/ntt.png",
+  },
+  {
+   
+    image:
+      "/cdac.png",
+  },
+  {
+   
+    image:
+      "/Coforge.png",
+  },
+  {
+   
+    image:
+      "/collab.jpg",
+  },
+
+  {
+    
+    image:
+      "/dxc.png",
+  },
+  {
+   
+    image:
+      "/cyient.jpg",
+  },
+  {
+   
+    image:
+      "/Honeywell.jpg",
+  },
+  {
+   
+    image:
+      "/Microland.jpg",
+  },
+  {
+   
+    image:
+      "/presis.jpeg",
+  },
+
+
+  {
+    
+    image:
+      "/Samsung.png",
+  },
+  {
+   
+    image:
+      "/Sasken.jpg",
+  },
+  {
+   
+    image:
+      "/sonata.png",
+  },
+  {
+   
+    image:
+      "/WNS.jpg",
+  },
+  {
+   
+    image:
+      "/Zensar.png",
+  },
+
+
 ];
 
 export function ExpertsCarousel() {
@@ -60,8 +254,9 @@ export function ExpertsCarousel() {
     <section className="py-20 bg-white">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl font-bold text-center mb-12">
-          Right Guidance From <span className="text-sky-600">Experts</span>
+          Our Esteemed  <span className="text-sky-600">Clients</span>
         </h2>
+        <p>Some of the Companies we've helped recurit excellent applicants over the years.</p>
 
         <Swiper
           slidesPerView={1}
@@ -88,7 +283,7 @@ export function ExpertsCarousel() {
                   {expert.name}
                 </h3>
                 <p className="text-gray-600">{expert.skill}</p>
-                <div className="text-yellow-500 mt-2 text-sm">★★★★★</div>
+                {/* <div className="text-yellow-500 mt-2 text-sm">★★★★★</div> */}
                 <p className="text-sm text-gray-500 mt-1">
                   {expert.experience}
                 </p>
