@@ -26,7 +26,7 @@ const Accordion2 = () => {
       id: 2,
       title: "Are the courses at Flair Technologies suitable for beginners?",
       content1:
-        "Yes, Flair Technologies courses are designed to cater to all levels of learners, from beginners to advanced professionals. They provide foundational courses for those new to the field as well as advanced courses for experienced professionals looking to upskill.",
+        "Yes, Flair Technologies courses are designed to cater to all levels of learners, from beginners to advanced professionals. Flair Technologies provide foundational courses for those new to the field as well as advanced courses for experienced professionals looking to upskill.",
     },
     {
       id: 3,
@@ -58,12 +58,16 @@ const Accordion2 = () => {
   ];
 
   return (
-    <div style={{ padding: "64px" }}>
-      <div className="" style={{ marginBottom: "15px", padding: "" }}>
+    <div style={{ padding: "85px" }}>
+      <div className="" style={{ marginBottom: "5px", padding: "10px" }}>
         <div className="hm_accor">
           <div className="Accor_head">
-            <h6>FREQUENTLY ASKED QUESTIONS</h6>
-            <h1>MOSTLY ASKED</h1>
+            <h2 class="text-3xl font-bold text-center mb-40">
+              Frequently Asked<spam class="text-sky-600"> Questions</spam>
+            </h2>
+            <p class="text-xl text-gray-600 max-w-3xl mx-auto mb-8">
+              Often asked questions from our wonderful partners.
+            </p>
           </div>
         </div>
       </div>

@@ -8,255 +8,162 @@ import "swiper/css/pagination";
 
 const experts = [
   {
-    image:
-      "/hcl.png", // Place these images in public/experts/
+    image: "/hcl.png", // Place these images in public/experts/
   },
   {
-    
-    image:
-      "/capgemini.png",
+    image: "/capgemini.png",
   },
   {
-   
-    image:
-      "/virtusa.jpg",
+    image: "/virtusa.jpg",
   },
   {
-   
-    image:
-      "/wipro.png",
+    image: "/wipro.png",
   },
   {
-    
-    image:
-      "/tcs.png", // Place these images in public/experts/
+    image: "/tcs.png", // Place these images in public/experts/
   },
   {
-    
-    image:
-      "/HSBC-logo.jpg",
+    image: "/HSBC-logo.jpg",
   },
   {
-    
-    image:
-      "/acce.png",
+    image: "/acce.png",
   },
   {
-   
-    image:
-      "/cts.png",
+    image: "/cts.png",
   },
   {
-   
-    image:
-      "/oracle.png",
+    image: "/oracle.png",
   },
   {
-   
-    image:
-      "/sap.png",
+    image: "/sap.png",
   },
   {
-   
-    image:
-      "/Microsoft.jpg",
+    image: "/Microsoft.jpg",
   },
   {
-    
-    image:
-      "/infosys.png",
+    image: "/infosys.png",
   },
   {
-   
-    image:
-      "/Deloitte.jpg",
+    image: "/Deloitte.jpg",
   },
   {
-   
-    image:
-      "/LTIMindtree.jpg",
+    image: "/LTIMindtree.jpg",
   },
   {
-   
-    image:
-      "/google.png",
+    image: "/google.png",
   },
   {
-   
-    image:
-      "/TCM.png",
+    image: "/TCM.png",
   },
   {
-   
-    image:
-      "/yahoo.jpg",
+    image: "/yahoo.jpg",
   },
   {
-    
-    image:
-      "/Cisco.png",
+    image: "/Cisco.png",
   },
   {
-   
-    image:
-      "/CGI.jpeg",
+    image: "/CGI.jpeg",
   },
   {
-   
-    image:
-      "/Juniper.jpg",
+    image: "/Juniper.jpg",
   },
   {
-   
-    image:
-      "/netapp.png",
+    image: "/netapp.png",
   },
   {
-   
-    image:
-      "/Dell.png",
+    image: "/Dell.png",
   },
   {
-    
-    image:
-      "/KPMG.png",
+    image: "/KPMG.png",
   },
   {
-   
-    image:
-      "/EY.png",
+    image: "/EY.png",
   },
   {
-   
-    image:
-      "/HP.png",
+    image: "/HP.png",
   },
   {
-   
-    image:
-      "/S3X-logo.png",
+    image: "/S3X-logo.png",
   },
   {
-   
-    image:
-      "/syn.png",
-  },
-{
-    
-    image:
-      "/Mphasis.jpg",
+    image: "/syn.png",
   },
   {
-   
-    image:
-      "/ibm.png",
+    image: "/Mphasis.jpg",
   },
   {
-   
-    image:
-      "/eclerx.png",
+    image: "/ibm.png",
   },
   {
-   
-    image:
-      "/adp.png",
+    image: "/eclerx.png",
   },
   {
-   
-    image:
-      "/ITC_Infotech.jpg",
+    image: "/adp.png",
+  },
+  {
+    image: "/ITC_Infotech.jpg",
   },
 
   {
-    
-    image:
-      "/3i.png",
+    image: "/3i.png",
   },
   {
-   
-    image:
-      "/ntt.png",
+    image: "/ntt.png",
   },
   {
-   
-    image:
-      "/cdac.png",
+    image: "/cdac.png",
   },
   {
-   
-    image:
-      "/Coforge.png",
+    image: "/Coforge.png",
   },
   {
-   
-    image:
-      "/collab.jpg",
+    image: "/collab.jpg",
   },
 
   {
-    
-    image:
-      "/dxc.png",
+    image: "/dxc.png",
   },
   {
-   
-    image:
-      "/cyient.jpg",
+    image: "/cyient.jpg",
   },
   {
-   
-    image:
-      "/Honeywell.jpg",
+    image: "/Honeywell.jpg",
   },
   {
-   
-    image:
-      "/Microland.jpg",
+    image: "/Microland.jpg",
   },
   {
-   
-    image:
-      "/presis.jpeg",
+    image: "/presis.jpeg",
   },
 
-
   {
-    
-    image:
-      "/Samsung.png",
+    image: "/Samsung.png",
   },
   {
-   
-    image:
-      "/Sasken.jpg",
+    image: "/Sasken.jpg",
   },
   {
-   
-    image:
-      "/sonata.png",
+    image: "/sonata.png",
   },
   {
-   
-    image:
-      "/WNS.jpg",
+    image: "/WNS.jpg",
   },
   {
-   
-    image:
-      "/Zensar.png",
+    image: "/Zensar.png",
   },
-
-
 ];
 
 export function ExpertsCarousel() {
   return (
     <section className="py-20 bg-white">
       <div className="container mx-auto px-4">
-        <h2 className="text-3xl font-bold text-center mb-12">
-          Our Esteemed  <span className="text-sky-600">Clients</span>
+        <h2 className="text-3xl font-bold text-center mb-40">
+          Our Esteemed <span className="text-sky-600">Clients</span>
         </h2>
-        <p>Some of the Companies we've helped recurit excellent applicants over the years.</p>
+        <p class="text-xl text-gray-600 max-w-3xl mx-auto mb-41">
+          Some of the Companies we've helped recurit excellent applicants over
+          the years.
+        </p>
 
         <Swiper
           slidesPerView={1}

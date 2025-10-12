@@ -33,11 +33,11 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 400;
     color: #000;
     gap: 20px;
-    padding: 10px;
+    padding: 15px;
     margin-bottom: 2px;
     font-weight: 600;
     font-family: '__GeistSans_fb8f2c', '__GeistSans_Fallback_fb8f2c';
@@ -48,10 +48,11 @@
     cursor: pointer;
 }
 .accordion .accor_ans P{
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 400;
     background-color: #ffffff;
-    padding: 5px 10px;
+    padding: 10px 15px 20px;
+    
     font-family: '__GeistSans_fb8f2c', '__GeistSans_Fallback_fb8f2c';
 }
 .accordion .accor_ques h1 .plus .wrong{

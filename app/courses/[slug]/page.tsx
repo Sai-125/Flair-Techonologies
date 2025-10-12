@@ -71,7 +71,7 @@ const courseData = {
       "Get hands-on project experience.",
     ],
     testimonialsSection: {
-      badge: "Success Stories",
+      badge: "🎓 Success Stories",
       title:
         'From <span className="text-sky-600">Freshers</span> to Professionals',
       description:
@@ -714,7 +714,7 @@ const courseData = {
       "Build end-to-end real-world applications to showcase your skills.",
     ],
     testimonialsSection: {
-      badge: "Success Stories",
+      badge: "🎓 Success Stories",
       title:
         'From <span className="text-sky-600">Freshers</span> to Professionals',
       description:
@@ -1596,7 +1596,7 @@ const courseData = {
       "Deploy React apps with best practices.",
     ],
     testimonialsSection: {
-      badge: "Success Stories",
+      badge: "🎓 Success Stories",
       title:
         'From <span className="text-sky-600">Freshers</span> to Professionals',
       description:
@@ -1958,7 +1958,7 @@ const courseData = {
       "Apply SQL for queries and data analysis.",
     ],
     testimonialsSection: {
-      badge: "Success Stories",
+      badge: "🎓 Success Stories",
       title:
         'From <span className="text-sky-600">Freshers</span> to Professionals',
       description:
@@ -2187,7 +2187,7 @@ const courseData = {
       "SQL, modeling & analytics.",
     ],
     testimonialsSection: {
-      badge: "Success Stories",
+      badge: "🎓 Success Stories",
       title:
         'From <span className="text-sky-600">Freshers</span> to Professionals',
       description:
@@ -2426,7 +2426,7 @@ const courseData = {
       "Capstone: enterprise Azure solution.",
     ],
     testimonialsSection: {
-      badge: "Success Stories",
+      badge: "🎓 Success Stories",
       title:
         'From <span className="text-sky-600">Freshers</span> to Professionals',
       description:
@@ -2873,7 +2873,7 @@ const courseData = {
       "Build macros, apps, and reports.",
     ],
     testimonialsSection: {
-      badge: "Success Stories",
+      badge: "🎓 Success Stories",
       title:
         'From <span className="text-sky-600">Freshers</span> to Professionals',
       description:
@@ -3135,7 +3135,7 @@ const courseData = {
       "Automate Outlook, Word, and PowerPoint.",
     ],
     testimonialsSection: {
-      badge: "Success Stories",
+      badge: "🎓 Success Stories",
       title:
         'From <span className="text-sky-600">Freshers</span> to Professionals',
       description:
@@ -3592,7 +3592,7 @@ const courseData = {
       "Deploy and share with Tableau Server.",
     ],
     testimonialsSection: {
-      badge: "Success Stories",
+      badge: "🎓 Success Stories",
       title:
         'From <span className="text-sky-600">Freshers</span> to Professionals',
       description:
@@ -3821,7 +3821,7 @@ const courseData = {
       "Perform real-world reporting and analysis tasks.",
     ],
     testimonialsSection: {
-      badge: "Success Stories",
+      badge: "🎓 Success Stories",
       title:
         'From <span className="text-sky-600">Freshers</span> to Professionals',
       description:
@@ -4121,7 +4121,7 @@ const courseData = {
       "Apply NumPy for real-world reporting.",
     ],
     testimonialsSection: {
-      badge: "Success Stories",
+      badge: "🎓 Success Stories",
       title:
         'From <span className="text-sky-600">Professionals</span> to Analytics Experts',
       description:
@@ -4387,7 +4387,7 @@ const courseData = {
       "Explore observability using Istio.",
     ],
     testimonialsSection: {
-      badge: "Success Stories",
+      badge: "🎓 Success Stories",
       title:
         'From <span className="text-sky-600">Freshers</span> to Professionals',
       description:
@@ -4771,7 +4771,7 @@ const courseData = {
       "Manage applications on Azure Kubernetes.",
     ],
     testimonialsSection: {
-      badge: "Success Stories",
+      badge: "🎓 Success Stories",
       title:
         'From <span className="text-sky-600">Freshers</span> to Professionals',
       description:
@@ -5223,7 +5223,7 @@ const courseData = {
       "Handle recovery, migrate with ASR.",
     ],
     testimonialsSection: {
-      badge: "Success Stories",
+      badge: "🎓 Success Stories",
       title:
         'From <span className="text-sky-600">Freshers</span> to Professionals',
       description:
@@ -5535,7 +5535,7 @@ const courseData = {
       "Hands-on SCM technical training.",
     ],
     testimonialsSection: {
-      badge: "Success Stories",
+      badge: "🎓 Success Stories",
       title:
         'From <span className="text-sky-600">Freshers</span> to Professionals',
       description:
@@ -6212,7 +6212,7 @@ const courseData = {
       "Apply skills in real projects.",
     ],
     testimonialsSection: {
-      badge: "Success Stories",
+      badge: "🎓 Success Stories",
       title:
         'From <span className="text-sky-600">Freshers</span> to Professionals',
       description:
@@ -7097,7 +7097,7 @@ const courseData = {
       "Deploy React apps with best practices.",
     ],
     testimonialsSection: {
-      badge: "Success Stories",
+      badge: "🎓 Success Stories",
       title:
         'From <span className="text-sky-600">Freshers</span> to Professionals',
       description:
@@ -7302,7 +7302,7 @@ const courseData = {
       "Securing web services & APIs",
     ],
     testimonialsSection: {
-      badge: "Success Stories",
+      badge: "🎓 Success Stories",
       title:
         'From <span className="text-sky-600">Freshers</span> to Professionals',
       description:
@@ -7560,7 +7560,7 @@ const courseData = {
       "Real-time major project on networking protocols.",
     ],
     testimonialsSection: {
-      badge: "Success Stories",
+      badge: "🎓 Success Stories",
       title:
         'From <span className="text-sky-600">Freshers</span> to Professionals',
       description:
@@ -8107,7 +8107,7 @@ const courseData = {
       "Prepare for jobs with interviews and resume guidance.",
     ],
     testimonialsSection: {
-      badge: "Success Stories",
+      badge: "🎓 Success Stories",
       title:
         'From <span className="text-sky-600">Freshers</span> to Professionals',
       description:
@@ -8289,7 +8289,7 @@ const courseData = {
       "Amazon SageMaker for cloud-native model deployment.",
     ],
     testimonialsSection: {
-      badge: "Success Stories",
+      badge: "🎓 Success Stories",
       title:
         'From <span className="text-sky-600">Professionals</span> to AI Leaders',
       description:
@@ -8720,7 +8720,7 @@ const courseData = {
       "Learn CAPL scripting and automation.",
     ],
     testimonialsSection: {
-      badge: "Success Stories",
+      badge: "🎓 Success Stories",
       title:
         'From <span className="text-sky-600">Freshers</span> to Professionals',
       description:
