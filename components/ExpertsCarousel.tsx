@@ -157,10 +157,10 @@ export function ExpertsCarousel() {
   return (
     <section className="py-20 bg-white">
       <div className="container mx-auto px-4">
-        <h2 className="text-3xl font-bold text-center mb-40">
+        <h2 className="text-3xl font-bold text-center mb-4">
           Our Esteemed <span className="text-sky-600">Clients</span>
         </h2>
-        <p class="text-xl text-gray-600 max-w-3xl mx-auto mb-41">
+        <p class="text-xl text-gray-600 max-w-3xl mx-auto mb-10">
           Some of the Companies we've helped recurit excellent applicants over
           the years.
         </p>

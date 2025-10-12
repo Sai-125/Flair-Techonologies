@@ -62,7 +62,7 @@ const Accordion2 = () => {
       <div className="" style={{ marginBottom: "5px", padding: "10px" }}>
         <div className="hm_accor">
           <div className="Accor_head">
-            <h2 class="text-3xl font-bold text-center mb-40">
+            <h2 class="text-3xl font-bold text-center mb-4">
               Frequently Asked<spam class="text-sky-600"> Questions</spam>
             </h2>
             <p class="text-xl text-gray-600 max-w-3xl mx-auto mb-8">
