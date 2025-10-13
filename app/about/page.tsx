@@ -84,7 +84,10 @@ export default function AboutPage() {
                   </CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-gray-700 text-lg leading-relaxed">
+                  <p
+                    align="justify"
+                    className="text-gray-700 text-lg leading-relaxed"
+                  >
                     {aboutPage.missionVisionSection.mission.description}
                   </p>
                 </CardContent>
@@ -104,7 +107,10 @@ export default function AboutPage() {
                   </CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-gray-700 text-lg leading-relaxed">
+                  <p
+                    align="justify"
+                    className="text-gray-700 text-lg leading-relaxed"
+                  >
                     {aboutPage.missionVisionSection.vision.description}
                   </p>
                 </CardContent>
@@ -132,7 +138,10 @@ export default function AboutPage() {
                 __html: aboutPage.uniqueFeaturesSection.title,
               }}
             />
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+            <p
+              
+              className="text-xl text-gray-600 max-w-3xl mx-auto"
+            >
               {aboutPage.uniqueFeaturesSection.description}
             </p>
           </motion.div>
@@ -157,11 +166,17 @@ export default function AboutPage() {
                         <h3 className="text-2xl font-bold text-gray-900 uppercase tracking-wide">
                           {feature.title}
                         </h3>
-                        <p className="text-gray-700 text-lg leading-relaxed">
+                        <p
+                          align="justify"
+                          className="text-gray-700 text-lg leading-relaxed"
+                        >
                           {feature.description}
                         </p>
                         <div className="bg-gradient-to-r from-sky-50 to-cyan-50 p-4 rounded-lg border-l-4 border-sky-500">
-                          <p className="text-gray-800 font-medium italic">
+                          <p
+                            align="justify"
+                            className="text-gray-800 font-medium italic"
+                          >
                             {feature.highlight}
                           </p>
                         </div>
@@ -364,7 +379,7 @@ export default function AboutPage() {
               <h1 className="heading">
                 {aboutPage.flairTechnologiesSection.title}
               </h1>
-              <p className="text-gray-700 text-lg mb-6">
+              <p align="justify" className="text-gray-700 text-lg mb-6">
                 {aboutPage.flairTechnologiesSection.description}
               </p>
               <a href={aboutPage.flairTechnologiesSection.button.href}>

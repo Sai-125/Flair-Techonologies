@@ -88,29 +88,39 @@ export default function ServicePage({ params }: { params: { slug: string } }) {
       </section>
 
       <section className="py-16 bg-gradient-to-br from-cyan-50 to-blue-50 text-xl">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-8">
           <div className="space-y-8">
             {params.slug === "it-training" && (
               <div>
                 <h2 className="text-2xl font-bold text-gray-900 mb-4">
                   About Our IT Training
                 </h2>
-                <p className="text-gray-700 mb-4">
+                <p
+                  align="justify"
+                  className="text-gray-700 text-lg leading-relaxed mb-4"
+                >
                   {service.additionalInfo.intro}
                 </p>
                 <h3 className="text-xl font-semibold text-gray-800 mb-2">
                   Training Methodology
                 </h3>
-                <p className="text-gray-700 mb-4">
+                <p
+                  align="justify"
+                  className="text-gray-700 text-lg leading-relaxed mb-4"
+                >
                   {
                     (service.additionalInfo as TrainingAdditionalInfo)
                       .methodology
                   }
                 </p>
+
                 <h3 className="text-xl font-semibold text-gray-800 mb-2">
                   Quality Standards
                 </h3>
-                <p className="text-gray-700 mb-4">
+                <p
+                  align="justify"
+                  className="text-gray-700 text-lg leading-relaxed mb-4"
+                >
                   {
                     (service.additionalInfo as TrainingAdditionalInfo)
                       .qualityStandards
@@ -123,16 +133,31 @@ export default function ServicePage({ params }: { params: { slug: string } }) {
                   {(
                     service.additionalInfo as TrainingAdditionalInfo
                   ).coursesOffered.map((course, index) => (
-                    <li key={index}>{course}</li>
+                    <p
+                      align="justify"
+                      className="text-gray-700 text-lg leading-relaxed mb-4"
+                      key={index}
+                    >
+                      {course}
+                    </p>
                   ))}
                 </ul>
-                <p className="text-gray-700 mb-4">
+                <h3 className="text-xl font-semibold text-gray-800 mb-2">
+                  Why Choose Flair Technologies?
+                </h3>
+                <p
+                  align="justify"
+                  className="text-gray-700 text-lg leading-relaxed mb-4"
+                >
                   {
                     (service.additionalInfo as TrainingAdditionalInfo)
                       .innovation
                   }
                 </p>
-                <p className="text-gray-700">
+                <p
+                  align="center"
+                  className="text-gray-700 text-lg leading-relaxed mb-4"
+                >
                   {(service.additionalInfo as TrainingAdditionalInfo).contact}
                 </p>
               </div>
@@ -142,56 +167,36 @@ export default function ServicePage({ params }: { params: { slug: string } }) {
                 <h2 className="text-2xl font-bold text-gray-900 mb-4">
                   About Our IT Consulting
                 </h2>
-                <p className="text-gray-700 mb-4">
+                <p
+                  align="justify"
+                  className="text-gray-700 text-lg leading-relaxed mb-4"
+                >
                   {service.additionalInfo.intro}
                 </p>
-                <p className="text-gray-700 mb-4">
+                <p
+                  align="justify"
+                  className="text-gray-700 text-lg leading-relaxed mb-4"
+                >
                   {
                     (service.additionalInfo as ConsultingAdditionalInfo)
                       .benefits
                   }
                 </p>
-                <h3 className="text-xl font-semibold text-gray-800 mb-2">
-                  Our Consulting Portfolio
-                </h3>
-                <ul className="list-disc list-inside text-gray-700 mb-4">
-                  {(
-                    service.additionalInfo as ConsultingAdditionalInfo
-                  ).portfolio.map((item, index) => (
-                    <li key={index}>{item}</li>
-                  ))}
-                </ul>
-                <h3 className="text-xl font-semibold text-gray-800 mb-2">
-                  Permanent Hire Services
-                </h3>
-                <p className="text-gray-700 mb-4">
-                  {
-                    (service.additionalInfo as ConsultingAdditionalInfo)
-                      .permanentHire
-                  }
-                </p>
-                <h3 className="text-xl font-semibold text-gray-800 mb-2">
-                  Contract Staffing
-                </h3>
-                <p className="text-gray-700 mb-4">
-                  {
-                    (service.additionalInfo as ConsultingAdditionalInfo)
-                      .contractStaffing
-                  }
-                </p>
-                <h3 className="text-xl font-semibold text-gray-800 mb-2">
-                  Screening Process
-                </h3>
-                <p className="text-gray-700 mb-4">
+
+                <p
+                  align="justify"
+                  className="text-gray-700 text-lg leading-relaxed mb-4"
+                >
                   {
                     (service.additionalInfo as ConsultingAdditionalInfo)
                       .screening
                   }
                 </p>
-                <h3 className="text-xl font-semibold text-gray-800 mb-2">
-                  Temporary Staffing
-                </h3>
-                <p className="text-gray-700">
+
+                <p
+                  align="justify"
+                  className="text-gray-700 text-lg leading-relaxed mb-4"
+                >
                   {
                     (service.additionalInfo as ConsultingAdditionalInfo)
                       .temporaryStaffing
@@ -204,13 +209,16 @@ export default function ServicePage({ params }: { params: { slug: string } }) {
                 <h2 className="text-2xl font-bold text-gray-900 mb-4">
                   About Our IT Outsourcing
                 </h2>
-                <p className="text-gray-700 mb-4">
+                <p
+                  align="justify"
+                  className="text-gray-700 text-lg leading-relaxed mb-4"
+                >
                   {service.additionalInfo.intro}
                 </p>
                 <h3 className="text-xl font-semibold text-gray-800 mb-2">
                   Services Offered
                 </h3>
-                <ul className="list-disc list-inside text-gray-700 mb-4">
+                <ul className="list-disc list-inside text-gray-700 text-lg leading-relaxed mb-4">
                   {(
                     service.additionalInfo as OutsourcingAdditionalInfo
                   ).services.map((service, index) => (
@@ -220,31 +228,46 @@ export default function ServicePage({ params }: { params: { slug: string } }) {
                 <h3 className="text-xl font-semibold text-gray-800 mb-2">
                   Key Differentiators
                 </h3>
-                <p className="text-gray-700 mb-4">
+                <p
+                  align="justify"
+                  className="text-gray-700 text-lg leading-relaxed mb-4"
+                >
                   {
                     (service.additionalInfo as OutsourcingAdditionalInfo)
                       .differentiators.totalOutsourcing
                   }
                 </p>
-                <p className="text-gray-700 mb-4">
+                <p
+                  align="justify"
+                  className="text-gray-700 text-lg leading-relaxed mb-4"
+                >
                   {
                     (service.additionalInfo as OutsourcingAdditionalInfo)
                       .differentiators.globalDelivery
                   }
                 </p>
-                <p className="text-gray-700 mb-4">
+                <p
+                  align="justify"
+                  className="text-gray-700 text-lg leading-relaxed mb-4"
+                >
                   {
                     (service.additionalInfo as OutsourcingAdditionalInfo)
                       .differentiators.flexibleDelivery
                   }
                 </p>
-                <p className="text-gray-700 mb-4">
+                <p
+                  align="justify"
+                  className="text-gray-700 text-lg leading-relaxed mb-4"
+                >
                   {
                     (service.additionalInfo as OutsourcingAdditionalInfo)
                       .businessGrowth
                   }
                 </p>
-                <p className="text-gray-700">
+                <p
+                  align="justify"
+                  className="text-gray-700 text-lg leading-relaxed mb-4"
+                >
                   {
                     (service.additionalInfo as OutsourcingAdditionalInfo)
                       .recruitingSupport
@@ -273,7 +296,10 @@ export default function ServicePage({ params }: { params: { slug: string } }) {
                   </CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-gray-700 text-lg leading-relaxed">
+                  <p
+                    align="justify"
+                    className="text-gray-700 text-lg leading-relaxed"
+                  >
                     {servicesData.missionVisionSection.mission.description}
                   </p>
                 </CardContent>
@@ -293,7 +319,10 @@ export default function ServicePage({ params }: { params: { slug: string } }) {
                   </CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-gray-700 text-lg leading-relaxed">
+                  <p
+                    align="justify"
+                    className="text-gray-700 text-lg leading-relaxed"
+                  >
                     {servicesData.missionVisionSection.vision.description}
                   </p>
                 </CardContent>
@@ -347,11 +376,17 @@ export default function ServicePage({ params }: { params: { slug: string } }) {
                           <h3 className="text-2xl font-bold text-gray-900 uppercase tracking-wide">
                             {feature.title}
                           </h3>
-                          <p className="text-gray-700 text-lg leading-relaxed">
+                          <p
+                            align="justify"
+                            className="text-gray-700 text-lg leading-relaxed"
+                          >
                             {feature.description}
                           </p>
                           <div className="bg-gradient-to-r from-sky-50 to-cyan-50 p-4 rounded-lg border-l-4 border-sky-500">
-                            <p className="text-gray-800 font-medium italic">
+                            <p
+                              align="justify"
+                              className="text-gray-800 font-medium italic"
+                            >
                               {feature.highlight}
                             </p>
                           </div>
