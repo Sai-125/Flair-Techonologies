@@ -25,7 +25,10 @@ import {
   Twitter,
   Instagram,
   Linkedin,
+  Youtube,
+  YoutubeIcon,
 } from "lucide-react";
+import { IoLogoFacebook, IoLogoInstagram, IoLogoLinkedin, IoLogoTwitter, IoLogoYoutube } from "react-icons/io";
 
 // Define interfaces for additionalInfo (for servicesData)
 export interface TrainingAdditionalInfo {
@@ -1474,25 +1477,31 @@ export const footer = {
     socialLinks: [
       {
         href: "https://www.facebook.com/flairtechnologiess",
-        icon: Facebook,
+        icon: IoLogoFacebook,
         className: "text-gray-400 hover:text-sky-400 transition-colors",
         size: "h-5 w-5",
       },
       {
-        href: "#",
-        icon: Twitter,
+        href: "https://x.com/flairtech17",
+        icon: IoLogoTwitter,
         className: "text-gray-400 hover:text-sky-400 transition-colors",
         size: "h-5 w-5",
       },
       {
-        href: "#",
-        icon: Instagram,
+        href: "https://www.instagram.com/flairtechnologies/",
+        icon: IoLogoInstagram,
         className: "text-gray-400 hover:text-sky-400 transition-colors",
         size: "h-5 w-5",
       },
       {
-        href: "#",
-        icon: Linkedin,
+        href: "https://www.linkedin.com/company/flair-technologies/",
+        icon: IoLogoLinkedin,
+        className: "text-gray-400 hover:text-sky-400 transition-colors",
+        size: "h-5 w-5",
+      },
+      {
+        href: "https://www.youtube.com/@flairtechnologies",
+        icon: IoLogoYoutube,
         className: "text-gray-400 hover:text-sky-400 transition-colors",
         size: "h-5 w-5",
       },
