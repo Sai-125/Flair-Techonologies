@@ -79,7 +79,7 @@ interface ServiceData {
 // Services Data
 export const servicesData: Record<string, ServiceData> = {
   "it-training": {
-    title: "IT Training",
+    title: "IT <span class='text-yellow-400'>Training</span>",
     description:
       "Empower your skills with hands-on IT training from certified instructors.",
     highlights: [
@@ -109,7 +109,7 @@ export const servicesData: Record<string, ServiceData> = {
     },
   },
   "it-consulting": {
-    title: "IT Consulting",
+    title: "IT <span class='text-yellow-400'>Consulting</span>",
     description:
       "Professional guidance to streamline your IT infrastructure and processes.",
     highlights: [
@@ -133,7 +133,7 @@ export const servicesData: Record<string, ServiceData> = {
     },
   },
   "it-outsourcing": {
-    title: "IT Outsourcing",
+    title: "IT <span class='text-yellow-400'>Outsourcing</span>",
     description:
       "Reduce costs and focus on core business while we manage your IT services.",
     highlights: ["End-to-end support", "24/7 monitoring", "Scalable resources", "Cost-effective service delivery"],
@@ -242,7 +242,7 @@ export const servicesData: Record<string, ServiceData> = {
 // Home page constants
 export const homePage = {
   heroSection: {
-    title: "Master In-Demand Tech Skills",
+    title: "Master In-Demand  <span class='text-yellow-400'>Tech Skills</span>",
     description:
       "Join India's leading IT training institute with 100% placement assistance. Learn from industry experts and land your dream job in tech.",
     stats: [
@@ -337,14 +337,15 @@ export const homePage = {
   upcomingBatchesSection: {
     title: "Register Now - Upcoming Batches",
     batches: [
-      {
+        {
         id: 1,
-        name: "Microsoft Power BI",
-        mode: "Classroom - BLR",
-        faculty: "Mr. Veera",
-        date: "Apr 10, 2024",
-        time: "08:15 AM",
-        duration: "45 Hours",
+        name: "Data Analyst - Freshers",
+        mode: "Offline",
+        faculty: "Mr. Surya",
+        date: "May 01, 2024",
+        time: "09:00 AM",
+        duration: "100 Days",
+        brochure:'/courses/python-fullstack'
       },
       {
         id: 2,
@@ -354,6 +355,7 @@ export const homePage = {
         date: "May 01, 2024",
         time: "09:00 AM",
         duration: "45 Hours",
+        brochure:''
       },
       {
         id: 3,
@@ -363,16 +365,19 @@ export const homePage = {
         date: "May 01, 2024",
         time: "07:30 AM",
         duration: "100 Days",
+        brochure:''
       },
-      {
+        {
         id: 4,
-        name: "Data Analyst - Freshers",
-        mode: "Offline",
-        faculty: "Mr. Surya",
-        date: "May 01, 2024",
-        time: "09:00 AM",
-        duration: "100 Days",
+        name: "Microsoft Power BI",
+        mode: "Classroom - BLR",
+        faculty: "Mr. Veera",
+        date: "Apr 10, 2024",
+        time: "08:15 AM",
+        duration: "45 Hours",
+        brochure:''
       },
+
       {
         id: 5,
         name: "SRE Modern DevOps",
@@ -381,6 +386,7 @@ export const homePage = {
         date: "Apr 20, 2024",
         time: "07:00 AM",
         duration: "100 Days",
+        brochure:''
       },
       {
         id: 6,
@@ -390,6 +396,7 @@ export const homePage = {
         date: "Apr 22, 2024",
         time: "08:15 PM",
         duration: "100 Hours",
+        brochure:''
       },
       {
         id: 7,
@@ -399,6 +406,7 @@ export const homePage = {
         date: "May 01, 2024",
         time: "08:00 AM",
         duration: "100 Hours",
+        brochure:''
       },
     ],
   },
@@ -1612,20 +1620,20 @@ Othercourse:[
     {
       icon: MapPin,
       title: "Bangalore Center - I",
-      address: `#05, Vivekananda Layout, Marathahalli, Bangalore, Karnataka - 560037, India.`,
+      address: `#05, Vivekananda Layout, Marathahalli, Bangalore, Karnataka - 560037.`,
       iconClass: "h-5 w-5 text-sky-400 mt-0.5",
     },
     
     {
       icon: MapPin,
       title: "Bangalore Center - II",
-      address: `2nd Floor, 90/3, Outer Ring Road, Marathahalli, Bangalore, Karnataka - 560037, India.`,
+      address: `2nd Floor, 90/3, Outer Ring Road, Marathahalli, Bangalore, Karnataka - 560037.`,
       iconClass: "h-5 w-5 text-sky-400 mt-0.5",
     },
     {
       icon: MapPin,
       title: "Hyderabad",
-      address: `501, Sumedh Pride, Vijay Nagar Colony, Kukatpally, Hyderabad, Telangana - 500072, India.`,
+      address: `501, Sumedh Pride, Vijay Nagar Colony, Kukatpally, Hyderabad, Telangana - 500072.`,
       iconClass: "h-5 w-5 text-sky-400 mt-0.5",
     },
     {

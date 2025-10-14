@@ -8,7 +8,7 @@ export function Footer() {
   return (
     <footer className="bg-gray-900 text-white">
       <div className="container mx-auto px-4 py-16">
-        <div className="grid md:grid-cols-2 lg:grid-cols-17 gap-8">
+        <div className="grid md:grid-cols-17 lg:grid-cols-5 gap-8">
           {/* Company Info */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -170,7 +170,7 @@ export function Footer() {
             </ul> */}
           </motion.div>
           {/* Contact Details (Col 5) */}
-          <motion.div
+          {/* <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.4 }}
@@ -188,9 +188,11 @@ export function Footer() {
                 </div>
               ))}
             </div>
-          </motion.div>
+          </motion.div> */}
 
           {/* Locations (Col 4) */}
+        </div>
+        <div className="" style={{ marginTop: "40px" }}>
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -198,7 +200,15 @@ export function Footer() {
             className="space-y-4 lg:col-span-3"
           >
             <h3 className="text-lg font-semibold">Our Locations</h3>
-            <div className="space-y-3">
+            <div
+              className=""
+              style={{
+                display: "flex",
+                alignItems: "flex-start",
+                justifyContent: "space-between",
+                gap: "10px",
+              }}
+            >
               {footer.locations.map((loc, index) => (
                 <div key={index} className="flex items-start space-x-3">
                   <loc.icon className={loc.iconClass} />
@@ -213,7 +223,6 @@ export function Footer() {
             </div>
           </motion.div>
         </div>
-
         <div className="border-t border-gray-800 mt-12 pt-8 text-center">
           <p className="text-gray-400">{footer.copyright}</p>
         </div>

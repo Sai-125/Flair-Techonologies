@@ -78,12 +78,12 @@ export default function UpcomingBatchesTable() {
                   <td className="px-4 py-3">{batch.duration}</td>
 
                   <td className="flex gap-2 justify-between items-center px-4  py-2">
-                    <Link href="/my-course.pdf" target="_blank">
+                    <Link href={`${batch?.brochure as any}`} target="_blank">
                       <Button
                         className="border border-sky-600 text-sky-600 hover:bg-sky-600 hover:text-white bg-transparent text-sm font-medium px-3 py-2"
                         size="lg"
                       >
-                        View   Brochure <ArrowRight className="ml-2 h-4 w-4" />
+                        View Course <ArrowRight className="ml-2 h-4 w-4" />
                       </Button>
                     </Link>
                     <EnrollDialog

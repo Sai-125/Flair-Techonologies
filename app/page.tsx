@@ -44,7 +44,12 @@ export default function HomePage() {
                 <Badge className="bg-white text-sky-600 hover:bg-gray-100">
                   🚀 Transform Your Career in Tech
                 </Badge>
-                <h1 className="heading">{homePage.heroSection.title}</h1>
+                <h1
+                  className="heading"
+                  dangerouslySetInnerHTML={{
+                    __html: homePage.heroSection.title,
+                  }}
+                />
                 <p className="description max-w-lg">
                   {homePage.heroSection.description}
                 </p>
