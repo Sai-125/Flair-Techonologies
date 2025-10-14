@@ -8,7 +8,7 @@ export function Footer() {
   return (
     <footer className="bg-gray-900 text-white">
       <div className="container mx-auto px-4 py-16">
-        <div className="grid md:grid-cols-2 lg:grid-cols-7 gap-8">
+        <div className="grid md:grid-cols-2 lg:grid-cols-17 gap-8">
           {/* Company Info */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -25,7 +25,9 @@ export function Footer() {
                 />
               </Link>
             </div>
-            <p className="text-gray-300">{footer.companyInfo.description}</p>
+            <p align="justify" className="text-gray-300">
+              {footer.companyInfo.description}
+            </p>
             <div className="flex space-x-4">
               {footer.companyInfo.socialLinks.map((link, index) => (
                 <a key={index} href={link.href} className={link.className}>
@@ -42,10 +44,12 @@ export function Footer() {
             transition={{ duration: 0.6, delay: 0.1 }}
             className="space-y-4"
           >
-            <h3 className="text-lg font-semibold">Quick Links</h3>
+            <h3 align="center" className="text-lg font-semibold">
+              Quick Links
+            </h3>
             <ul className="space-y-2">
               {footer.quickLinks.map((link) => (
-                <li key={link.name}>
+                <li align="center" key={link.name}>
                   <Link
                     href={link.href}
                     className="text-gray-300 hover:text-sky-400 transition-colors"
@@ -67,6 +71,19 @@ export function Footer() {
             <h3 className="text-lg font-semibold">Popular Courses</h3>
             <ul className="space-y-2">
               {footer.courses.map((course) => (
+                <li key={course.name}>
+                  <Link
+                    href={course.href}
+                    className="text-gray-300 hover:text-sky-400 transition-colors"
+                  >
+                    {course.name}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+
+            {/* <ul className="space-y-2">
+              {footer.courses.map((course) => (
                 <li key={course}>
                   <Link
                     href={`/courses/${course
@@ -78,9 +95,80 @@ export function Footer() {
                   </Link>
                 </li>
               ))}
-            </ul>
+            </ul> */}
           </motion.div>
+          {/* Courses */}
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6, delay: 0.2 }}
+            className="space-y-4"
+          >
+            <h3 className="text-lg font-semibold">Trending Courses</h3>
+            <ul className="space-y-2">
+              {footer.trending.map((course) => (
+                <li key={course.name}>
+                  <Link
+                    href={course.href}
+                    className="text-gray-300 hover:text-sky-400 transition-colors"
+                  >
+                    {course.name}
+                  </Link>
+                </li>
+              ))}
+            </ul>
 
+            {/* <ul className="space-y-2">
+              {footer.courses.map((course) => (
+                <li key={course}>
+                  <Link
+                    href={`/courses/${course
+                      .toLowerCase()
+                      .replace(/\s+/g, "-")}`}
+                    className="text-gray-300 hover:text-sky-400 transition-colors"
+                  >
+                    {course}
+                  </Link>
+                </li>
+              ))}
+            </ul> */}
+          </motion.div>
+          {/* Courses */}
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6, delay: 0.2 }}
+            className="space-y-4"
+          >
+            <h3 className="text-lg font-semibold">Other Courses</h3>
+            <ul className="space-y-2">
+              {footer.Othercourse.map((course) => (
+                <li key={course.name}>
+                  <Link
+                    href={course.href}
+                    className="text-gray-300 hover:text-sky-400 transition-colors"
+                  >
+                    {course.name}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+
+            {/* <ul className="space-y-2">
+              {footer.courses.map((course) => (
+                <li key={course}>
+                  <Link
+                    href={`/courses/${course
+                      .toLowerCase()
+                      .replace(/\s+/g, "-")}`}
+                    className="text-gray-300 hover:text-sky-400 transition-colors"
+                  >
+                    {course}
+                  </Link>
+                </li>
+              ))}
+            </ul> */}
+          </motion.div>
           {/* Contact Details (Col 5) */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}

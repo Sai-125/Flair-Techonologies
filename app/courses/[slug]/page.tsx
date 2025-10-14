@@ -36,6 +36,8 @@ import { EnrollDialog } from "@/components/EnrollDialog";
 import Rating from "@/components/ui/Rating";
 import ApplicationForm from "@/components/ui/Application-form";
 import { coursePageApplication } from "@/app/constant";
+import Accordion2 from "@/components/Accordion2";
+import { ExpertsCarousel } from "@/components/ExpertsCarousel";
 
 // Application form content
 const { applicationFormSection } = coursePageApplication;
@@ -69,7 +71,7 @@ const courseData = {
       "Get hands-on project experience.",
     ],
     testimonialsSection: {
-      badge: "Success Stories",
+      badge: "🎓 Success Stories",
       title:
         'From <span className="text-sky-600">Freshers</span> to Professionals',
       description:
@@ -712,7 +714,7 @@ const courseData = {
       "Build end-to-end real-world applications to showcase your skills.",
     ],
     testimonialsSection: {
-      badge: "Success Stories",
+      badge: "🎓 Success Stories",
       title:
         'From <span className="text-sky-600">Freshers</span> to Professionals',
       description:
@@ -1594,7 +1596,7 @@ const courseData = {
       "Deploy React apps with best practices.",
     ],
     testimonialsSection: {
-      badge: "Success Stories",
+      badge: "🎓 Success Stories",
       title:
         'From <span className="text-sky-600">Freshers</span> to Professionals',
       description:
@@ -1956,7 +1958,7 @@ const courseData = {
       "Apply SQL for queries and data analysis.",
     ],
     testimonialsSection: {
-      badge: "Success Stories",
+      badge: "🎓 Success Stories",
       title:
         'From <span className="text-sky-600">Freshers</span> to Professionals',
       description:
@@ -2185,7 +2187,7 @@ const courseData = {
       "SQL, modeling & analytics.",
     ],
     testimonialsSection: {
-      badge: "Success Stories",
+      badge: "🎓 Success Stories",
       title:
         'From <span className="text-sky-600">Freshers</span> to Professionals',
       description:
@@ -2424,7 +2426,7 @@ const courseData = {
       "Capstone: enterprise Azure solution.",
     ],
     testimonialsSection: {
-      badge: "Success Stories",
+      badge: "🎓 Success Stories",
       title:
         'From <span className="text-sky-600">Freshers</span> to Professionals',
       description:
@@ -2459,7 +2461,9 @@ const courseData = {
         },
       ],
     },
-    nextBatch: [{ starts: "Every Two Months", mode: "Online / Classroom-BLR/HYD" }],
+    nextBatch: [
+      { starts: "Every Two Months", mode: "Online / Classroom-BLR/HYD" },
+    ],
     qualification: " B.TECH/B.COM/BSC/MSC/MCA",
     eligibleLearners: "Freshers / IT & Non-IT Professionals",
     syllabus: [
@@ -2869,7 +2873,7 @@ const courseData = {
       "Build macros, apps, and reports.",
     ],
     testimonialsSection: {
-      badge: "Success Stories",
+      badge: "🎓 Success Stories",
       title:
         'From <span className="text-sky-600">Freshers</span> to Professionals',
       description:
@@ -3131,7 +3135,7 @@ const courseData = {
       "Automate Outlook, Word, and PowerPoint.",
     ],
     testimonialsSection: {
-      badge: "Success Stories",
+      badge: "🎓 Success Stories",
       title:
         'From <span className="text-sky-600">Freshers</span> to Professionals',
       description:
@@ -3588,7 +3592,7 @@ const courseData = {
       "Deploy and share with Tableau Server.",
     ],
     testimonialsSection: {
-      badge: "Success Stories",
+      badge: "🎓 Success Stories",
       title:
         'From <span className="text-sky-600">Freshers</span> to Professionals',
       description:
@@ -3817,7 +3821,7 @@ const courseData = {
       "Perform real-world reporting and analysis tasks.",
     ],
     testimonialsSection: {
-      badge: "Success Stories",
+      badge: "🎓 Success Stories",
       title:
         'From <span className="text-sky-600">Freshers</span> to Professionals',
       description:
@@ -4117,7 +4121,7 @@ const courseData = {
       "Apply NumPy for real-world reporting.",
     ],
     testimonialsSection: {
-      badge: "Success Stories",
+      badge: "🎓 Success Stories",
       title:
         'From <span className="text-sky-600">Professionals</span> to Analytics Experts',
       description:
@@ -4383,7 +4387,7 @@ const courseData = {
       "Explore observability using Istio.",
     ],
     testimonialsSection: {
-      badge: "Success Stories",
+      badge: "🎓 Success Stories",
       title:
         'From <span className="text-sky-600">Freshers</span> to Professionals',
       description:
@@ -4767,7 +4771,7 @@ const courseData = {
       "Manage applications on Azure Kubernetes.",
     ],
     testimonialsSection: {
-      badge: "Success Stories",
+      badge: "🎓 Success Stories",
       title:
         'From <span className="text-sky-600">Freshers</span> to Professionals',
       description:
@@ -5219,7 +5223,7 @@ const courseData = {
       "Handle recovery, migrate with ASR.",
     ],
     testimonialsSection: {
-      badge: "Success Stories",
+      badge: "🎓 Success Stories",
       title:
         'From <span className="text-sky-600">Freshers</span> to Professionals',
       description:
@@ -5531,7 +5535,7 @@ const courseData = {
       "Hands-on SCM technical training.",
     ],
     testimonialsSection: {
-      badge: "Success Stories",
+      badge: "🎓 Success Stories",
       title:
         'From <span className="text-sky-600">Freshers</span> to Professionals',
       description:
@@ -6208,7 +6212,7 @@ const courseData = {
       "Apply skills in real projects.",
     ],
     testimonialsSection: {
-      badge: "Success Stories",
+      badge: "🎓 Success Stories",
       title:
         'From <span className="text-sky-600">Freshers</span> to Professionals',
       description:
@@ -7093,7 +7097,7 @@ const courseData = {
       "Deploy React apps with best practices.",
     ],
     testimonialsSection: {
-      badge: "Success Stories",
+      badge: "🎓 Success Stories",
       title:
         'From <span className="text-sky-600">Freshers</span> to Professionals',
       description:
@@ -7298,7 +7302,7 @@ const courseData = {
       "Securing web services & APIs",
     ],
     testimonialsSection: {
-      badge: "Success Stories",
+      badge: "🎓 Success Stories",
       title:
         'From <span className="text-sky-600">Freshers</span> to Professionals',
       description:
@@ -7556,7 +7560,7 @@ const courseData = {
       "Real-time major project on networking protocols.",
     ],
     testimonialsSection: {
-      badge: "Success Stories",
+      badge: "🎓 Success Stories",
       title:
         'From <span className="text-sky-600">Freshers</span> to Professionals',
       description:
@@ -8103,7 +8107,7 @@ const courseData = {
       "Prepare for jobs with interviews and resume guidance.",
     ],
     testimonialsSection: {
-      badge: "Success Stories",
+      badge: "🎓 Success Stories",
       title:
         'From <span className="text-sky-600">Freshers</span> to Professionals',
       description:
@@ -8285,7 +8289,7 @@ const courseData = {
       "Amazon SageMaker for cloud-native model deployment.",
     ],
     testimonialsSection: {
-      badge: "Success Stories",
+      badge: "🎓 Success Stories",
       title:
         'From <span className="text-sky-600">Professionals</span> to AI Leaders',
       description:
@@ -8716,7 +8720,7 @@ const courseData = {
       "Learn CAPL scripting and automation.",
     ],
     testimonialsSection: {
-      badge: "Success Stories",
+      badge: "🎓 Success Stories",
       title:
         'From <span className="text-sky-600">Freshers</span> to Professionals',
       description:
@@ -8755,228 +8759,223 @@ const courseData = {
     qualification: " B.TECH",
     eligibleLearners: "Freshers / IT & Non-IT Professionals",
     syllabus: [
-     {
-  module: "Software Development Life Cycle & V-Model",
-  duration: "1 week",
-  topics: [
-    {
-      name: "Introduction to SDLC",
-      content: [
-        "Importance of structured development in automotive industry.",
-        "Stages in SDLC and their deliverables.",
-      ],
-    },
-    {
-      name: "Understanding the V-Model",
-      content: [
-        "Definition and overview of V-Model.",
-        "Why V-Model is widely used in automotive projects.",
-      ],
-    },
-    {
-      name: "Mapping Development & Testing",
-      content: [
-        "Requirement gathering vs Requirement validation.",
-        "Coding vs Unit Testing.",
-        "Integration vs System Testing.",
-      ],
-    },
-    {
-      name: "Case Study",
-      content: [
-        "V-Model implementation in real-time automotive projects.",
-      ],
-    },
-  ],
-},
+      {
+        module: "Software Development Life Cycle & V-Model",
+        duration: "1 week",
+        topics: [
+          {
+            name: "Introduction to SDLC",
+            content: [
+              "Importance of structured development in automotive industry.",
+              "Stages in SDLC and their deliverables.",
+            ],
+          },
+          {
+            name: "Understanding the V-Model",
+            content: [
+              "Definition and overview of V-Model.",
+              "Why V-Model is widely used in automotive projects.",
+            ],
+          },
+          {
+            name: "Mapping Development & Testing",
+            content: [
+              "Requirement gathering vs Requirement validation.",
+              "Coding vs Unit Testing.",
+              "Integration vs System Testing.",
+            ],
+          },
+          {
+            name: "Case Study",
+            content: [
+              "V-Model implementation in real-time automotive projects.",
+            ],
+          },
+        ],
+      },
 
-{
-  module: "Automotive Communication Protocols",
-  duration: "1 week",
-  topics: [
-    {
-      name: "Overview of Automotive Protocols",
-      content: [
-        "Introduction to in-vehicle communication.",
-        "Importance of communication protocols.",
-      ],
-    },
-    {
-      name: "CAN Protocol",
-      content: [
-        "CAN Architecture and Frame Structure.",
-        "Applications of CAN in real-time.",
-      ],
-    },
-    {
-      name: "LIN Protocol",
-      content: [
-        "LIN communication basics.",
-        "Use cases in body electronics.",
-      ],
-    },
-    {
-      name: "Practical Use Cases",
-      content: [
-        "Real-time implementation of CAN and LIN.",
-        "Hands-on with communication signals.",
-      ],
-    },
-  ],
-},
+      {
+        module: "Automotive Communication Protocols",
+        duration: "1 week",
+        topics: [
+          {
+            name: "Overview of Automotive Protocols",
+            content: [
+              "Introduction to in-vehicle communication.",
+              "Importance of communication protocols.",
+            ],
+          },
+          {
+            name: "CAN Protocol",
+            content: [
+              "CAN Architecture and Frame Structure.",
+              "Applications of CAN in real-time.",
+            ],
+          },
+          {
+            name: "LIN Protocol",
+            content: [
+              "LIN communication basics.",
+              "Use cases in body electronics.",
+            ],
+          },
+          {
+            name: "Practical Use Cases",
+            content: [
+              "Real-time implementation of CAN and LIN.",
+              "Hands-on with communication signals.",
+            ],
+          },
+        ],
+      },
 
-{
-  module: "Test Bench & Real-Time Testing",
-  duration: "1 week",
-  topics: [
-    {
-      name: "Test Bench Setup",
-      content: [
-        "Overview of Hardware-in-Loop (HIL).",
-        "Setting up test bench components.",
-      ],
-    },
-    {
-      name: "Real-Time Testing",
-      content: [
-        "Simulating real-time ECU requirements.",
-        "Hands-on testing Infotainment and ADAS ECU.",
-      ],
-    },
-    {
-      name: "Communication Establishment",
-      content: [
-        "Internal communication between ECUs.",
-        "Signal monitoring & validation.",
-      ],
-    },
-  ],
-},
+      {
+        module: "Test Bench & Real-Time Testing",
+        duration: "1 week",
+        topics: [
+          {
+            name: "Test Bench Setup",
+            content: [
+              "Overview of Hardware-in-Loop (HIL).",
+              "Setting up test bench components.",
+            ],
+          },
+          {
+            name: "Real-Time Testing",
+            content: [
+              "Simulating real-time ECU requirements.",
+              "Hands-on testing Infotainment and ADAS ECU.",
+            ],
+          },
+          {
+            name: "Communication Establishment",
+            content: [
+              "Internal communication between ECUs.",
+              "Signal monitoring & validation.",
+            ],
+          },
+        ],
+      },
 
-{
-  module: "Diagnostics & UDS Protocol",
-  duration: "1 week",
-  topics: [
-    {
-      name: "Introduction to Diagnostics",
-      content: [
-        "Need of diagnostics in automotive systems.",
-        "Overview of fault detection and handling.",
-      ],
-    },
-    {
-      name: "UDS Protocol",
-      content: [
-        "Introduction to Unified Diagnostic Services (UDS).",
-        "Service identifiers and functions.",
-      ],
-    },
-    {
-      name: "Practical Usage",
-      content: [
-        "Working with diagnostics tools.",
-        "Real-time implementation of UDS protocol.",
-      ],
-    },
-  ],
-},
+      {
+        module: "Diagnostics & UDS Protocol",
+        duration: "1 week",
+        topics: [
+          {
+            name: "Introduction to Diagnostics",
+            content: [
+              "Need of diagnostics in automotive systems.",
+              "Overview of fault detection and handling.",
+            ],
+          },
+          {
+            name: "UDS Protocol",
+            content: [
+              "Introduction to Unified Diagnostic Services (UDS).",
+              "Service identifiers and functions.",
+            ],
+          },
+          {
+            name: "Practical Usage",
+            content: [
+              "Working with diagnostics tools.",
+              "Real-time implementation of UDS protocol.",
+            ],
+          },
+        ],
+      },
 
-{
-  module: "Test Case Design & Execution",
-  duration: "1 week",
-  topics: [
-    {
-      name: "Test Case Writing",
-      content: [
-        "Understanding requirements for test design.",
-        "Step-by-step writing practice.",
-      ],
-    },
-    {
-      name: "Testing Methods",
-      content: [
-        "Black box vs White box testing.",
-        "Functional and Regression testing.",
-      ],
-    },
-    {
-      name: "Hands-on Practice",
-      content: [
-        "Real-time practice on tools like CANoe & CANalyzer.",
-      ],
-    },
-  ],
-},
+      {
+        module: "Test Case Design & Execution",
+        duration: "1 week",
+        topics: [
+          {
+            name: "Test Case Writing",
+            content: [
+              "Understanding requirements for test design.",
+              "Step-by-step writing practice.",
+            ],
+          },
+          {
+            name: "Testing Methods",
+            content: [
+              "Black box vs White box testing.",
+              "Functional and Regression testing.",
+            ],
+          },
+          {
+            name: "Hands-on Practice",
+            content: ["Real-time practice on tools like CANoe & CANalyzer."],
+          },
+        ],
+      },
 
-{
-  module: "Requirement & Defect Management",
-  duration: "1 week",
-  topics: [
-    {
-      name: "Requirement Management",
-      content: [
-        "Introduction to requirement management tools.",
-        "Tracking requirements in projects.",
-      ],
-    },
-    {
-      name: "Defect Life Cycle",
-      content: [
-        "Phases of defect life cycle.",
-        "Bug reporting process using JIRA.",
-      ],
-    },
-    {
-      name: "Practical Workshop",
-      content: [
-        "Raising, tracking and resolving bugs in JIRA.",
-      ],
-    },
-  ],
-},
+      {
+        module: "Requirement & Defect Management",
+        duration: "1 week",
+        topics: [
+          {
+            name: "Requirement Management",
+            content: [
+              "Introduction to requirement management tools.",
+              "Tracking requirements in projects.",
+            ],
+          },
+          {
+            name: "Defect Life Cycle",
+            content: [
+              "Phases of defect life cycle.",
+              "Bug reporting process using JIRA.",
+            ],
+          },
+          {
+            name: "Practical Workshop",
+            content: ["Raising, tracking and resolving bugs in JIRA."],
+          },
+        ],
+      },
 
-{
-  module: "Project Handling & Mock Sessions",
-  duration: "0.5 week",
-  topics: [
-    {
-      name: "Real-Time Project Handling",
-      content: [
-        "How to approach industry-level projects.",
-        "Best practices in project execution.",
-      ],
-    },
-    {
-      name: "Mock Sessions",
-      content: [
-        "Demo project walkthroughs.",
-        "Mock interviews and Q&A sessions.",
-      ],
-    },
-  ],
-},
+      {
+        module: "Project Handling & Mock Sessions",
+        duration: "0.5 week",
+        topics: [
+          {
+            name: "Real-Time Project Handling",
+            content: [
+              "How to approach industry-level projects.",
+              "Best practices in project execution.",
+            ],
+          },
+          {
+            name: "Mock Sessions",
+            content: [
+              "Demo project walkthroughs.",
+              "Mock interviews and Q&A sessions.",
+            ],
+          },
+        ],
+      },
 
-{
-  module: "CAPL Scripting Basics",
-  duration: "0.5 week",
-  topics: [
-    {
-      name: "Introduction to CAPL",
-      content: [
-        "Basics of CAPL scripting.",
-        "Importance in automotive testing.",
-      ],
-    },
-    {
-      name: "Practical Usage",
-      content: [
-        "Writing simple CAPL scripts.",
-        "Debugging and executing CAPL programs.",
-      ],
-    },
-  ],
-},
-
+      {
+        module: "CAPL Scripting Basics",
+        duration: "0.5 week",
+        topics: [
+          {
+            name: "Introduction to CAPL",
+            content: [
+              "Basics of CAPL scripting.",
+              "Importance in automotive testing.",
+            ],
+          },
+          {
+            name: "Practical Usage",
+            content: [
+              "Writing simple CAPL scripts.",
+              "Debugging and executing CAPL programs.",
+            ],
+          },
+        ],
+      },
     ],
     instructor: {
       name: "Priya Sharma",
@@ -9457,6 +9456,10 @@ export default function CoursePage({ params }: { params: { slug: string } }) {
       {/* Rating Section */}
 
       <Rating testimonialsSection={(course as any)?.testimonialsSection} />
+
+      <Accordion2 />
+
+      <ExpertsCarousel />
 
       {/* Application form section */}
 
