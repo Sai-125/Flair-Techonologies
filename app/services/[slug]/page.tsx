@@ -52,7 +52,11 @@ export default function ServicePage({ params }: { params: { slug: string } }) {
             <Badge className="bg-white text-sky-600">
               ✈️ Professional Services
             </Badge>
-            <h1 className="heading">{service.title}</h1>
+            {/* <h1 className="heading">{service.title}</h1> */}
+            <h1
+              className="heading"
+              dangerouslySetInnerHTML={{ __html: service.title }}
+            />
             <p className="description">{service.description}</p>
 
             <div className="grid md:grid-cols-2 gap-4">

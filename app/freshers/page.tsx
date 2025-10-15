@@ -35,6 +35,8 @@ import { EnrollDialog } from "@/components/EnrollDialog"; // Assuming EnrollDial
 import Link from "next/link";
 import Rating from "@/components/ui/Rating";
 import ApplicationForm from "@/components/ui/Application-form";
+import Accordion2 from "@/components/Accordion2";
+import { ExpertsCarousel } from "@/components/ExpertsCarousel";
 
 export default function FreshersPage() {
   const {
@@ -264,6 +266,10 @@ export default function FreshersPage() {
 
       {/* Testimonials Section */}
       <Rating testimonialsSection={testimonialsSection} />
+
+      <Accordion2 />
+
+      <ExpertsCarousel />
 
       {/* Application Form Section */}
       <ApplicationForm
