@@ -79,7 +79,7 @@ interface ServiceData {
 // Services Data
 export const servicesData: Record<string, ServiceData> = {
   "it-training": {
-    title: "IT Training",
+    title: "IT <span class='text-yellow-400'>Training</span>",
     description:
       "Empower your skills with hands-on IT training from certified instructors.",
     highlights: [
@@ -109,7 +109,7 @@ export const servicesData: Record<string, ServiceData> = {
     },
   },
   "it-consulting": {
-    title: "IT Consulting",
+    title: "IT <span class='text-yellow-400'>Consulting</span>",
     description:
       "Professional guidance to streamline your IT infrastructure and processes.",
     highlights: [
@@ -133,7 +133,7 @@ export const servicesData: Record<string, ServiceData> = {
     },
   },
   "it-outsourcing": {
-    title: "IT Outsourcing",
+    title: "IT <span class='text-yellow-400'>Outsourcing</span>",
     description:
       "Reduce costs and focus on core business while we manage your IT services.",
     highlights: ["End-to-end support", "24/7 monitoring", "Scalable resources", "Cost-effective service delivery"],
@@ -242,7 +242,7 @@ export const servicesData: Record<string, ServiceData> = {
 // Home page constants
 export const homePage = {
   heroSection: {
-    title: "Master In-Demand Tech Skills",
+    title: "Master In-Demand  <span class='text-yellow-400'>Tech Skills</span>",
     description:
       "Join India's leading IT training institute with 100% placement assistance. Learn from industry experts and land your dream job in tech.",
     stats: [
@@ -337,69 +337,78 @@ export const homePage = {
   upcomingBatchesSection: {
     title: "Register Now - Upcoming Batches",
     batches: [
-      {
+        {
         id: 1,
-        name: "Microsoft Power BI",
-        mode: "Classroom - BLR",
-        faculty: "Mr. Veera",
-        date: "Apr 10, 2024",
-        time: "08:15 AM",
-        duration: "45 Hours",
+        name: "Data Analytics",
+        mode: "Offline - Bangalore",
+        faculty: "Mr. Surya",
+        date: "Oct 27, 2025",
+        time: "09:00 AM",
+        duration: "120 Days",
+        brochure:'/courses/data-analytics'
       },
       {
         id: 2,
-        name: "Alteryx Designer",
-        mode: "Classroom - HYD",
+        name: "Record to Report (R2R)",
+        mode: "Online",
         faculty: "Mr. Suman",
-        date: "May 01, 2024",
-        time: "09:00 AM",
-        duration: "45 Hours",
+        date: "Oct 23, 2025",
+        time: "07:00 AM",
+        duration: "30 Days",
+        brochure:'/courses/record-to-report-r2r'
       },
       {
         id: 3,
-        name: "Python Fullstack",
-        mode: "Classroom - BLR",
+        name: "Microsoft Excel & VBA",
+        mode: "Online",
         faculty: "Mr. Venkat",
-        date: "May 01, 2024",
-        time: "07:30 AM",
-        duration: "100 Days",
-      },
-      {
-        id: 4,
-        name: "Data Analyst - Freshers",
-        mode: "Offline",
-        faculty: "Mr. Surya",
-        date: "May 01, 2024",
+        date: "Oct 27, 2025",
         time: "09:00 AM",
-        duration: "100 Days",
+        duration: "45 Days",
+        brochure:'/courses/excel-Vba'
       },
+        {
+        id: 4,
+        name: "Tableau Developer",
+        mode: "Offline - Bangalore",
+        faculty: "Mr. Veera",
+        date: "Oct 22, 2025",
+        time: "10:00 AM",
+        duration: "45 Days",
+        brochure:'/courses/tableau'
+      },
+
       {
         id: 5,
-        name: "SRE Modern DevOps",
-        mode: "Online",
+        name: "Microsoft Power BI",
+        mode: "Offline - Bangalore",
         faculty: "Mr. P R Reddy",
-        date: "Apr 20, 2024",
-        time: "07:00 AM",
-        duration: "100 Days",
+        date: "Oct 29, 2025",
+        time: "09:00 AM",
+        duration: "45 Days",
+        brochure:'/courses/power-bi'
       },
       {
         id: 6,
-        name: "DevOps Workshop",
-        mode: "Online",
+        name: "React JS",
+        mode: "Onilne",
         faculty: "Mr. Viswanath",
-        date: "Apr 22, 2024",
-        time: "08:15 PM",
-        duration: "100 Hours",
+        date: "Nov 03, 2025",
+        time: "09:00 AM",
+        duration: "45 Days",
+        brochure:'/courses/reactCourse'
       },
       {
         id: 7,
-        name: "Azure with Azure DevOps",
+        name: "AWS DevOps",
         mode: "Online",
         faculty: "Mr. Rama Krishna",
-        date: "May 01, 2024",
-        time: "08:00 AM",
-        duration: "100 Hours",
+        date: "Nov 05, 2025",
+        time: "09:00 AM",
+        duration: "90 Days",
+        brochure:'/courses/aws-devops'
       },
+      
     ],
   },
   whyChooseUsSection: {
@@ -1612,20 +1621,20 @@ Othercourse:[
     {
       icon: MapPin,
       title: "Bangalore Center - I",
-      address: `#05, Vivekananda Layout, Marathahalli, Bangalore, Karnataka - 560037, India.`,
+      address: `#05, Vivekananda Layout, Marathahalli, Bangalore, Karnataka - 560037.`,
       iconClass: "h-5 w-5 text-sky-400 mt-0.5",
     },
     
     {
       icon: MapPin,
       title: "Bangalore Center - II",
-      address: `2nd Floor, 90/3, Outer Ring Road, Marathahalli, Bangalore, Karnataka - 560037, India.`,
+      address: `2nd Floor, 90/3, Outer Ring Road, Marathahalli, Bangalore, Karnataka - 560037.`,
       iconClass: "h-5 w-5 text-sky-400 mt-0.5",
     },
     {
       icon: MapPin,
       title: "Hyderabad",
-      address: `501, Sumedh Pride, Vijay Nagar Colony, Kukatpally, Hyderabad, Telangana - 500072, India.`,
+      address: `501, Sumedh Pride, Vijay Nagar Colony, Kukatpally, Hyderabad, Telangana - 500072.`,
       iconClass: "h-5 w-5 text-sky-400 mt-0.5",
     },
     {
