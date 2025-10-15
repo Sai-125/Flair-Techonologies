@@ -15,20 +15,25 @@ import { Button } from "../ui/button";
 
 export default function UpcomingBatchesTable() {
   const techLogos: Record<string, string> = {
-    "Microsoft Power BI":
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzt9YhmDCCNxLzB2BVpTJvvcYnzIcwIXdr_g&s",
-    "Alteryx Designer":
-      "https://community.alteryx.com/t5/image/serverpage/image-id/259688iF6C1C4BD0BC11851?v=v2",
-    "Python Fullstack":
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1200px-Python-logo-notext.svg.png",
-    "Data Analyst - Freshers":
-      "https://static.vecteezy.com/system/resources/previews/026/513/688/non_2x/data-analytics-logo-design-growth-arrow-logo-design-for-data-finance-investment-vector.jpg",
-    "SRE Modern DevOps":
-      "https://images.seeklogo.com/logo-png/42/1/devops-logo-png_seeklogo-423085.png",
-    "DevOps Workshop":
-      "https://images.seeklogo.com/logo-png/42/1/devops-logo-png_seeklogo-423085.png",
-    "Azure with Azure DevOps":
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5oYBDyTlsQEl2M_B-GqF1PPryFy1H-34ZeA&s",
+    "Microsoft Excel & VBA": "/microsoft-excel-logo-transparent-free-png.webp",
+    "Tableau Developer": "/tableau-software-logo-png_seeklogo-386611.png",
+    "Data Analytics": "/811-8114798_labor-analytics-icon-jio-sim-logo.png",
+    "Record to Report (R2R)": "/R2R-Blue-Circle.png",
+    "React JS": "/reactjs-inners.svg",
+    "AWS DevOps": "/machine-lDev.webp",
+    "Python Full-Stack": "/pythisns.png",
+    "Microsoft Power BI": "/powerbi.jpg",
+    "Power Apps & Automate": "/powerbi.jpg",
+    "Java Fullstack": "/Javavav.jpg",
+    "Azure Data Engineer": "/az365m210-azure-logo-microsoft.png",
+    "Azure DevOps": "/az365m210-azure-logo-microsoft.png",
+    "Alteryx Designer": "/alteryxx.jpg",
+    "SRE Modern DevOps": "/machine-lDev.webp",
+    "Oracle Fusion Cloud SCM": "/scm11.png",
+    "AI & ML": "/aialakal.webp",
+    "DevOps Workshop": "/machine-lDev.webp",
+    "Network Protocol Development": "/The-Evolution-of-Internet-Protocol.png",
+    CyberSecurity: "/shield_78370-5821.jpg",
   };
 
   return (

@@ -339,75 +339,76 @@ export const homePage = {
     batches: [
         {
         id: 1,
-        name: "Data Analyst - Freshers",
-        mode: "Offline",
+        name: "Data Analytics",
+        mode: "Offline - Bangalore",
         faculty: "Mr. Surya",
-        date: "May 01, 2024",
+        date: "Oct 27, 2025",
         time: "09:00 AM",
-        duration: "100 Days",
-        brochure:'/courses/python-fullstack'
+        duration: "120 Days",
+        brochure:'/courses/data-analytics'
       },
       {
         id: 2,
-        name: "Alteryx Designer",
-        mode: "Classroom - HYD",
+        name: "Record to Report (R2R)",
+        mode: "Online",
         faculty: "Mr. Suman",
-        date: "May 01, 2024",
-        time: "09:00 AM",
-        duration: "45 Hours",
-        brochure:''
+        date: "Oct 23, 2025",
+        time: "07:00 AM",
+        duration: "30 Days",
+        brochure:'/courses/record-to-report-r2r'
       },
       {
         id: 3,
-        name: "Python Fullstack",
-        mode: "Classroom - BLR",
+        name: "Microsoft Excel & VBA",
+        mode: "Online",
         faculty: "Mr. Venkat",
-        date: "May 01, 2024",
-        time: "07:30 AM",
-        duration: "100 Days",
-        brochure:''
+        date: "Oct 27, 2025",
+        time: "09:00 AM",
+        duration: "45 Days",
+        brochure:'/courses/excel-Vba'
       },
         {
         id: 4,
-        name: "Microsoft Power BI",
-        mode: "Classroom - BLR",
+        name: "Tableau Developer",
+        mode: "Offline - Bangalore",
         faculty: "Mr. Veera",
-        date: "Apr 10, 2024",
-        time: "08:15 AM",
-        duration: "45 Hours",
-        brochure:''
+        date: "Oct 22, 2025",
+        time: "10:00 AM",
+        duration: "45 Days",
+        brochure:'/courses/tableau'
       },
 
       {
         id: 5,
-        name: "SRE Modern DevOps",
-        mode: "Online",
+        name: "Microsoft Power BI",
+        mode: "Offline - Bangalore",
         faculty: "Mr. P R Reddy",
-        date: "Apr 20, 2024",
-        time: "07:00 AM",
-        duration: "100 Days",
-        brochure:''
+        date: "Oct 29, 2025",
+        time: "09:00 AM",
+        duration: "45 Days",
+        brochure:'/courses/power-bi'
       },
       {
         id: 6,
-        name: "DevOps Workshop",
-        mode: "Online",
+        name: "React JS",
+        mode: "Onilne",
         faculty: "Mr. Viswanath",
-        date: "Apr 22, 2024",
-        time: "08:15 PM",
-        duration: "100 Hours",
-        brochure:''
+        date: "Nov 03, 2025",
+        time: "09:00 AM",
+        duration: "45 Days",
+        brochure:'/courses/reactCourse'
       },
       {
         id: 7,
-        name: "Azure with Azure DevOps",
+        name: "AWS DevOps",
         mode: "Online",
         faculty: "Mr. Rama Krishna",
-        date: "May 01, 2024",
-        time: "08:00 AM",
-        duration: "100 Hours",
-        brochure:''
+        date: "Nov 05, 2025",
+        time: "09:00 AM",
+        duration: "90 Days",
+        brochure:'/courses/aws-devops'
       },
+      
     ],
   },
   whyChooseUsSection: {
